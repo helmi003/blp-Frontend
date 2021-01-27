@@ -96,7 +96,7 @@ export default function recherche() {
                                             d’étudiants, d’enseignants, de chercheurs particulièrement créatifs et
                                             innovants.</p>
 
-                                        <img style="img-fulid" src="assets/images/projects/covid.jpg"
+                                        <img src="assets/images/projects/covid.jpg"
                                             alt="image"/>
                                     </div>
                                     <p> L’appel à projets à vocation international s’adresse aux enseignants,
