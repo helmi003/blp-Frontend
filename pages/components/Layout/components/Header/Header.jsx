@@ -54,11 +54,11 @@ export default function Header() {
                               
                                     <div className="header__navigation d-none d-xl-block">
                                         
-                                    <nav class="navigation-menu primary--menu">
+                                    <nav className="navigation-menu primary--menu">
                                                 <ul>
-                                                    <li class="has-children has-children--multilevel-submenu">
+                                                    <li className="has-children has-children--multilevel-submenu">
                                                         <a href="presentation"><span>BLP</span></a>
-                                                        <ul class="submenu">
+                                                        <ul className="submenu">
                                                             <li><a href="presentation"><span>Présentation</span></a>
                                                             </li>
                                                             <li><a href="valeur"><span>Valeur de BLP</span></a></li>
@@ -70,9 +70,9 @@ export default function Header() {
                                                     
                                                         </ul>
                                                     </li>
-                                                    <li class="has-children has-children--multilevel-submenu">
+                                                    <li className="has-children has-children--multilevel-submenu">
                                                         <a href="presentation"><span>BLP EN DIGITAL</span></a>
-                                                        <ul class="submenu">
+                                                        <ul className="submenu">
                                                             <li><a href="recherche"><span>Recherche &
                                                                         Innovation</span></a></li>
                                                             <li><a href="videotheque"><span>Vidéothéque</span></a></li>
@@ -80,9 +80,9 @@ export default function Header() {
                                                                         challenge</span></a></li>
                                                         </ul>
                                                     </li>
-                                                <li class="has-children has-children--multilevel-submenu">
+                                                <li className="has-children has-children--multilevel-submenu">
                                                     <a href="#"><span>LA VIE À L'UNIVERSITÉ</span></a>
-                                                    <ul class="submenu">
+                                                    <ul className="submenu">
                                                         <li><a href="certification"><span>Certifications</span></a>
                                                         </li>
                                                         <li><a href="associative"><span>La vie
@@ -91,13 +91,13 @@ export default function Header() {
                                                         <li><a href="inscription"><span>Inscription</span></a></li>
                                                     </ul>
                                                 </li>
-                                                <li class="has-children has-children--multilevel-submenu">
+                                                <li className="has-children has-children--multilevel-submenu">
                                                     <a href="formations"><span>FORMATIONS</span></a>
-                                                    <ul class="submenu">
-                                                        <li class="has-children">
+                                                    <ul className="submenu">
+                                                        <li className="has-children">
                                                             <a href="formations"><span>Licences
                                                                     Fondamentales</span></a>
-                                                            <ul class="submenu">
+                                                            <ul className="submenu">
                                                                 <li><a href="licence-en-droit-public"><span>Licence
                                                                             en Droit public</span></a></li>
                                                                 <li><a href="licence-en-droit-prive"><span>Licence
@@ -107,10 +107,10 @@ export default function Header() {
 
                                                             </ul>
                                                         </li>
-                                                        <li class="has-children">
+                                                        <li className="has-children">
                                                             <a href="formations"><span>Mastères
                                                                     Professionnels</span></a>
-                                                            <ul class="submenu">
+                                                            <ul className="submenu">
                                                                 <li><a href="mastere-en-droit-prive"><span>Mastère
                                                                             en Droit privé des
                                                                             affaires </span></a></li>
@@ -133,7 +133,7 @@ export default function Header() {
                                                         </li>
                                                     </ul>
                                                 </li>
-                                                <li class="">
+                                                <li >
                                                     <a href="contact"><span>CONTACT</span></a>
                                                 </li>
                                                 </ul>
