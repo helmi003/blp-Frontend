@@ -61,7 +61,7 @@ export default function layout({children}) {
                             <img className="img-fluid" src="assets/images/demo-images/2.jpg" alt="Images"/>
                         </a>
                         <a className="link hint--bounce hint--black hint--top hint--dark" href="partenaire">
-                            <img className="img-fluid" src="assets/images/demo-images/3.jpg" alt="Images"/>
+                            <img className="img-fluid" src="assets/images/demo-images/4.jpg" alt="Images"/>
                         </a>
                         <a className="link hint--bounce hint--black hint--top hint--dark" href="partenaire" >
                             <img className="img-fluid" src="assets/images/demo-images/4.jpg" alt="Images"/>
@@ -70,7 +70,7 @@ export default function layout({children}) {
                             <img className="img-fluid" src="assets/images/demo-images/5.jpg" alt="Images"/>
                         </a>
                         <a className="link hint--bounce hint--black hint--top hint--dark" href="partenaire" >
-                            <img className="img-fluid" src="assets/images/demo-images/6.jpg" alt="Images"/>
+                            <img className="img-fluid" src="assets/images/demo-images/5.jpg" alt="Images"/>
                         </a>
                     </div>
                 </div>
@@ -84,7 +84,7 @@ export default function layout({children}) {
                                 <div className="col-md-6 col-8">
                                     <div className="logo">
                                         <a href="accueil">
-                                            <img src="assets/images/logo/logo-dark.png" className="img-fluid" alt=""/>
+                                            <img src="assets/images/logo/logo-blp2.png" className="img-fluid" alt=""/>
                                         </a>
                                     </div>
                                 </div>

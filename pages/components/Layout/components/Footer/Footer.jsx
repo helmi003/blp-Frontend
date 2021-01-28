@@ -3,7 +3,7 @@ import React from 'react'
 export default function footer() {
     return (
       
-          	<div className="footer-area-wrapper reveal-footer bg-gray ">
+        <div className="footer-area-wrapper reveal-footer bg-gray ">
             <div className="footer-area section-space--ptb_80">
                 <div className="container">
                     <div className="row footer-widget-wrapper">
@@ -73,7 +73,7 @@ export default function footer() {
                         </div>
                     </div>
                 </div>
-        </div>
+            </div>
         </div>
   
  
