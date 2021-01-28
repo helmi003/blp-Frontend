@@ -40,7 +40,7 @@ export default function Header() {
 
                   
                     <div className="header__logo">
-                        <a href="accueil">
+                        <a href="/">
                             <img src="assets/images/logo/logo-blp2.png" className="img-fluid"
                                 alt="logo-blp"/>
                         </a>
