@@ -134,7 +134,7 @@ export default function certification() {
                                 </div>
                                 <div className="content">
                                     <h5 className="heading">Certifications</h5>
-                                    <div className="text">Élargissez les perspectives de votre carrières grâce à des
+                                    <div className="text">Élargissez les perspectives de votre carrière grâce à des
                                         certificats reconnus mondialement.</div>
                                 </div>
                             </div>

@@ -77,7 +77,7 @@ export default function Home() {
                                             </div>
                                             <div className="content">
                                                 <h5 className="heading">Certifications</h5>
-                                                <div className="text">Élargissez les perspectives de votre carrières grâce à
+                                                <div className="text">Élargissez les perspectives de votre carrière grâce à
                                                     des certificats reconnus mondialement.
                                                 </div>
                                                 <div className="box-images-arrow">
@@ -195,8 +195,7 @@ export default function Home() {
                                                 présentiel aux lauréats de chaque lycée au baccalauréat.</a></li>
                                         <li className="list-item"><a href="#"> Bourse d’études et Places gratuites et accès
                                                 dès la terminale à nos modules d’E-learning et sur place.</a></li>
-                                        <li className="list-item"><a href="#">Ouverture université d'éte:cours gratuits en
-                                                classNamee et en e-learning en temps réel.</a></li>
+                                        <li className="list-item"><a href="#">Ouverture université d'éte : cours gratuits en e-learning en temps réel.</a></li>
                                         <li className="list-item"><a href="#">Double cursus (reconnu par l’Union
                                                 européenne).</a></li>
                                         <li className="list-item"><a href="#">Licences, Masters (Tunisiens et Français).</a>

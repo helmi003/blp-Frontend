@@ -152,16 +152,13 @@ export default function presentation() {
                                                         de chaque domaine fonctionnel ainsi que les applications dans ses LABOS
                                                         afin d'allier Connaissances théoriques et expériences pratiques dans les
                                                         domaines de gestion, scientifiques et sciences de l’ingénieur. </li>
-                                                    <li className="list-item"> <b>Savoir faire face à la complexité, la globalisation et
-                                                            l’internationalisation</b>
-                                                        Réelle aptitude à comprendre et résoudre des situations de management et
+                                                    <li className="list-item"> <b>Savoir faire face à la complexité, la globalisation et  l’internationalisation</b>
+                                                     réelle aptitude à comprendre et résoudre des situations de management et
                                                         techniques complexes en appliquant des compétences analytiques, en
                                                         créant des solutions innovantes, en prenant et en déployant des décisions.
                                                     </li>
                                                     <li className="list-item"><b>Développer le leadership, du Managment, la culture
-                                                            d’entreprise et
-                                                            entrepreneurial</b>
-                                                        Permettre à l’étudiant de prendre des initiatives de haute responsabilité en
+                                                            d’entreprise et entrepreneurial</b>  permettre à l’étudiant de prendre des initiatives de haute responsabilité en
                                                         démontrant des qualités certaines de communication et d’exécution.</li>
 
                                                 </ul>

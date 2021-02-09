@@ -48,7 +48,7 @@ export default function recherche() {
                                         <h6> L'Ecole Supérieure des Sciences Juridiques, Economiques et Politiques de
                                             Tunis est un établissement privé pluridisciplinaire. </h6>
 
-                                        <p>Avec son staff enseignant formé de plus que 200 enseignants est actuellement
+                                        <p>Avec son staff enseignant formé de plus de 200 enseignants est actuellement
                                             une parmi les grandes institutions de formation dans le secteur privé. En
                                             parallèle, et dans le cadre de son ouverture à l’international, BLP propose
                                             trois doubles diplomations avec des universités françaises et canadiennes.
@@ -165,7 +165,7 @@ export default function recherche() {
                                             Ouvertes<i className="ml-1 button-icon far fa-long-arrow-right"></i></a>
                                     </div>
                                     <p>L’évolution de la recherche scientifique au sein de L'ecole Supérieure Privée des
-                                        Sciences Juridiques, Economiques et Politiques de Tuni est en progression
+                                        Sciences Juridiques, Economiques et Politiques de Tunis est en progression
                                         permanente, elle est représentée actuellement par l’unité de recherche CITI et
                                         la conférence internationale CITI.</p>
 
@@ -181,14 +181,14 @@ export default function recherche() {
                                         applications”, les villes intelligents “Smart Cities” et les réseaux
                                         intelligents “Smart grids” est en marche. En effet, Smart applications”, “Smart
                                         City” et “Smart grid” modifient durablement le monde. Toute fois l’utilisation
-                                        des technologies intelligent sa littéralement explosé </p>
+                                        des technologies intelligent a littéralement explosé </p>
                                     <p>Largement ouverte sur son entourage socio-économique, la BLP n’a cessé d’œuvrer
                                         pour encourager le développement durable et être en harmonie avec les défis de
                                         la mondialisation. Ainsi, la BLP a lancé la première édition de la première
                                         internationale SMART conférence CITI’2020</p>
                                     <img src=" assets/images/projects/1.jpg" alt="image"/>
                                     <div className="btn-text mt-15">
-                                        <a href="http://epm.tn/confciti/">Visitez le site web de la conférence CITI<i
+                                        <a href="http://epm.tn/confciti/"q>Visitez le site web de la conférence CITI<i
                                                 className="ml-1 button-icon far fa-long-arrow-right"></i></a>
                                     </div>
                                     <blockquote>

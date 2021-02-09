@@ -121,7 +121,7 @@ export default function valeurBlp() {
                                     </div>
                                     <div className="content">
                                         <h5 className="heading">Certifications</h5>
-                                        <div className="text">Élargissez les perspectives de votre carrières grâce à des certificats reconnus mondialement.</div>
+                                        <div className="text">Élargissez les perspectives de votre carrière grâce à des certificats reconnus mondialement.</div>
                                     </div>
                                 </div>
                             </a>
@@ -418,7 +418,7 @@ export default function valeurBlp() {
                                                 </div>
                                                 <div className="content">
                                                     <h5 className="heading text-color-primary">Règle N° 17</h5>
-                                                    <div className="text">payez moitié maintenant reste après.
+                                                    <div className="text">Payer la moitié maintenant et le reste plus tard.
                                                     </div>
                                                 </div>
                                             </div>
