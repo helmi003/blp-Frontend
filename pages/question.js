@@ -74,7 +74,7 @@ export default function question() {
                                         <div className="card-body">
                                                 <ul className="circle-list">
                                                     <li className="list-item">Préinscription sur le site.</li>
-                                                    <li className="list-item">Envoyez les pièces suivantes à : contact@epm.tn ou dhikra.akkari@gmail.com .</li>
+                                                    <li className="list-item">Envoyez les pièces suivantes à : contact@blp.tn .</li>
                                                     <li className="list-item">Copies d’acte de naissance, dernier diplôme, relevé de notes, Passeport / CIN.</li>
                                                     <li className="list-item">Indiquer la formation choisie.</li>
                                                </ul>

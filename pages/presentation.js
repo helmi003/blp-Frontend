@@ -88,7 +88,7 @@ export default function presentation() {
                                                                 </div>
 
                                                                 <div className="photo">
-                                                                    <img src="assets/images/timeline/enseignement.jpg"
+                                                                    <img src="assets/images/timeline/enseignement.webp"
                                                                         alt="enseignement-distance-mit" className="img-fluid"/>
                                                                 </div>
                                                             </div>

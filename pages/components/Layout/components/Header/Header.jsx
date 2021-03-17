@@ -17,7 +17,7 @@ export default function Header() {
                                 <li className="info-item">
                                     <a href="tel:97100149" className="info-link">
                                         <i className="info-icon fa fa-phone"></i>
-                                        <span className="info-text"><strong>(+216) 97 100 149</strong></span>
+                                        <span className="info-text"><strong>(+216) 72 720 002</strong></span>
                                     </a>
                                 </li>
                                 <li className="info-item">
@@ -108,27 +108,23 @@ export default function Header() {
                                                             </ul>
                                                         </li>
                                                         <li className="has-children">
-                                                            <a href="formations"><span>Mastères
-                                                                    Professionnels</span></a>
+                                                            <a href="formations"><span>Mastères Professionnels</span></a>
                                                             <ul className="submenu">
                                                                 <li><a href="mastere-en-droit-prive"><span>Mastère
-                                                                            en Droit privé des
-                                                                            affaires </span></a></li>
+                                                                            en Droit privé des affaires </span></a></li>
+                                                                <li><a href="mastere-en-droit-public"><span>Mastère
+                                                                            en Droit public des affaires </span></a></li>
                                                                 <li><a href="mastere-en-sciences-politiques"><span>Mastère
-                                                                            en Sciences
-                                                                            politiques</span></a></li>
+                                                                            en Sciences politiques</span></a></li>
                                                                 <li><a href="mastere-en-ingenierie-risque-economiques"><span>Mastère
-                                                                            en Ingénierie des
-                                                                            risques Economiques et financiers
-                                                                        </span></a></li>
+                                                                            en Ingénierie des risques Economiques et financiers
+                                                                 </span></a></li>
                                                                 <li><a href="mastere-en-assurance-banque"><span>Mastère
-                                                                            en
-                                                                            Assurance, banque, finance </span></a>
+                                                                            en Assurance, banque, finance </span></a>
                                                                 </li>
                                                                 <li><a href="mastere-en-marche-financiers"><span>Mastère
-                                                                            en Marchés
-                                                                            financiers et gestion du risques
-                                                                        </span></a></li>
+                                                                            en Marchés financiers et gestion du risques
+                                                                </span></a></li>
                                                             </ul>
                                                         </li>
                                                     </ul>

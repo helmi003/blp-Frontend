@@ -85,7 +85,7 @@ export default function Home() {
                                                         <span className="button-text">Lire plus</span>
                                                         <i className="far fa-long-arrow-right"></i>
                                                     </a>
-
+                                                <br/><br/>
                                                 </div>
                                             </div>
                                         </div>
@@ -151,7 +151,7 @@ export default function Home() {
                                                         <span className="button-text">Lire plus</span>
                                                         <i className="far fa-long-arrow-right"></i>
                                                     </a>
-
+                                                    <br/><br/>
                                                 </div>
                                             </div>
                                         </div>
@@ -172,7 +172,7 @@ export default function Home() {
                 <div className="row">
                     <div className="col-lg-6">
                         <div className="photo">
-                            <img src="assets/images/timeline/law.jpg" alt="blp" className="img-fluid"/>
+                            <img src="assets/images/timeline/law.webp" alt="fac de droit" className="img-fluid"/>
                         </div>
                     </div>
                     <div className="col-lg-6">
@@ -240,7 +240,7 @@ export default function Home() {
                                 <div className="typed-text-wrap">
                                     <h4 className="cd-headline letters type">
                                         <span className="cd-words-wrapper waiting">
-                                            <b className="is-visible text-white">(+216) 97 100 149</b>
+                                            <b className="is-visible text-white">(+216) 70 721 002</b>
                                         </span>
                                     </h4>
                                 </div>
@@ -264,12 +264,12 @@ export default function Home() {
                             <div className="col-lg-8 ml-auto mr-auto">
                                 <div className="typed-text-wrap">
                                     <h4 className="cd-headline letters type">
-                                        <span>Bénéficiez de nos</span>
+                                        <span>Bénéficiez de nos </span>
                                         <span className="cd-words-wrapper waiting">
-                                            <b className="is-visible">clubs</b>
-                                            <b>Activités</b>
-                                            <b>Formations</b>
-                                            <b>Services</b>
+                                            <b className="is-visible"> clubs</b>
+                                            <b> Activités</b>
+                                            <b> Formations</b>
+                                            <b> Services</b>
                                         </span>
                                     </h4>
                                 </div>

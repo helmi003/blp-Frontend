@@ -83,7 +83,7 @@ export default function contact() {
                         <div className="conact-info-wrap mt-30">
                             <h5 className="heading mb-20">Téléphone</h5>
                             <ul className="conact-info__list">
-                                <li> (+216) 97 100 149 / (+216) 71 903 215 </li>
+                                <li> (+216) 70 720 002 / (+216) 71 903 215 </li>
                                 <li>(+216) 72 220 507/ (+216) 71 283 417</li>
                             </ul>
                         </div>
@@ -92,8 +92,8 @@ export default function contact() {
                         <div className="conact-info-wrap mt-30">
                             <h5 className="heading mb-20">Email </h5>
                             <ul className="conact-info__list">
-                                <li>contact@epm.tn</li>
-                                <li>contact@mit.tn</li>
+                                <li>contact@blp.tn</li>
+                             
                             </ul>
                         </div>
                     </div>

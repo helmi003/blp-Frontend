@@ -21,8 +21,8 @@ export default function footer() {
                             <p>Pour toute information complémentaire, n’hésitez pas à nous contacter.</p>
                             <ul className="footer-widget__list">
                                 <li>  <span className="fa fa-map-marker-alt"></span> 102, Chotrana2, Zone industrielle, pôle technologique,Ariana</li>
-                                <li><i className="fas fa-envelope-open-text"></i> contact@epm.tn</li>
-                                <li><i className="fas fa-phone-volume"></i> (+216) 97 100 149 / (+216) 71 903 215</li>
+                                <li><i className="fas fa-envelope-open-text"></i> contact@blp.tn</li>
+                                <li><i className="fas fa-phone-volume"></i> (+216) 70 720 002</li>
                                 <li><i className="fas fa-globe"></i> <a href="https://blp.tn/" className="hover-style-link "> www.blp.tn</a></li>
                             </ul>
                         </div>
