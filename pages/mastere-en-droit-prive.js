@@ -128,7 +128,7 @@ export default function mastereEnDroitPrive() {
                                                 <div id="collapseOne" className="show" aria-labelledby="headingOne"
                                                     data-parent="#accordion">
                                                     <div className="card-body">
-                                                        <p>Le Mastère professionnel en Droit Privé des aaires représente
+                                                        <p>Le Mastère professionnel en Droit Privé des affaires représente
                                                             un parcours que les étudiants peuvent
                                                             choisir suite à l’obtention d’une Licence en Droit privé. Il
                                                             vise à permettre aux étudiants d'acquérir
@@ -141,16 +141,16 @@ export default function mastereEnDroitPrive() {
                                                             <li className="list-item">La maîtrise des concepts de base
                                                                 relatifs au droit de l'entreprise.</li>
                                                             <li className="list-item"> La confrontation des connaissances
-                                                                théoriques au monde des aaires.</li>
+                                                                théoriques au monde des affaires.</li>
                                                             <li className="list-item">La contribution à la structuration du
                                                                 cursus de formation acquis.</li>
-                                                            <li className="list-item"> Le montage propre d'aaires.</li>
+                                                            <li className="list-item"> Le montage propre d'affaires.</li>
                                                             <li className="list-item"> La rationalisation des projets
-                                                                d'aaires.</li>
+                                                                d'affaires.</li>
                                                         </ul>
                                                         Ce Mastère tend à munir les étudiants des connaissances
                                                         nécessaires pour pratiquer les métiers.
-                                                        en relation avec le domaine du droit privé des aaires.
+                                                        en relation avec le domaine du droit privé des affaires.
                                                         </p>
                                                     </div>
                                                 </div>

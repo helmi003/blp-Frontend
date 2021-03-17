@@ -187,7 +187,7 @@ export default function LicenceEnDroitPublic() {
                                                             La Licence en droit public permet aux étudiants de postuler
                                                             pour les Mastères professionnels et de se présenter aux
                                                             diérents concours qui requièrent la Licence en droi (ENA,
-                                                            Tribunal administratif,Cour des comptes, Aaires
+                                                            Tribunal administratif,Cour des comptes, Affaires
                                                             étrangères...).
                                                         </p>
                                                     </div>
