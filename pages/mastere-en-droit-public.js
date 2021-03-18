@@ -1,6 +1,6 @@
 import React from 'react'
 
-export default function mastereEnDroitPublic() {
+export default function MasterEnSciencesPolitiques() {
     return (
         <>
 <div className="breadcrumb-area">
@@ -8,12 +8,13 @@ export default function mastereEnDroitPublic() {
         <div className="row">
             <div className="col-12">
                 <div className="breadcrumb_box text-center">
-                    <h2 className="breadcrumb-title ">Mastère en Droit public des affaires</h2>
-                    
+                    <h2 className="breadcrumb-title ">Mastère en droit public :Relations internationales et diplomatie</h2>
+                   
                     <ul className="breadcrumb-list">
                         <li className="breadcrumb-item"><a href="formations">Formations</a></li>
                         <li className="breadcrumb-item active">Mastère</li>
                     </ul>
+                 
                 </div>
             </div>
         </div>
@@ -22,19 +23,19 @@ export default function mastereEnDroitPublic() {
 
 <div id="main-wrapper">
     <div className="site-wrapper-reveal">
-
-        <div className="blog-pages-wrapper zegzeg section-space--ptb_100">
+      
+        <div className="blog-pages-wrapper  zegzeg section-space--ptb_100">
             <div className="container">
                 <div className="row">
                     <div className="col-lg-4 order-lg-2 order-2">
                         <div className="page-sidebar-content-wrapper page-sidebar-right small-mt__40 tablet-mt__40">
-                
+              
                             <div className="sidebar-widget search-post wow move-up">
                                 <div className="business-solution-form-wrap mr-auto ml-auto">
                                     <div className="contact-title text-center section-space--mb_40">
                                         <h5 className="mb-10">Inscrivez-vous dès maintenant</h5>
                                     </div>
-                              
+                        
                                     <form id="contact-form"
                                         action="https://whizthemes.com/mail-php/jowel/mitech/php/hero-mail.php"
                                         method="post">
@@ -87,29 +88,29 @@ export default function mastereEnDroitPublic() {
                                             </div>
                                         </div>
                                     </form>
-              
+                         
                                 </div>
                             </div>
-                            
+                       
                             <div className="col-lg-4 mr-auto ml-auto col-md-6">
                             </div>
-                   
+                         
                         </div>
                     </div>
                     <div className="col-lg-8 order-lg-1 order-1">
                         <div className="main-blog-wrap">
-                            
+                     
                             <div className="single-blog-item">
-            
+                       
                                 <div className="post-info lg-blog-post-info  wow move-up">
                                     <div className="post-categories text-right">
                                         <a href="#">2 ans | 120 credit</a>
                                     </div>
                                     <img className="img-fluid"
-                                        src="assets/images/blog/licence-droit-prive.jpg"
-                                        alt="licence en droit prive "/>
+                                        src="assets/images/blog/mastere-en-relation-diplomatique.jpg"
+                                        alt="mastere-en-relation-diplomatique.jpg"/>
 
-                         
+                                    
                                     <div className="faq-wrapper section-space--pt_90">
                                         <div id="accordion">
                                             <div className="card">
@@ -128,30 +129,16 @@ export default function mastereEnDroitPublic() {
                                                 <div id="collapseOne" className="show" aria-labelledby="headingOne"
                                                     data-parent="#accordion">
                                                     <div className="card-body">
-                                                        <p>Le Mastère professionnel en Droit public des affaires représente
-                                                            un parcours que les étudiants peuvent
-                                                            choisir suite à l’obtention d’une Licence en Droit public. Il
-                                                            vise à permettre aux étudiants d'acquérir
-                                                            une compétence axée sur les diérents aspects de la vie de
-                                                            l'entreprise et de se familiariser,
-                                                            notamment, avec les techniques contractuelles, scales,
-                                                            sociales et le droit des sociétés.
-                                                            Cette formation est destinée à fournir aux étudiants :
-                                                        <ul className="circle-list">
-                                                            <li className="list-item">La maîtrise des concepts de base
-                                                                relatifs au droit de l'entreprise.</li>
-                                                            <li className="list-item"> La confrontation des connaissances
-                                                                théoriques au monde des affaires.</li>
-                                                            <li className="list-item">La contribution à la structuration du
-                                                                cursus de formation acquis.</li>
-                                                            <li className="list-item"> Le montage propre d'affaires.</li>
-                                                            <li className="list-item"> La rationalisation des projets
-                                                                d'affaires.</li>
-                                                        </ul>
-                                                        Ce Mastère tend à munir les étudiants des connaissances
-                                                        nécessaires pour pratiquer les métiers.
-                                                        en relation avec le domaine du droit public des affaires.
-                                                        </p>
+                                                        <p>Le Mastère professionnel en <b>Relations internationales et
+                                                                Diplomatie </b>a pour objectif de former des
+                                                            professionnels dans le champ de la diplomatie et des
+                                                            relations internationales.
+                                                            La raison d’être de cette formation universitaire est
+                                                            l’acquisition des principaux outils d’analyse qui permettent
+                                                            d’appréhender la réalité du monde diplomatique et des
+                                                            relations internationales
+                                                            et d’une manière plus large celle de la société
+                                                            internationale. </p>
                                                     </div>
                                                 </div>
                                             </div>
@@ -170,7 +157,27 @@ export default function mastereEnDroitPublic() {
                                                 <div id="collapseTwo" className="collapse" aria-labelledby="headingTwo"
                                                     data-parent="#accordion">
                                                     <div className="card-body">
-                                                        <p>Licence en Droit public</p>
+                                                        <p>Le Mastère professionnel en <b>diplomatie et relations
+                                                                internationales </b>est ouvert aux :
+                                                        <ul className="check-list">
+                                                            <li className="list-item"> Diplômés des différents
+                                                                établissements universitaires spécialisés en sciences
+                                                                juridiques,
+                                                                en sciences politiques ou des diplômés en sciences
+                                                                économiques, sciences de gestion,
+                                                                lettres et histoire et civilisations ayant accompli avec
+                                                                succès leur troisième année de licence. </li>
+                                                            <li className="list-item">Professionnels désirant acquérir la
+                                                                formation et ayant l’équivalent d’une licence ou d’un
+                                                                niveau d’étude bac+3. </li>
+                                                            <li className="list-item"> Les étudiants ayant validé le M1 d’un
+                                                                mastère équivalent peuvent accéder au M2 après étude de
+                                                                leurs dossiers. </li>
+                                                            <li className="list-item">La sélection des candidats se fera sur
+                                                                dossier et après un entretien avec un comité de
+                                                                sélection. </li>
+                                                        </ul>
+                                                        </p>
                                                     </div>
                                                 </div>
                                             </div>
@@ -190,21 +197,26 @@ export default function mastereEnDroitPublic() {
                                                     data-parent="#accordion">
                                                     <div className="card-body">
                                                         <p>
-                                                            <b className=" text-color-primary">Le parcours permet de former
-                                                                aux principaux métiers du droit des affaires </b>
+                                                            L’objectif du Mastère est de former des spécialistes des
+                                                            questions internationales et diplomatiques,capables de
+                                                            s’adapter aisément à un environnement international et
+                                                            permet d’envisager des perspectives professionnelles variées
+                                                            :
                                                         <ul className="check-list">
-                                                            <li className="list-item"> Avocats d'affaires, magistrats (sous
-                                                                réserve de succès aux concours de l'ISM et de l'ISA).
+                                                            <li className="list-item"> Carrières d'experts et d'analystes de
+                                                                risques dans des organisations internationales publiques
+                                                                ou privées et dans des entreprises internationales.</li>
+                                                            <li className="list-item">Concours généralistes pour intégrer la
+                                                                fonction publique internationale.</li>
+                                                            <li className="list-item"> Carrières diplomatiques.</li>
+                                                            <li className="list-item"> Consultant, Conseiller ou Analyste en
+                                                                Relations Internationales stratégiques et Géopolitiques.
                                                             </li>
-                                                            <li className="list-item">Conseils et assistance aux
-                                                                entreprises.</li>
-                                                            <li className="list-item"> Juristes d'entreprise (banque,
-                                                                bourse...)</li>
-                                                            <li className="list-item"> Juristes dans les institutions
-                                                                publiques et privées à fonction économique.</li>
-                                                            <li className="list-item"> Création d'une entreprise
-                                                                personnelle.</li>
-
+                                                            <li className="list-item"> Directeur ou Responsable au sein
+                                                                d’une multinationale.</li>
+                                                            <li className="list-item"> Directeur ou Responsable d’Organismes
+                                                                Internationaux ou d’ONG (organisme non gouvernemental).
+                                                            </li>
                                                         </ul>
                                                         </p>
                                                     </div>
@@ -212,17 +224,17 @@ export default function mastereEnDroitPublic() {
                                             </div>
                                         </div>
                                     </div>
-                                
+                             
                                 </div>
-                              
+                         
                             </div>
-                          
+                   
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-   
+
         <div className="tabs-wrapper bg-gray section-space--ptb_100">
             <div className="container">
                 <div className="row">
@@ -263,88 +275,69 @@ export default function mastereEnDroitPublic() {
 
                             <div className="tab-pane fade show active" id="tab_list_06" role="tabpanel">
                                 <div className="tab-history-wrap section-space--mt_20">
-                    
+                           
                                     <div className="col-lg-12 offset-lg-1">
                                         <div className="conact-us-wrap-one managed-it">
-                                            <h5 className="heading ">Premiere année mastère Professionnel en Droit public des affaires</h5>
+                                            <h5 className="heading ">Premiere année mastère Professionnel en Relations
+                                                internationales et diplomatie</h5>
                                         </div>
                                     </div>
                                     <br/>
-          
+                                 
                                     <div className="row">
                                         <div className="col-lg-12 ">
-                                            <table className="table table-striped table-bordered">
+                                            <table className="table table-striped">
                                                 <thead>
                                                     <tr>
-                                                        <th rowspan="2">Type de l'unité d'enseignement</th>
-                                                        <th rowspan="2">Elements constitutifs</th>
-                                                        <th colspan="3">volume horaire</th>
-                                                        <th>Credits</th>
-                                                        <th> Coefficient</th>
-                                                    </tr>
-                                                    <tr>
-                                                        <td>C</td>
-                                                        <td>SR</td>
-                                                        <td>CI</td>
-                                                        <td>Par element</td>
-                                                        <td>par Elements</td>
+                                                        <th scope="col"></th>
+                                                        <th scope="col">Unité d'enseignement</th>
+                                                        <th scope="col">Elements constitutifs de L'UE</th>
+                                                        <th scope="col">Volume horaire</th>
+                                                        <th scope="col">Credit</th>
+                                                        <th scope="col">Coefficient</th>
                                                     </tr>
                                                 </thead>
                                                 <tbody>
-                                                <tr>
-                                                    <td>UE F11</td>
-                                                    <td>Droit commercial approfondi</td>
+                                                    <tr>
+                                                        <th scope="row">1</th>
+                                                        <td>UE F11</td>
+                                                        <td>Droit International Public</td>
+                                                        <td>42H</td>
+                                                        <td>7</td>
+                                                        <td>4</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <th scope="row">2</th>
+                                                        <td>UE F12</td>
+                                                        <td>Droit diplomatique et consulaire</td>
+                                                        <td>42H</td>
+                                                        <td>7</td>
+                                                        <td>4</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <th scope="row">3</th>
+                                                        <td>UE F13</td>
+                                                        <td>Théories des relations internationales</td>
+                                                        <td>42H</td>
+                                                        <td>6</td>
+                                                        <td>3</td>
+                                                    </tr>
+                                                    <tr>
+                                                    <th scope="row">4</th>
+                                                    <td>UE O14</td>
+                                                    <td>Histoire contemporaine des relations internationales</td>
                                                     <td>42H</td>
-                                                    <td>21H</td>
-                                                    <td></td>
-                                                    <td>6</td>
-                                                    <td>3</td>
-                                                </tr>
-                                                <tr>
-                                                    <td>UE F12</td>
-                                                    <td>Droit douanier</td>
-                                                    <td>42H</td>
-                                                    <td>21H</td>
-                                                    <td></td>
-                                                    <td>6</td>
-                                                    <td>3</td>
-                                                </tr>
-                                                <tr>
-                                                    <td>UE F13</td>
-                                                    <td>Droit des precédures collectives</td>
-                                                    <td>42H</td>
-                                                    <td>21</td>
-                                                    <td></td>
-                                                    <td>6</td>
-                                                    <td>3</td>
-                                                </tr>
-                                                <tr>
-                                                    <td>UE F14</td>
-                                                    <td>anglais 1</td>
-                                                    <td>21H</td>
-                                                    <td></td>
-                                                    <td></td>
-                                                    <td>4</td>
+                                                    <td>5</td>
                                                     <td>2</td>
-                                                </tr>
-
-                                                <tr>
-                                                    <td rowspan="2">UE O15</td>
-                                                    <td>Droit de la propriété industrielle</td>
+                                                    </tr>
+                                                    <tr>
+                                                    <th scope="row">5</th>
+                                                    <td>UE O15</td>
+                                                    <td>Instituation européenne</td>
                                                     <td>42H</td>
-                                                    <td></td>
-                                                    <td></td>
-                                                    <td>4</td>
+                                                    <td>5</td>
                                                     <td>2</td>
-                                                </tr>
-                                                <tr>
-                                                    <td>Droit de la concurrence</td>
-                                                    <td>42H</td>
-                                                    <td></td>
-                                                    <td></td>
-                                                    <td>4</td>
-                                                    <td>2</td>
-                                                </tr>
+                                                    </tr>
                                                 </tbody>
                                             </table>
                                         </div>
@@ -353,90 +346,69 @@ export default function mastereEnDroitPublic() {
                             </div>
                             <div className="tab-pane fade" id="tab_list_07" role="tabpanel">
                                 <div className="tab-history-wrap section-space--mt_20">
-        
+               
                                     <div className="col-lg-12 offset-lg-1">
                                         <div className="conact-us-wrap-one managed-it">
-                                            <h5 className="heading ">Premiere année mastère Professionnel en Droit public des
-                                                affaires</h5>
+                                            <h5 className="heading ">Premiere année mastère Professionnel en Relations
+                                                internationales et diplomatie</h5>
                                         </div>
                                     </div>
 
-     
                                     <br/>
                                     <div className="row">
                                         <div className="col-lg-12 ">
-                                            <table className="table table-striped table-bordered">
+                                            <table className="table table-striped">
                                                 <thead>
                                                     <tr>
-                                                        <th rowspan="2">Type de l'unité d'enseignement</th>
-                                                        <th rowspan="2">Elements constitutifs</th>
-                                                        <th colspan="3">volume horaire</th>
-                                                        <th>Credits</th>
-                                                        <th> Coefficient</th>
-                                                    </tr>
-                                                    <tr>
-                                                        <td>C</td>
-                                                        <td>SR</td>
-                                                        <td>CI</td>
-                                                        <td>Par element</td>
-                                                        <td>par Elements</td>
+                                                        <th scope="col"></th>
+                                                        <th scope="col">Unité d'enseignement</th>
+                                                        <th scope="col">Elements constitutifs de L'UE</th>
+                                                        <th scope="col">Volume horaire</th>
+                                                        <th scope="col">Credit</th>
+                                                        <th scope="col">Coefficient</th>
                                                     </tr>
                                                 </thead>
                                                 <tbody>
-                                                <tr>
-                                                    <td>UE F21</td>
-                                                    <td>Droit approfondi des sociétés commerciales</td>
-                                                    <td>42H</td>
-                                                    <td>21H</td>
-                                                    <td></td>
-                                                    <td>6</td>
-                                                    <td>3</td>
-                                                </tr>
-                                                <tr>
-                                                    <td>UE F22</td>
-                                                    <td>Droit bancaire</td>
-                                                    <td>42H</td>
-                                                    <td>21H</td>
-                                                    <td></td>
-                                                    <td>6</td>
-                                                    <td>3</td>
-                                                </tr>
-                                                <tr>
-                                                    <td>UE F23</td>
-                                                    <td>Droit de l'investissement et de l'arbitrage</td>
-                                                    <td>42H</td>
-                                                    <td>21</td>
-                                                    <td></td>
-                                                    <td>6</td>
-                                                    <td>3</td>
-                                                </tr>
-                                                <tr>
-                                                    <td>UE T24</td>
-                                                    <td>anglais des affaire 2</td>
-                                                    <td>21H</td>
-                                                    <td></td>
-                                                    <td></td>
-                                                    <td>4</td>
-                                                    <td>1</td>
-                                                </tr>
-
-                                                <tr>
-                                                    <td rowspan="2">UE O25</td>
-                                                    <td>Droit des assurances</td>
-                                                    <td>42H</td>
-                                                    <td></td>
-                                                    <td></td>
-                                                    <td>4</td>
-                                                    <td>2</td>
-                                                </tr>
-                                                <tr>
-                                                    <td>Droit boursier</td>
-                                                    <td>42H</td>
-                                                    <td></td>
-                                                    <td></td>
-                                                    <td>4</td>
-                                                    <td>2</td>
-                                                </tr>
+                                                    <tr>
+                                                        <th scope="row">1</th>
+                                                        <td>UE F21</td>
+                                                        <td>Géopolitique</td>
+                                                        <td>42H</td>
+                                                        <td>7</td>
+                                                        <td>4</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <th scope="row">2</th>
+                                                        <td>UE F22</td>
+                                                        <td>Politique étrangére de la Tunisie</td>
+                                                        <td>42H</td>
+                                                        <td>7</td>
+                                                        <td>4</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <th scope="row">3</th>
+                                                        <td>UE F23</td>
+                                                        <td>Relations économiques internationales</td>
+                                                        <td>42H</td>
+                                                        <td>6</td>
+                                                        <td>3</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <th scope="row">4</th>
+                                                        <td>UE O24</td>
+                                                        <td>Politique européenne de voisinage</td>
+                                                        <td>42H</td>
+                                                        <td>5</td>
+                                                        <td>2</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <th scope="row">5</th>
+                                                        <td>UE O25</td>
+                                                        <td>Politique d'immigration et d'asile</td>
+                                                        <td>42H</td>
+                                                        <td>5</td>
+                                                        <td>2</td>
+                                                    </tr>
                                                 </tbody>
                                             </table>
                                         </div>
@@ -445,89 +417,70 @@ export default function mastereEnDroitPublic() {
                             </div>
                             <div className="tab-pane fade" id="tab_list_08" role="tabpanel">
                                 <div className="tab-history-wrap section-space--mt_20">
-                   
+                     
                                     <div className="col-lg-12 offset-lg-1">
                                         <div className="conact-us-wrap-one managed-it">
-                                            <h5 className="heading ">Deuxième année mastère Professionnel en Droit public des
-                                                affaires</h5>
+                                            <h5 className="heading ">Deuxième année mastère Professionnel en Relations
+                                                internationales et diplomatie</h5>
                                         </div>
                                     </div>
 
+                     
                                     <br/>
                                     <div className="row">
                                         <div className="col-lg-12 ">
-                                            <table className="table table-striped table-bordered">
+                                            <table className="table table-striped">
                                                 <thead>
                                                     <tr>
-                                                        <th rowspan="2">Type de l'unité d'enseignement</th>
-                                                        <th rowspan="2">Elements constitutifs</th>
-                                                        <th colspan="3">volume horaire</th>
-                                                        <th>Credits</th>
-                                                        <th> Coefficient</th>
-                                                    </tr>
-                                                    <tr>
-                                                        <td>C</td>
-                                                        <td>SR</td>
-                                                        <td>CI</td>
-                                                        <td>Par element</td>
-                                                        <td>par Elements</td>
+                                                        <th scope="col"></th>
+                                                        <th scope="col">Unité d'enseignement</th>
+                                                        <th scope="col">Elements constitutifs de L'UE</th>
+                                                        <th scope="col">Volume horaire</th>
+                                                        <th scope="col">Credit</th>
+                                                        <th scope="col">Coefficient</th>
                                                     </tr>
                                                 </thead>
                                                 <tbody>
-                                                <tr>
-                                                    <td>UE F31</td>
-                                                    <td>Droit pénal des affaires</td>
+                                                    <tr>
+                                                        <th scope="row">1</th>
+                                                        <td>UE F21</td>
+                                                        <td>Droit des conflits armés</td>
+                                                        <td>42H</td>
+                                                        <td>7</td>
+                                                        <td>4</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <th scope="row">2</th>
+                                                        <td>UE F22</td>
+                                                        <td>Droit international himanitaire </td>
+                                                        <td>42H</td>
+                                                        <td>7</td>
+                                                        <td>4</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <th scope="row">3</th>
+                                                        <td>UE F23</td>
+                                                        <td>Règlement pacifique des differends internationaux</td>
+                                                        <td>42H</td>
+                                                        <td>6</td>
+                                                        <td>3</td>
+                                                    </tr>
+                                                    <tr>
+                                                    <th scope="row">4</th>
+                                                    <td>UE O24</td>
+                                                    <td>Diplomatie des droits de l'Homme</td>
                                                     <td>42H</td>
-                                                    <td>21H</td>
-                                                    <td></td>
-                                                    <td>6</td>
-                                                    <td>3</td>
-                                                </tr>
-                                                <tr>
-                                                    <td>UE F32</td>
-                                                    <td>Droit du commerce électronique</td>
-                                                    <td>42H</td>
-                                                    <td>21H</td>
-                                                    <td></td>
-                                                    <td>6</td>
-                                                    <td>3</td>
-                                                </tr>
-                                                <tr>
-                                                    <td>UE F33</td>
-                                                    <td>Droit fiscal des affaires</td>
-                                                    <td>42H</td>
-                                                    <td>21</td>
-                                                    <td></td>
-                                                    <td>6</td>
-                                                    <td>3</td>
-                                                </tr>
-                                                <tr>
-                                                    <td>UE F35</td>
-                                                    <td>Méthodologie de recherche</td>
-                                                    <td>21H</td>
-                                                    <td></td>
-                                                    <td></td>
-                                                    <td>4</td>
-                                                    <td>1</td>
-                                                </tr>
-
-                                                <tr>
-                                                    <td rowspan="2">UE O36</td>
-                                                    <td>Droit des contrats pétroliers</td>
-                                                    <td>42H</td>
-                                                    <td></td>
-                                                    <td></td>
-                                                    <td>4</td>
+                                                    <td>5</td>
                                                     <td>2</td>
-                                                </tr>
-                                                <tr>
-                                                    <td>Droit de l'OHADA</td>
+                                                    </tr>
+                                                    <tr>
+                                                    <th scope="row">5</th>
+                                                    <td>UE O25</td>
+                                                    <td>Géopolitique des enjeux énergétiques</td>
                                                     <td>42H</td>
-                                                    <td></td>
-                                                    <td></td>
-                                                    <td>4</td>
+                                                    <td>5</td>
                                                     <td>2</td>
-                                                </tr>
+                                                    </tr>
                                                 </tbody>
                                             </table>
                                         </div>
@@ -541,7 +494,7 @@ export default function mastereEnDroitPublic() {
                                             <div className="accordion-wrapper section-space--pb_100">
                                                 <div className="container">
                                                     <div className="row ">
-                                                  
+                                             
                                                         <div className="col-lg-12 offset-lg-1">
                                                             <div className="conact-us-wrap-one managed-it">
                                                                 <h5 className="heading ">Stage professionnel et mémoire de
@@ -549,7 +502,7 @@ export default function mastereEnDroitPublic() {
                                                             </div>
                                                         </div>
 
-                                                     
+                                       
                                                         <div className="col-lg-12 pr-5">
                                                             <div className="faq-two-wrapper section-space--mt_40">
                                                                 <div id="accordion_two">
@@ -579,38 +532,47 @@ export default function mastereEnDroitPublic() {
                                                                             <div className="card-body">
                                                                                 <p> Le stage professionnel est
                                                                                     obligatoire pour les étudiants ayant
-                                                                                    validés les semestres d’études (M1
-                                                                                    et M2).
-                                                                                    Les étudiants qui occupent des
-                                                                                    postes de travail sont tenus de
-                                                                                    l’attester an d’être épargnés
-                                                                                    du stage professionnel. En revanche,
-                                                                                    ils sont tenus d’élaborer un sujet
-                                                                                    de mémoire qui correspond
-                                                                                    à la formation requise dans ce
-                                                                                    mastère. <br/>
+                                                                                    <b> validés les semestres d’études
+                                                                                        (M1 et M2) </b>. <br/>Les
+                                                                                    étudiants qui occupent des postes de
+                                                                                    travail sont tenus de l’attester an
+                                                                                    d’être épargnés du stage
+                                                                                    professionnel. En revanche, ils sont
+                                                                                    tenus d’élaborer un sujet de mémoire
+                                                                                    qui correspond à la formation
+                                                                                    requise dans ce mastère. <br/>
                                                                                     L’objectif du rapport de stage est
                                                                                     de montrer la capacité à analyser, à
                                                                                     synthétiser et à présenter un
-                                                                                    projet.
-                                                                                    IL reflète la capacité de l’étudiant
-                                                                                    à exploiter les connaissances
-                                                                                    acquises lors de son cursus
-                                                                                    universitaire
-                                                                                    an de les lier aux questions
-                                                                                    pratiques observées lors de son
-                                                                                    stage. <br/>
-                                                                                    Durée : <b> 3 mois </b> <br/>
-                                                                                    Lieu : <b>Cabinets d’avocats,
-                                                                                        Compagnies d’assurance,
-                                                                                        Compagnies pétrolières, Banques,
-                                                                                        Bourse, etc.</b> <br/>
-                                                                                    Encadrement :<b> Encadrant
-                                                                                        professionnel et encadrant
-                                                                                        universitaire. </b> <br/>
-                                                                                    Soutenance de mémoire :<b> Session
-                                                                                        de juin/Session de septembre.
-                                                                                    </b></p>
+                                                                                    projet. Il reflète la capacité de
+                                                                                    l’étudiant à exploiter les
+                                                                                    connaissances acquises lors de son
+                                                                                    cursus universitaire an de les lier
+                                                                                    aux questions pratiques observées
+                                                                                    lors de son stage. <br/>
+                                                                                    <b> <span
+                                                                                            className="text-color-primary">Durée
+                                                                                        </span>: 3 mois <br/>
+                                                                                        <span
+                                                                                            className="text-color-primary">Lieu
+                                                                                        </span>: ONG, Bureaux
+                                                                                        représentatifs des organisations
+                                                                                        internationales, Missions
+                                                                                        diplomatiques et consulaires,
+                                                                                        etc. <br/>
+                                                                                        <span
+                                                                                            className="text-color-primary">Encadrement</span>
+                                                                                        : Encadrant professionnel et
+                                                                                        encadrant universitaire <br/>
+                                                                                        <span
+                                                                                            className="text-color-primary">Soutenance
+                                                                                            de mémoire</span> : Session
+                                                                                        de juin/Session de septembre
+                                                                                        <br/>
+                                                                                        <span
+                                                                                            className="text-color-primary">Valeur
+                                                                                            en crédits </span>: 30 </b>
+                                                                                </p>
                                                                             </div>
                                                                         </div>
                                                                     </div>
@@ -689,7 +651,8 @@ export default function mastereEnDroitPublic() {
                 </div>
             </div>
         </div>
-</div>
+  
+    </div>
     </div>
         </>
     )

@@ -113,9 +113,7 @@ export default function Header() {
                                                                 <li><a href="mastere-en-droit-prive"><span>Mastère
                                                                             en Droit privé des affaires </span></a></li>
                                                                 <li><a href="mastere-en-droit-public"><span>Mastère
-                                                                            en Droit public des affaires </span></a></li>
-                                                                <li><a href="mastere-en-sciences-politiques"><span>Mastère
-                                                                            en Sciences politiques</span></a></li>
+                                                                            en Droit public </span></a></li>
                                                                 <li><a href="mastere-en-ingenierie-risque-economiques"><span>Mastère
                                                                             en Ingénierie des risques Economiques et financiers
                                                                  </span></a></li>
