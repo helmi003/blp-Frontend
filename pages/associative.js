@@ -65,10 +65,10 @@ export default function associative() {
                             <div className="gallery-warp popup-images ">
                             
                                 <a className="single-gallery gallery-grid wow move-up"
-                                    href="assets/images/blog/club-sportive.jpg">
+                                    href="assets/images/blog/club-sportive.webp">
                                     <div className="single-gallery__item">
                                         <div className="single-gallery__thum bg-item-images bg-img"
-                                            data-bg="assets/images/blog/club-sportive.jpg">
+                                            data-bg="assets/images/blog/club-sportive.webp">
 
                                         </div>
                                         <div className="ht-overlay"></div>
@@ -79,10 +79,10 @@ export default function associative() {
                                 </a>
                               
                                 <a className="single-gallery gallery-grid wow move-up"
-                                    href="assets/images/blog/gymanstique-blp.jpg">
+                                    href="assets/images/blog/gymanstique-blp.webp">
                                     <div className="single-gallery__item">
                                         <div className="single-gallery__thum bg-item-images bg-img"
-                                            data-bg="assets/images/blog/gymanstique-blp.jpg"></div>
+                                            data-bg="assets/images/blog/gymanstique-blp.webp"></div>
                                         <div className="ht-overlay"></div>
                                         <div className="overlay-icon">
                                             <i className="far fa-search"></i>
@@ -91,10 +91,10 @@ export default function associative() {
                                 </a>
                               
                                 <a className="single-gallery gallery-grid wow move-up"
-                                    href="assets/images/blog/fitness-blp.jpg">
+                                    href="assets/images/blog/fitness-blp.webp">
                                     <div className="single-gallery__item">
                                         <div className="single-gallery__thum bg-item-images bg-img"
-                                            data-bg="assets/images/blog/fitness-blp.jpg"></div>
+                                            data-bg="assets/images/blog/fitness-blp.webp"></div>
                                         <div className="ht-overlay"></div>
                                         <div className="overlay-icon">
                                             <i className="far fa-search"></i>
@@ -103,10 +103,10 @@ export default function associative() {
                                 </a>
                              
                                 <a className="single-gallery gallery-grid wow move-up"
-                                    href="assets/images/blog/sport-blp.jpg">
+                                    href="assets/images/blog/sport-blp.webp">
                                     <div className="single-gallery__item">
                                         <div className="single-gallery__thum bg-item-images bg-img"
-                                            data-bg="assets/images/blog/sport-blp.jpg"></div>
+                                            data-bg="assets/images/blog/sport-blp.webp"></div>
                                         <div className="ht-overlay"></div>
                                         <div className="overlay-icon">
                                             <i className="far fa-search"></i>

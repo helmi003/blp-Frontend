@@ -155,8 +155,8 @@ export default function LicenceEnMarketing() {
                                     <div className="post-categories text-right">
                                         <a href="#">3 ans | 180 credit</a>
                                     </div>
-                                    <img className="img-fluid" src="assets/images/blog/licence-marketing.jpg"
-                                        alt="licence-marketing.jpg"/>
+                                    <img className="img-fluid" src="assets/images/blog/licence-marketing.webp"
+                                        alt="licence en marketing"/>
 
                     
                                     <div className="faq-wrapper section-space--pt_90">

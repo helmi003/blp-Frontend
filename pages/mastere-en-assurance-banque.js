@@ -107,8 +107,8 @@ export default function MastereEnAssuranceBanque() {
                                     <div className="post-categories text-right">
                                         <a href="#">2 ans | 120 credit</a>
                                     </div>
-                                    <img className="img-fluid" src="assets/images/blog/mastere-assurance.jpg"
-                                        alt="mastere-assurance.jpg"/>
+                                    <img className="img-fluid" src="assets/images/blog/mastere-assurance.webp"
+                                        alt="mastere en assurance"/>
 
                                     <div className="faq-wrapper section-space--pt_90">
                                         <div id="accordion">

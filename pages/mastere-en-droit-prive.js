@@ -106,8 +106,8 @@ export default function mastereEnDroitPrive() {
                                         <a href="#">2 ans | 120 credit</a>
                                     </div>
                                     <img className="img-fluid"
-                                        src="assets/images/blog/licence-droit-prive.jpg"
-                                        alt="licence-droit-prive.jpg"/>
+                                        src="assets/images/blog/licence-droit-prive.webp"
+                                        alt="licence droit prive"/>
 
                          
                                     <div className="faq-wrapper section-space--pt_90">

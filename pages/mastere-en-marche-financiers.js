@@ -106,8 +106,8 @@ export default function MastereEnMarcheFinanciers() {
                                     <div className="post-categories text-right">
                                         <a href="#">2 ans | 120 credit</a>
                                     </div>
-                                    <img className="img-fluid" src="assets/images/blog/master-marche.jpg"
-                                        alt="master-marche.jpg"/>
+                                    <img className="img-fluid" src="assets/images/blog/master-marche.webp"
+                                        alt="master en marche financier"/>
 
                                   
                                     <div className="faq-wrapper section-space--pt_90">

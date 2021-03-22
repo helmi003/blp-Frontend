@@ -55,7 +55,7 @@ export default function etudiante() {
 
                                     <div className="col-lg-6">
                                         <div className="">
-                                            <img src="assets/images/blog/e-learning.jpg"
+                                            <img src="assets/images/blog/e-learning.webp"
                                                 alt="certifications.jpg" width="600px" className=""/>
                                         </div>
                                     </div>

@@ -106,8 +106,8 @@ export default function LicenceEnDroitPublic() {
                                         <a href="#">3 ans | 180 credit</a>
                                     </div>
                                     <img className="img-fluid"
-                                        src="assets/images/blog/licence-droit-prive.jpg"
-                                        alt="licence-droit-prive.jpg"/>
+                                        src="assets/images/blog/licence-droit-prive.webp"
+                                        alt="licence en droit public"/>
 
                                     <div className="faq-wrapper section-space--pt_90">
                                         <div id="accordion">

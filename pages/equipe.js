@@ -167,7 +167,7 @@ export default function equipeBlp() {
                                     <a href="#" className="box-large-image__two">
                                         <div className="box-large-image__two__box">
                                             <div className="box-large-image__midea">
-                                                <div className="single-gallery__thum bg-item-images bg-img" data-bg="assets/images/brand/conventions.jpg"></div>
+                                                <div className="single-gallery__thum bg-item-images bg-img" data-bg="assets/images/brand/conventions.webp"></div>
                                             </div>
 
                                         </div>
@@ -235,7 +235,7 @@ export default function equipeBlp() {
                                     <a href="#" className="box-large-image__two">
                                         <div className="box-large-image__two__box">
                                             <div className="box-large-image__midea">
-                                                <div className="single-gallery__thum bg-item-images bg-img" data-bg="assets/images/brand/convention-blp.jpg"></div>
+                                                <div className="single-gallery__thum bg-item-images bg-img" data-bg="assets/images/brand/convention-blp.webp"></div>
                                             </div>
                                         </div>
                                     </a>

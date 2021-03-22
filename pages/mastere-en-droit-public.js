@@ -107,8 +107,8 @@ export default function MasterEnSciencesPolitiques() {
                                         <a href="#">2 ans | 120 credit</a>
                                     </div>
                                     <img className="img-fluid"
-                                        src="assets/images/blog/mastere-en-relation-diplomatique.jpg"
-                                        alt="mastere-en-relation-diplomatique.jpg"/>
+                                        src="assets/images/blog/mastere-en-relation-diplomatique.webp"
+                                        alt="mastere en droit public : relation diplomatique"/>
 
                                     
                                     <div className="faq-wrapper section-space--pt_90">

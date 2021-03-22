@@ -176,11 +176,11 @@ export default function partenaire() {
                                     <div className="swiper-slide brand-logo brand-logo--slider">
                                         <a href="http://www.isetn.rnu.tn/">
                                             <div className="brand-logo__image">
-                                                <img src="assets/images/brand/iset-nabeul.jpg"
+                                                <img src="assets/images/brand/iset-nabeul.webp"
                                                     className="img-fluid" alt="iset-nabeul"/>
                                             </div>
                                             <div className="brand-logo__image-hover">
-                                                <img src="assets/images/brand/iset-nabeul.jpg"
+                                                <img src="assets/images/brand/iset-nabeul.webp"
                                                     className="img-fluid" alt="iset-nabeul"/>
                                             </div>
                                         </a>
@@ -188,11 +188,11 @@ export default function partenaire() {
                                     <div className="swiper-slide brand-logo brand-logo--slider">
                                         <a href="https://www.banquezitouna.com/fr">
                                             <div className="brand-logo__image">
-                                                <img src="assets/images/brand/banque-zitouna.jpg"
+                                                <img src="assets/images/brand/banque-zitouna.webp"
                                                     className="img-fluid" alt="banque-zitouna"/>
                                             </div>
                                             <div className="brand-logo__image-hover">
-                                                <img src="assets/images/brand/banque-zitouna.jpg"
+                                                <img src="assets/images/brand/banque-zitouna.webp"
                                                     className="img-fluid" alt="banque-zitouna"/>
                                             </div>
                                         </a>
@@ -200,11 +200,11 @@ export default function partenaire() {
                                     <div className="swiper-slide brand-logo brand-logo--slider">
                                         <a href="https://www.smart-it.fr/">
                                             <div className="brand-logo__image">
-                                                <img src="assets/images/brand/smartit.jpg"
+                                                <img src="assets/images/brand/smartit.webp"
                                                     className="img-fluid" alt="smart-it"/>
                                             </div>
                                             <div className="brand-logo__image-hover">
-                                                <img src="assets/images/brand/smartit.jpg"
+                                                <img src="assets/images/brand/smartit.webp"
                                                     className="img-fluid" alt="smart-it"/>
                                             </div>
                                         </a>
@@ -212,11 +212,11 @@ export default function partenaire() {
                                     <div className="swiper-slide brand-logo brand-logo--slider">
                                         <a href="https://www.tunisietelecom.tn/Fr">
                                             <div className="brand-logo__image">
-                                                <img src="assets/images/brand/telecome.jpg"
+                                                <img src="assets/images/brand/telecome.webp"
                                                     className="img-fluid" alt="societe-telecome"/>
                                             </div>
                                             <div className="brand-logo__image-hover">
-                                                <img src="assets/images/brand/telecome.jpg"
+                                                <img src="assets/images/brand/telecome.webp"
                                                     className="img-fluid" alt="societe-telecome"/>
                                             </div>
                                         </a>
@@ -224,11 +224,11 @@ export default function partenaire() {
                                     <div className="swiper-slide brand-logo brand-logo--slider">
                                         <a href="https://aftercode.tn/">
                                             <div className="brand-logo__image">
-                                                <img src="assets/images/brand/aftercode.jpg"
+                                                <img src="assets/images/brand/aftercode.webp"
                                                     className="img-fluid" alt="after-code"/>
                                             </div>
                                             <div className="brand-logo__image-hover">
-                                                <img src="assets/images/brand/aftercode.jpg"
+                                                <img src="assets/images/brand/aftercode.webp"
                                                     className="img-fluid" alt="after-code"/>
                                             </div>
                                         </a>
@@ -236,11 +236,11 @@ export default function partenaire() {
                                     <div className="swiper-slide brand-logo brand-logo--slider">
                                         <a href="http://www.isett.rnu.tn/">
                                             <div className="brand-logo__image">
-                                                <img src="assets/images/brand/iset-tozeur.jpg"
+                                                <img src="assets/images/brand/iset-tozeur.webp"
                                                     className="img-fluid" alt="iset-tozeur"/>
                                             </div>
                                             <div className="brand-logo__image-hover">
-                                                <img src="assets/images/brand/iset-tozeur.jpg"
+                                                <img src="assets/images/brand/iset-tozeur.webp"
                                                     className="img-fluid" alt="iset-tozeur"/>
                                             </div>
                                         </a>
@@ -248,11 +248,11 @@ export default function partenaire() {
                                     <div className="swiper-slide brand-logo brand-logo--slider">
                                         <a href="https://www.u-cergy.fr/fr/index.html">
                                             <div className="brand-logo__image">
-                                                <img src="assets/images/brand/cergy.jpg"
+                                                <img src="assets/images/brand/cergy.webp"
                                                     className="img-fluid" alt="cergy"/>
                                             </div>
                                             <div className="brand-logo__image-hover">
-                                                <img src="assets/images/brand/cergy.jpg"
+                                                <img src="assets/images/brand/cergy.webp"
                                                     className="img-fluid" alt="cergy"/>
                                             </div>
                                         </a>
@@ -260,11 +260,11 @@ export default function partenaire() {
                                     <div className="swiper-slide brand-logo brand-logo--slider">
                                         <a href="http://www.isetkl.rnu.tn/">
                                             <div className="brand-logo__image">
-                                                <img src="assets/images/brand/iset-kelibia.jpg"
+                                                <img src="assets/images/brand/iset-kelibia.webp"
                                                     className="img-fluid" alt="iset-kelibia"/>
                                             </div>
                                             <div className="brand-logo__image-hover">
-                                                <img src="assets/images/brand/iset-kelibia.jpg"
+                                                <img src="assets/images/brand/iset-kelibia.webp"
                                                     className="img-fluid" alt="iset-kelibia"/>
                                             </div>
                                         </a>
@@ -272,11 +272,11 @@ export default function partenaire() {
                                     <div className="swiper-slide brand-logo brand-logo--slider">
                                         <a href="">
                                             <div className="brand-logo__image">
-                                                <img src="assets/images/brand/sorate.jpg"
+                                                <img src="assets/images/brand/sorate.webp"
                                                     className="img-fluid" alt="sorat"/>
                                             </div>
                                             <div className="brand-logo__image-hover">
-                                                <img src="assets/images/brand/sorate.jpg"
+                                                <img src="assets/images/brand/sorate.webp"
                                                     className="img-fluid" alt="sorat"/>
                                             </div>
                                         </a>
@@ -284,11 +284,11 @@ export default function partenaire() {
                                     <div className="swiper-slide brand-logo brand-logo--slider">
                                         <a href="https://polytech.univ-nantes.fr/">
                                             <div className="brand-logo__image">
-                                                <img src="assets/images/brand/ulysee.jpg"
+                                                <img src="assets/images/brand/ulysee.webp"
                                                     className="img-fluid" alt="ulysee"/>
                                             </div>
                                             <div className="brand-logo__image-hover">
-                                                <img src="assets/images/brand/ulysee.jpg"
+                                                <img src="assets/images/brand/ulysee.webp"
                                                     className="img-fluid" alt="ulysee"/>
                                             </div>
                                         </a>
@@ -420,7 +420,7 @@ export default function partenaire() {
                                             <a href="https://www.youtube.com/watch?v=9No-FiEInLA" className="video-link">
                                                 <div className="single-popup-wrap">
                                                     <img className="img-fluid"
-                                                        src="assets/images/bg/teach.jpg" alt=""/>
+                                                        src="assets/images/bg/teach.webp" alt=""/>
                                                 </div>
                                             </a>
                                         </div>
@@ -483,8 +483,8 @@ export default function partenaire() {
                                                                 <div className="image-box-wrap">
                                                                     <div className="box-image">
                                                                         <img className="img-fulid"
-                                                                            src="assets/images/brand/aftercode.jpg"
-                                                                            alt="after-code"/>
+                                                                            src="assets/images/brand/aftercode.webp"
+                                                                            alt="societe aftercode"/>
                                                                     </div>
                                                                     <div className="content">
                                                                         <h6 className="heading">Société aftercode</h6>
@@ -500,7 +500,7 @@ export default function partenaire() {
                                                                 <div className="image-box-wrap">
                                                                     <div className="box-image">
                                                                         <img className="img-fulid"
-                                                                            src="assets/images/brand/sorate.jpg"
+                                                                            src="assets/images/brand/sorate.webp"
                                                                             alt="societe-sorate"/>
                                                                     </div>
                                                                     <div className="content">
@@ -517,7 +517,7 @@ export default function partenaire() {
                                                                 <div className="image-box-wrap">
                                                                     <div className="box-image">
                                                                         <img className="img-fulid"
-                                                                            src="assets/images/brand/iset-nabeul.jpg"
+                                                                            src="assets/images/brand/iset-nabeul.webp"
                                                                             alt="iset-nabeul"/>
                                                                     </div>
                                                                     <div className="content">
@@ -535,7 +535,7 @@ export default function partenaire() {
                                                                 <div className="image-box-wrap">
                                                                     <div className="box-image">
                                                                         <img className="img-fulid"
-                                                                            src="assets/images/brand/iset-tozeur.jpg"
+                                                                            src="assets/images/brand/iset-tozeur.webp"
                                                                             alt="iset-tozeur"/>
                                                                     </div>
                                                                     <div className="content">
@@ -553,7 +553,7 @@ export default function partenaire() {
                                                                 <div className="image-box-wrap">
                                                                     <div className="box-image">
                                                                         <img className="img-fulid"
-                                                                            src="assets/images/brand/ulysee.jpg"
+                                                                            src="assets/images/brand/ulysee.webp"
                                                                             alt="societe-utysse"/>
                                                                     </div>
                                                                     <div className="content">
@@ -571,8 +571,8 @@ export default function partenaire() {
                                                                 <div className="image-box-wrap">
                                                                     <div className="box-image">
                                                                         <img className="img-fulid"
-                                                                            src="assets/images/brand/banque-zitouna.jpg"
-                                                                            alt="bank-zitouna"/>
+                                                                            src="assets/images/brand/banque-zitouna.webp"
+                                                                            alt="bank zitouna"/>
                                                                     </div>
                                                                     <div className="content">
                                                                         <h6 className="heading">Banque zitouna</h6>
@@ -589,7 +589,7 @@ export default function partenaire() {
                                                                 <div className="image-box-wrap">
                                                                     <div className="box-image">
                                                                         <img className="img-fulid"
-                                                                            src="assets/images/brand/bns.jpg"
+                                                                            src="assets/images/brand/bns.webp"
                                                                             alt="bns"/>
                                                                     </div>
                                                                     <div className="content">
@@ -607,7 +607,7 @@ export default function partenaire() {
                                                                 <div className="image-box-wrap">
                                                                     <div className="box-image">
                                                                         <img className="img-fulid"
-                                                                            src="assets/images/brand/smartit.jpg"
+                                                                            src="assets/images/brand/smartit.webp"
                                                                             alt="smart-it"/>
                                                                     </div>
                                                                     <div className="content">
@@ -624,7 +624,7 @@ export default function partenaire() {
                                                                 <div className="image-box-wrap">
                                                                     <div className="box-image">
                                                                         <img className="img-fulid"
-                                                                            src="assets/images/brand/ministere.jpg"
+                                                                            src="assets/images/brand/ministere.webp"
                                                                             alt="ministere"/>
                                                                     </div>
                                                                     <div className="content">
@@ -642,8 +642,8 @@ export default function partenaire() {
                                                                 <div className="image-box-wrap">
                                                                     <div className="box-image">
                                                                         <img className="img-fulid"
-                                                                            src="assets/images/brand/direction-regionale.jpg"
-                                                                            alt="direction-regionale"/>
+                                                                            src="assets/images/brand/direction-regionale.webp"
+                                                                            alt="direction regionale"/>
                                                                     </div>
                                                                     <div className="content">
                                                                         <h6 className="heading">Direction régionale de
@@ -661,8 +661,8 @@ export default function partenaire() {
                                                                 <div className="image-box-wrap">
                                                                     <div className="box-image">
                                                                         <img className="img-fulid"
-                                                                            src="assets/images/brand/addac.jpg"
-                                                                            alt="addac"/>
+                                                                            src="assets/images/brand/addac.webp"
+                                                                            alt="societe addac"/>
                                                                     </div>
                                                                     <div className="content">
                                                                         <h6 className="heading">Sociéte Addac Sarl </h6>
@@ -678,7 +678,7 @@ export default function partenaire() {
                                                                 <div className="image-box-wrap">
                                                                     <div className="box-image">
                                                                         <img className="img-fulid"
-                                                                            src="assets/images/brand/learn-manufactring.jpg"
+                                                                            src="assets/images/brand/learn-manufactring.webp"
                                                                             alt="learn-manifectering"/>
                                                                     </div>
                                                                     <div className="content">
@@ -695,7 +695,7 @@ export default function partenaire() {
                                                                 <div className="image-box-wrap">
                                                                     <div className="box-image">
                                                                         <img className="img-fulid"
-                                                                            src="assets/images/brand/virtuella.jpg"
+                                                                            src="assets/images/brand/virtuella.webp"
                                                                             alt="societe-Virtuella"/>
                                                                     </div>
                                                                     <div className="content">
@@ -735,7 +735,7 @@ export default function partenaire() {
                                                                 <div className="image-box-wrap">
                                                                     <div className="box-image">
                                                                         <img className="img-fulid"
-                                                                            src="assets/images/brand/copaca.jpg"
+                                                                            src="assets/images/brand/copaca.webp"
                                                                             alt="copaca"/>
                                                                     </div>
 
@@ -752,8 +752,8 @@ export default function partenaire() {
                                                                     <div className="box-image">
 
                                                                         <img className="img-fulid"
-                                                                            src="assets/images/brand/cergy.jpg"
-                                                                            alt="copaca"/>
+                                                                            src="assets/images/brand/cergy.webp"
+                                                                            alt="Societe Cergy"/>
 
                                                                     </div>
 
@@ -770,7 +770,7 @@ export default function partenaire() {
                                                                     <div className="box-image">
 
                                                                         <img className="img-fulid"
-                                                                            src="assets/images/brand/nante.jpg"
+                                                                            src="assets/images/brand/nante.webp"
                                                                             alt=""/>
 
                                                                     </div>
@@ -787,7 +787,7 @@ export default function partenaire() {
                                                                 <div className="image-box-wrap">
                                                                     <div className="box-image">
                                                                         <img className="img-fulid"
-                                                                            src="assets/images/brand/ecam.jpg"
+                                                                            src="assets/images/brand/ecam.webp"
                                                                             alt=""/>
                                                                     </div>
 
@@ -848,10 +848,10 @@ export default function partenaire() {
                                 </a>
                         
                                 <a className="single-gallery gallery-grid wow move-up"
-                                    href="assets/images/brand/convention-blp.jpg">
+                                    href="assets/images/brand/convention-blp.webp">
                                     <div className="single-gallery__item">
                                         <div className="single-gallery__thum bg-item-images bg-img"
-                                            data-bg="assets/images/brand/convention-blp.jpg"></div>
+                                            data-bg="assets/images/brand/convention-blp.webp"></div>
                                         <div className="ht-overlay"></div>
                                         <div className="overlay-icon">
                                             <i className="far fa-search"></i>
@@ -860,10 +860,10 @@ export default function partenaire() {
                                 </a>
                            
                                 <a className="single-gallery gallery-grid wow move-up"
-                                    href="assets/images/brand/conventions.jpg">
+                                    href="assets/images/brand/conventions.webp">
                                     <div className="single-gallery__item">
                                         <div className="single-gallery__thum bg-item-images bg-img"
-                                            data-bg="assets/images/brand/conventions.jpg"></div>
+                                            data-bg="assets/images/brand/conventions.webp"></div>
                                         <div className="ht-overlay"></div>
                                         <div className="overlay-icon">
                                             <i className="far fa-search"></i>
@@ -872,10 +872,10 @@ export default function partenaire() {
                                 </a>
                             
                                 <a className="single-gallery gallery-grid wow move-up"
-                                    href="assets/images/brand/signiature-blp.jpg">
+                                    href="assets/images/brand/signiature-blp.webp">
                                     <div className="single-gallery__item">
                                         <div className="single-gallery__thum bg-item-images bg-img"
-                                            data-bg="assets/images/brand/signiature-blp.jpg"></div>
+                                            data-bg="assets/images/brand/signiature-blp.webp"></div>
                                         <div className="ht-overlay"></div>
                                         <div className="overlay-icon">
                                             <i className="far fa-search"></i>

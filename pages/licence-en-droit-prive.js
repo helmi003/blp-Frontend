@@ -105,8 +105,8 @@ export default function licenceEnDroitPrive() {
                                     <div className="post-categories text-right">
                                         <a href="#">3 ans | 180 credit</a>
                                     </div>
-                                    <img className="img-fluid" src="assets/images/blog/licence-en-droit.jpg"
-                                        alt="licence-en-droit.jpg"/>
+                                    <img className="img-fluid" src="assets/images/blog/licence-en-droit.webp"
+                                        alt="licence en droit"/>
 
                                    
                                     <div className="faq-wrapper section-space--pt_90">

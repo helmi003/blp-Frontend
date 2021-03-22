@@ -248,7 +248,7 @@ export default function equipeBlp() {
                             <div className="video-interview section-space--mt_40 video-popup">
                                 <a href="https://www.youtube.com/watch?v=ZqCy3TT49IQ" className="video-link mt-30">
                                     <div className="single-popup-wrap">
-                                        <img className="img-fluid border-radus-5" src="assets/images/bg/transport.jpg" alt="etudier-en-tunisie-blp"/>
+                                        <img className="img-fluid border-radus-5" src="assets/images/bg/transport.webp" alt="etudier-en-tunisie-blp"/>
                                         <div className="ht-popup-video video-button">
                                             <div className="video-mark">
                                                 <div className="wave-pulse wave-pulse-1"></div>
@@ -286,9 +286,9 @@ export default function equipeBlp() {
                     
                                 <div className="gallery-warp popup-images ">
                              
-                                    <a className="single-gallery gallery-grid wow move-up" href="assets/images/brand/centre.jpg">
+                                    <a className="single-gallery gallery-grid wow move-up" href="assets/images/brand/centre.webp">
                                         <div className="single-gallery__item">
-                                            <div className="single-gallery__thum bg-item-images bg-img" data-bg="assets/images/brand/centre.jpg">
+                                            <div className="single-gallery__thum bg-item-images bg-img" data-bg="assets/images/brand/centre.webp">
 
                                             </div>
                                             <div className="ht-overlay"></div>
@@ -298,9 +298,9 @@ export default function equipeBlp() {
                                         </div>
                                     </a>
                                   
-                                    <a className="single-gallery gallery-grid wow move-up" href="assets/images/brand/medina.jpg">
+                                    <a className="single-gallery gallery-grid wow move-up" href="assets/images/brand/medina.webp">
                                         <div className="single-gallery__item">
-                                            <div className="single-gallery__thum bg-item-images bg-img" data-bg="assets/images/brand/medina.jpg"></div>
+                                            <div className="single-gallery__thum bg-item-images bg-img" data-bg="assets/images/brand/medina.webp"></div>
                                             <div className="ht-overlay"></div>
                                             <div className="overlay-icon">
                                                 <i className="far fa-search"></i>
@@ -308,9 +308,9 @@ export default function equipeBlp() {
                                         </div>
                                     </a>
                                  
-                                    <a className="single-gallery gallery-grid wow move-up" href="assets/images/brand/tunis.jpg">
+                                    <a className="single-gallery gallery-grid wow move-up" href="assets/images/brand/tunis.webp">
                                         <div className="single-gallery__item">
-                                            <div className="single-gallery__thum bg-item-images bg-img" data-bg="assets/images/brand/tunis.jpg"></div>
+                                            <div className="single-gallery__thum bg-item-images bg-img" data-bg="assets/images/brand/tunis.webp"></div>
                                             <div className="ht-overlay"></div>
                                             <div className="overlay-icon">
                                                 <i className="far fa-search"></i>
@@ -318,9 +318,9 @@ export default function equipeBlp() {
                                         </div>
                                     </a>
                     
-                                    <a className="single-gallery gallery-grid wow move-up" href="assets/images/brand/sidibou.jpg">
+                                    <a className="single-gallery gallery-grid wow move-up" href="assets/images/brand/sidibou.webp">
                                         <div className="single-gallery__item">
-                                            <div className="single-gallery__thum bg-item-images bg-img" data-bg="assets/images/brand/sidibou.jpg"></div>
+                                            <div className="single-gallery__thum bg-item-images bg-img" data-bg="assets/images/brand/sidibou.webp"></div>
                                             <div className="ht-overlay"></div>
                                             <div className="overlay-icon">
                                                 <i className="far fa-search"></i>

@@ -104,8 +104,8 @@ export default function mastereEnIngenierieRisqueEconomiques() {
                                     <div className="post-categories text-right">
                                         <a href="#">2 ans | 120 credit</a>
                                     </div>
-                                    <img className="img-fluid" src="assets/images/blog/mastere-finance.jpg"
-                                        alt="mastere-finance.jpg"/>
+                                    <img className="img-fluid" src="assets/images/blog/mastere-finance.webp"
+                                        alt="mastere en finance"/>
 
                                   
                                     <div className="faq-wrapper section-space--pt_90">
