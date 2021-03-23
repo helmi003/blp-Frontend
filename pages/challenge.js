@@ -151,7 +151,7 @@ export default function challenge() {
                                     <span className="fal fa-phone"></span>
                                 </div>
                                 <h6 className="heading font-weight--reguler">REJOIGNEZ MAINTENANT!!</h6>
-                                <h2 className="call-us"><a href="tel:190068668">(+216) 71 903 215</a></h2>
+                                <h2 className="call-us"><a href="tel:70721002">(+216) 70 721 002</a></h2>
                                 <div className="contact-us-button mt-20">
                                     <a href="contact" className="btn btn--secondary">Contactez-nous</a>
                                 </div>
