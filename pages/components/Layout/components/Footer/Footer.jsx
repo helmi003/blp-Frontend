@@ -12,7 +12,7 @@ export default function footer() {
                             <div className="footer-widget__logo mb-30">
                                 <img src="assets/images/logo/logo-blp2.png" />
                             </div>
-                           <p> BLP est une école supérieure privée qui assure un enseignement d'avant-garde et de niveau international. Notre réseau est également présent en France, Canada et Europe.</p>
+                           <p> BLP est une école supérieure privée qui assure un enseignement d'avant-garde et de niveau international. Notre réseau est également présent en Europe, Amérique du Nord, et l'Asie.</p>
 
                         </div>
                         <div className="col-lg-1 col-md-4 col-sm-6 footer-widget"></div>
@@ -22,7 +22,7 @@ export default function footer() {
                             <ul className="footer-widget__list">
                                 <li>  <span className="fa fa-map-marker-alt"></span> 102, Chotrana2, Zone industrielle, pôle technologique,Ariana</li>
                                 <li><i className="fas fa-envelope-open-text"></i> contact@blp.tn</li>
-                                <li><i className="fas fa-phone-volume"></i> (+216) 70 720 002</li>
+                                <li><i className="fas fa-phone-volume"></i> (+216) 70 721 002</li>
                                 <li><i className="fas fa-globe"></i> <a href="https://blp.tn/" className="hover-style-link "> www.blp.tn</a></li>
                             </ul>
                         </div>
@@ -31,7 +31,7 @@ export default function footer() {
                             <h6 className="footer-widget__title mb-20">CATÉGORIES</h6>
                             <ul className="footer-widget__list">
                                 <li><a href="accueil" className="hover-style-link">Présentation de BLP</a></li>
-                                <li><a href="etudiante" className="hover-style-link">Étudier en tunisie</a></li>
+                                <li><a href="etudiante" className="hover-style-link">Étudier en Tunisie</a></li>
                                 <li><a href="etudiante" className="hover-style-link">Vie à l'université</a></li>
                                 <li><a href="etudiante" className="hover-style-link">Recherche et innovation</a></li>
                                 <li><a href="formations" className="hover-style-link">Formations</a></li>

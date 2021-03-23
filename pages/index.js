@@ -191,6 +191,8 @@ export default function Home() {
                                     <ul className="check-list">
                                         <li className="list-item"><a href="#">Offrir ce sésame à travers l’Afrique
                                                 gratuitement à tous sur plus de 1000 cours.</a></li>
+                                        <li className="list-item"><a href="#">Enseignement dispensé par les meilleures enseignants et professionnels Tunisiens et experts internationaux</a></li>
+                                        <li className="list-item"><a href="#">Collaboration avec des universités étrangères et possibilité de continuer les études et stages a l'étranger</a></li>        
                                         <li className="list-item"><a href="#">Places gratuites à nos enseignements en
                                                 présentiel aux lauréats de chaque lycée au baccalauréat.</a></li>
                                         <li className="list-item"><a href="#"> Bourse d’études et Places gratuites et accès

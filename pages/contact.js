@@ -83,7 +83,7 @@ export default function contact() {
                         <div className="conact-info-wrap mt-30">
                             <h5 className="heading mb-20">Téléphone</h5>
                             <ul className="conact-info__list">
-                                <li> (+216) 70 720 002 
+                                <li> (+216) 70 721 002 
                                 </li>
                             </ul>
                         </div>

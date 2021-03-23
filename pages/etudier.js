@@ -13,7 +13,7 @@ export default function equipeBlp() {
                         <h2 className="breadcrumb-title ">ÉTUDIER EN TUNISIE</h2>
                         <ul className="breadcrumb-list">
                             <li className="breadcrumb-item"><a href="accueil">BLP</a></li>
-                            <li className="breadcrumb-item active">Étudier en tunisie</li>
+                            <li className="breadcrumb-item active">Étudier en Tunisie</li>
                         </ul>
               
                     </div>

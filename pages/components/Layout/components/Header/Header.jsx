@@ -17,7 +17,7 @@ export default function Header() {
                                 <li className="info-item">
                                     <a href="tel:97100149" className="info-link">
                                         <i className="info-icon fa fa-phone"></i>
-                                        <span className="info-text"><strong>(+216) 72 720 002</strong></span>
+                                        <span className="info-text"><strong>(+216) 72 721 002</strong></span>
                                     </a>
                                 </li>
                                 <li className="info-item">
