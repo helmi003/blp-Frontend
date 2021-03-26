@@ -139,8 +139,7 @@ export default function etudiante() {
                                         <p style={{textAlign:"justify"}}>Des accords avec des Restaurants et des salles de
                                             sports, Piscine, et loisirs sont signés par l’Université à Tunis et à
                                             Nabeul.
-                                            L’Université facilite également l’intégration, l’insertion, la procédure de
-                                            Visa et l’acheminement de l’Aéroport vers les locaux.</p>
+                                           </p>
 
                                         <p> Aussi Il existe de nombreux lieux de restauration : un Café -restaurant très
                                             fréquenté situé dans un quartier d’affaires avec un large choix d’entrées,

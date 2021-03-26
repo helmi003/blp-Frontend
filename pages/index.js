@@ -779,19 +779,7 @@ export default function Home() {
                                     </div>
                                 </a>
                                
-                                <a className="single-gallery gallery-grid wow move-up"
-                                    href="assets/images/demo-images/epm.jpg">
-                                    <div className="single-gallery__item">
-                                        <div className="single-gallery__thum bg-item-images bg-img"
-                                            data-bg="assets/images/demo-images/epm.jpg"></div>
-                                        <div className="ht-overlay"></div>
-                                        <div className="overlay-icon">
-                                            <i className="far fa-search"></i>
-                                        </div>
-                                    </div>
-                                </a>
-                                
-
+                              
                             </div>
                       
                         </div>

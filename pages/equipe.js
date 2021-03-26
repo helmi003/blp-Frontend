@@ -52,133 +52,84 @@ export default function equipeBlp() {
                         </div>
                     </div>
       
-            <div className="feature-large-images-wrapper section-space--ptb_100 ">
-                <div className="container">
-
-                    <div className="row">
-                        <div className="col-lg-12">
-             
-                            <div className="section-title-wrap text-center section-space--mb_30">
-                                <h6 className="section-sub-title mb-20">Quelque photo de groupe</h6>
-                            </div>
-                        
-                        </div>
-                    </div>
-
-                    <div className="row">
-                        <div className="col-12">
-                            <div className="row small-mt__30">
-                                <div className="col-lg-4 col-md-6 mt-30">
-                                   
-                                    <a href="#" className="box-large-image__two">
-                                        <div className="box-large-image__two__box">
-                                            <div className="box-large-image__midea">
-                                                <div className="single-gallery__thum bg-item-images bg-img" data-bg="assets/images/demo-images/signiature-convention.jpg"></div>
-                                            </div>
-
-                                        </div>
-                                    </a>
-                                  
-                                </div>
-
-                                <div className="col-lg-4 col-md-6  mt-30">
-                      
-                                    <a href="#" className="box-large-image__two">
-                                        <div className="box-large-image__two__box">
-                                            <div className="box-large-image__midea">
-                                                <div className="single-gallery__thum bg-item-images bg-img" data-bg="assets/images/demo-images/labo-electrique.jpg"></div>
-                                            </div>
-
-                                           
-                                        </div>
-                                    </a>
-                              
-                                </div>
-
-                                <div className="col-lg-4 col-md-6 mt-30">
-                                  
-                                    <a href="#" className="box-large-image__two">
-                                        <div className="box-large-image__two__box">
-                                            <div className="box-large-image__midea">
-                                                <div className="single-gallery__thum bg-item-images bg-img" data-bg="assets/images/demo-images/signiature.jpg"></div>
-                                            </div>
-
-                                            
-                                        </div>
-                                    </a>
-                               
-                                </div>
-                                <div className="col-lg-3 col-md-6 mt-30">
-           
-                                    <a href="#" className="box-large-image__two">
-                                        <div className="box-large-image__two__box">
-                                            <div className="box-large-image__midea">
-                                                <div className="single-gallery__thum bg-item-images bg-img" data-bg="assets/images/brand/conventions.webp"></div>
-                                            </div>
-
-                                        </div>
-                                    </a>
-              
-                                </div>
-
-                                <div className="col-lg-6 col-md-6  mt-30">
-                     
-                                    <a href="#" className="box-large-image__two">
-                                        <div className="box-large-image__two__box">
-                                            <div className="box-large-image__midea">
-                                                <div className="single-gallery__thum bg-item-images bg-img" data-bg="assets/images/demo-images/passage-tounsia.jpg"></div>
-                                            </div>
-
-                                           
-                                        </div>
-                                    </a>
+         
+        <div className="gallery-section section-space--ptb_100">
+            <div className="container">
+                <div className="row">
+                    <div className="col-lg-12">
+                        <div className="section-title-wrap text-center">
+                            <h4 className="section-title mb-15 wow move-up">Quelques photos des signatures des conventions
+                                et des visites entreprises</h4>
                             
-                                </div>
-
-                                <div className="col-lg-3 col-md-6 mt-30">
-                           
-                                    <a href="#" className="box-large-image__two">
-                                        <div className="box-large-image__two__box">
-                                            <div className="box-large-image__midea">
-                                                <div className="single-gallery__thum bg-item-images bg-img" data-bg="assets/images/passage.jpg"></div>
-                                            </div>
-
-                                            
-                                        </div>
-                                    </a>
-
-                                </div>
-
-                                <div className="col-lg-6 col-md-6 mt-30">
-                                
-                                    <a href="#" className="box-large-image__two">
-                                        <div className="box-large-image__two__box">
-                                            <div className="box-large-image__midea">
-                                                <div className="single-gallery__thum bg-item-images bg-img" data-bg="assets/images/passage-radio.jpg"></div>
-                                            </div>
-
-                                           
-                                        </div>
-                                    </a>
-
-                                </div>
-                                <div className="col-lg-6 col-md-6 mt-30">
-                                    <a href="#" className="box-large-image__two">
-                                        <div className="box-large-image__two__box">
-                                            <div className="box-large-image__midea">
-                                                <div className="single-gallery__thum bg-item-images bg-img" data-bg="assets/images/brand/convention-blp.webp"></div>
-                                            </div>
-                                        </div>
-                                    </a>
-     
-                                </div>
-                            </div>
-                        
-
                         </div>
                     </div>
                 </div>
+
+                <div className="gallery-wrapper section-space--pt_80 ">
+                    <div className="row">
+                        <div className="col-lg-12">
+                        
+                            <div className="gallery-warp popup-images ">
+                         
+                                <a className="single-gallery gallery-grid wow move-up"
+                                    href="assets/images/demo-images/signiature.jpg">
+                                    <div className="single-gallery__item">
+                                        <div className="single-gallery__thum bg-item-images bg-img"
+                                            data-bg="assets/images/demo-images/signiature.jpg">
+
+                                        </div>
+                                        <div className="ht-overlay"></div>
+                                        <div className="overlay-icon">
+                                            <i className="far fa-search"></i>
+                                        </div>
+                                    </div>
+                                </a>
+                        
+                                <a className="single-gallery gallery-grid wow move-up"
+                                    href="assets/images/conventions/convention-anat.webp">
+                                    <div className="single-gallery__item">
+                                        <div className="single-gallery__thum bg-item-images bg-img"
+                                            data-bg="assets/images/conventions/convention-anat.webp"></div>
+                                        <div className="ht-overlay"></div>
+                                        <div className="overlay-icon">
+                                            <i className="far fa-search"></i>
+                                        </div>
+                                    </div>
+                                </a>
+                           
+                                <a className="single-gallery gallery-grid wow move-up"
+                                    href="assets/images/conventions/convention-avec-anat.webp">
+                                    <div className="single-gallery__item">
+                                        <div className="single-gallery__thum bg-item-images bg-img"
+                                            data-bg="assets/images/conventions/convention-avec-anat.webp"></div>
+                                        <div className="ht-overlay"></div>
+                                        <div className="overlay-icon">
+                                            <i className="far fa-search"></i>
+                                        </div>
+                                    </div>
+                                </a>
+                            
+                                <a className="single-gallery gallery-grid wow move-up"
+                                    href="assets/images/conventions/convention-blp-anat.webp">
+                                    <div className="single-gallery__item">
+                                        <div className="single-gallery__thum bg-item-images bg-img"
+                                            data-bg="assets/images/conventions/convention-blp-anat.webp"></div>
+                                        <div className="ht-overlay"></div>
+                                        <div className="overlay-icon">
+                                            <i className="far fa-search"></i>
+                                        </div>
+                                    </div>
+                                </a>
+                            
+
+                            </div>
+                           
+                        </div>
+                    </div>
+                </div>
+
             </div>
+        </div>
 
 
                 </div>

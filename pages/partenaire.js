@@ -334,7 +334,7 @@ export default function partenaire() {
                                                     className="video-link">
                                                     <div className="single-popup-wrap">
                                                         <img className="img-fluid"
-                                                            src="assets/images/brand/convention.jpeg"
+                                                            src="assets/images/brand/convention.webp"
                                                             alt=""/>
 
                                                     </div>
@@ -814,10 +814,7 @@ export default function partenaire() {
                         <div className="section-title-wrap text-center">
                             <h4 className="section-title mb-15 wow move-up">Quelques photos des signatures des conventions
                                 et des visites entreprises</h4>
-                            <div className="contact-button section-space--mt_30 wow move-up">
-                                <a href="equipe" className="hover-style-link">Voir plus de photo <i
-                                        className="far fa-long-arrow-right"></i></a>
-                            </div>
+                            
                         </div>
                     </div>
                 </div>
@@ -829,10 +826,10 @@ export default function partenaire() {
                             <div className="gallery-warp popup-images ">
                          
                                 <a className="single-gallery gallery-grid wow move-up"
-                                    href="assets/images/brand/convention.jpeg">
+                                    href="assets/images/conventions/convention-conet.webp">
                                     <div className="single-gallery__item">
                                         <div className="single-gallery__thum bg-item-images bg-img"
-                                            data-bg="assets/images/brand/convention.jpeg">
+                                            data-bg="assets/images/conventions/convention-conet.webp">
 
                                         </div>
                                         <div className="ht-overlay"></div>
@@ -843,10 +840,10 @@ export default function partenaire() {
                                 </a>
                         
                                 <a className="single-gallery gallery-grid wow move-up"
-                                    href="assets/images/brand/convention-blp.webp">
+                                    href="assets/images/conventions/convention-anat.webp">
                                     <div className="single-gallery__item">
                                         <div className="single-gallery__thum bg-item-images bg-img"
-                                            data-bg="assets/images/brand/convention-blp.webp"></div>
+                                            data-bg="assets/images/conventions/convention-anat.webp"></div>
                                         <div className="ht-overlay"></div>
                                         <div className="overlay-icon">
                                             <i className="far fa-search"></i>
@@ -855,10 +852,10 @@ export default function partenaire() {
                                 </a>
                            
                                 <a className="single-gallery gallery-grid wow move-up"
-                                    href="assets/images/brand/conventions.webp">
+                                    href="assets/images/conventions/convention-avec-anat.webp">
                                     <div className="single-gallery__item">
                                         <div className="single-gallery__thum bg-item-images bg-img"
-                                            data-bg="assets/images/brand/conventions.webp"></div>
+                                            data-bg="assets/images/conventions/convention-avec-anat.webp"></div>
                                         <div className="ht-overlay"></div>
                                         <div className="overlay-icon">
                                             <i className="far fa-search"></i>
@@ -867,10 +864,10 @@ export default function partenaire() {
                                 </a>
                             
                                 <a className="single-gallery gallery-grid wow move-up"
-                                    href="assets/images/brand/signiature-blp.webp">
+                                    href="assets/images/conventions/convention-blp-anat.webp">
                                     <div className="single-gallery__item">
                                         <div className="single-gallery__thum bg-item-images bg-img"
-                                            data-bg="assets/images/brand/signiature-blp.webp"></div>
+                                            data-bg="assets/images/conventions/convention-blp-anat.webp"></div>
                                         <div className="ht-overlay"></div>
                                         <div className="overlay-icon">
                                             <i className="far fa-search"></i>
