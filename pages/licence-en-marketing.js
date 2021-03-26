@@ -857,7 +857,7 @@ export default function LicenceEnMarketing() {
                                  
                                     <div className="col-lg-12 offset-lg-1">
                                         <div className="conact-us-wrap-one managed-it">
-                                            <h5 className="heading ">Troixieme année Licence fondamentales en Sciences de
+                                            <h5 className="heading ">Troixieme année Licence fondamentale en Sciences de
                                                 gestion-Mention Marketing</h5>
                                         </div>
                                     </div>
@@ -1127,9 +1127,9 @@ export default function LicenceEnMarketing() {
                                                                             data-parent="#accordion_two">
                                                                             <div className="card-body">
                                                                                 <p>Le premier, le second, sont réservés
-                                                                                    à des modules communs aux licences
-                                                                                    fondamentales en droit privé
-                                                                                    et licences fondamentales en droit
+                                                                                    à des modules communs a licence
+                                                                                    fondamentale en droit privé
+                                                                                    et licence fondamentale en droit
                                                                                     public. Les options y sont
                                                                                     obligatoires.
                                                                                     Le troisième, le quatrième semestre,

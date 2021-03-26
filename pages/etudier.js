@@ -248,7 +248,7 @@ export default function equipeBlp() {
                             <div className="video-interview section-space--mt_40 video-popup">
                                 <a href="https://www.youtube.com/watch?v=ZqCy3TT49IQ" className="video-link mt-30">
                                     <div className="single-popup-wrap">
-                                        <img className="img-fluid border-radus-5" src="assets/images/bg/transport.webp" alt="etudier-en-tunisie-blp"/>
+                                        <img className="img-fluid border-radus-5" src="assets/images/bg/Transport.webp" alt="etudier-en-tunisie-blp"/>
                                         <div className="ht-popup-video video-button">
                                             <div className="video-mark">
                                                 <div className="wave-pulse wave-pulse-1"></div>

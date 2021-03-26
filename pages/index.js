@@ -202,8 +202,6 @@ export default function Home() {
                                                 européenne).</a></li>
                                         <li className="list-item"><a href="#">Licences, Masters (Tunisiens et Français).</a>
                                         </li>
-                                        <li className="list-item"><a href="#">Ouverture Université d’été : cours
-                                                gratuits.</a></li>
                                         <li className="list-item"><a href="#">Logements gratuits à Nabeul sur l’année
                                                 scolaire.</a></li>
                                         <li className="list-item"><a href="#">Développement des Compétences Métiers et
@@ -626,7 +624,7 @@ export default function Home() {
                                                         src="assets/images/projects/droit.jpg" alt=""/>
                                                 </div>
                                                 <div className="content">
-                                                    <h6 className="post-categories">Licence fondamentales en Droit</h6>
+                                                    <h6 className="post-categories">Licence fondamentale en Droit</h6>
                                                     <div className="heading"><b>Parcours</b> : Droit Public</div>
 
                                                     <div className="box-projects-arrow">
@@ -670,7 +668,7 @@ export default function Home() {
                                                         src="assets/images/projects/droit2.jpg" alt=""/>
                                                 </div>
                                                 <div className="content">
-                                                    <h6 className="post-categories">Licence fondamentales en Droit</h6>
+                                                    <h6 className="post-categories">Licence fondamentale en Droit</h6>
                                                     <div className="heading"><b>Parcours</b> :Droit Privé</div>
 
                                                     <div className="box-projects-arrow">
@@ -720,10 +718,10 @@ export default function Home() {
                             <div className="gallery-warp popup-images ">
                                
                                 <a className="single-gallery gallery-grid wow move-up"
-                                    href="assets/images/brand/convention.jpeg">
+                                    href="assets/images/brand/convention.webp">
                                     <div className="single-gallery__item">
                                         <div className="single-gallery__thum bg-item-images bg-img"
-                                            data-bg="assets/images/brand/convention.jpeg">
+                                            data-bg="assets/images/brand/convention.webp">
                                         </div>
                                         <div className="ht-overlay"></div>
                                         <div className="overlay-icon">

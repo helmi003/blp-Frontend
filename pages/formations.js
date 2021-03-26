@@ -36,7 +36,7 @@ export default function formations() {
                                     </div>
                                     <div className="content">
                                         <h6 className="heading">Des conférences internationales </h6>
-                                        <div className="text"> Présence de prix Nobels : James Hekman, Harry Markovitz, E. Prescott,Myron Scholes, etc.
+                                        <div className="text"> Présence de prix Nobels : James Hekman, Harry Markovitz, Edward Prescott,Myron Scholes, etc.
                                         Les étudiants et enseignants d’UM participent et présentent des articles.</div>
                                     </div>
                                 </div>
@@ -115,7 +115,7 @@ export default function formations() {
                                     </div>
                                     <div className="content">
                                         <h5 className="heading">Certifications</h5>
-                                        <div className="text">Élargissez les perspectives de votre carrières grâce à des certificats reconnus mondialement.</div>
+                                        <div className="text">Élargissez les perspectives de votre carrière grâce à des certificats reconnus mondialement.</div>
                                     </div>
                                 </div>
                             </a>
@@ -150,7 +150,7 @@ export default function formations() {
 
                             <div className="messonry-button text-center  section-space--mb_60">
                                 <button data-filter="*" className="is-checked"><span className="filter-text">Tout</span><span className="filter-counter">8</span></button>
-                                <button data-filter=".cat--1"><span className="filter-text">Licences fondamentales</span> <span className="filter-counter">3</span></button>
+                                <button data-filter=".cat--1"><span className="filter-text">Licences fondamentale</span> <span className="filter-counter">3</span></button>
                                 <button data-filter=".cat--2"><span className="filter-text">Mastères professionnels</span> <span className="filter-counter">5</span></button>
                             </div>
                         </div>
@@ -245,7 +245,7 @@ export default function formations() {
                                             <img className="img-fluid" src="assets/images/projects/droit2.jpg" alt=""/>
                                         </div>
                                         <div className="content">
-                                            <div className="post-categories">Licence fondamentales en Droit </div>
+                                            <div className="post-categories">Licence fondamentale en Droit </div>
                                             <h6 className="heading"> Droit Public</h6>
                                         </div>
                                     </div>
@@ -260,7 +260,7 @@ export default function formations() {
                                             <img className="img-fluid" src="assets/images/projects/droit3.jpg" alt="licence-droit-prive-blp"/>
                                         </div>
                                         <div className="content">
-                                            <div className="post-categories">Licence fondamentales en Droit</div>
+                                            <div className="post-categories">Licence fondamentale en Droit</div>
                                             <h6 className="heading"> Droit Privé</h6>
                                         </div>
                                     </div>
@@ -275,7 +275,7 @@ export default function formations() {
                                             <img className="img-fluid" src="assets/images/projects/marketing.jpg" alt="licence-marketing-blp"/>
                                         </div>
                                         <div className="content">
-                                            <div className="post-categories">Licence fondamentales en Sciences de gestion</div>
+                                            <div className="post-categories">Licence fondamentale en Sciences de gestion</div>
                                             <h6 className="heading"> Marketing</h6>
                                         </div>
                                     </div>

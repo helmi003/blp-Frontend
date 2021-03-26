@@ -52,7 +52,7 @@ export default function equipeBlp() {
                                         </div>
                                     </div>
                                     <div className="team-info text-center">
-                                        <h5 className="name">Mr .Mondher Bellalah </h5>
+                                        <h5 className="name">Mr. Laater </h5>
                                         <div className="position">Directeur</div>
                                     </div>
                                 </div>

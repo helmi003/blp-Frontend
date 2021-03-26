@@ -143,7 +143,7 @@ export default function presentation() {
                                                         des cours flexibles pour ceux qui travaillent.</li>
                                                     <li className="list-item"> <b> BLP Co-organise des conférences internationales comme
                                                             IFC en 2018:</b>
-                                                        Présence de prix Nobels : James Hekman, Harry Markovitz, E. Prescott,
+                                                        Présence de prix Nobels : James Hekman, Harry Markovitz, Edward Prescott,
                                                         Myron Scholes, etc. <br/>
                                                         Les étudiants et enseignants d’UM participent et présentent des articles.
                                                     </li>

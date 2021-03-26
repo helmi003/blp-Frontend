@@ -17,7 +17,7 @@ export default function Header() {
                                 <li className="info-item">
                                     <a href="tel:97100149" className="info-link">
                                         <i className="info-icon fa fa-phone"></i>
-                                        <span className="info-text"><strong>(+216) 72 721 002</strong></span>
+                                        <span className="info-text"><strong>(+216) 70 721 002</strong></span>
                                     </a>
                                 </li>
                                 <li className="info-item">
@@ -61,7 +61,6 @@ export default function Header() {
                                                         <ul className="submenu">
                                                             <li><a href="presentation"><span>Présentation</span></a>
                                                             </li>
-                                                            <li><a href="valeur"><span>Valeur de BLP</span></a></li>
                                                             <li><a href="equipe"><span>Equipe BLP</span></a></li>
                                                             <li><a href="etudier"><span>Étudier en Tunisie</span></a></li>
                                                             <li><a href="partenaire"><span>Activités
@@ -87,8 +86,8 @@ export default function Header() {
                                                         </li>
                                                         <li><a href="associative"><span>La vie
                                                                     associative</span></a></li>
-                                                        <li><a href="etudiante"><span>Vie étudiante</span></a></li>
-                                                        <li><a href="inscription"><span>Inscription</span></a></li>
+                                                        <li><a href="etudiante"><span>Estudiantine</span></a></li>
+                                                       
                                                     </ul>
                                                 </li>
                                                 <li className="has-children has-children--multilevel-submenu">
@@ -130,6 +129,7 @@ export default function Header() {
                                                 <li >
                                                     <a href="contact"><span>CONTACT</span></a>
                                                 </li>
+                                                <li><a href="inscription"><span>Inscription</span></a></li>
                                                 </ul>
                                             </nav>
                                     </div>

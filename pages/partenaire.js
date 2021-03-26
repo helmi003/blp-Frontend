@@ -357,7 +357,7 @@ export default function partenaire() {
                                                     <li className="list-item">Proposer un plan d’action et le faire valider
                                                         par l’entreprise.</li>
                                                     <li className="list-item">Evaluer nos formations et les relier avec le
-                                                        besoin du monde industriel.</li>
+                                                        besoin du monde économique.</li>
                                                     <li className="list-item">Avoir des formations de haute qualité dans les
                                                         différentes spécialités.</li>
                                                     <li className="list-item">Organiser des journées entreprises</li>
@@ -375,7 +375,7 @@ export default function partenaire() {
                                     <div className="row">
                                         <div className="col-lg-12">
                                             <div className="ht-box-images style-08 move-up animate">
-                                                <p>Le stage est considéré par les industriels comme une immersion
+                                                <p>Le stage est considéré par les sciences juridiques, économiques comme une immersion
                                                     professionnelle qui a pour objectif la mise en application des
                                                     connaissances théoriques acquises à travers votre formation. Le
                                                     stage
@@ -387,12 +387,7 @@ export default function partenaire() {
                                                     personnalisé pour chaque étudiant et sélectionne les établissements
                                                     selon des critères rigoureux. Il assiste chaque étudiant à définir
                                                     son projet professionnel.</p>
-                                                <p> De nombreuses entreprises voient en ce stage
-                                                    l’opportunité d’une période d’observation avant embauche.
-                                                    Le responsable de stages et d’encadrement assure un suivi
-                                                    personnalisé pour chaque étudiant et sélectionne les établissements
-                                                    selon des critères rigoureux. Il assiste chaque étudiant à définir
-                                                    son projet professionnel.</p>
+                                              
                                             </div>
                                         </div>
 

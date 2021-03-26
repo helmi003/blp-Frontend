@@ -45,9 +45,9 @@ export default function certification() {
                                 </div>
                                 <div className="content">
                                     <h6 className="heading">Des conférences internationales </h6>
-                                    <div className="text"> Présence de prix Nobels : James Hekman, Harry Markovitz, E.
+                                    <div className="text"> La présence des lauréats Nobels : James Hekman, Harry Markovitz, E.
                                         Prescott,Myron Scholes, etc.
-                                        Les étudiants et enseignants d’UM participent et présentent des articles.</div>
+                                        La participation des étudiants de la BLP sera privilégié en présence des lauréats nobels.</div>
                                 </div>
                             </div>
                         </a>
@@ -169,7 +169,7 @@ export default function certification() {
                                     Chaque étudiant peut choisir de valoriser les compétences acquises par son
                                     investissement dans des activités complémentaires qui donnent lieu à des
                                     certifications. BLP en partenariat avec des professionnels et des organismes
-                                    extérieurs (centre AMIDEAST, ISET Rades..), a élaboré les programmes de ces
+                                    extérieurs (centre AMIDEAST,..), a élaboré les programmes de ces
                                     certifications .</p>
 
                             </div>
@@ -264,7 +264,7 @@ export default function certification() {
 
                                     <h6 className="heading">03. Certifications Cisco, Microsoft, Linux</h6>
 
-                                    <div className="text">BLP permet à tous les techniciens et ingénieurs de préparer <br/>
+                                    <div className="text">BLP permet à tous les etudiants de préparer <br/>
                                         leur certification Cisco - CCNA, CCNP, CCIE - en suivant une formation
                                         officielle Cisco.</div>
                                 </div>

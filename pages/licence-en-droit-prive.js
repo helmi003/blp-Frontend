@@ -643,7 +643,7 @@ export default function licenceEnDroitPrive() {
                           
                                     <div className="col-lg-12 offset-lg-1">
                                         <div className="conact-us-wrap-one managed-it">
-                                            <h5 className="heading ">Troixieme année Licence fondamentales en Droit privé
+                                            <h5 className="heading ">Troixieme année Licence fondamentale en Droit privé
                                             </h5>
                                         </div>
                                     </div>
