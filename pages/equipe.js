@@ -35,67 +35,13 @@ export default function equipeBlp() {
                         </div>
                     </div>
                     <div className="row ht-team-member-style-two">
-                        <div className="col-lg-4 col-md-6 wow move-up">
-                            <div className="grid-item">
-                                <div className="ht-team-member">
-                                    <div className="team-image">
-                                        <img className="img-fluid" src="assets/images/demo-images/mondher-bellalah.jpg" alt=""/>
-                                        <div className="social-networks">
-                                            <div className="inner">
-                                                <a target="_blank" href="#" className=" hint--bounce  hint--top hint--theme-two" aria-label="Facebook"><i className="fab fa-facebook"></i>
-                                                </a>
-                                                <a target="_blank" href="#" className=" hint--bounce hint--top hint--theme-two" aria-label="Twitter"><i className="fab fa-twitter"></i>
-                                                </a>
-                                                <a target="_blank" href="#" className=" hint--bounce hint--top hint--theme-two" aria-label="Instagram"><i className="fab fa-instagram"></i>
-                                                </a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div className="team-info text-center">
-                                        <h5 className="name">Mr. Laater </h5>
-                                        <div className="position">Directeur</div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div className="col-lg-4 col-md-6 wow move-up">
-                            <div className="grid-item">
-                                <div className="ht-team-member">
-                                    <div className="team-image">
-                                        <img className="img-fluid" src="assets/images/demo-images/soumaya-dhib.jpg" alt=""/>
-                                        <div className="social-networks">
-                                            <div className="inner">
-                                                <a target="_blank" href="#" className=" hint--bounce  hint--top hint--theme-two" aria-label="Facebook"><i className="fab fa-facebook"></i>
-                                                </a>
-                                                <a target="_blank" href="#" className=" hint--bounce hint--top hint--theme-two" aria-label="Twitter"><i className="fab fa-twitter"></i>
-                                                </a>
-                                                <a target="_blank" href="#" className=" hint--bounce hint--top hint--theme-two" aria-label="Instagram"><i className="fab fa-instagram"></i>
-                                                </a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div className="team-info text-center">
-                                        <h5 className="name">Dr. Soumaya Dhib </h5>
-                                        <div className="position">Directrice </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+                 
                         <div className="col-lg-4 col-md-6 wow move-up">
                             <div className="grid-item">
                                 <div className="ht-team-member">
                                     <div className="team-image">
                                         <img className="img-fluid" src="assets/images/demo-images/sami-bellalah.jpg" alt="sami-bellalah"/>
-                                        <div className="social-networks">
-                                            <div className="inner">
-                                                <a target="_blank" href="#" className=" hint--bounce  hint--top hint--theme-two" aria-label="Facebook"><i className="fab fa-facebook"></i>
-                                                </a>
-                                                <a target="_blank" href="#" className=" hint--bounce hint--top hint--theme-two" aria-label="Twitter"><i className="fab fa-twitter"></i>
-                                                </a>
-                                                <a target="_blank" href="#" className=" hint--bounce hint--top hint--theme-two" aria-label="Instagram"><i className="fab fa-instagram"></i>
-                                                </a>
-                                            </div>
-                                        </div>
+                                        
                                     </div>
                                     <div className="team-info text-center">
                                         <h5 className="name">Mr.Sami Bellalah </h5>
@@ -203,7 +149,7 @@ export default function equipeBlp() {
 
                                 </div>
 
-                                <div className="col-lg-4 col-md-6 mt-30">
+                                <div className="col-lg-6 col-md-6 mt-30">
                                 
                                     <a href="#" className="box-large-image__two">
                                         <div className="box-large-image__two__box">
@@ -216,22 +162,7 @@ export default function equipeBlp() {
                                     </a>
 
                                 </div>
-
-                                <div className="col-lg-4 col-md-6 mt-30">
-                                 
-                                    <a href="#" className="box-large-image__two">
-                                        <div className="box-large-image__two__box">
-                                            <div className="box-large-image__midea">
-                                                <div className="single-gallery__thum bg-item-images bg-img" data-bg="assets/images/demo-images/epm.jpg"></div>
-                                            </div>
-
-                                            
-                                        </div>
-                                    </a>
-
-                                </div>
-
-                                <div className="col-lg-4 col-md-6 mt-30">
+                                <div className="col-lg-6 col-md-6 mt-30">
                                     <a href="#" className="box-large-image__two">
                                         <div className="box-large-image__two__box">
                                             <div className="box-large-image__midea">
