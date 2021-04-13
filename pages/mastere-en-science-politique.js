@@ -8,7 +8,7 @@ export default function MasterEnSciencesPolitiques() {
         <div className="row">
             <div className="col-12">
                 <div className="breadcrumb_box text-center">
-                    <h2 className="breadcrumb-title ">Mastère en droit public :Relations internationales et diplomatie</h2>
+                    <h2 className="breadcrumb-title ">Mastère en sciences politiques :Relations internationales et diplomatie</h2>
                    
                     <ul className="breadcrumb-list">
                         <li className="breadcrumb-item"><a href="formations">Formations</a></li>

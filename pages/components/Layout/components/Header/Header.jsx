@@ -111,8 +111,8 @@ export default function Header() {
                                                             <ul className="submenu">
                                                                 <li><a href="mastere-en-droit-prive"><span>Mastère
                                                                             en Droit privé des affaires </span></a></li>
-                                                                <li><a href="mastere-en-droit-public"><span>Mastère
-                                                                            en Droit public </span></a></li>
+                                                                <li><a href="mastere-en-science-politique"><span>Mastère
+                                                                            en sciences politiques </span></a></li>
                                                                 <li><a href="mastere-en-ingenierie-risque-economiques"><span>Mastère
                                                                             en Ingénierie des risques Economiques et financiers
                                                                  </span></a></li>
