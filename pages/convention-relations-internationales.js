@@ -108,7 +108,24 @@ export default function partenaire() {
                 </div>
             </div>
             
+            <div className="cta-image-area_one section-space--ptb_80 cta-bg-image_one">
+                        <div className="container">
+                            <div className="row align-items-center">
+                                <div className="col-xl-8 col-lg-7">
+                                    <div className="cta-content md-text-center">
+                                        <h3 className="heading text-white">Ouverture des inscriptions : Inscrivez-vous à des filières tendances qui garantissent l'emploi </h3>
+                                    </div>
+                                </div>
+                                <div className="col-xl-4 col-lg-5">
+                                    <div className="cta-button-group--one text-center">
 
+                                        <a href="contact" className="btn btn--secondary  btn-two"><span className="btn-icon mr-2"><i className="far fa-info-circle"></i></span> Contact</a>
+                                            
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
 
 
         </>
