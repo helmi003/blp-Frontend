@@ -129,7 +129,10 @@ export default function Header() {
                                                 <li >
                                                     <a href="contact"><span>CONTACT</span></a>
                                                 </li>
-                                                <li><a href="inscription"><span>Inscription</span></a></li>
+                                                <li >
+                                                    <a href="convention-relations-internationales"> <span>CONVENTIONS & RELATIONS INTERNATIONALES</span></a>
+                                                </li>
+                                                <li><a href="inscription"><span>INSCRIPTION</span></a></li>
                                                 </ul>
                                             </nav>
                                     </div>
@@ -139,34 +142,6 @@ export default function Header() {
 
                     </div>
 
-
-                    <div className="header-right-box">
-                        <div className="header-right-inner" id="hidden-icon-wrapper">
-
-    
-
-                 
-                     <div className="header-search-form default-search">
-                                    <form action="#" className="search-form-top">
-                                        <input className="search-field" type="text" placeholder="Search…"/>
-                                        <button className="search-submit">
-                                            <i className="search-btn-icon fa fa-search"></i>
-                                        </button>
-                                    </form>
-                                </div>
-                        </div>
-
-                    
-                        <div className="mobile-navigation-icon d-block d-xl-none" id="mobile-menu-trigger">
-                            <i></i>
-                        </div>
-                     
-                        <div className="hidden-icons-menu d-block d-md-none" id="hidden-icon-trigger">
-                            <a href="javascript:void(0)">
-                                <i className="far fa-ellipsis-h-alt"></i>
-                            </a>
-                        </div>
-                    </div>
 
                 </div>
             </div>
