@@ -131,7 +131,7 @@ export default function formations() {
                         
                         <h4 style={{color: "white"}} >“ La formation dispensée par notre école est nécessaire pour savoir s'adapter aux mutations profondes de l'économie internationale. ”</h4>
                         <div className="contact-us-button mt-20">
-                            <a href="https://admission.mit.tn/" className="btn btn--secondary">Pré-inscription</a>
+                            <a hhref="https://admission.mit.tn/" target="_blank" className="btn btn--secondary">Pré-inscription</a>
                         </div>
                     </div>
                 </div>

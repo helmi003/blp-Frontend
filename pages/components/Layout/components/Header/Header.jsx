@@ -132,7 +132,7 @@ export default function Header() {
                                                 <li >
                                                     <a href="convention-relations-internationales"> <span>RELATIONS INTERNATIONALES</span></a>
                                                 </li>
-                                                <li><a href="https://admission.mit.tn/"><span>INSCRIPTION</span></a></li>
+                                                <li><a href="https://admission.mit.tn/" target="_blank"><span>INSCRIPTION</span></a></li>
                                                 </ul>
                                             </nav>
                                     </div>

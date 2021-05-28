@@ -30,7 +30,7 @@ export default function Home() {
                                                 <h3 className="text-white"></h3>
 
                                                 <div className="hero-button-group section-space--mt_50">
-                                                    <a href="#" className="ht-btn ht-btn-md">Inscription</a>
+                                                    <a href="https://admission.mit.tn/" target="_blank" className="ht-btn ht-btn-md">Inscription</a>
                                                     <a href="contact" className="ht-btn ht-btn-md btn--white"><span
                                                             className="btn-icon mr-2"><i
                                                                 className="fa fa-play"></i></span>Contact</a>
