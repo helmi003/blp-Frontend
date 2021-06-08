@@ -59,12 +59,9 @@ export default function Header() {
                                                     <li className="has-children has-children--multilevel-submenu">
                                                         <a href="presentation"><span>BLP</span></a>
                                                         <ul className="submenu">
-                                                            <li><a href="presentation"><span>Présentation</span></a>
-                                                            </li>
-                                                            <li><a href="equipe"><span>Equipe BLP</span></a></li>
+                                                            <li><a href="presentation"><span>Présentation</span></a> </li>
                                                             <li><a href="etudier"><span>Étudier en Tunisie</span></a></li>
-                                                            <li><a href="partenaire"><span>Activités
-                                                                        internationnales</span></a></li>
+                                                            <li> <a href="convention-relations-internationales"> <span>Relation internationales</span></a></li>
                                                             <li><a href="question"><span>Question & reponse</span></a></li>
                                                     
                                                         </ul>
@@ -72,20 +69,17 @@ export default function Header() {
                                                     <li className="has-children has-children--multilevel-submenu">
                                                         <a href="presentation"><span>BLP EN DIGITAL</span></a>
                                                         <ul className="submenu">
-                                                            <li><a href="recherche"><span>Recherche &
-                                                                        Innovation</span></a></li>
+                                                            <li><a href="recherche"><span>Recherche & Innovation</span></a></li>
                                                             <li><a href="videotheque"><span>Vidéothéque</span></a></li>
-                                                            <li><a href="challenge"><span>Les nuits de
-                                                                        challenge</span></a></li>
+                                                            <li><a href="challenge"><span>Les nuits de challenge</span></a></li>
                                                         </ul>
                                                     </li>
                                                 <li className="has-children has-children--multilevel-submenu">
                                                     <a href="#"><span>LA VIE À L'UNIVERSITÉ</span></a>
                                                     <ul className="submenu">
-                                                        <li><a href="certification"><span>Certifications</span></a>
-                                                        </li>
-                                                        <li><a href="associative"><span>La vie
-                                                                    associative</span></a></li>
+                                                        <li><a href="actualites"><span>Actualités</span></a></li>
+                                                        <li><a href="certification"><span>Certifications</span></a></li>
+                                                        <li><a href="associative"><span>La vie associative</span></a></li>
                                                         <li><a href="etudiante"><span>Estudiantine</span></a></li>
                                                        
                                                     </ul>
@@ -129,9 +123,7 @@ export default function Header() {
                                                 <li >
                                                     <a href="contact"><span>CONTACT</span></a>
                                                 </li>
-                                                <li >
-                                                    <a href="convention-relations-internationales"> <span>RELATIONS INTERNATIONALES</span></a>
-                                                </li>
+                                               
                                                 <li><a href="https://admission.mit.tn/" target="_blank"><span>INSCRIPTION</span></a></li>
                                                 </ul>
                                             </nav>
