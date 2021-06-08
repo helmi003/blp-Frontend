@@ -11,7 +11,7 @@ export default function contact() {
                     <h2 className="breadcrumb-title">CONTACT </h2>
    
                     <ul className="breadcrumb-list">
-                        <li className="breadcrumb-item"><a href="index">Accueil</a></li>
+                        <li className="breadcrumb-item"><a href="/">Accueil</a></li>
                         <li className="breadcrumb-item active">Contact </li>
                     </ul>
             

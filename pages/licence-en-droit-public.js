@@ -35,63 +35,15 @@ export default function LicenceEnDroitPublic() {
                                         <h5 className="mb-10">Inscrivez-vous dès maintenant</h5>
                                     </div>
                             
-                                    <form id="contact-form"
-                                        action="https://whizthemes.com/mail-php/jowel/mitech/php/hero-mail.php"
-                                        method="post">
-                                        <div className="contact-form__two">
-                                            <div className="contact-inner">
-                                                <input name="con_name" type="text" placeholder="Votre nom "/>
-                                            </div>
-                                            <div className="contact-inner">
-                                                <input name="con_email" type="text" placeholder="Votre prénom *"/>
-                                            </div>
-                                            <div className="contact-inner">
-                                                <input name="con_email" type="email" placeholder="Votre email *"/>
-                                            </div>
-                                            <div className="contact-inner">
-                                                <input name="con_email" type="email" placeholder="Votre telephone *"/>
-                                            </div>
-                                            <div className="contact-select">
-                                                <div className="form-item contact-inner">
-                                                    <span className="inquiry">
-                                                        <select id="Visiting" name="Visiting">
-                                                            <option disabled selected>Nationnalité</option>
-                                                            <option value="Your inquiry about">Tunisienne</option>
-                                                            <option value="General Information Request">General
-                                                                Information Request</option>
-                                                            <option value="Partner Relations">Partner Relations</option>
-                                                            <option value="Careers">Careers</option>
-                                                            <option value="Software Licencing">Software Licencing
-                                                            </option>
-                                                        </select>
-                                                    </span>
-                                                </div>
-                                            </div>
-                                            <div className="contact-select">
-                                                <div className="form-item contact-inner">
-                                                    <span className="inquiry">
-                                                        <select id="Visiting" name="Visiting">
-                                                            <option disabled selected>Dernier diplome obtenu</option>
-                                                            <option value="Your inquiry about">Bac</option>
-                                                            <option value="General Information Request">licence</option>
-                                                            <option value="Partner Relations">Mastere</option>
-                                                            <option value="Software Licencing">Ingenieur</option>
-                                                            <option value="Software Licencing">Autre</option>
-                                                        </select>
-                                                    </span>
-                                                </div>
-                                            </div>
-                                            <div className="comment-submit-btn text-center">
-                                                <button className="ht-btn ht-btn-md" type="submit">Envoyer</button>
+                                    <form  >
+                                             <div className="comment-submit-btn text-center">
+                                             <a href="https://admission.mit.tn/" target="_blank" className="ht-btn ht-btn-md">Inscription</a>
+
                                                 <p className="form-messege"></p>
                                             </div>
-                                        </div>
                                     </form>
                                  
                                 </div>
-                            </div>
-                          
-                            <div className="col-lg-4 mr-auto ml-auto col-md-6">
                             </div>
                      
                         </div>
