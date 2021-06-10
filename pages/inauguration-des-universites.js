@@ -1,6 +1,6 @@
 import React from 'react'
 
-export default function licenceEnDroitPrive() {
+export default function inauguration() {
     return (
         <>
 <div className="breadcrumb-area">
@@ -66,23 +66,67 @@ export default function licenceEnDroitPrive() {
                                 </div>
 
                                 <p>Ce challenge récompense les meilleures initiatives, dans de nombreux domaines : technologie intelligente (smart technology), Internet des objets (Internet Of Things IOT, Robotique, Intelligence Artificielle (Artificiel Intelligence), Informatique...</p>
-                                                    <p>Nous fêtons la cérémonie de clôture du Challenge II le Samedi 05 Juin 2021 au pôle technologique el Ghazela. </p>
-                                                    <p>Tous les participants sont invités par l’UM le 05 Juin 2021 pour une deuxième présentation orale. Chaque candidat disposera de 15 minutes pour présenter son innovation à un public et un jury d’experts internationaux. La présentation peut se faire en anglais ou en français. </p>
-
-                           
-
-
-                              
-
+                                <p>Nous fêtons la cérémonie de clôture du Challenge II le Samedi 05 Juin 2021 au pôle technologique el Ghazela. </p>
+                                <p>Tous les participants sont invités par l’UM le 05 Juin 2021 pour une deuxième présentation orale. Chaque candidat disposera de 15 minutes pour présenter son innovation à un public et un jury d’experts internationaux. La présentation peut se faire en anglais ou en français. </p>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-
-
-  
-    
+            <div className="container">
+                <div className="swiper-container carousel-slider__container">
+                    <div className="swiper-wrapper">
+                    <div className="swiper-slide">
+                        
+                        <div className="carousel-slider wow move-up">
+                            <div className="carousel-slider__image">
+                                <img className="img-fluid"
+                                    src="assets/images/actualites/inauguration/inauguration-des-universites.webp"
+                                    alt=""/>
+                            </div>
+                        </div>
+                
+                    </div>
+                    <div className="swiper-slide">
+                    
+                        <div className="carousel-slider wow move-up">
+                            <div className="carousel-slider__image">
+                                <img className="img-fluid"
+                                    src="assets/images/actualites/inauguration/ouverture-blp-its.webp"
+                                    alt="signature de convention"/>
+                            </div>
+                        </div>
+                
+                    </div>
+                        <div className="swiper-slide">
+                        
+                            <div className="carousel-slider wow move-up">
+                                <div className="carousel-slider__image">
+                                    <img className="img-fluid"
+                                        src="assets/images/actualites/inauguration/challange-cloture.webp"
+                                        alt=""/>
+                                </div>
+                            </div>
+                    
+                        </div>
+                      
+                        <div className="swiper-slide">
+                            
+                            <div className="carousel-slider wow move-up">
+                                <div className="carousel-slider__image">
+                                    <img className="img-fluid"
+                                        src="assets/images/actualites/inauguration/cloture-challange.webp"
+                                        alt="signature de convention"/>
+                                </div>
+                            </div>
+                
+                        </div>
+                        
+                    </div>
+                    <div className="swiper-pagination swiper-pagination-9 section-space--mt_50">
+                    </div>
+                </div>
+            </div>
     </div>
  </div>
         </>
