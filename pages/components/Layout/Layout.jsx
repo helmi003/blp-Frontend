@@ -54,24 +54,16 @@ export default function layout({children}) {
                             </div>
                     </div>
                     <div className="demo-quick-option-list">
-                        <a className="link hint--bounce hint--black hint--top hint--dark" href="partenaire" aria-label="Convention">
-                            <img className="img-fluid" src="assets/images/demo-images/1.jpg" alt="Images"/>
+                        <a className="link hint--bounce hint--black hint--top hint--dark"  aria-label="Inauguration des universités">
+                            <img className="img-fluid" src="assets/images/actualites/inauguration/ouverture-blp-its.webp" alt="Images"/>
                         </a>
-                        <a className="link hint--bounce hint--black hint--top hint--dark" href="partenaire" >
-                            <img className="img-fluid" src="assets/images/demo-images/2.jpg" alt="Images"/>
+                        <a className="link hint--bounce hint--black hint--top hint--dark" aria-label="Inauguration des universités" >
+                            <img className="img-fluid" src="assets/images/actualites/inauguration/inauguration-des-universites.webp" alt="Images"/>
                         </a>
-                        <a className="link hint--bounce hint--black hint--top hint--dark" href="partenaire">
-                            <img className="img-fluid" src="assets/images/demo-images/4.jpg" alt="Images"/>
+                        <a className="link hint--bounce hint--black hint--top hint--dark" aria-label="Inauguration des universités">
+                            <img className="img-fluid" src="assets/images/actualites/inauguration/cloture-challange.webp" alt="Images"/>
                         </a>
-                        <a className="link hint--bounce hint--black hint--top hint--dark" href="partenaire" >
-                            <img className="img-fluid" src="assets/images/demo-images/4.jpg" alt="Images"/>
-                        </a>
-                        <a className="link hint--bounce hint--black hint--top hint--dark" href="partenaire" >
-                            <img className="img-fluid" src="assets/images/demo-images/5.jpg" alt="Images"/>
-                        </a>
-                        <a className="link hint--bounce hint--black hint--top hint--dark" href="partenaire" >
-                            <img className="img-fluid" src="assets/images/demo-images/5.jpg" alt="Images"/>
-                        </a>
+                      
                     </div>
                 </div>
             </div>
