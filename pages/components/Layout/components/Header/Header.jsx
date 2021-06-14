@@ -60,7 +60,7 @@ export default function Header() {
                                                         <a href="presentation"><span>BLP</span></a>
                                                         <ul className="submenu">
                                                             <li><a href="presentation"><span>Présentation</span></a> </li>
-                                                            <li><a href="etudier"><span>Étudier en Tunisie</span></a></li>
+                                                            <li><a href="etudier-en-tunisie"><span>Étudier en Tunisie</span></a></li>
                                                             <li> <a href="convention-relations-internationales"> <span>Relations internationales</span></a></li>
                                                             <li><a href="question"><span>Question & reponse</span></a></li>
                                                     
