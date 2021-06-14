@@ -30,7 +30,7 @@ export default function footer() {
                             <h6 className="footer-widget__title mb-20">CATÉGORIES</h6>
                             <ul className="footer-widget__list">
                                 <li><a href="accueil" className="hover-style-link">Présentation de BLP</a></li>
-                                <li><a href="etudier" className="hover-style-link">Étudier en Tunisie</a></li>
+                                <li><a href="etudier-en-tunisie" className="hover-style-link">Étudier en Tunisie</a></li>
                                 <li><a href="convention-relations-internationales" className="hover-style-link">Relations internationales</a></li>
                                 <li><a href="etudiante" className="hover-style-link">Vie à l'université</a></li>
                                 <li><a href="formations" className="hover-style-link">Nos Formations</a></li>
