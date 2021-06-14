@@ -80,7 +80,7 @@ export default function Home() {
                                                 <div className="text">Avec BLP tout est posible M1 en Tunisie , M2 en france .
                                                 </div>
                                                 <div className="box-images-arrow">
-                                                    <a href="certification">
+                                                    <a href="etudier-en-tunisie">
                                                         <span className="button-text">Lire plus</span>
                                                         <i className="far fa-long-arrow-right"></i>
                                                     </a>

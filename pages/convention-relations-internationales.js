@@ -60,7 +60,7 @@ export default function partenaire() {
                                             <div className="box-large-image__box">
                                                 <div className="box-large-image__midea">
                                                     <div className="images-midea">
-                                                        <img src="assets/images/conventions/convention-blp-centre-etude-juridique-geneve.webp" class="img-fluid" alt=""/>
+                                                        <img src="assets/images/conventions/convention-blp-centre-etude-juridique-geneve.webp" className="img-fluid" alt=""/>
 
                                                         <div className="button-wrapper">
                                                             <div className="btn tm-button">
@@ -84,7 +84,7 @@ export default function partenaire() {
                                             <div className="box-large-image__box">
                                                 <div className="box-large-image__midea">
                                                     <div className="images-midea">
-                                                        <img src="assets/images/conventions/convention-blp-conect.webp" class="img-fluid" alt=""/>
+                                                        <img src="assets/images/conventions/convention-blp-conect.webp" className="img-fluid" alt=""/>
 
                                                         <div className="button-wrapper">
                                                             <div className="btn tm-button">
@@ -109,7 +109,7 @@ export default function partenaire() {
                                             <div className="box-large-image__box">
                                                 <div className="box-large-image__midea">
                                                     <div className="images-midea">
-                                                        <img src="assets/images/conventions/convention-avec-anat.webp" class="img-fluid" alt=""/>
+                                                        <img src="assets/images/conventions/convention-avec-anat.webp" className="img-fluid" alt=""/>
 
                                                         <div className="button-wrapper">
                                                             <div className="btn tm-button">

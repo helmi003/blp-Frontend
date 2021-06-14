@@ -130,9 +130,7 @@ export default function formations() {
                     <div className="computing-info-box text-center ">
                         
                         <h4 style={{color: "white"}} >“ La formation dispensée par notre école est nécessaire pour savoir s'adapter aux mutations profondes de l'économie internationale. ”</h4>
-                        <div className="contact-us-button mt-20">
-                            <a hhref="https://admission.mit.tn/" target="_blank" className="btn btn--secondary">Pré-inscription</a>
-                        </div>
+                     
                     </div>
                 </div>
             </div>
@@ -150,8 +148,8 @@ export default function formations() {
 
                             <div className="messonry-button text-center  section-space--mb_60">
                                 <button data-filter="*" className="is-checked"><span className="filter-text">Tout</span><span className="filter-counter">8</span></button>
-                                <button data-filter=".cat--1"><span className="filter-text">Licences fondamentale</span> <span className="filter-counter">3</span></button>
-                                <button data-filter=".cat--2"><span className="filter-text">Mastères professionnels</span> <span className="filter-counter">5</span></button>
+                                <button data-filter=".cat--1"><span className="filter-text">Les licences </span> <span className="filter-counter">3</span></button>
+                                <button data-filter=".cat--2"><span className="filter-text">Les mastères </span> <span className="filter-counter">5</span></button>
                             </div>
                         </div>
                     </div>
@@ -162,14 +160,15 @@ export default function formations() {
                      
                             <div className="col-lg-4 col-md-6 cat--2">
                        
-                                <a href="mrid" className="projects-wrap style-2">
+                                <a href="mastere-en-science-politique" className="projects-wrap style-2">
                                     <div className="projects-image-box">
                                         <div className="projects-image">
                                             <img className="img-fluid" src="assets/images/projects/inter.jpg" alt=""/>
                                         </div>
                                         <div className="content">
-                                            <div className="post-categories">Mastère professionnel en sciences politiques </div>
+                                            <div className="post-categories">Mastère en sciences politiques </div>
                                             <h6 className="heading">Relations internationales et diplomatie</h6>
+                                            <br/>
                                         </div>
                                     </div>
                                 </a>
@@ -178,14 +177,15 @@ export default function formations() {
 
                             <div className="col-lg-4 col-md-6 cat--2 ">
                        
-                                <a href="mdp" className="projects-wrap style-2">
+                                <a href="mastere-en-droit-prive" className="projects-wrap style-2">
                                     <div className="projects-image-box">
                                         <div className="projects-image">
                                             <img className="img-fluid" src="assets/images/projects/droit.jpg" alt=""/>
                                         </div>
                                         <div className="content">
-                                            <div className="post-categories">Mastère professionnel en Droit </div>
+                                            <div className="post-categories">Mastère en Droit </div>
                                             <h6 className="heading">Droit privé des affaires</h6>
+                                            <br/>
                                         </div>
                                     </div>
                                 </a>
@@ -194,13 +194,13 @@ export default function formations() {
 
                             <div className="col-lg-4 col-md-6 cat--2">
                           
-                                <a href="mire" className="projects-wrap style-2">
+                                <a href="mastere-en-ingenierie-risque-economiques" className="projects-wrap style-2">
                                     <div className="projects-image-box">
                                         <div className="projects-image">
                                             <img className="img-fluid" src="assets/images/projects/finance.jpg" alt=""/>
                                         </div>
                                         <div className="content">
-                                            <div className="post-categories">Mastère professionnel en sciences Economiques </div>
+                                            <div className="post-categories">Mastère en sciences Economiques </div>
                                             <h6 className="heading">Ingénierie des risques Economiques et financiers</h6>
                                         </div>
                                     </div>
@@ -209,13 +209,13 @@ export default function formations() {
                             </div>
                             <div className="col-lg-4 col-md-6 cat--2">
                    
-                                <a href="massurancebanque" className="projects-wrap style-2">
+                                <a href="mastere-en-assurance-banque" className="projects-wrap style-2">
                                     <div className="projects-image-box">
                                         <div className="projects-image">
                                             <img className="img-fluid" src="assets/images/projects/gestion.jpg" alt=""/>
                                         </div>
                                         <div className="content">
-                                            <div className="post-categories">Mastère professionnel en sciences Economiques</div>
+                                            <div className="post-categories">Mastère en sciences Economiques</div>
                                             <h6 className="heading">Assurance, banque, finance</h6>
                                         </div>
                                     </div>
@@ -224,13 +224,13 @@ export default function formations() {
                             </div>
                             <div className="col-lg-4 col-md-6 cat--2">
               
-                                <a href="mmarchefinancier" className="projects-wrap style-2">
+                                <a href="mastere-en-marche-financiers" className="projects-wrap style-2">
                                     <div className="projects-image-box">
                                         <div className="projects-image">
                                             <img className="img-fluid" src="assets/images/projects/risque.jpg" alt=""/>
                                         </div>
                                         <div className="content">
-                                            <div className="post-categories">Mastère professionnel  en Sciences de gestion </div>
+                                            <div className="post-categories">Mastère en Sciences de gestion </div>
                                             <h6 className="heading"> Marchés financiers et gestion des risques</h6>
                                         </div>
                                     </div>
@@ -239,13 +239,13 @@ export default function formations() {
 
                             <div className="col-lg-4 col-md-6 cat--1">
                  
-                                <a href="ldroitpublic" className="projects-wrap style-2">
+                                <a href="licence-en-droit-public" className="projects-wrap style-2">
                                     <div className="projects-image-box">
                                         <div className="projects-image">
                                             <img className="img-fluid" src="assets/images/projects/droit2.jpg" alt=""/>
                                         </div>
                                         <div className="content">
-                                            <div className="post-categories">Licence fondamentale en Droit </div>
+                                            <div className="post-categories">Licence en Droit </div>
                                             <h6 className="heading"> Droit Public</h6>
                                         </div>
                                     </div>
@@ -254,14 +254,14 @@ export default function formations() {
                             </div>
                             <div className="col-lg-4 col-md-6 cat--1">
                  
-                                <a href="ldroitprive" className="projects-wrap style-2">
+                                <a href="licence-en-droit-prive" className="projects-wrap style-2">
                                     <div className="projects-image-box">
                                         <div className="projects-image">
                                             <img className="img-fluid" src="assets/images/projects/droit3.jpg" alt="licence-droit-prive-blp"/>
                                         </div>
                                         <div className="content">
-                                            <div className="post-categories">Licence fondamentale en Droit</div>
-                                            <h6 className="heading"> Droit Privé</h6>
+                                            <div className="post-categories">Licence en Droit</div>
+                                            <h6 className="heading">Droit Privé</h6>
                                         </div>
                                     </div>
                                 </a>
@@ -269,13 +269,13 @@ export default function formations() {
                             </div>
                             <div className="col-lg-4 col-md-6 cat--1">
                    
-                                <a href="marketing" className="projects-wrap style-2">
+                                <a href="licence-en-marketing" className="projects-wrap style-2">
                                     <div className="projects-image-box">
                                         <div className="projects-image">
                                             <img className="img-fluid" src="assets/images/projects/marketing.jpg" alt="licence-marketing-blp"/>
                                         </div>
                                         <div className="content">
-                                            <div className="post-categories">Licence fondamentale en Sciences de gestion</div>
+                                            <div className="post-categories">Licence en Sciences de gestion</div>
                                             <h6 className="heading"> Marketing</h6>
                                         </div>
                                     </div>
