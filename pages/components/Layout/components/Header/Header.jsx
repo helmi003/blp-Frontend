@@ -120,14 +120,6 @@ export default function Header() {
                                                         </li>
                                                     </ul>
                                                 </li>
-                                                <li className="has-children has-children--multilevel-submenu">
-                                                    <a href="#"><span>SERVICE EN LIGNE</span></a>
-                                                    <ul className="submenu">
-                                                    <li><a href="http://vps443928.ovh.net/umltn/">Espace administration</a></li>
-                                                        <li><a href="http://vps443928.ovh.net/umltn/EspaceEns/Account/Login?ReturnUrl=%2fumltn%2fEspaceEns%2f">Espace enseignants</a></li>
-                                                        <li><a href="http://vps443928.ovh.net/umltn/EspaceEtud/Account/Login?ReturnUrl=%2fumltn%2fEspaceEtud%2f">Espace etudiants</a></li> 
-                                                    </ul>
-                                                </li>
                                                 <li >
                                                     <a href="contact"><span>CONTACT</span></a>
                                                 </li>
