@@ -91,30 +91,22 @@ export default function Header() {
                                                             <a href="formations"><span>Licences
                                                                     </span></a>
                                                             <ul className="submenu">
-                                                                <li><a href="licence-en-droit-public"><span>Licence
-                                                                            en Droit public</span></a></li>
-                                                                <li><a href="licence-en-droit-prive"><span>Licence
-                                                                            en Droit privé</span></a></li>
-                                                                <li><a href="licence-en-marketing"><span>Licence en
-                                                                            Marketing</span></a></li>
+                                                                <li><a href="licence-en-droit-public"><span>Droit public</span></a></li>
+                                                                <li><a href="licence-en-droit-prive"><span>Droit privé</span></a></li>
+                                                                <li><a href="licence-en-marketing"><span>Marketing</span></a></li>
 
                                                             </ul>
                                                         </li>
                                                         <li className="has-children">
                                                             <a href="formations"><span>Mastères</span></a>
                                                             <ul className="submenu">
-                                                                <li><a href="mastere-en-droit-prive"><span>Mastère
-                                                                            en Droit privé des affaires </span></a></li>
-                                                                <li><a href="mastere-en-science-politique"><span>Mastère
-                                                                            en sciences politiques </span></a></li>
-                                                                <li><a href="mastere-en-ingenierie-risque-economiques"><span>Mastère
-                                                                            en Ingénierie des risques Economiques et financiers
+                                                                <li><a href="mastere-en-droit-prive"><span>Droit privé des affaires </span></a></li>
+                                                                <li><a href="mastere-en-science-politique"><span>Sciences politiques </span></a></li>
+                                                                <li><a href="mastere-en-ingenierie-risque-economiques"><span>Ingénierie des risques Economiques et financiers
                                                                  </span></a></li>
-                                                                <li><a href="mastere-en-assurance-banque"><span>Mastère
-                                                                            en Assurance, banque, finance </span></a>
+                                                                <li><a href="mastere-en-assurance-banque"><span>Assurance, banque, finance </span></a>
                                                                 </li>
-                                                                <li><a href="mastere-en-marche-financiers"><span>Mastère
-                                                                            en Marchés financiers et gestion du risques
+                                                                <li><a href="mastere-en-marche-financiers"><span>Marchés financiers et gestion du risques
                                                                 </span></a></li>
                                                             </ul>
                                                         </li>
