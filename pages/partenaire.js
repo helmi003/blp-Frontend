@@ -49,7 +49,7 @@ export default function partenaire() {
 
                                 <div className="post-info lg-blog-post-info">
                                     <div className="post-categories text-center">
-                                        <a href="/"> Ecole Supérieure Privée des Sciences Juridiques, Economiques et
+                                        <a href="/"> École Supérieure Privée des Sciences Juridiques, Economiques et
                                             Politiques </a>
                                     </div>
 
@@ -113,7 +113,7 @@ export default function partenaire() {
                              
                                     <div className="post-excerpt mt-15">
                                         <p>
-                                            <b>L’ecole supérieure privée des sciences juridiques et economiques et
+                                            <b>L’école supérieure privée des sciences juridiques et economiques et
                                                 politiques </b> possède de nombreuses conventions de partenariats
                                             académiques et professionnels nationales et
                                             internationales couvrant un large spectre de domaines de collaboration
@@ -133,7 +133,7 @@ export default function partenaire() {
                                             de l’université ainsi que l’affectation de nos étudiants en des stages et
                                             des projets de fin d’études. En effet, l’appartenance et l’intégration d’UM
                                             dans un tissu dynamique de partenariats et de
-                                            coopérations est une condition nécessaire pour assurer des formations en
+                                            coopérations sont une condition nécessaire pour assurer des formations en
                                             licences et mastères de qualité et surtout en harmonie avec la demande et
                                             les pratiques industrielles dans chaque discipline d’étude.</p>
 
@@ -141,7 +141,7 @@ export default function partenaire() {
                                             <p className="p1">PARTENARIAT AVEC LES RÉSEAUX PROFESSIONNELS </p>
                                         </blockquote>
                                         <p>
-                                            <b>L’ecole supérieure privée des sciences juridiques et economiques et
+                                            <b>L’école supérieure privée des sciences juridiques et economiques et
                                                 politiques </b> possède de nombreuses conventions de partenariats
                                             académiques et professionnels nationales et
                                             développent une pédagogie active et travaillent en étroite collaboration
@@ -361,7 +361,7 @@ export default function partenaire() {
                                                     <li className="list-item">Avoir des formations de haute qualité dans les
                                                         différentes spécialités.</li>
                                                     <li className="list-item">Organiser des journées entreprises</li>
-                                                    <li className="list-item">Facilité la recherche des stages et des PFEs
+                                                    <li className="list-item">Faciliter la recherche des stages et des PFEs
                                                         pour les étudiants.</li>
                                                 </ul>
                                             </div>
@@ -407,7 +407,7 @@ export default function partenaire() {
                                                 étudiants. Grace à ces fréquents échanges, les étudiants sont, dès la
                                                 1ère année, en contact direct avec le monde professionnel.</p>
                                             <p>
-                                                BLP a adopté un modèle d’enseignement orienté employ.</p>
+                                                BLP a adopté un modèle d’enseignement orienté employé.</p>
                                         </div>
                                     </div>
                                     <div className="col-lg-5 offset-lg-1 ">

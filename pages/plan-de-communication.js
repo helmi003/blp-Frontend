@@ -43,7 +43,7 @@ export default function licenceEnDroitPrive() {
                                         <div className="col-lg-6">
                                             <div className="post-info lg-blog-post-info">
                                                 <h4 className="post-title">
-                                               Webinare : Plan de communication  
+                                               Webinaire : Plan de communication  
                                                 </h4>
                                               
                                                 <div className="post-meta mt-20">

@@ -12,7 +12,7 @@ export default function partenaire() {
             <div className="row">
                 <div className="col-12">
                     <div className="breadcrumb_box text-center">
-                        <h2 className="breadcrumb-title">Conventions & relation international</h2>
+                        <h2 className="breadcrumb-title">Conventions & relations internationales</h2>
                         <ul className="breadcrumb-list">
                             <li className="breadcrumb-item"><a href="/"></a></li>
                             <li className="breadcrumb-item active">Signature de Convention avec CONECT</li>
@@ -34,7 +34,7 @@ export default function partenaire() {
 
                                 <div className="post-info lg-blog-post-info">
                                     <div className="post-categories text-center">
-                                        <a href="/"> Ecole Supérieure Privée des Sciences Juridiques, Economiques et
+                                        <a href="/"> École Supérieure Privée des Sciences Juridiques, Economiques et
                                             Politiques </a>
                                     </div>
 
@@ -98,7 +98,7 @@ export default function partenaire() {
                              
                                     <div className="post-excerpt mt-15">
                                         <p style={{color:"#000c14"}}>
-                                        Signature de convention de partenariat entre l'Ecole Supérieure Privée des Sciences Juridiques Economiques et Politiques de Tunis- Business Law And Politics "BLP"  et la Confédération des Entreprises Citoyennes de Tunisie "CONECT", avec Mr Tarak Chérif le Président de la CONECT, une grande opportunité qui ouvre à nos étudiants les portails des entreprises  les plus marquantes de Tunisie.
+                                        Signature de convention de partenariat entre l'École Supérieure Privée des Sciences Juridiques Economiques et Politiques de Tunis- Business Law And Politics "BLP"  et la Confédération des Entreprises Citoyennes de Tunisie "CONECT", avec Mr Tarak Chérif le Président de la CONECT, une grande opportunité qui ouvre à nos étudiants les portails des entreprises  les plus marquantes de Tunisie.
                                         </p>
 
 

@@ -39,7 +39,7 @@ export default function layout({children}) {
            <div className="demo-option-wrapper">
                <div className="demo-panel-header">
                    <div className="title">
-                       <h6 className="heading mt-30">Ecole Supérieure Privée des Sciences Juridiques, Economiques et Politiques</h6>
+                       <h6 className="heading mt-30">École Supérieure Privée des Sciences Juridiques, Economiques et Politiques</h6>
                    </div>
        
                </div>

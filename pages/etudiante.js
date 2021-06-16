@@ -37,9 +37,9 @@ export default function etudiante() {
                                             <p className="p1">Learning center </p>
                                         </blockquote>
                                         <p style={{textAlign:"justify"}}>
-                                            Agrandi et rénové en 2017 au Rez de chaussée, le Learning Center est bien
-                                            plus qu’une bibliothèque. Sur place, des milliers d’ouvrages et de E-books,
-                                            journaux internationaux, revues académiques et ressources multimédia sont
+                                            Agrandi et rénové en 2017 au Rez-de-chaussée, le Learning Center est bien
+                                            plus qu’une bibliothèque. Sur place, des milliers d’ouvrages et des E-books,
+                                            journaux internationaux, revues académiques et ressources multimédias sont
                                             accessibles aux étudiants, sous forme de CD, clés USB, dans un cadre
                                             agréable, doté d’espaces de travail individuels et de salles de travail
                                             collaboratif, avec partout un accès Wi-Fi et des PC en libre-service.
@@ -47,7 +47,7 @@ export default function etudiante() {
                                         <p style={{textAlign:"justify"}}>
                                             Le Learning Center fonctionne également comme un portail documentaire en
                                             ligne, offrant des milliers de ressources (e-books, article...) consultable
-                                            à distances, (en cas de besoin) ainsi que des services de recherche et de
+                                            à distance, (en cas de besoin) ainsi que des services de recherche et de
                                             réservation d’ouvrage.Tous les programmes disposent en outre d'un espace «
                                             e-Learning » accessible depuis Internet.
                                         </p>
@@ -69,13 +69,13 @@ export default function etudiante() {
                                     <div className="col-lg-6">
                                    
                                         <blockquote>
-                                            <p className="p1">Bibliothéque </p>
+                                            <p className="p1">Bibliothèque </p>
                                         </blockquote>
                                         <p style={{textAlign:"justify"}}>
                                             La bibliothèque est équipée d’outils numériques et accès Wifi. Les
                                             ordinateurs sont équipés d’applications choisies par la bibliothèque :
                                             bibliothèque, presse écrite, audiovisuel, ressources en ligne ainsi que de
-                                            logiciels bureautique. La bibliothèque est équipée aussi d’un photocopieur
+                                            logiciels bureautiques. La bibliothèque est équipée aussi d’un photocopieur
                                             en libre accès. Un responsable est à votre service pour acquisitions des
                                             livres, périodiques et bases de données.
                                         </p>
@@ -122,9 +122,9 @@ export default function etudiante() {
                                             téléchargeables, des vidéos ou des forums de discussion. C’est aussi un
                                             espace de réactivité où vous pourrez participer en postant un fichier
                                             important, par exemple.
-                                            Depuis septembre 2017, MyUMLT Apps, basé sur la technologie Web, est la
+                                            Depuis septembre 2017, MyUMLT Apps, basée sur la technologie Web, est la
                                             nouvelle plateforme de communication et de travail collaboratif partagée par
-                                            toute la communauté de l'MIT.</p>
+                                            toute la communauté de MIT.</p>
 
                         
                                     </div>
@@ -162,8 +162,8 @@ export default function etudiante() {
                 <div className="row align-items-center">
                     <div className="col-xl-8 col-lg-7">
                         <div className="cta-content md-text-center">
-                            <h3 className="heading text-white">Bourses d'études et places gratuites et accés dés la
-                                Terminale à nos modules de E-learning et sur place </h3>
+                            <h3 className="heading text-white">Bourses d'études et places gratuites et accès dès la
+                            Terminale à nos modules d'E-learning et sur place</h3>
                         </div>
                     </div>
                     <div className="col-xl-4 col-lg-5">

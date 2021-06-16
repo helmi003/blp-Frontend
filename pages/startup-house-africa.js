@@ -55,10 +55,10 @@ export default function licenceEnDroitPrive() {
                          
                                                 </div>
                                                 <blockquote>
-                                                    <p className="p1"> L'ouverture de 𝗠𝗜𝗧 𝗜𝗻𝗰𝘂𝗯𝗮𝘁𝗼𝗿 et lancement le premier événement " 𝗦𝘁𝗮𝗿𝘁𝗨𝗽 𝗛𝗼𝘂𝘀𝗲 𝗔𝗳𝗿𝗶𝗰𝗮 " .</p>
+                                                    <p className="p1"> Ouverture de 𝗠𝗜𝗧 𝗜𝗻𝗰𝘂𝗯𝗮𝘁𝗼𝗿 et lancement le premier événement " 𝗦𝘁𝗮𝗿𝘁𝗨𝗽 𝗛𝗼𝘂𝘀𝗲 𝗔𝗳𝗿𝗶𝗰𝗮 " .</p>
                                                 </blockquote>
-                                                <p className="p1">𝙈𝙄𝙏 & 𝘽𝙇𝙋 annonce l'ouverture de 𝗠𝗜𝗧 𝗜𝗻𝗰𝘂𝗯𝗮𝘁𝗼𝗿 en partenariat avec 𝙋𝙎𝙎 & 𝘾𝘽𝙈 et Lance le premier événement  " 𝗦𝘁𝗮𝗿𝘁𝗨𝗽 𝗛𝗼𝘂𝘀𝗲 𝗔𝗳𝗿𝗶𝗰𝗮 " .</p>
-                                               <p>Dont le but d'aider les jeunes à développer leurs idées et projet en offrant de l'Hébergement,Formations,Conseils et Financement...</p>
+                                                <p className="p1">𝙈𝙄𝙏 & 𝘽𝙇𝙋 annoncent l'ouverture de 𝗠𝗜𝗧 𝗜𝗻𝗰𝘂𝗯𝗮𝘁𝗼𝗿 en partenariat avec 𝙋𝙎𝙎 & 𝘾𝘽𝙈 et lance le premier événement " 𝗦𝘁𝗮𝗿𝘁𝗨𝗽 𝗛𝗼𝘂𝘀𝗲 𝗔𝗳𝗿𝗶𝗰𝗮 " .</p>
+                                               <p>Dont le but d'aider les jeunes à développer leurs idées et projet en offrant de l'Hébergement, Formations, Conseils et Financement...</p>
                                             </div>
                                         </div>
                                         

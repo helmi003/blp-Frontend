@@ -65,7 +65,7 @@ export default function inauguration() {
                                     
                                 </div>
 
-                                <p>Ce challenge récompense les meilleures initiatives, dans de nombreux domaines : technologie intelligente (smart technology), Internet des objets (Internet Of Things IOT, Robotique, Intelligence Artificielle (Artificiel Intelligence), Informatique...</p>
+                                <p>Ce challenge récompense les meilleures initiatives, dans de nombreux domaines : technologie intelligente (smart technology), Internet des objets (Internet Of Things IOT), Robotique, Intelligence Artificielle (Artificiel Intelligence), Informatique...</p>
                                 <p>Nous fêtons la cérémonie de clôture du Challenge II le Samedi 05 Juin 2021 au pôle technologique el Ghazela. </p>
                                 <p>Tous les participants sont invités par l’UM le 05 Juin 2021 pour une deuxième présentation orale. Chaque candidat disposera de 15 minutes pour présenter son innovation à un public et un jury d’experts internationaux. La présentation peut se faire en anglais ou en français. </p>
                             </div>

@@ -87,8 +87,6 @@ export default function equipeBlp() {
                                                         <li className="list-item">Diplômes obtenus dans votre pays d’origine ou copies certifiées conformes.</li>
                                                         <li className="list-item"> Les notes de vos années d’études universitaires.</li>
                                                         <li className="list-item">Photos d’identité (non scannées, taille standard 3,5 x 4.5 cm, fond clair.</li>
-                                                        <li className="list-item">Organiser des journées entreprises</li>
-                                                        <li className="list-item">Facilité la recherche des stages et des PFEs pour les étudiants.</li>
                                                         <li className="list-item">Carnet de vaccinations.</li>
                                                         <li className="list-item">Assurance maladie.</li>
                                                         <li className="list-item"> Ordonnances, si vous avez un traitement médical spécifique.</li>
@@ -96,7 +94,7 @@ export default function equipeBlp() {
                                                     <b className="text-color-primary"> Si vous êtes marié et votre époux/épouse vous accompagne</b>
                                                     
                                                   <ul className="check-list section-space--mb_40">
-                                                        <li className="list-item"> Certificat de mariage certifié conforme.</li>
+                                                        <li className="list-item"> Certificat de mariage certifiée conforme.</li>
                                                         <li className="list-item">  Les mêmes documents que pour vous-même. </li>
                                                     </ul>
                                                     <b className="text-color-primary"> Si vous avez des enfants qui viennent avec vous</b>
@@ -130,7 +128,7 @@ export default function equipeBlp() {
                                             <b>Ai-je besoin d’un visa pour venir en Tunisie ?</b>
                                            <p> « Pour vérifier si vous avez besoin d’un visa, consultez le site du Ministère
                                             des Affaires Etrangères. S’il s’avère que vous en avez besoin, prenez
-                                            contact avec le consulat de la Tunisie le plus prohe ».</p>
+                                            contact avec le consulat de la Tunisie le plus proche ».</p>
                                         </div>
                                         </div>
                                     </div>
@@ -150,7 +148,7 @@ export default function equipeBlp() {
                                             L’université possède un foyer sur son site Nabeul et conventionné avec des
                                             foyers privées pour son site à Tunis. Elle prépare son site au pôle Ghazella. <br/>
                                             <b>Existe-t-il d’autres moyens de se loger ? </b> <br/>
-                                            Des appartements meublés peuvent être loué près de la faculté.
+                                            Des appartements meublés peuvent être loués près de la faculté.
 
                                             </p> 
                                            </div>
@@ -170,7 +168,7 @@ export default function equipeBlp() {
                                                <b>Quel temps fait-il en Tunisie ?</b>
                                                 <p>« La Tunisie bénéficie d’un climat modéré avec des températures
                                                 moyennes comprises entre 7 °C et 18 °C en hiver, 30°C et 40 °C en été.
-                                                Pour connaître la météo le jour de votre arrivée, consultez le site de Meteo
+                                                Pour connaître la météo le jour de votre arrivée, consultez le site de Météo
                                                 Tunisie »</p>
                                             </div>
                                         </div>
@@ -180,7 +178,7 @@ export default function equipeBlp() {
                                         <div className="card-header" id="heading__14">
                                             <h5 className="mb-0">
                                                 <button className="collapsed" data-toggle="collapse" data-target="#collapse__14" aria-expanded="false" aria-controls="collapse__13">
-                                                Le budget & cout de la vie<span><i className="far fa-caret-circle-down"></i>
+                                                Le budget & coût de la vie<span><i className="far fa-caret-circle-down"></i>
                                         <i className="far fa-caret-circle-right"></i>  </span>
                                                 </button>
                                             </h5>
@@ -208,10 +206,10 @@ export default function equipeBlp() {
                                         <div id="collapse__15" className="collapse" aria-labelledby="heading__15" data-parent="#accordion_two">
                                             <div className="card-body">
 
-                                                <b>Comment accéder à l'ecole Supérieure Privée des Sciences Juridiques, Economiques et Politiques  ?</b>
+                                                <b>Comment accéder à l'école Supérieure Privée des Sciences Juridiques, Economiques et Politiques ?</b>
                                                 <p>                                           
-                                                BLP Tunis: A 5 minutes de l’aéroport de Tunis Carthage. Prendre un Taxi qui coûte 2 euros et lui communiquer l’adresse. <br/>
-                                                Adresse: 102, Chotrana 2, Zone industrielle, pôle technologique,Ariana <br/>
+                                                BLP Tunis: À 5 minutes de l’aéroport de Tunis Carthage. Prendre un Taxi qui coûte 2 euros et lui communiquer l’adresse. <br/>
+                                                Adresse: 102, Chotrana 2, Zone industrielle, pôle technologique, Ariana <br/>
                                                 </p>
                                             </div>
                                         </div>
@@ -220,7 +218,7 @@ export default function equipeBlp() {
                                         <div className="card-header" id="heading__16">
                                             <h5 className="mb-0">
                                                 <button className="collapsed" data-toggle="collapse" data-target="#collapse__16" aria-expanded="false" aria-controls="collapse__16">
-                                                Sante , securite sociale et autre assurances<span><i className="far fa-caret-circle-down"></i>
+                                                Santé, sécurite sociale et autres assurances<span><i className="far fa-caret-circle-down"></i>
                                                 <i className="far fa-caret-circle-right"></i>  </span>
                                                 </button>
                                             </h5>
@@ -231,11 +229,11 @@ export default function equipeBlp() {
                                                <b>Comment bénéficier de la couverture sociale tunisienne ?</b>
                                                 <p>                                           
                                                 L’inscription à l’université vous donne le droit de bénéficier gratuitement
-                                                d’un carnet de soin Etudiant qui vous le droit de se soigner auprès des
-                                                établissements publiques gratuitement. <br/>
+                                                d’un carnet de soin Etudiant qui vous donne le droit de se soigner auprès des
+                                                établissements publics gratuitement. <br/>
                                                 Pour bien préparer votre séjour
                                                 Quelques liens utiles <br/>
-                                                Ministère des Affaires Etrangères : www.diplomatie.gov.tn </p>
+                                                Ministère des Affaires Etrangères : <a href="www.diplomatie.gov.tn">www.diplomatie.gov.tn</a></p>
                                             </div>
                                         </div>
                                     </div>

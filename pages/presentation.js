@@ -8,7 +8,7 @@ export default function presentation() {
                     <div className="row">
                         <div className="col-12">
                             <div className="breadcrumb_box text-center">
-                                <h2 className="breadcrumb-title ">L'Ecole Supérieure Privée des Sciences Juridiques, Economiques et
+                                <h2 className="breadcrumb-title ">L'École Supérieure Privée des Sciences Juridiques, Economiques et
                                     Politiques</h2>
             
                                 <ul className="breadcrumb-list">
@@ -101,7 +101,7 @@ export default function presentation() {
                                                                             à Distance</h6>
 
                                                                         <div className="text" style={{textAlign: "justify"}}>
-                                                                            L'Ecole Supérieure Privée des Sciences Juridiques,
+                                                                            L'École Supérieure Privée des Sciences Juridiques,
                                                                             Economiques et Politiques de Tunis <b>BLP</b> dispose
                                                                             d’une plateforme d’enseignement à distance et de
                                                                             conseillers pédagogiques couvrants tous les programmes
@@ -124,7 +124,7 @@ export default function presentation() {
                                                 <blockquote>
                                                     <p className="p1">Ancienneté et Qualité </p>
                                                 </blockquote>
-                                                <p style={{textAlign:"justify"}}> L'Ecole Supérieure Privée des Sciences Juridiques,
+                                                <p style={{textAlign:"justify"}}> L'École Supérieure Privée des Sciences Juridiques,
                                                     Economiques et Politiques de Tunis <b>BLP</b> vous offre une formation
                                                     particulièrement riche, diversifiée et adaptée aux perspectives d’insertion
                                                     professionnelle. Formés à l’acquisition du raisonnement et des connaissances

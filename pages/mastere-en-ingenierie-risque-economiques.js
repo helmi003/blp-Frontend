@@ -70,11 +70,11 @@ export default function mastereEnIngenierieRisqueEconomiques() {
                                                 <div className="form-item contact-inner">
                                                     <span className="inquiry">
                                                         <select id="Visiting" name="Visiting">
-                                                            <option disabled selected>Dernier diplome obtenu</option>
+                                                            <option disabled selected>Dernier diplôme obtenu</option>
                                                             <option value="Your inquiry about">Bac</option>
                                                             <option value="General Information Request">licence</option>
                                                             <option value="Partner Relations">Mastère</option>
-                                                            <option value="Software Licencing">Ingenieur</option>
+                                                            <option value="Software Licencing">Ingénieur</option>
                                                             <option value="Software Licencing">Autre</option>
                                                         </select>
                                                     </span>
@@ -117,7 +117,7 @@ export default function mastereEnIngenierieRisqueEconomiques() {
                                                         <button className="btn-link" data-toggle="collapse"
                                                             data-target="#collapseOne" aria-expanded="true"
                                                             aria-controls="collapseOne">
-                                                            Objectifs génerale de la formation <span> <i
+                                                            Objectifs génerals de la formation <span> <i
                                                                     className="fas fa-chevron-down"></i>
                                                                 <i className="fas fa-chevron-up"></i> </span>
                                                         </button>
@@ -130,9 +130,9 @@ export default function mastereEnIngenierieRisqueEconomiques() {
                                                             nécessaires à la Gestion des Marchés
                                                             et des Capitaux. Il prédispose à une bonne appréhension des
                                                             problématiques liées aux marchés
-                                                            et produits nanciers. Ainsi, ce Master vise à former des
+                                                            et produits financiers. Ainsi, ce Master vise à former des
                                                             spécialistes capables d'évoluer
-                                                            dans tous les métiers des marchés nanciers et exerçant leurs
+                                                            dans tous les métiers des marchés financiers et exerçant leurs
                                                             compétences au service des banques
                                                             et entreprises d'investissement, des sociétés de gestion
                                                             d'actifs, des cabinets de conseil,
@@ -162,10 +162,10 @@ export default function mastereEnIngenierieRisqueEconomiques() {
                                                                 et de vente de produits boursiers (taux, titres, ...)
                                                                 sur les marchés nanciers sous le contrôle de l'Autorité
                                                                 des Marchés Financiers -AMF-
-                                                                et selon la législation nancière.</li>
+                                                                et selon la législation financière.</li>
 
                                                             <li className="list-item"> Peut eectuer la gestion d'un
-                                                                portefeuille d'actifs nanciers. Peut procéder au
+                                                                portefeuille d'actifs financiers. Peut procéder au
                                                                 contrôle de conformité
                                                                 des opérations/transactions.</li>
                                                             <li className="list-item"> Peut coordonner une équipe.</li>
@@ -180,13 +180,13 @@ export default function mastereEnIngenierieRisqueEconomiques() {
                                                                 suivi qualité
                                                                 des procédures administratives.</li>
                                                             <li className="list-item"> Optimiser le rendement de
-                                                                portefeuilles constitués d'actifs nanciers pour le
+                                                                portefeuilles constitués d'actifs financiers pour le
                                                                 compte de tiers (entreprises,
                                                                 particuliers, institutionnels) ou pour l'entreprise
                                                                 d'appartenance, sous le contrôle de l'Autorité
                                                                 des Marchés Financiers -AMF- et selon la législation.
                                                             </li>
-                                                            <li className="list-item"> Accueille et oriente physiquement et
+                                                            <li className="list-item"> Accueillie et oriente physiquement et
                                                                 téléphoniquement la clientèle ; informe les clients sur
                                                                 les services
                                                                 produits de base de la banque et de l'assurance. Réalise
@@ -195,11 +195,11 @@ export default function mastereEnIngenierieRisqueEconomiques() {
                                                             </li>
                                                             <li className="list-item"> Peut réaliser le suivi des besoins en
                                                                 numéraire de la structure.
-                                                                Conseil et guide une clientèle de particuliers/personnes
+                                                                Conseille et guide une clientèle de particuliers/personnes
                                                                 physiques dans le choix d'investissements
                                                                 placements pour constituer ou optimiser leur patrimoine
-                                                                nancier selon la réglementation bancaire
-                                                                et nancière.</li>
+                                                                financier selon la réglementation bancaire
+                                                                et financière.</li>
                                                             <li className="list-item"> Peut mettre en oeuvre des mandats de
                                                                 gestion.</li>
                                                             <li className="list-item"> Peut diriger une structure.</li>
@@ -207,15 +207,15 @@ export default function mastereEnIngenierieRisqueEconomiques() {
                                                                 des demandes de crédits particuliers
                                                                 ou entreprises (immobilier, consommation, ...) et évalue
                                                                 les risques liés à leur octroi selon la stratégie
-                                                                commerciale et nancière globale de l'établissement et la
+                                                                commerciale et financière globale de l'établissement et la
                                                                 réglementation bancaire.</li>
                                                             <li className="list-item"> Peut élaborer des supports
-                                                                contractuels, eectuer le suivi des contrats d'assurances
+                                                                contractuels, effectuer le suivi des contrats d'assurances
                                                                 rattachés aux crédits.</li>
                                                             <li className="list-item"> Réalise l'étude, la conception et la
                                                                 mise sur le marché de produits bancaires selon la
                                                                 stratégie
-                                                                et l'ore commerciale globale de la banque et la
+                                                                et l'offre commerciale globale de la banque et la
                                                                 réglementation bancaire.</li>
                                                             <li className="list-item"> Peut définir un plan média, rendre
                                                                 décision sur l'octroi de crédits.</li>
@@ -231,7 +231,7 @@ export default function mastereEnIngenierieRisqueEconomiques() {
                                                         <button className="btn-link collapsed" data-toggle="collapse"
                                                             data-target="#collapsesaven" aria-expanded="false"
                                                             aria-controls="collapsesaven">
-                                                            Méthodes pédagogiques innovante <span> <i
+                                                            Méthodes pédagogiques innovantes <span> <i
                                                                     className="fas fa-chevron-down"></i>
                                                                 <i className="fas fa-chevron-up"></i> </span>
                                                         </button>
@@ -241,14 +241,14 @@ export default function mastereEnIngenierieRisqueEconomiques() {
                                                     data-parent="#accordion">
                                                     <div className="card-body">
                                                         <p>
-                                                            Diérentes approches pédagogiques vont être adoptées pour
+                                                            Différentes approches pédagogiques vont être adoptées pour
                                                             rendre l’expérience d’apprentissage plus attractive et
                                                             stimulante aux apprenants. On cite à ce titre, les exemples
                                                             suivants de pédagogies actives:
                                                         <ul className="check-list">
                                                             <li className="list-item">Apprentissage par projet.</li>
                                                             <li className="list-item">Apprentissage par resolution de
-                                                                problème</li>
+                                                                problème.</li>
                                                             <li className="list-item">Apprentissage par étude de cas.</li>
                                                         </ul>
                                                         </p>
@@ -313,8 +313,7 @@ export default function mastereEnIngenierieRisqueEconomiques() {
                                                             <li className="list-item">
                                                                 <span className="list__icon"><i
                                                                         className="far fa-crown"></i></span> <b
-                                                                    className=" text-color-primary"> A la fin de la
-                                                                    formation, les participants doivent être capables de
+                                                                    className=" text-color-primary"> À la fin de la formation, les participants doivent être capables de
                                                                 </b>
                                                             </li>
                                                         </ul>
@@ -430,7 +429,7 @@ export default function mastereEnIngenierieRisqueEconomiques() {
                                                                                     Evaluer la solvabilité d'un
                                                                                     créditeur et les risques</a></li>
                                                                             <li><a href="#"
-                                                                                    className="hover-style-default">Vérier
+                                                                                    className="hover-style-default">Vérifier
                                                                                     la rentabilité d'un crédit pour une
                                                                                     banque</a></li>
                                                                             <li><a href="#"
@@ -530,7 +529,7 @@ export default function mastereEnIngenierieRisqueEconomiques() {
                                                         <p>
                                                         <ul className="circle-list">
                                                             <li className="list-item">Possibilité de donner des cours pour
-                                                                diérents niveaux et de faire de l’encadrement
+                                                            différents niveaux et de faire de l’encadrement
                                                                 pédagogique.</li>
                                                             <li className="list-item">Possibilité de faire de la recherche
                                                                 dans des unités et laboratoires Tunisiens et étrangers.
@@ -561,7 +560,7 @@ export default function mastereEnIngenierieRisqueEconomiques() {
                 <div className="row">
                     <div className="col-lg-4">
                         <div className="section-title section-space--mb_60">
-                            <h3 className="heading">Responsable de mastère </h3>
+                            <h3 className="heading">Responsable du mastère </h3>
 
                             <div className="sider-title-button-box mt-30">
                                 <a href="equipe" className="btn-text font-weight--bold small-mt__20">Voir toute l'équipe <i
@@ -598,7 +597,7 @@ export default function mastereEnIngenierieRisqueEconomiques() {
                                         </div>
                                         <div className="team-info ">
                                             <h5 className="name">Mohamed Abdouli </h5>
-                                            <div className="position">Docteur en Science économique</div>
+                                            <div className="position">Docteur en Sciences économiques</div>
                                         </div>
                                     </div>
                                 </div>
@@ -628,8 +627,8 @@ export default function mastereEnIngenierieRisqueEconomiques() {
                                             </div>
                                         </div>
                                         <div className="team-info ">
-                                            <h5 className="name">Haithem awijen </h5>
-                                            <div className="position">Docteur en Science économique</div>
+                                            <h5 className="name">Haithem Awijen </h5>
+                                            <div className="position">Docteur en Sciences économiques</div>
                                         </div>
                                     </div>
                                 </div>
@@ -683,7 +682,7 @@ export default function mastereEnIngenierieRisqueEconomiques() {
                             
                                     <div className="col-lg-12 offset-lg-1">
                                         <div className="conact-us-wrap-one managed-it">
-                                            <h5 className="heading ">Premiere année mastère Professionnel </h5>
+                                            <h5 className="heading ">Première année mastère </h5>
                                         </div>
                                     </div>
                                     <br/>
@@ -693,9 +692,9 @@ export default function mastereEnIngenierieRisqueEconomiques() {
                                             <table className="table table-striped table-bordered">
                                                 <thead>
                                                     <tr>
-                                                        <th rowspan="2">Type de l'unité d'enseignement </th>
-                                                        <th rowspan="2">Elements constitutifs</th>
-                                                        <th colspan="3">volume horaire</th>
+                                                        <th rowSpan="2">Type de l'unité d'enseignement </th>
+                                                        <th rowSpan="2">Elements constitutifs</th>
+                                                        <th colSpan="3">volume horaire</th>
                                                         <th>Credits</th>
                                                         <th> Coefficient</th>
                                                     </tr>
@@ -709,7 +708,7 @@ export default function mastereEnIngenierieRisqueEconomiques() {
                                                 </thead>
                                                 <tbody>
                                                 <tr>
-                                                    <td rowspan="2">UFE Fondamentaux de la mention</td>
+                                                    <td rowSpan="2">UFE Fondamentaux de la mention</td>
                                                     <td>Microéconimie des banques et des assurances</td>
                                                     <td>42H</td>
                                                     <td></td>
@@ -726,7 +725,7 @@ export default function mastereEnIngenierieRisqueEconomiques() {
                                                     <td>1.5</td>
                                                 </tr>
                                                 <tr>
-                                                    <td rowspan="2">UES1 spécifiques au parcours</td>
+                                                    <td rowSpan="2">UES1 spécifiques au parcours</td>
                                                     <td>Risque de marché</td>
                                                     <td>42H</td>
                                                     <td>21H</td>
@@ -743,7 +742,7 @@ export default function mastereEnIngenierieRisqueEconomiques() {
                                                     <td>1</td>
                                                 </tr>
                                                 <tr>
-                                                    <td rowspan="2">UES 2 spécifiques au parcours</td>
+                                                    <td rowSpan="2">UES 2 spécifiques au parcours</td>
                                                     <td>Gestion financière</td>
                                                     <td>42H</td>
                                                     <td>21</td>
@@ -760,7 +759,7 @@ export default function mastereEnIngenierieRisqueEconomiques() {
                                                     <td>1</td>
                                                 </tr>
                                                 <tr>
-                                                    <td rowspan="2">UET</td>
+                                                    <td rowSpan="2">UET</td>
                                                     <td>Francais des affaires</td>
                                                     <td>21H</td>
                                                     <td></td>
@@ -778,7 +777,7 @@ export default function mastereEnIngenierieRisqueEconomiques() {
                                                 </tr>
 
                                                 <tr>
-                                                    <td rowspan="2">UEO</td>
+                                                    <td rowSpan="2">UEO</td>
                                                     <td>OPT 1 :Technique de Scoring</td>
                                                     <td>42H</td>
                                                     <td></td>
@@ -816,9 +815,9 @@ export default function mastereEnIngenierieRisqueEconomiques() {
                                             <table className="table table-striped table-bordered">
                                                 <thead>
                                                     <tr>
-                                                        <th rowspan="2">Type de l'unité d'enseignement</th>
-                                                        <th rowspan="2">Elements constitutifs</th>
-                                                        <th colspan="3">volume horaire</th>
+                                                        <th rowSpan="2">Type de l'unité d'enseignement</th>
+                                                        <th rowSpan="2">Elements constitutifs</th>
+                                                        <th colSpan="3">volume horaire</th>
                                                         <th>Credits</th>
                                                         <th> Coefficient</th>
                                                     </tr>
@@ -832,7 +831,7 @@ export default function mastereEnIngenierieRisqueEconomiques() {
                                                 </thead>
                                                 <tbody>
                                                 <tr>
-                                                    <td rowspan="2">UFE Fondamentaux de la mention</td>
+                                                    <td rowSpan="2">UFE Fondamentaux de la mention</td>
                                                     <td>Analyse économique des risque</td>
                                                     <td>42H</td>
                                                     <td></td>
@@ -849,7 +848,7 @@ export default function mastereEnIngenierieRisqueEconomiques() {
                                                     <td>1.5</td>
                                                 </tr>
                                                 <tr>
-                                                    <td rowspan="2">UES1 spécifiques au parcours</td>
+                                                    <td rowSpan="2">UES1 spécifiques au parcours</td>
                                                     <td>Analyse des données</td>
                                                     <td>42H</td>
                                                     <td>21H</td>
@@ -866,7 +865,7 @@ export default function mastereEnIngenierieRisqueEconomiques() {
                                                     <td>1</td>
                                                 </tr>
                                                 <tr>
-                                                    <td rowspan="2">UES 2 spécifiques au parcours</td>
+                                                    <td rowSpan="2">UES 2 spécifiques au parcours</td>
                                                     <td>Mathématique financière et actuariat</td>
                                                     <td>42H</td>
                                                     <td></td>
@@ -883,7 +882,7 @@ export default function mastereEnIngenierieRisqueEconomiques() {
                                                     <td>1</td>
                                                 </tr>
                                                 <tr>
-                                                    <td rowspan="2">UET</td>
+                                                    <td rowSpan="2">UET</td>
                                                     <td>Anglais des affaires</td>
                                                     <td>21H</td>
                                                     <td></td>
@@ -900,7 +899,7 @@ export default function mastereEnIngenierieRisqueEconomiques() {
                                                     <td>1</td>
                                                 </tr>
                                                 <tr>
-                                                    <td rowspan="2">UEO</td>
+                                                    <td rowSpan="2">UEO</td>
                                                     <td>OPT 1 :Transformation numerique</td>
                                                     <td>21H</td>
                                                     <td></td>
@@ -938,9 +937,9 @@ export default function mastereEnIngenierieRisqueEconomiques() {
                                             <table className="table table-striped table-bordered">
                                                 <thead>
                                                     <tr>
-                                                        <th rowspan="2">Type de l'unité d'enseignement</th>
-                                                        <th rowspan="2">Elements constitutifs</th>
-                                                        <th colspan="3">volume horaire</th>
+                                                        <th rowSpan="2">Type de l'unité d'enseignement</th>
+                                                        <th rowSpan="2">Elements constitutifs</th>
+                                                        <th colSpan="3">volume horaire</th>
                                                         <th>Credits</th>
                                                         <th> Coefficient</th>
                                                     </tr>
@@ -954,7 +953,7 @@ export default function mastereEnIngenierieRisqueEconomiques() {
                                                 </thead>
                                                 <tbody>
                                                 <tr>
-                                                    <td rowspan="2">UFE Fondamentaux de la mention</td>
+                                                    <td rowSpan="2">UFE Fondamentaux de la mention</td>
                                                     <td>Technique gantitatives appliquées</td>
                                                     <td>42H</td>
                                                     <td></td>
@@ -971,7 +970,7 @@ export default function mastereEnIngenierieRisqueEconomiques() {
                                                     <td>1.5</td>
                                                 </tr>
                                                 <tr>
-                                                    <td rowspan="2">UES1 spécifiques au parcours</td>
+                                                    <td rowSpan="2">UES1 spécifiques au parcours</td>
                                                     <td>Economiétrie de la finance et de l'assurance</td>
                                                     <td>42H</td>
                                                     <td></td>
@@ -988,7 +987,7 @@ export default function mastereEnIngenierieRisqueEconomiques() {
                                                     <td>1</td>
                                                 </tr>
                                                 <tr>
-                                                    <td rowspan="2">UES 2 spécifiques au parcours</td>
+                                                    <td rowSpan="2">UES 2 spécifiques au parcours</td>
                                                     <td>Informatique</td>
                                                     <td>42H</td>
                                                     <td>21H</td>
@@ -1005,7 +1004,7 @@ export default function mastereEnIngenierieRisqueEconomiques() {
                                                     <td>1</td>
                                                 </tr>
                                                 <tr>
-                                                    <td rowspan="2">UET</td>
+                                                    <td rowSpan="2">UET</td>
                                                     <td>Anglais des affaires</td>
                                                     <td>21H</td>
                                                     <td></td>
@@ -1022,7 +1021,7 @@ export default function mastereEnIngenierieRisqueEconomiques() {
                                                     <td>1</td>
                                                 </tr>
                                                 <tr>
-                                                    <td rowspan="2">UEO</td>
+                                                    <td rowSpan="2">UEO</td>
                                                     <td>OPT 1 :Optimisation</td>
                                                     <td>42H</td>
                                                     <td></td>
@@ -1098,7 +1097,7 @@ export default function mastereEnIngenierieRisqueEconomiques() {
                                                                                     l’acceptation de l’enseignant
                                                                                     suiveur ainsi que du responsable
                                                                                     dans l’entreprise et l’avis de la
-                                                                                    commission des masters. <br/>
+                                                                                    commission des mastères. <br/>
                                                                                     Le stage est réalisé au sein d’un
                                                                                     <b>cabinet d’expertise comptable ou
                                                                                         d’audit ou auprès d’une
@@ -1155,7 +1154,7 @@ export default function mastereEnIngenierieRisqueEconomiques() {
                                                                                     aria-expanded="false"
                                                                                     aria-controls="collapse__11">
                                                                                     Inter liaisons entre les semestres
-                                                                                    du parcours,passerelles (à
+                                                                                    du parcours, passerelles (à
                                                                                     préciser), évaluation et
                                                                                     progression<span>
                                                                                         <i
@@ -1181,10 +1180,10 @@ export default function mastereEnIngenierieRisqueEconomiques() {
                                                                                     année pour s’inscrire en deuxième
                                                                                     année
                                                                                     Le régime d’évaluation relatif au
-                                                                                    diplôme national de master se base
+                                                                                    diplôme national de mastère se base
                                                                                     sur le contrôle continu et les
                                                                                     examens
-                                                                                    de n de semestre.
+                                                                                    de fin de semestre.
                                                                                     Les enseignements prévus dans le
                                                                                     cadre de chaque unité sont
                                                                                     sanctionnés par des examens
@@ -1197,8 +1196,8 @@ export default function mastereEnIngenierieRisqueEconomiques() {
                                                                                 <ul className="circle-list">
 
                                                                                     <li className="list-item"> Une session
-                                                                                        principale à la n de chaque
-                                                                                        semestre dont la date est xée
+                                                                                        principale à la fin de chaque
+                                                                                        semestre dont la date est fixée
                                                                                         par le directeur de l’institut,
                                                                                         après avis du conseil
                                                                                         scientique.
@@ -1210,7 +1209,7 @@ export default function mastereEnIngenierieRisqueEconomiques() {
                                                                                         semaine au moins après la
                                                                                         proclamation des résultats de la
                                                                                         session principale
-                                                                                        de la n de l’année universitaire
+                                                                                        de la fin de l’année universitaire
                                                                                         pour le M1 et juste après le
                                                                                         troisième semestre pour le M2.
                                                                                         Est admis pour le passage d’une
@@ -1220,7 +1219,7 @@ export default function mastereEnIngenierieRisqueEconomiques() {
                                                                                         chaque module de l’année
                                                                                         d’études
                                                                                         Concernée. Cependant, les notes
-                                                                                        obtenues dans les diérents
+                                                                                        obtenues dans les différents
                                                                                         modules de l’année d’études
                                                                                         concernée
                                                                                         peuvent se compléter entre
@@ -1234,10 +1233,10 @@ export default function mastereEnIngenierieRisqueEconomiques() {
                                                                                         dans lesquels ils ont obtenu une
                                                                                         moyenne inférieure à 10/20.
                                                                                         Lors de la session de
-                                                                                        rattrapage, l’étudiant bénécie,
+                                                                                        rattrapage, l’étudiant bénéficie,
                                                                                         dans chaque épreuve, de la
                                                                                         meilleure des deux notes
-                                                                                        nales obtenues dans les deux
+                                                                                        finales obtenues dans les deux
                                                                                         sessions d’examen. </li>
                                                                                 </ul>
                                                                                 </p>

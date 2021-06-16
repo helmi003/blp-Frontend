@@ -9,7 +9,7 @@ export default function MastereEnAssuranceBanque() {
         <div className="row">
             <div className="col-12">
                 <div className="breadcrumb_box text-center">
-                    <h2 className="breadcrumb-title ">Mastère en Assurance,Banque,Finance </h2>
+                    <h2 className="breadcrumb-title ">Mastère en Assurance, Banque et Finance </h2>
                    
                     <ul className="breadcrumb-list">
                         <li className="breadcrumb-item"><a href="formations">Formations</a></li>
@@ -73,12 +73,12 @@ export default function MastereEnAssuranceBanque() {
                                                 <div className="form-item contact-inner">
                                                     <span className="inquiry">
                                                         <select id="Visiting" name="Visiting">
-                                                            <option disabled selected>Dernier diplome obtenu</option>
+                                                            <option disabled selected>Dernier diplôme obtenu</option>
                                                             <option value="Your inquiry about">Bac</option>
-                                                            <option value="General Information Request">licence</option>
+                                                            <option value="General Information Request">Licence</option>
                                                             <option value="Partner Relations">Mastère</option>
-                                                            <option value="Software Licencing">Ingenieur</option>
-                                                            <option value="Software Licencing">Autre</option>
+                                                            <option value="Software Licencing">Ingénieur</option>
+                                                            <option value="Software Licencing">Autres</option>
                                                         </select>
                                                     </span>
                                                 </div>
@@ -119,7 +119,7 @@ export default function MastereEnAssuranceBanque() {
                                                         <button className="btn-link" data-toggle="collapse"
                                                             data-target="#collapseOne" aria-expanded="true"
                                                             aria-controls="collapseOne">
-                                                            Objectifs génerale de la formation <span> <i
+                                                            Objectifs génerals de la formation <span> <i
                                                                     className="fas fa-chevron-down"></i>
                                                                 <i className="fas fa-chevron-up"></i> </span>
                                                         </button>
@@ -133,7 +133,7 @@ export default function MastereEnAssuranceBanque() {
                                                             Capitaux. Il prédispose à une bonne appréhension des
                                                             problématiques liées aux marchés et produits
                                                             financiers. <br/> Ainsi, ce Master vise à former des
-                                                            spécialistes des marchés nanciers et exerçant leurs
+                                                            spécialistes des marchés financiers et exerçant leurs
                                                             compétences au service des banques et entreprises
                                                             d'investissement, des sociétés de gestion d'actifs, des
                                                             cabinets de conseil, des compagnies
@@ -164,15 +164,15 @@ export default function MastereEnAssuranceBanque() {
                                                             Marchés Financiers - AMF-
                                                             et selon la législation financiere.
                                                         <ul className="circle-list">
-                                                            <li className="list-item"> Peut eectuer la gestion d'un
-                                                                portefeuille d'actifs nanciers. Peut procéder au
+                                                            <li className="list-item"> Peut effectuer la gestion d'un
+                                                                portefeuille d'actifs finnanciers. Peut procéder au
                                                                 contrôle de conformité des opérations/transactions.</li>
 
 
                                                             <li className="list-item"> Peut coordonner une équipe.</li>
                                                             <li className="list-item"> Organise le suivi, le contrôle et
                                                                 l'enregistrement des opérations réalisées sur les
-                                                                marchés nanciers
+                                                                marchés financiers
                                                                 (de change, de titres, ...) selon les procédures qualité
                                                                 de l'établissement d'appartenance et les réglementations
                                                                 bancaires et financières.</li>
@@ -181,13 +181,13 @@ export default function MastereEnAssuranceBanque() {
                                                                 suivi qualité
                                                                 des procédures administratives.</li>
                                                             <li className="list-item"> Optimiser le rendement de
-                                                                portefeuilles constitués d'actifs nanciers pour le
+                                                                portefeuilles constitués d'actifs financiers pour le
                                                                 compte de tiers (entreprises,
                                                                 particuliers, institutionnels) ou pour l'entreprise
                                                                 d'appartenance, sous le contrôle de l'Autorité
                                                                 des Marchés Financiers -AMF- et selon la législation.
                                                             </li>
-                                                            <li className="list-item"> Accueille et oriente physiquement et
+                                                            <li className="list-item"> Accueillie et oriente physiquement et
                                                                 téléphoniquement la clientèle ; informe les clients sur
                                                                 les services
                                                                 produits de base de la banque et de l'assurance. Réalise
@@ -199,8 +199,8 @@ export default function MastereEnAssuranceBanque() {
                                                                 Conseil et guide une clientèle de particuliers/personnes
                                                                 physiques dans le choix d'investissements
                                                                 placements pour constituer ou optimiser leur patrimoine
-                                                                nancier selon la réglementation bancaire
-                                                                et nancière.</li>
+                                                                financier selon la réglementation bancaire
+                                                                et financière.</li>
                                                             <li className="list-item"> Peut mettre en oeuvre des mandats de
                                                                 gestion.</li>
                                                             <li className="list-item"> Peut diriger une structure.</li>
@@ -208,15 +208,15 @@ export default function MastereEnAssuranceBanque() {
                                                                 des demandes de crédits particuliers
                                                                 ou entreprises (immobilier, consommation, ...) et évalue
                                                                 les risques liés à leur octroi selon la stratégie
-                                                                commerciale et nancière globale de l'établissement et la
+                                                                commerciale et financière globale de l'établissement et la
                                                                 réglementation bancaire.</li>
                                                             <li className="list-item"> Peut élaborer des supports
-                                                                contractuels, eectuer le suivi des contrats d'assurances
+                                                                contractuels, efectuer le suivi des contrats d'assurances
                                                                 rattachés aux crédits.</li>
                                                             <li className="list-item"> Réalise l'étude, la conception et la
                                                                 mise sur le marché de produits bancaires selon la
                                                                 stratégie
-                                                                et l'ore commerciale globale de la banque et la
+                                                                et l'offre commerciale globale de la banque et la
                                                                 réglementation bancaire.</li>
                                                             <li className="list-item"> Peut définir un plan média, rendre
                                                                 décision sur l'octroi de crédits.</li>
@@ -232,7 +232,7 @@ export default function MastereEnAssuranceBanque() {
                                                         <button className="btn-link collapsed" data-toggle="collapse"
                                                             data-target="#collapsesaven" aria-expanded="false"
                                                             aria-controls="collapsesaven">
-                                                            Méthodes pédagogiques innovante <span> <i
+                                                            Méthodes pédagogiques innovantes <span> <i
                                                                     className="fas fa-chevron-down"></i>
                                                                 <i className="fas fa-chevron-up"></i> </span>
                                                         </button>
@@ -249,7 +249,7 @@ export default function MastereEnAssuranceBanque() {
                                                         <ul className="check-list">
                                                             <li className="list-item">Apprentissage par projet.</li>
                                                             <li className="list-item">Apprentissage par resolution de
-                                                                problème</li>
+                                                                problème.</li>
                                                             <li className="list-item">Apprentissage par étude de cas.</li>
                                                         </ul>
                                                         </p>
@@ -314,8 +314,7 @@ export default function MastereEnAssuranceBanque() {
                                                             <li className="list-item">
                                                                 <span className="list__icon"><i
                                                                         className="far fa-crown"></i></span> <b
-                                                                    className=" text-color-primary"> A la fin de la
-                                                                    formation, les participants doivent être capables de
+                                                                    className=" text-color-primary"> À la fin de la formation, les participants doivent être capables de
                                                                 </b>
                                                             </li>
                                                         </ul>
@@ -397,13 +396,13 @@ export default function MastereEnAssuranceBanque() {
                                                                                     className="hover-style-default">Analyser
                                                                                     les marchés</a></li>
                                                                             <li><a href="#" className="hover-style-default">
-                                                                                    Evaluer des risques FInanciers</a>
+                                                                                    Evaluer des risques Financiers</a>
                                                                             </li>
                                                                             <li><a href="#" className="hover-style-default">
                                                                                     Evaluer des actifs financiers</a>
                                                                             </li>
                                                                             <li><a href="#" className="hover-style-default">
-                                                                                    Identier les priorités du client</a>
+                                                                                    Identifier les priorités du client</a>
                                                                             </li>
                                                                             <li><a href="#" className="hover-style-default">
                                                                                     Collecter des données clients</a>
@@ -432,7 +431,7 @@ export default function MastereEnAssuranceBanque() {
                                                                                     Evaluer la solvabilité d'un
                                                                                     créditeur et les risques</a></li>
                                                                             <li><a href="#"
-                                                                                    className="hover-style-default">Vérier
+                                                                                    className="hover-style-default">Vérifier
                                                                                     la rentabilité d'un crédit pour une
                                                                                     banque</a></li>
                                                                             <li><a href="#"
@@ -533,7 +532,7 @@ export default function MastereEnAssuranceBanque() {
                                                         <p>
                                                         <ul className="circle-list">
                                                             <li className="list-item">Possibilité de donner des cours pour
-                                                                diérents niveaux et de faire de l’encadrement
+                                                            différents niveaux et de faire de l’encadrement
                                                                 pédagogique.</li>
                                                             <li className="list-item">Possibilité de faire de la recherche
                                                                 dans des unités et laboratoires Tunisiens et étrangers.
@@ -695,9 +694,9 @@ export default function MastereEnAssuranceBanque() {
                                             <table className="table table-striped table-bordered">
                                                 <thead>
                                                     <tr>
-                                                        <th rowspan="2">Type de l'unité d'enseignement </th>
-                                                        <th rowspan="2">Elements constitutifs</th>
-                                                        <th colspan="3">volume horaire</th>
+                                                        <th rowSpan="2">Type de l'unité d'enseignement </th>
+                                                        <th rowSpan="2">Elements constitutifs</th>
+                                                        <th colSpan="3">volume horaire</th>
                                                         <th>Credits</th>
                                                         <th> Coefficient</th>
                                                     </tr>
@@ -711,7 +710,7 @@ export default function MastereEnAssuranceBanque() {
                                                 </thead>
                                                 <tbody>
                                                 <tr>
-                                                    <td rowspan="2">UFE Fondamentaux de la mention</td>
+                                                    <td rowSpan="2">UFE Fondamentaux de la mention</td>
                                                     <td>Microéconimie des banques et des assurances</td>
                                                     <td>42H</td>
                                                     <td></td>
@@ -748,7 +747,7 @@ export default function MastereEnAssuranceBanque() {
                                                 </tr>
 
                                                 <tr>
-                                                <td rowspan="2">UET</td>
+                                                <td rowSpan="2">UET</td>
                                                 <td>Anglais des affaires</td>
                                                 <td></td>
                                                 <td>21H</td>
@@ -765,7 +764,7 @@ export default function MastereEnAssuranceBanque() {
                                                     <td>1</td>
                                                 </tr>
                                                 <tr>
-                                                <td rowspan="2">UEO</td>
+                                                <td rowSpan="2">UEO</td>
                                                 <td>OPT 1 :Technique financiere et acturielles</td>
                                                 <td>42H</td>
                                                 <td></td>
@@ -803,9 +802,9 @@ export default function MastereEnAssuranceBanque() {
                                             <table className="table table-striped table-bordered">
                                                 <thead>
                                                     <tr>
-                                                        <th rowspan="2">Type de l'unité d'enseignement</th>
-                                                        <th rowspan="2">Elements constitutifs</th>
-                                                        <th colspan="3">volume horaire</th>
+                                                        <th rowSpan="2">Type de l'unité d'enseignement</th>
+                                                        <th rowSpan="2">Elements constitutifs</th>
+                                                        <th colSpan="3">volume horaire</th>
                                                         <th>Credits</th>
                                                         <th> Coefficient</th>
                                                     </tr>
@@ -819,7 +818,7 @@ export default function MastereEnAssuranceBanque() {
                                                 </thead>
                                                 <tbody>
                                                 <tr>
-                                                    <td rowspan="2">UFE Fondamentaux de la mention</td>
+                                                    <td rowSpan="2">UFE Fondamentaux de la mention</td>
                                                     <td>Analyse économique des risque</td>
                                                     <td>42H</td>
                                                     <td></td>
@@ -854,7 +853,7 @@ export default function MastereEnAssuranceBanque() {
                                                     <td>3</td>
                                                 </tr>
                                                 <tr>
-                                                    <td rowspan="2">UET</td>
+                                                    <td rowSpan="2">UET</td>
                                                     <td>Anglais des affaires</td>
                                                     <td></td>
                                                     <td></td>
@@ -872,7 +871,7 @@ export default function MastereEnAssuranceBanque() {
                                                 </tr>
                                                 
                                                 <tr>
-                                                    <td rowspan="2">UEO</td>
+                                                    <td rowSpan="2">UEO</td>
                                                     <td>Option 1:Métiers de la banque,de l'assurance</td>
                                                     <td>42H</td>
                                                     <td></td>
@@ -910,9 +909,9 @@ export default function MastereEnAssuranceBanque() {
                                             <table className="table table-striped table-bordered">
                                                 <thead>
                                                     <tr>
-                                                        <th rowspan="2">Type de l'unité d'enseignement</th>
-                                                        <th rowspan="2">Elements constitutifs</th>
-                                                        <th colspan="3">volume horaire</th>
+                                                        <th rowSpan="2">Type de l'unité d'enseignement</th>
+                                                        <th rowSpan="2">Elements constitutifs</th>
+                                                        <th colSpan="3">volume horaire</th>
                                                         <th>Credits</th>
                                                         <th> Coefficient</th>
                                                     </tr>
@@ -926,7 +925,7 @@ export default function MastereEnAssuranceBanque() {
                                                 </thead>
                                                 <tbody>
                                                 <tr>
-                                                    <td rowspan="2">UFE Fondamentaux de la mention</td>
+                                                    <td rowSpan="2">UFE Fondamentaux de la mention</td>
                                                     <td>recherche opérationnelle</td>
                                                     <td>42H</td>
                                                     <td></td>
@@ -961,7 +960,7 @@ export default function MastereEnAssuranceBanque() {
                                                     <td>3</td>
                                                 </tr>
                                                 <tr>
-                                                    <td rowspan="2">UET</td>
+                                                    <td rowSpan="2">UET</td>
                                                     <td>Anglais des affaires</td>
                                                     <td></td>
                                                     <td></td>
@@ -978,7 +977,7 @@ export default function MastereEnAssuranceBanque() {
                                                     <td>1</td>
                                                 </tr>
                                                 <tr>
-                                                    <td rowspan="2">UEO</td>
+                                                    <td rowSpan="2">UEO</td>
                                                     <td>OPT 1 :Marketing des produits financiers</td>
                                                     <td>42H</td>
                                                     <td></td>
@@ -1176,7 +1175,7 @@ export default function MastereEnAssuranceBanque() {
                                                                                         chaque module de l’année
                                                                                         d’études
                                                                                         Concernée. Cependant, les notes
-                                                                                        obtenues dans les diérents
+                                                                                        obtenues dans les différents
                                                                                         modules de l’année d’études
                                                                                         concernée
                                                                                         peuvent se compléter entre

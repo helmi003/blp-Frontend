@@ -42,7 +42,7 @@ export default function question() {
 
                                     <div id="collapseOne" className="show" aria-labelledby="headingOne" data-parent="#accordion">
                                         <div className="card-body">
-                                            <p>Groupe d’universités privées en Tunisie ; MIT, 3 établissements, avec Foyer et Restaurants. +35 spécialités :Gestion, Finance, Informatique... + 900 partenaires industriels pour stages et Embauche en Tunisie et en Europe. Diplôme reconnu par l’État Tunisien, Communauté Européenne : M1 en Tunisie et M2 en Europe. Certifiées iso 9001 et accréditées AACSB en cours 21001. </p>
+                                            <p>Groupe d’universités privées en Tunisie ; MIT, 3 établissements, avec Foyer et Restaurants. +35 spécialités : Gestion, Finance, Informatique... + 900 partenaires industriels pour stages et Embauche en Tunisie et en Europe. Diplôme reconnu par l’État Tunisien, Communauté Européenne : M1 en Tunisie et M2 en Europe. Certifiées iso 9001 et accréditées AACSB en cours 21001. </p>
                                         </div>
                                     </div>
                                 </div>
@@ -65,7 +65,7 @@ export default function question() {
                                     <div className="card-header" id="headingThree">
                                         <h5 className="mb-0">
                                             <button className="btn-link collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                                                Quel est les procédures d'inscription? <span> <i className="fas fa-chevron-down"></i>
+                                                Quelles sont les procédures d'inscription ? <span> <i className="fas fa-chevron-down"></i>
                                         <i className="fas fa-chevron-up"></i> </span>
                                             </button>
                                         </h5>
@@ -78,7 +78,7 @@ export default function question() {
                                                     <li className="list-item">Copies d’acte de naissance, dernier diplôme, relevé de notes, Passeport / CIN.</li>
                                                     <li className="list-item">Indiquer la formation choisie.</li>
                                                </ul>
-                                                <b style={{color:"blue"}}>N.B : l’Attestation d’Inscription : payement d’une tranche de frais scolaire.</b> 
+                                                <b style={{color:"blue"}}>N.B : l’Attestation d’Inscription : paiement d’une tranche de frais scolaire.</b> 
                                         </div>
                                     </div>
                                 </div>
@@ -86,14 +86,14 @@ export default function question() {
                                     <div className="card-header" id="headingFour">
                                         <h5 className="mb-0">
                                             <button className="collapsed" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-                                                Quel est le coût annuel de votre formation<span> <i className="fas fa-chevron-down"></i>
+                                                Quel est le coût annuel de votre formation ?<span> <i className="fas fa-chevron-down"></i>
                                         <i className="fas fa-chevron-up"></i> </span>
                                             </button>
                                         </h5>
                                     </div>
                                     <div id="collapseFour" className="collapse" aria-labelledby="headingFour" data-parent="#accordion">
                                         <div className="card-body">
-                                            <p>Le coût annuel qui inclut uniquement le frais de scolarité varie selon la formation : Licence 2500 Euro et Master: 3000 Euro</p>
+                                            <p>Le coût annuel qui inclut uniquement les frais de scolarité varie selon la formation : Licence 2500 Euro et Master: 3000 Euro</p>
                                         </div>
                                     </div>
                                 </div>
@@ -201,7 +201,7 @@ export default function question() {
                                         <div className="card-header" id="faq_16">
                                             <h5 className="mb-0">
                                                 <button className="collapsed" data-toggle="collapse" data-target="#faq_16" aria-expanded="false" aria-controls="faq_16">
-                                                   Est-ce que vous assurez un accompagnement de l'etudiant lors de son arrivée en tunisie et sa carte de séjours ? <span> <i className="fas fa-chevron-down"></i>
+                                                   Est-ce que vous assurez un accompagnement de l'etudiant lors de son arrivée en tunisie et sa carte de séjour ? <span> <i className="fas fa-chevron-down"></i>
                                             <i className="fas fa-chevron-up"></i> </span>
                                                 </button>
                                             </h5>
@@ -227,7 +227,7 @@ export default function question() {
                                                     <li className="list-item">Attestation de préinscription : remplir formulaire sur site.</li>
                                                     <li className="list-item">Envoi du dossier de préinscription.</li>
                                                     <li className="list-item">Confirmation (Acceptation ou complément ou rejet).</li>
-                                                    <li className="list-item"> Attestation de paiement : paiement première tranche (cliquez Page responsabilité sociale et Bourse).</li>
+                                                    <li className="list-item"> Attestation de paiement : paiement de la première tranche (cliquez Page responsabilité sociale et Bourse).</li>
                                                     <li className="list-item">Contrat / attestation de Logement : MIT héberge gratuitement une semaine à Tunis et des mois à Nabeul.</li>
                                                     <li className="list-item">Confirmation de l’université par email à l’ambassade: Direction/administration.</li>
                                                </ul>

@@ -4,7 +4,7 @@ export default function challenge() {
     return (
         <>
     <div className="breadcrumb-area">
-        <div classNameName="container">
+        <div className="container">
             <div className="row">
                 <div className="col-12">
                     <div className="breadcrumb_box text-center">
@@ -47,17 +47,17 @@ export default function challenge() {
                         <div className="col-lg-4 col-md-6 mt-30">
                                                         
                              <div className="tab-history-image video-popup mt-30">
-                             <iframe  width="400" height="450" src="https://www.youtube.com/embed/G56wc5kl5gQ" frameborder="0" allowfullscreen autoplay="1"></iframe>
+                             <iframe  width="400" height="450" src="https://www.youtube.com/embed/G56wc5kl5gQ" frameBorder="0" allowFullScreen autoPlay="1"></iframe>
                                      </div>
                                          <div className="box-large-image__content mt-30 text-center">
-                                      <strong>Projet 01 : Application de reconnaissanceet de diagnostic de COVID19</strong> 
+                                      <strong>Projet 01 : Application de reconnaissance et de diagnostic de COVID19</strong> 
                                 </div>
                             </div>
           
                            <div className="col-lg-4 col-md-6 mt-30">
                                                         
                                                         <div className="tab-history-image video-popup mt-30">
-                                 <iframe  width="400" height="450" src="https://www.youtube.com/embed/mIwKf4ojLL0" frameborder="0" allowfullscreen autoplay="1"></iframe>
+                                 <iframe  width="400" height="450" src="https://www.youtube.com/embed/mIwKf4ojLL0" frameBorder="0" allowFullScreen autoPlay="1"></iframe>
 
                                                                 </div>
                                                                     <div className="box-large-image__content mt-30 text-center">
@@ -68,7 +68,7 @@ export default function challenge() {
                         <div className="col-lg-4 col-md-6 mt-30">
                                                         
                             <div className="tab-history-image video-popup mt-30">
-                               <iframe  width="400" height="450" src="https://www.youtube.com/embed/dufzJAPW_VE" frameborder="0" allowfullscreen autoplay="1"></iframe>
+                               <iframe  width="400" height="450" src="https://www.youtube.com/embed/dufzJAPW_VE" frameBorder="0" allowFullScreen autoPlay="1"></iframe>
 
                                </div>
                                  <div className="box-large-image__content mt-30 text-center">
@@ -79,7 +79,7 @@ export default function challenge() {
                             <div className="col-lg-4 col-md-6 mt-30">
                                                         
                                   <div className="tab-history-image video-popup mt-30">
-                                     <iframe  width="400" height="450" src="https://www.youtube.com/embed/xZcdUNMAWG4" frameborder="0" allowfullscreen autoplay="1"></iframe>
+                                     <iframe  width="400" height="450" src="https://www.youtube.com/embed/xZcdUNMAWG4" frameBorder="0" allowFullScreen autoPlay="1"></iframe>
                             
                                         </div>
                                              <div className="box-large-image__content mt-30 text-center">
@@ -90,18 +90,18 @@ export default function challenge() {
                             <div className="col-lg-4 col-md-6 mt-30">
                                                         
                                     <div className="tab-history-image video-popup mt-30">
-                                       <iframe  width="400" height="450" src="https://www.youtube.com/embed/Mi7i6DllDRI" frameborder="0" allowfullscreen autoplay="1"></iframe>
+                                       <iframe  width="400" height="450" src="https://www.youtube.com/embed/Mi7i6DllDRI" frameBorder="0" allowFullScreen autoPlay="1"></iframe>
                                                   
                                     </div>
                                         <div className="box-large-image__content mt-30 text-center">
-                                     <strong> Projet 7 : Prédiction des nombres d’infectés, des morts, de guérison</strong> 
+                                     <strong> Projet 7 : Prédiction des nombres d’infectés, des morts et de guérison</strong> 
                                     </div>
                              </div>
        
                                <div className="col-lg-4 col-md-6 mt-30">
                                                         
                                                         <div className="tab-history-image video-popup mt-30">
-                                                           <iframe  width="400" height="450" src="https://www.youtube.com/embed/mxNIshUpTQI" frameborder="0" allowfullscreen autoplay="1"></iframe>
+                                                           <iframe  width="400" height="450" src="https://www.youtube.com/embed/mxNIshUpTQI" frameBorder="0" allowFullScreen autoPlay="1"></iframe>
                                                                       
                                                         </div>
                                                             <div className="box-large-image__content mt-30 text-center">
@@ -112,7 +112,7 @@ export default function challenge() {
                            <div className="col-lg-4 col-md-6 mt-30">
                                                         
                                                         <div className="tab-history-image video-popup mt-30">
-                                                           <iframe  width="400" height="450" src="https://www.youtube.com/embed/_5R2vC-aCgE" frameborder="0" allowfullscreen autoplay="1"></iframe>
+                                                           <iframe  width="400" height="450" src="https://www.youtube.com/embed/_5R2vC-aCgE" frameBorder="0" allowFullScreen autoPlay="1"></iframe>
                                                                       
                                                         </div>
                                                             <div className="box-large-image__content mt-30 text-center">

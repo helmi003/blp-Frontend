@@ -46,7 +46,7 @@ export default function videotheque() {
                                                         
                              <div className="tab-history-image video-popup mt-30">
                              <video width="320" height="240" controls >
-                             <source src="/assets/video/epm.mp4" type="video/mp4" frameborder="0" allowfullscreen/>
+                             <source src="/assets/video/epm.mp4" type="video/mp4" frameBorder="0" allowFullScreen/>
                            Votre navigateur ne supporte pas la balise vidéo.
                             </video>
                               </div>
@@ -58,7 +58,7 @@ export default function videotheque() {
                            <div className="col-lg-4 col-md-6 mt-30">
                             <div className="tab-history-image video-popup mt-30">
                                 <video width="320" height="240" controls >
-                                    <source src="/assets/video/mit1.mp4" type="video/mp4" frameborder="0" allowfullscreen/>
+                                    <source src="/assets/video/mit1.mp4" type="video/mp4" frameBorder="0" allowFullScreen/>
                               Votre navigateur ne supporte pas la balise vidéo.
                                 </video>
                                         </div>
@@ -72,7 +72,7 @@ export default function videotheque() {
                                                         
                                                         <div className="tab-history-image video-popup mt-30">
                                                         <video width="320" height="240" controls >
-                                                        <source src="/assets/video/mit2.mp4" type="video/mp4" frameborder="0" allowfullscreen/>
+                                                        <source src="/assets/video/mit2.mp4" type="video/mp4" frameBorder="0" allowFullScreen/>
                                                       Votre navigateur ne supporte pas la balise vidéo.
                                                         </video>
                                                                 </div>
@@ -407,7 +407,7 @@ export default function videotheque() {
                                       </a>
                                   </div>
                                   <div className="box-large-image__content mt-30 text-center">
-                                      <strong>Ecole Polytechnique Méditerranéenne : Spot 2019</strong> 
+                                      <strong>École Polytechnique Méditerranéenne : Spot 2019</strong> 
                                   </div>
                       </div>
 

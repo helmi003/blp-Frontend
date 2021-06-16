@@ -83,9 +83,9 @@ export default function LicenceEnDroitPublic() {
                                                             étudiants peuvent choisir suite à la première année
                                                             de la Licence en droit qui constitue le tronc commun aux
                                                             études en Licence. La Licence en droit public
-                                                            ore aux étudiants une formation dans les diérentes
+                                                            offre aux étudiants une formation dans les différentes
                                                             disciplines du droit public : droit constitutionnel,
-                                                            administratif, nancier et international. Ces matières
+                                                            administratif, financier et international. Ces matières
                                                             incontournables pour la formation de tout publiciste
                                                             forment le groupe des matières obligatoires. Pour permettre
                                                             aux étudiants d’approfondir la discipline
@@ -95,7 +95,7 @@ export default function LicenceEnDroitPublic() {
                                                             doivent suivre des cours transversaux de langues
                                                             et de Droits de l’homme. La Licence en droit public permet
                                                             aux étudiants de postuler pour les Mastères
-                                                            professionnels et de se présenter aux diérents concours qui
+                                                            professionnels et de se présenter aux dfiérents concours qui
                                                             requièrent la Licence en droit. </p>
                                                     </div>
                                                 </div>
@@ -138,7 +138,7 @@ export default function LicenceEnDroitPublic() {
                                                         <p>
                                                             La Licence en droit public permet aux étudiants de postuler
                                                             pour les Mastères professionnels et de se présenter aux
-                                                            diérents concours qui requièrent la Licence en droi (ENA,
+                                                            dfiérents concours qui requièrent la Licence en droit (ENA,
                                                             Tribunal administratif,Cour des comptes, Affaires
                                                             étrangères...).
                                                         </p>
@@ -223,9 +223,9 @@ export default function LicenceEnDroitPublic() {
                                             <table className="table table-bordered table-striped">
                                                 <thead>
                                                     <tr>
-                                                        <th rowspan="2">unite</th>
-                                                        <th rowspan="2">Elements constitutifs</th>
-                                                        <th colspan="3">volume horaire</th>
+                                                        <th rowSpan="2">unite</th>
+                                                        <th rowSpan="2">Elements constitutifs</th>
+                                                        <th colSpan="3">volume horaire</th>
                                                         <th>Credits</th>
                                                         <th> Coefficient</th>
                                                     </tr>
@@ -266,7 +266,7 @@ export default function LicenceEnDroitPublic() {
                                                     <td>3</td>
                                                 </tr>
                                                 <tr>
-                                                    <td rowspan="3">UE F14</td>
+                                                    <td rowSpan="3">UE F14</td>
                                                     <td>anglais 1</td>
                                                     <td></td>
                                                     <td></td>
@@ -293,7 +293,7 @@ export default function LicenceEnDroitPublic() {
                                                     <td>1</td>
                                                 </tr>
                                                 <tr>
-                                                    <td rowspan="2">UE F15</td>
+                                                    <td rowSpan="2">UE F15</td>
                                                     <td>Histoire des idées politique</td>
                                                     <td>42H</td>
                                                     <td></td>
@@ -322,9 +322,9 @@ export default function LicenceEnDroitPublic() {
                                             <table className="table table-bordered table-striped">
                                                 <thead>
                                                     <tr>
-                                                        <th rowspan="2">unite</th>
-                                                        <th rowspan="2">Elements constitutifs</th>
-                                                        <th colspan="3">volume horaire</th>
+                                                        <th rowSpan="2">unite</th>
+                                                        <th rowSpan="2">Elements constitutifs</th>
+                                                        <th colSpan="3">volume horaire</th>
                                                         <th>Credits</th>
                                                         <th> Coefficient</th>
                                                     </tr>
@@ -366,7 +366,7 @@ export default function LicenceEnDroitPublic() {
                                                     <td>3</td>
                                                 </tr>
                                                 <tr>
-                                                    <td rowspan="3">UE F24</td>
+                                                    <td rowSpan="3">UE F24</td>
                                                     <td>anglais 2</td>
                                                     <td></td>
                                                     <td></td>
@@ -391,7 +391,7 @@ export default function LicenceEnDroitPublic() {
                                                     <td>1</td>
                                                 </tr>
                                                 <tr>
-                                                    <td rowspan="2">UE O25</td>
+                                                    <td rowSpan="2">UE O25</td>
                                                     <td>Droit électoral</td>
                                                     <td>42H</td>
                                                     <td></td>
@@ -428,9 +428,9 @@ export default function LicenceEnDroitPublic() {
                                             <table className="table table-bordered table-striped">
                                                 <thead>
                                                     <tr>
-                                                        <th rowspan="2">unite</th>
-                                                        <th rowspan="2">Elements constitutifs</th>
-                                                        <th colspan="3">volume horaire</th>
+                                                        <th rowSpan="2">unite</th>
+                                                        <th rowSpan="2">Elements constitutifs</th>
+                                                        <th colSpan="3">volume horaire</th>
                                                         <th>Credits</th>
                                                         <th>Coefficient</th>
                                                     </tr>
@@ -471,7 +471,7 @@ export default function LicenceEnDroitPublic() {
                                                     <td>3</td>
                                                 </tr>
                                                 <tr>
-                                                    <td rowspan="2">UE T34</td>
+                                                    <td rowSpan="2">UE T34</td>
                                                     <td>Culture de l'entreprise 1</td>
                                                     <td></td>
                                                     <td></td>
@@ -488,7 +488,7 @@ export default function LicenceEnDroitPublic() {
                                                     <td>1</td>
                                                 </tr>
                                                 <tr>
-                                                    <td rowspan="2">UE O35</td>
+                                                    <td rowSpan="2">UE O35</td>
                                                     <td>Institutions internationales</td>
                                                     <td>42H</td>
                                                     <td></td>
@@ -517,9 +517,9 @@ export default function LicenceEnDroitPublic() {
                                             <table className="table table-bordered table-striped">
                                                 <thead>
                                                     <tr>
-                                                        <th rowspan="2">unite</th>
-                                                        <th rowspan="2">Elements constitutifs</th>
-                                                        <th colspan="3">volume horaire</th>
+                                                        <th rowSpan="2">unite</th>
+                                                        <th rowSpan="2">Elements constitutifs</th>
+                                                        <th colSpan="3">volume horaire</th>
                                                         <th>Credits</th>
                                                         <th> Coefficient</th>
                                                     </tr>
@@ -560,7 +560,7 @@ export default function LicenceEnDroitPublic() {
                                                         <td>3</td>
                                                     </tr>
                                                     <tr>
-                                                        <td rowspan="2">UE F44</td>
+                                                        <td rowSpan="2">UE F44</td>
                                                         <td>Culture de l'entreprise 2</td>
                                                         <td></td>
                                                         <td></td>
@@ -577,7 +577,7 @@ export default function LicenceEnDroitPublic() {
                                                         <td>1</td>
                                                     </tr>
                                                     <tr>
-                                                        <td rowspan="2">UE F45</td>
+                                                        <td rowSpan="2">UE F45</td>
                                                         <td>Droit du travail</td>
                                                         <td>42H</td>
                                                         <td></td>
@@ -616,9 +616,9 @@ export default function LicenceEnDroitPublic() {
                                             <table className="table table-bordered table-striped">
                                                 <thead>
                                                     <tr>
-                                                        <th rowspan="2">unite</th>
-                                                        <th rowspan="2">Elements constitutifs</th>
-                                                        <th colspan="3">volume horaire</th>
+                                                        <th rowSpan="2">unite</th>
+                                                        <th rowSpan="2">Elements constitutifs</th>
+                                                        <th colSpan="3">volume horaire</th>
                                                         <th>Credits</th>
                                                         <th>Coefficient</th>
                                                     </tr>
@@ -659,7 +659,7 @@ export default function LicenceEnDroitPublic() {
                                                         <td>3</td>
                                                     </tr>
                                                     <tr>
-                                                        <td rowspan="2"></td>
+                                                        <td rowSpan="2"></td>
                                                         <td>anglais </td>
                                                         <td></td>
                                                         <td></td>
@@ -706,9 +706,9 @@ export default function LicenceEnDroitPublic() {
                                             <table className="table table-bordered table-striped">
                                                 <thead>
                                                     <tr>
-                                                        <th rowspan="2">unite</th>
-                                                        <th rowspan="2">Elements constitutifs</th>
-                                                        <th colspan="3">volume horaire</th>
+                                                        <th rowSpan="2">unite</th>
+                                                        <th rowSpan="2">Elements constitutifs</th>
+                                                        <th colSpan="3">volume horaire</th>
                                                         <th>Credits</th>
                                                         <th>Coefficient</th>
                                                     </tr>
@@ -749,7 +749,7 @@ export default function LicenceEnDroitPublic() {
                                                         <td>3</td>
                                                     </tr>
                                                     <tr>
-                                                        <td rowspan="2">UE F64</td>
+                                                        <td rowSpan="2">UE F64</td>
                                                         <td>anglais 4</td>
                                                         <td></td>
                                                         <td></td>
@@ -766,7 +766,7 @@ export default function LicenceEnDroitPublic() {
                                                         <td>1</td>
                                                     </tr>
                                                     <tr>
-                                                        <td rowspan="2">UE O65</td>
+                                                        <td rowSpan="2">UE O65</td>
                                                         <td>Droit de la mer</td>
                                                         <td>42H</td>
                                                         <td></td>

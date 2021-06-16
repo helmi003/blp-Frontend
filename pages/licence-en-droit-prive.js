@@ -71,12 +71,12 @@ export default function licenceEnDroitPrive() {
                                                 <div className="form-item contact-inner">
                                                     <span className="inquiry">
                                                         <select id="Visiting" name="Visiting">
-                                                            <option disabled selected>Dernier diplome obtenu</option>
+                                                            <option disabled selected>Dernier diplôme obtenu</option>
                                                             <option value="Your inquiry about">Bac</option>
                                                             <option value="General Information Request">licence</option>
                                                             <option value="Partner Relations">Mastere</option>
-                                                            <option value="Software Licencing">Ingenieur</option>
-                                                            <option value="Software Licencing">Autre</option>
+                                                            <option value="Software Licencing">Ingénieur</option>
+                                                            <option value="Software Licencing">Autres</option>
                                                         </select>
                                                     </span>
                                                 </div>
@@ -178,7 +178,7 @@ export default function licenceEnDroitPrive() {
                                                         <p>
                                                             La Licence en droit privé permet aux étudiants de postuler
                                                             pour les Mastères professionnels et de se présenter aux
-                                                            diérents concours qui requièrent la Licence en droit
+                                                            différents concours qui requièrent la Licence en droit
                                                             (Barreau, Magistrature, notariat, consulting juridique,
                                                             ...).
                                                         </p>
@@ -263,9 +263,9 @@ export default function licenceEnDroitPrive() {
                                             <table className="table table-bordered table-striped">
                                                 <thead>
                                                     <tr>
-                                                        <th rowspan="2">Type de l'unité d'enseignement</th>
-                                                        <th rowspan="2">Elements constitutifs</th>
-                                                        <th colspan="3">volume horaire</th>
+                                                        <th rowSpan="2">Type de l'unité d'enseignement</th>
+                                                        <th rowSpan="2">Elements constitutifs</th>
+                                                        <th colSpan="3">volume horaire</th>
                                                         <th>Credits</th>
                                                         <th> Coefficient</th>
                                                     </tr>
@@ -306,7 +306,7 @@ export default function licenceEnDroitPrive() {
                                                     <td>3</td>
                                                 </tr>
                                                 <tr>
-                                                    <td rowspan="3">UE F14</td>
+                                                    <td rowSpan="3">UE F14</td>
                                                     <td>anglais 1</td>
                                                     <td></td>
                                                     <td></td>
@@ -333,7 +333,7 @@ export default function licenceEnDroitPrive() {
                                                     <td>1</td>
                                                 </tr>
                                                 <tr>
-                                                    <td rowspan="2">UE F15</td>
+                                                    <td rowSpan="2">UE F15</td>
                                                     <td>Histoire des idées politique</td>
                                                     <td>42H</td>
                                                     <td></td>
@@ -362,9 +362,9 @@ export default function licenceEnDroitPrive() {
                                             <table className="table table-bordered table-striped">
                                                 <thead>
                                                     <tr>
-                                                        <th rowspan="2">Type de l'unité d'enseignement</th>
-                                                        <th rowspan="2">Elements constitutifs</th>
-                                                        <th colspan="3">volume horaire</th>
+                                                        <th rowSpan="2">Type de l'unité d'enseignement</th>
+                                                        <th rowSpan="2">Elements constitutifs</th>
+                                                        <th colSpan="3">volume horaire</th>
                                                         <th>Credits</th>
                                                         <th> Coefficient</th>
                                                     </tr>
@@ -406,7 +406,7 @@ export default function licenceEnDroitPrive() {
                                                     <td>3</td>
                                                 </tr>
                                                 <tr>
-                                                    <td rowspan="3">UE F24</td>
+                                                    <td rowSpan="3">UE F24</td>
                                                     <td>anglais 2</td>
                                                     <td></td>
                                                     <td></td>
@@ -431,7 +431,7 @@ export default function licenceEnDroitPrive() {
                                                     <td>1</td>
                                                 </tr>
                                                 <tr>
-                                                    <td rowspan="2">UE O25</td>
+                                                    <td rowSpan="2">UE O25</td>
                                                     <td>Droit électoral</td>
                                                     <td>42H</td>
                                                     <td></td>
@@ -467,9 +467,9 @@ export default function licenceEnDroitPrive() {
                                             <table className="table table-bordered table-striped">
                                                 <thead>
                                                     <tr>
-                                                        <th rowspan="2">Type de l'unité d'enseignement</th>
-                                                        <th rowspan="2">Elements constitutifs</th>
-                                                        <th colspan="3">volume horaire</th>
+                                                        <th rowSpan="2">Type de l'unité d'enseignement</th>
+                                                        <th rowSpan="2">Elements constitutifs</th>
+                                                        <th colSpan="3">volume horaire</th>
                                                         <th>Credits</th>
                                                         <th>Coefficient</th>
                                                     </tr>
@@ -510,7 +510,7 @@ export default function licenceEnDroitPrive() {
                                                     <td>3</td>
                                                 </tr>
                                                 <tr>
-                                                    <td rowspan="2">UE T34</td>
+                                                    <td rowSpan="2">UE T34</td>
                                                     <td>Culture de l'entreprise 1</td>
                                                     <td></td>
                                                     <td></td>
@@ -527,7 +527,7 @@ export default function licenceEnDroitPrive() {
                                                     <td>1</td>
                                                 </tr>
                                                 <tr>
-                                                    <td rowspan="2">UE O35</td>
+                                                    <td rowSpan="2">UE O35</td>
                                                     <td>Institutions internationales</td>
                                                     <td>42H</td>
                                                     <td></td>
@@ -556,9 +556,9 @@ export default function licenceEnDroitPrive() {
                                             <table className="table table-bordered table-striped">
                                                 <thead>
                                                     <tr>
-                                                        <th rowspan="2">Type de l'unité d'enseignement</th>
-                                                        <th rowspan="2">Elements constitutifs</th>
-                                                        <th colspan="3">volume horaire</th>
+                                                        <th rowSpan="2">Type de l'unité d'enseignement</th>
+                                                        <th rowSpan="2">Elements constitutifs</th>
+                                                        <th colSpan="3">volume horaire</th>
                                                         <th>Credits</th>
                                                         <th> Coefficient</th>
                                                     </tr>
@@ -599,7 +599,7 @@ export default function licenceEnDroitPrive() {
                                                         <td>3</td>
                                                     </tr>
                                                     <tr>
-                                                        <td rowspan="2">UE F44</td>
+                                                        <td rowSpan="2">UE F44</td>
                                                         <td>Culture de l'entreprise 2</td>
                                                         <td></td>
                                                         <td></td>
@@ -616,7 +616,7 @@ export default function licenceEnDroitPrive() {
                                                         <td>1</td>
                                                     </tr>
                                                     <tr>
-                                                        <td rowspan="2">UE O45</td>
+                                                        <td rowSpan="2">UE O45</td>
                                                         <td>Droit du travail</td>
                                                         <td>42H</td>
                                                         <td></td>
@@ -655,9 +655,9 @@ export default function licenceEnDroitPrive() {
                                             <table className="table table-bordered table-striped">
                                                 <thead>
                                                     <tr>
-                                                        <th rowspan="2">Type de l'unité d'enseignement</th>
-                                                        <th rowspan="2">Elements constitutifs</th>
-                                                        <th colspan="3">volume horaire</th>
+                                                        <th rowSpan="2">Type de l'unité d'enseignement</th>
+                                                        <th rowSpan="2">Elements constitutifs</th>
+                                                        <th colSpan="3">volume horaire</th>
                                                         <th>Credits</th>
                                                         <th>Coefficient</th>
                                                     </tr>
@@ -698,7 +698,7 @@ export default function licenceEnDroitPrive() {
                                                         <td>3</td>
                                                     </tr>
                                                     <tr>
-                                                        <td rowspan="2">UE T54</td>
+                                                        <td rowSpan="2">UE T54</td>
                                                         <td>Culture d'entreprise 3 </td>
                                                         <td></td>
                                                         <td></td>
@@ -745,9 +745,9 @@ export default function licenceEnDroitPrive() {
                                             <table className="table table-bordered table-striped">
                                                 <thead>
                                                     <tr>
-                                                        <th rowspan="2">Type de l'unité d'enseignement</th>
-                                                        <th rowspan="2">Elements constitutifs</th>
-                                                        <th colspan="3">volume horaire</th>
+                                                        <th rowSpan="2">Type de l'unité d'enseignement</th>
+                                                        <th rowSpan="2">Elements constitutifs</th>
+                                                        <th colSpan="3">volume horaire</th>
                                                         <th>Credits</th>
                                                         <th>Coefficient</th>
                                                     </tr>
@@ -788,7 +788,7 @@ export default function licenceEnDroitPrive() {
                                                         <td>3</td>
                                                     </tr>
                                                     <tr>
-                                                        <td rowspan="2">UE T64</td>
+                                                        <td rowSpan="2">UE T64</td>
                                                         <td>anglais 4</td>
                                                         <td></td>
                                                         <td></td>
@@ -805,7 +805,7 @@ export default function licenceEnDroitPrive() {
                                                         <td>1</td>
                                                     </tr>
                                                     <tr>
-                                                        <td rowspan="2">UE O65</td>
+                                                        <td rowSpan="2">UE O65</td>
                                                         <td>Droit combaire</td>
                                                         <td>42H</td>
                                                         <td></td>

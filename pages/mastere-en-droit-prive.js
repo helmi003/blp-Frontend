@@ -71,12 +71,12 @@ export default function mastereEnDroitPrive() {
                                                 <div className="form-item contact-inner">
                                                     <span className="inquiry">
                                                         <select id="Visiting" name="Visiting">
-                                                            <option disabled selected>Dernier diplome obtenu</option>
+                                                            <option disabled selected>Dernier diplôme obtenu</option>
                                                             <option value="Your inquiry about">Bac</option>
                                                             <option value="General Information Request">licence</option>
                                                             <option value="Partner Relations">Mastere</option>
-                                                            <option value="Software Licencing">Ingenieur</option>
-                                                            <option value="Software Licencing">Autre</option>
+                                                            <option value="Software Licencing">Ingénieur</option>
+                                                            <option value="Software Licencing">Autres</option>
                                                         </select>
                                                     </span>
                                                 </div>
@@ -132,7 +132,7 @@ export default function mastereEnDroitPrive() {
                                                             un parcours que les étudiants peuvent
                                                             choisir suite à l’obtention d’une Licence en Droit privé. Il
                                                             vise à permettre aux étudiants d'acquérir
-                                                            une compétence axée sur les diérents aspects de la vie de
+                                                            une compétence axée sur les différents aspects de la vie de
                                                             l'entreprise et de se familiariser,
                                                             notamment, avec les techniques contractuelles, scales,
                                                             sociales et le droit des sociétés.
@@ -277,9 +277,9 @@ export default function mastereEnDroitPrive() {
                                             <table className="table table-striped table-bordered">
                                                 <thead>
                                                     <tr>
-                                                        <th rowspan="2">Type de l'unité d'enseignement</th>
-                                                        <th rowspan="2">Elements constitutifs</th>
-                                                        <th colspan="3">volume horaire</th>
+                                                        <th rowSpan="2">Type de l'unité d'enseignement</th>
+                                                        <th rowSpan="2">Elements constitutifs</th>
+                                                        <th colSpan="3">volume horaire</th>
                                                         <th>Credits</th>
                                                         <th> Coefficient</th>
                                                     </tr>
@@ -330,7 +330,7 @@ export default function mastereEnDroitPrive() {
                                                 </tr>
 
                                                 <tr>
-                                                    <td rowspan="2">UE O15</td>
+                                                    <td rowSpan="2">UE O15</td>
                                                     <td>Droit de la propriété industrielle</td>
                                                     <td>42H</td>
                                                     <td></td>
@@ -369,9 +369,9 @@ export default function mastereEnDroitPrive() {
                                             <table className="table table-striped table-bordered">
                                                 <thead>
                                                     <tr>
-                                                        <th rowspan="2">Type de l'unité d'enseignement</th>
-                                                        <th rowspan="2">Elements constitutifs</th>
-                                                        <th colspan="3">volume horaire</th>
+                                                        <th rowSpan="2">Type de l'unité d'enseignement</th>
+                                                        <th rowSpan="2">Elements constitutifs</th>
+                                                        <th colSpan="3">volume horaire</th>
                                                         <th>Credits</th>
                                                         <th> Coefficient</th>
                                                     </tr>
@@ -422,7 +422,7 @@ export default function mastereEnDroitPrive() {
                                                 </tr>
 
                                                 <tr>
-                                                    <td rowspan="2">UE O25</td>
+                                                    <td rowSpan="2">UE O25</td>
                                                     <td>Droit des assurances</td>
                                                     <td>42H</td>
                                                     <td></td>
@@ -460,9 +460,9 @@ export default function mastereEnDroitPrive() {
                                             <table className="table table-striped table-bordered">
                                                 <thead>
                                                     <tr>
-                                                        <th rowspan="2">Type de l'unité d'enseignement</th>
-                                                        <th rowspan="2">Elements constitutifs</th>
-                                                        <th colspan="3">volume horaire</th>
+                                                        <th rowSpan="2">Type de l'unité d'enseignement</th>
+                                                        <th rowSpan="2">Elements constitutifs</th>
+                                                        <th colSpan="3">volume horaire</th>
                                                         <th>Credits</th>
                                                         <th> Coefficient</th>
                                                     </tr>
@@ -513,7 +513,7 @@ export default function mastereEnDroitPrive() {
                                                 </tr>
 
                                                 <tr>
-                                                    <td rowspan="2">UE O36</td>
+                                                    <td rowSpan="2">UE O36</td>
                                                     <td>Droit des contrats pétroliers</td>
                                                     <td>42H</td>
                                                     <td></td>
