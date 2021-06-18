@@ -76,8 +76,8 @@ export default function Home() {
                                                 </div>
                                             </div>
                                             <div className="content">
-                                                <h5 className="heading">Etudier à l'étranger</h5>
-                                                <div className="text">Avec BLP tout est posible M1 en Tunisie , M2 en france .
+                                                <h5 className="heading">Étudier à l'étranger</h5>
+                                                <div className="text">Avec BLP tout est possible M1 en Tunisie, M2 en France.
                                                 </div>
                                                 <div className="box-images-arrow">
                                                     <a href="etudier-en-tunisie">
@@ -108,9 +108,9 @@ export default function Home() {
                                                 </div>
                                             </div>
                                             <div className="content">
-                                                <h5 className="heading">Double diplômes </h5>
-                                                <div className="text"> Inscrirez-vous au diplôme tunisien et bénéficier d'un
-                                                    diplôme français public avec nos partenaires .
+                                                <h5 className="heading">Double diplôme </h5>
+                                                <div className="text"> Inscrivez-vous au diplôme tunisien et bénéficiez d'un
+                                                    diplôme français public avec nos partenaires.
                                                 </div>
                                                 <div className="box-images-arrow">
                                                     <a href="https://admission.mit.tn/">
@@ -175,7 +175,7 @@ export default function Home() {
                             <div className="col-lg-8 ml-auto mr-auto">
                                 <div className="typed-text-wrap">
                                     <h4 className="cd-headline letters type">
-                                        <span>Bénéficier de nos </span>
+                                        <span>Bénéficiez de nos </span>
                                         <span className="cd-words-wrapper waiting">
                                             <b className="is-visible"> Formations</b>
                                             <b> Licences</b>
@@ -207,8 +207,8 @@ export default function Home() {
                                                         alt="sciences-politiques-blp"/>
                                                 </div>
                                                 <div className="content">
-                                                    <h6 className="post-categories">Mastère professionnel en sciences
-                                                        politiques</h6>
+                                                    <h6 className="post-categories">Mastère en Sciences
+                                                        Politiques</h6>
                                                     <div className="heading"><b>Parcours</b> : Relations internationales et
                                                         diplomatie</div>
 
@@ -230,7 +230,7 @@ export default function Home() {
                                                         alt="droit-prive-blp"/>
                                                 </div>
                                                 <div className="content">
-                                                    <h6 className="post-categories">Mastère professionnel en Droit</h6>
+                                                    <h6 className="post-categories">Mastère en Droit</h6>
                                                     <div className="heading"><b>Parcours</b> : Droit privé des affaires
                                                     </div>
                                                     <br/><br/>
@@ -254,7 +254,7 @@ export default function Home() {
                                                         alt="Gestion-blp"/>
                                                 </div>
                                                 <div className="content">
-                                                    <h6 className="post-categories">Mastère professionnel en sciences
+                                                    <h6 className="post-categories">Mastère en Sciences
                                                         Economiques</h6>
                                                     <div className="heading"><b>Parcours</b> : Ingénierie des risques
                                                         Economiques et financiers</div>
@@ -279,9 +279,9 @@ export default function Home() {
                                                         alt="sciences-economiques-blp"/>
                                                 </div>
                                                 <div className="content">
-                                                    <h6 className="post-categories">Mastère professionnel en sciences
+                                                    <h6 className="post-categories">Mastère en Sciences
                                                         Economiques</h6>
-                                                    <div className="heading"><b>Parcours</b> : Assurance, banque, finance
+                                                    <div className="heading"><b>Parcours</b> : Assurance, banque et finance
                                                     </div>
 
                                                     <div className="box-projects-arrow">
@@ -303,7 +303,7 @@ export default function Home() {
                                                         alt="science-de-gestion-blp"/>
                                                 </div>
                                                 <div className="content">
-                                                    <h6 className="post-categories">Mastère professionnel en Sciences de
+                                                    <h6 className="post-categories">Mastère en Sciences de
                                                         gestion</h6>
                                                     <div className="heading"><b>Parcours</b> : Marchés financiers et gestion
                                                         des risques</div>
@@ -326,7 +326,7 @@ export default function Home() {
                                                         src="assets/images/projects/droit.jpg" alt=""/>
                                                 </div>
                                                 <div className="content">
-                                                    <h6 className="post-categories">Licence fondamentale en Droit</h6>
+                                                    <h6 className="post-categories">Licence en Droit</h6>
                                                     <div className="heading"><b>Parcours</b> : Droit Public</div>
                                                     <br/><br/>
                                                     <div className="box-projects-arrow">
@@ -370,7 +370,7 @@ export default function Home() {
                                                         src="assets/images/projects/droit2.jpg" alt=""/>
                                                 </div>
                                                 <div className="content">
-                                                    <h6 className="post-categories">Licence fondamentale en Droit</h6>
+                                                    <h6 className="post-categories">Licence en Droit</h6>
                                                     <div className="heading"><b>Parcours</b> :Droit Privé</div>
                                                     <br/><br/>
                                                     <div className="box-projects-arrow">
@@ -451,7 +451,7 @@ export default function Home() {
                                                     <div className="images-midea">
                                                     <img src="assets/images/actualites/ouverture-its-blp.webp" alt=""/>
 
-                                                        <div class="button-wrapper">
+                                                        <div className="button-wrapper">
                                                             <div className="btn tm-button">
                                                                 <span className="button-text">En savoir Plus</span>
                                                             </div>
@@ -524,7 +524,7 @@ export default function Home() {
                 <div className="row align-items-center">
                     <div className="col-lg-6 col-lg-6">
                         <div className="conact-us-wrap-one">
-                            <h3 className="heading text-white">Si vous cherchez une formation qui débouche sur métier
+                            <h3 className="heading text-white">Si vous cherchez une formation qui débouche sur le métier
                                 rémunérateur, <span className="text-red">La BLP</span> vous propose plusieurs filières
                                 choisies en fonction du marché du travail. </h3>
 
@@ -579,13 +579,13 @@ export default function Home() {
                                     <ul className="check-list">
                                         <li className="list-item"><a href="#">Offrir ce sésame à travers l’Afrique
                                                 gratuitement à tous sur plus de 1000 cours.</a></li>
-                                        <li className="list-item"><a href="#">Enseignement dispensé par les meilleures enseignants et professionnels Tunisiens et experts internationaux</a></li>
+                                        <li className="list-item"><a href="#">Enseignement dispensé par les meilleurs enseignants et professionnels Tunisiens et experts internationaux</a></li>
                                         <li className="list-item"><a href="#">Collaboration avec des universités étrangères et possibilité de continuer les études et stages a l'étranger</a></li>        
                                         <li className="list-item"><a href="#">Places gratuites à nos enseignements en
                                                 présentiel aux lauréats de chaque lycée au baccalauréat.</a></li>
                                         <li className="list-item"><a href="#"> Bourse d’études et Places gratuites et accès
                                                 dès la terminale à nos modules d’E-learning et sur place.</a></li>
-                                        <li className="list-item"><a href="#">Ouverture université d'éte : cours gratuits en e-learning en temps réel.</a></li>
+                                        <li className="list-item"><a href="#">Ouverture université d'été : cours gratuits en e-learning en temps réel.</a></li>
                                         <li className="list-item"><a href="#">Double cursus (reconnu par l’Union
                                                 européenne).</a></li>
                                         <li className="list-item"><a href="#">Licences, Masters (Tunisiens et Français).</a>
@@ -612,7 +612,7 @@ export default function Home() {
                     <div className="col-md-3 col-sm-6 wow move-up">
                         <div className="fun-fact--two text-center">
                             <div className="fun-fact__count counter">110</div>
-                            <h6 className="fun-fact__text">Convention + Universités dans le monde</h6>
+                            <h6 className="fun-fact__text">Conventions + Universités dans le monde</h6>
                         </div>
                     </div>
                     <div className="col-md-3 col-sm-6 wow move-up">
@@ -625,7 +625,7 @@ export default function Home() {
                     <div className="col-md-3 col-sm-6 wow move-up">
                         <div className="fun-fact--two text-center">
                             <div className="fun-fact__count counter"> 40</div>
-                            <h6 className="fun-fact__text">Spécialité</h6>
+                            <h6 className="fun-fact__text">Spécialités</h6>
                         </div>
                     </div>
                     <div className="col-md-3 col-sm-6 wow move-up">

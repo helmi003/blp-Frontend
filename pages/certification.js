@@ -46,8 +46,8 @@ export default function certification() {
                                 <div className="content">
                                     <h6 className="heading">Des conférences internationales </h6>
                                     <div className="text"> La présence des lauréats Nobels : James Hekman, Harry Markovitz, E.
-                                        Prescott,Myron Scholes, etc.
-                                        La participation des étudiants de la BLP sera privilégié en présence des lauréats nobels.</div>
+                                        Prescott, Myron Scholes, etc.
+                                        La participation des étudiants de la BLP sera privilégiée en présence des lauréats nobels.</div>
                                 </div>
                             </div>
                         </a>
@@ -80,8 +80,8 @@ export default function certification() {
 
                                 <div className="content">
                                     <h6 className="heading">Plusieurs diplômes internationaux </h6>
-                                    <div className="text">“ Inscrirez-vous au diplôme tunisien et bénéficier d'un diplôme
-                                        français public avec nos partenaires.”</div>
+                                    <div className="text">“ Inscrivez-vous au diplôme tunisien et bénéficieze d'un diplôme
+                                        français public avec nos partenaires. ”</div>
                                 </div>
                             </div>
                         </a>
@@ -97,9 +97,9 @@ export default function certification() {
                                         alt=""/>
                                 </div>
                                 <div className="content">
-                                    <h5 className="heading">First smart univerty in africa</h5>
+                                    <h5 className="heading">First smart university in Africa</h5>
                                     <div className="text">“ BLP dispose d’une plateforme d’enseignement à distance et de
-                                        conseillers pédagogiques couvrant tous les programmes .”</div>
+                                        conseillers pédagogiques couvrants tous les programmes .”</div>
                                 </div>
                             </div>
                         </a>
@@ -170,7 +170,7 @@ export default function certification() {
                                     investissement dans des activités complémentaires qui donnent lieu à des
                                     certifications. BLP en partenariat avec des professionnels et des organismes
                                     extérieurs (centre AMIDEAST,..), a élaboré les programmes de ces
-                                    certifications .</p>
+                                    certifications.</p>
 
                             </div>
                         </div>
@@ -265,7 +265,7 @@ export default function certification() {
                                     <h6 className="heading">03. Certifications Cisco, Microsoft, Linux</h6>
 
                                     <div className="text">BLP permet à tous les etudiants de préparer <br/>
-                                        leur certification Cisco - CCNA, CCNP, CCIE - en suivant une formation
+                                        leurs certifications Cisco - CCNA, CCNP, CCIE - en suivant une formation
                                         officielle Cisco.</div>
                                 </div>
                             </div>
@@ -307,8 +307,8 @@ export default function certification() {
                 <div className="row align-items-center">
                     <div className="col-xl-8 col-lg-7">
                         <div className="cta-content md-text-center">
-                            <h3 className="heading text-white">Bourses d'études et places gratuites et accés dés la
-                                Terminale à nos modules de E-learning et sur place </h3>
+                            <h3 className="heading text-white">Bourses d'études et places gratuites et accès dès la
+                    Terminale à nos modules d'E-learning et sur place </h3>
                         </div>
                     </div>
                     <div className="col-xl-4 col-lg-5">

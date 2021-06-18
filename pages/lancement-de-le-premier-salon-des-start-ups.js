@@ -12,7 +12,7 @@ export default function licenceEnDroitPrive() {
                         <li className="breadcrumb-item"><a href="actualites">Actualités</a></li>
                     </ul>
                    
-                    <h2 className="breadcrumb-title ">Lancement de le premier salon des start ups</h2>
+                    <h2 className="breadcrumb-title ">Lancement du premier salon des start ups</h2>
                    
                 
                 </div>
@@ -43,7 +43,7 @@ export default function licenceEnDroitPrive() {
                                         <div className="col-lg-6">
                                             <div className="post-info lg-blog-post-info">
                                                 <h4 className="post-title">
-                                                   Visiter le premier salon des start ups
+                                                   Visitez le premier salon des start ups
                                                 </h4>
                                               
                                                 <div className="post-meta mt-20">
@@ -55,10 +55,10 @@ export default function licenceEnDroitPrive() {
                          
                                                 </div>
                                                 <blockquote>
-                                                    <p className="p1">CBM formation & PSS annonce le salon des start ups en partenariat avec MIT Polytech & BLP  et Lance le premier salon  </p>
+                                                    <p className="p1">CBM formation & PSS annonce le salon des start ups en partenariat avec MIT Polytech & BLP et Lance le premier salon  </p>
                                                 </blockquote>
                                                 <div className="post-excerpt mt-15">
-                                                    <p>Dont le but d'aider les jeunes à développer leurs idées et projet en offrant de l'Hébergement,Formations,Conseils et Financement.</p>
+                                                    <p>Dont le but est d'aider les jeunes à développer leurs idées et projet en offrant de l'Hébergement,Formations,Conseils et Financement.</p>
                                                 </div>
 
 

@@ -82,9 +82,9 @@ export default function formations() {
                                         <img className="img-fulid" src="assets/images/icons/mitech-processing-service-image-04-80x83.png" alt=""/>
                                     </div>
                                     <div className="content">
-                                        <h5 className="heading">First smart univerty in africa</h5>
+                                        <h5 className="heading">First smart university in Africa</h5>
                                         <div className="text">“ BLP dispose d’une plateforme d’enseignement à distance et de
-                                       conseillers pédagogiques couvrant tous les programmes .”</div>
+                                       conseillers pédagogiques couvrant tous les programmes.”</div>
                                     </div>
                                 </div>
                             </a>
@@ -98,8 +98,8 @@ export default function formations() {
                                         <img className="img-fulid" src="assets/images/safa.jpg" alt=""/>
                                     </div>
                                     <div className="content">
-                                        <h5 className="heading">Des projets  à l’international</h5>
-                                        <div className="text">“La mise en place d’un référentiel de compétences et  l’interaction entre le monde académique et professionnel .”</div>
+                                        <h5 className="heading">Des projets à l’international</h5>
+                                        <div className="text">“ La mise en place d’un référentiel de compétences et  l’interaction entre le monde académique et professionnel. ”</div>
                                     </div>
                                 </div>
                             </a>

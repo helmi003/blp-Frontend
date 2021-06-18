@@ -72,12 +72,12 @@ export default function LicenceEnMarketing() {
                                                 <div className="form-item contact-inner">
                                                     <span className="inquiry">
                                                         <select id="Visiting" name="Visiting">
-                                                            <option disabled selected>Dernier diplome obtenu</option>
+                                                            <option disabled selected>Dernier diplôme obtenu</option>
                                                             <option value="Your inquiry about">Bac</option>
                                                             <option value="General Information Request">licence</option>
                                                             <option value="Partner Relations">Mastere</option>
-                                                            <option value="Software Licencing">Ingenieur</option>
-                                                            <option value="Software Licencing">Autre</option>
+                                                            <option value="Software Licencing">Ingénieur</option>
+                                                            <option value="Software Licencing">Autres</option>
                                                         </select>
                                                     </span>
                                                 </div>
@@ -182,7 +182,7 @@ export default function LicenceEnMarketing() {
                                                             domaine du Marketing et du commerce,
                                                             capables d’être immédiatement opérationnels et évoluer
                                                             rapidement vers des postes de responsabilités.
-                                                            Le Diplôme de licence en Marketing a pour objet d’orir des
+                                                            Le Diplôme de licence en Marketing a pour objet d’offrir des
                                                             compétences demandées dans les emplois
                                                             des services commerciaux et de communication des
                                                             entreprises. Ce programme de licence permet
@@ -464,9 +464,9 @@ export default function LicenceEnMarketing() {
                                             <table className="table table-bordered table-striped">
                                                 <thead>
                                                     <tr>
-                                                        <th rowspan="2">Type de l'unité d'enseignement</th>
-                                                        <th rowspan="2">Elements constitutifs</th>
-                                                        <th colspan="3">volume horaire</th>
+                                                        <th rowSpan="2">Type de l'unité d'enseignement</th>
+                                                        <th rowSpan="2">Elements constitutifs</th>
+                                                        <th colSpan="3">volume horaire</th>
                                                         <th>Credits</th>
                                                         <th> Coefficient</th>
                                                     </tr>
@@ -517,7 +517,7 @@ export default function LicenceEnMarketing() {
                                                     <td>2.5</td>
                                                 </tr>
                                                 <tr>
-                                                    <td rowspan="2">UE: Droit et calculs financiers</td>
+                                                    <td rowSpan="2">UE: Droit et calculs financiers</td>
                                                     <td>Introduction au droit</td>
                                                     <td>42H</td>
                                                     <td></td>
@@ -534,7 +534,7 @@ export default function LicenceEnMarketing() {
                                                     <td>1.5</td>
                                                 </tr>
                                                 <tr>
-                                                <td rowspan="2">UE: langue et informatique</td>
+                                                <td rowSpan="2">UE: langue et informatique</td>
                                                 <td>Anglais 1</td>
                                                 <td>21H</td>
                                                 <td></td>
@@ -563,9 +563,9 @@ export default function LicenceEnMarketing() {
                                             <table className="table table-bordered table-striped">
                                                 <thead>
                                                     <tr>
-                                                        <th rowspan="2">Type de l'unité d'enseignement</th>
-                                                        <th rowspan="2">Elements constitutifs</th>
-                                                        <th colspan="3">volume horaire</th>
+                                                        <th rowSpan="2">Type de l'unité d'enseignement</th>
+                                                        <th rowSpan="2">Elements constitutifs</th>
+                                                        <th colSpan="3">volume horaire</th>
                                                         <th>Credits</th>
                                                         <th> Coefficient</th>
                                                     </tr>
@@ -606,7 +606,7 @@ export default function LicenceEnMarketing() {
                                                     <td>2.5</td>
                                                 </tr>
                                                 <tr>
-                                                    <td rowspan="2">UE :Macroéconomie et droit</td>
+                                                    <td rowSpan="2">UE :Macroéconomie et droit</td>
                                                     <td>Macroéconomie</td>
                                                     <td>42H</td>
                                                     <td></td>
@@ -624,7 +624,7 @@ export default function LicenceEnMarketing() {
                                                 </tr>
 
                                                 <tr>
-                                                    <td rowspan="2">UE: langue et informatique </td>
+                                                    <td rowSpan="2">UE: langue et informatique </td>
                                                     <td>Anglais 2</td>
                                                     <td>21H</td>
                                                     <td></td>
@@ -663,9 +663,9 @@ export default function LicenceEnMarketing() {
                                             <table className="table table-bordered table-striped">
                                                 <thead>
                                                     <tr>
-                                                        <th rowspan="2">Type de l'unité d'enseignement</th>
-                                                        <th rowspan="2">Elements constitutifs</th>
-                                                        <th colspan="3">volume horaire</th>
+                                                        <th rowSpan="2">Type de l'unité d'enseignement</th>
+                                                        <th rowSpan="2">Elements constitutifs</th>
+                                                        <th colSpan="3">volume horaire</th>
                                                         <th>Credits</th>
                                                         <th>Coefficient</th>
                                                     </tr>
@@ -715,7 +715,7 @@ export default function LicenceEnMarketing() {
                                                     <td>2.5</td>
                                                 </tr>
                                                 <tr>
-                                                    <td rowspan="2">UE: Langue et soft skills</td>
+                                                    <td rowSpan="2">UE: Langue et soft skills</td>
                                                     <td>Anglais 2</td>
                                                     <td>21H</td>
                                                     <td></td>
@@ -732,7 +732,7 @@ export default function LicenceEnMarketing() {
                                                     <td>1.5</td>
                                                 </tr>
                                                 <tr>
-                                                    <td rowspan="2">UE: Fiscalité et statistique</td>
+                                                    <td rowSpan="2">UE: Fiscalité et statistique</td>
                                                     <td>Fiscalité</td>
                                                     <td>42H</td>
                                                     <td>21H</td>
@@ -761,9 +761,9 @@ export default function LicenceEnMarketing() {
                                             <table className="table table-bordered table-striped">
                                                 <thead>
                                                     <tr>
-                                                        <th rowspan="2">Type de l'unité d'enseignement</th>
-                                                        <th rowspan="2">Elements constitutifs</th>
-                                                        <th colspan="3">volume horaire</th>
+                                                        <th rowSpan="2">Type de l'unité d'enseignement</th>
+                                                        <th rowSpan="2">Elements constitutifs</th>
+                                                        <th colSpan="3">volume horaire</th>
                                                         <th>Credits</th>
                                                         <th> Coefficient</th>
                                                     </tr>
@@ -813,7 +813,7 @@ export default function LicenceEnMarketing() {
                                                         <td>2.5</td>
                                                     </tr>
                                                     <tr>
-                                                        <td rowspan="2">UE Langueet soft skills</td>
+                                                        <td rowSpan="2">UE Langueet soft skills</td>
                                                         <td>Thecnique de communication</td>
                                                         <td></td>
                                                         <td></td>
@@ -830,7 +830,7 @@ export default function LicenceEnMarketing() {
                                                         <td>1.5</td>
                                                     </tr>
                                                     <tr>
-                                                        <td rowspan="2">UE: Communication et travail collaboratif</td>
+                                                        <td rowSpan="2">UE: Communication et travail collaboratif</td>
                                                         <td>Communication interne e'entreprise</td>
                                                         <td>42H</td>
                                                         <td>21H</td>
@@ -868,9 +868,9 @@ export default function LicenceEnMarketing() {
                                             <table className="table table-bordered table-striped">
                                                 <thead>
                                                     <tr>
-                                                        <th rowspan="2">Type de l'unité d'enseignement</th>
-                                                        <th rowspan="2">Elements constitutifs</th>
-                                                        <th colspan="3">volume horaire</th>
+                                                        <th rowSpan="2">Type de l'unité d'enseignement</th>
+                                                        <th rowSpan="2">Elements constitutifs</th>
+                                                        <th colSpan="3">volume horaire</th>
                                                         <th>Credits</th>
                                                         <th>Coefficient</th>
                                                     </tr>
@@ -884,7 +884,7 @@ export default function LicenceEnMarketing() {
                                                 </thead>
                                                 <tbody>
                                                     <tr>
-                                                        <td rowspan="2">UE:Marketing stratégique et opérationnel</td>
+                                                        <td rowSpan="2">UE:Marketing stratégique et opérationnel</td>
                                                         <td>Stratégie marketing</td>
                                                         <td>42H</td>
                                                         <td>21H</td>
@@ -919,7 +919,7 @@ export default function LicenceEnMarketing() {
                                                         <td>2.5</td>
                                                     </tr>
                                                     <tr>
-                                                        <td rowspan="2">UE: Langue et soft skills</td>
+                                                        <td rowSpan="2">UE: Langue et soft skills</td>
                                                         <td>Préparation toeic</td>
                                                         <td>21H</td>
                                                         <td></td>
@@ -936,7 +936,7 @@ export default function LicenceEnMarketing() {
                                                         <td>1.5</td>
                                                     </tr>
                                                     <tr>
-                                                        <td rowspan="2">Marketing des services et marque</td>
+                                                        <td rowSpan="2">Marketing des services et marque</td>
                                                         <td>Marketing des services </td>
                                                         <td>21H</td>
                                                         <td>21H</td>
@@ -965,9 +965,9 @@ export default function LicenceEnMarketing() {
                                             <table className="table table-bordered table-striped">
                                                 <thead>
                                                     <tr>
-                                                        <th rowspan="2">Type de l'unité d'enseignement</th>
-                                                        <th rowspan="2">Elements constitutifs</th>
-                                                        <th colspan="3">volume horaire</th>
+                                                        <th rowSpan="2">Type de l'unité d'enseignement</th>
+                                                        <th rowSpan="2">Elements constitutifs</th>
+                                                        <th colSpan="3">volume horaire</th>
                                                         <th>Credits</th>
                                                         <th>Coefficient</th>
                                                     </tr>
@@ -1017,7 +1017,7 @@ export default function LicenceEnMarketing() {
                                                         <td>2.5</td>
                                                     </tr>
                                                     <tr>
-                                                        <td rowspan="2">UE: Langue et soft skills</td>
+                                                        <td rowSpan="2">UE: Langue et soft skills</td>
                                                         <td>Préparation toeic</td>
                                                         <td>21H</td>
                                                         <td></td>
@@ -1034,7 +1034,7 @@ export default function LicenceEnMarketing() {
                                                         <td>1.5</td>
                                                     </tr>
                                                     <tr>
-                                                        <td rowspan="2">UE: Marketing international et marketing de luxe
+                                                        <td rowSpan="2">UE: Marketing international et marketing de luxe
                                                         </td>
                                                         <td>Marketing de luxe</td>
                                                         <td>21H</td>

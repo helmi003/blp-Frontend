@@ -45,16 +45,16 @@ export default function recherche() {
                                         <a href="recherche">Recherche & Innovation</a>
                                     </h3>
                                     <div className="post-excerpt mt-15">
-                                        <h6> L'Ecole Supérieure des Sciences Juridiques, Economiques et Politiques de
+                                        <h6> L'École Supérieure des Sciences Juridiques, Economiques et Politiques de
                                             Tunis est un établissement privé pluridisciplinaire. </h6>
 
-                                        <p>Avec son staff enseignant formé de plus de 200 enseignants est actuellement
+                                        <p>Avec son staff enseignant formé de plus de 200 enseignants, elle est actuellement
                                             une parmi les grandes institutions de formation dans le secteur privé. En
                                             parallèle, et dans le cadre de son ouverture à l’international, BLP propose
                                             trois doubles diplomations avec des universités françaises et canadiennes.
                                         </p>
 
-                                        <p><b>BLP </b>a réussit à mettre sur pied des formations de plus en plus en
+                                        <p><b>BLP </b>a réussi à mettre sur pied des formations de plus en plus en
                                             phase avec le monde du travail. Cette démarche lui a permis d’être mieux à
                                             l’écoute des besoins de ses partenaires économiques en matière de ressources
                                             humaines et de compétences.</p>
@@ -90,7 +90,7 @@ export default function recherche() {
 
                                         <p> Parmi les actions programmées, l’UM propose un appel à des projets nationaux
                                             exceptionnels avec un processus accéléré et simplifié de soumission,
-                                            d’évaluation et de sélection destiné à soutenir les nombreuses initiatives
+                                            d’évaluation et de sélection destinée à soutenir les nombreuses initiatives
                                             liées à la pandémie qui éclosent dans un espace universitaire très réactif,
                                             ingénieux et responsable qui s’appuie sur des réseaux collaboratifs
                                             d’étudiants, d’enseignants, de chercheurs particulièrement créatifs et
@@ -99,7 +99,7 @@ export default function recherche() {
                                         <img src="assets/images/projects/covid.jpg"
                                             alt="image"/>
                                     </div>
-                                    <p> L’appel à projets à vocation international s’adresse aux enseignants,
+                                    <p> L’appel à projets à vocation internationale s’adresse aux enseignants,
                                         chercheurs, acteurs technologiques, et aux entreprises innovantes, qui,
                                         souhaitent développer des applications ou des prototypes pouvant limiter
                                         l’impact du Covid-19.</p>
@@ -109,11 +109,11 @@ export default function recherche() {
                                         l’accompagnement et des financements de l’UM jusqu’à implémentation et le
                                         passage d’une application ou un prototype à une réalité.</p>
                                     <div className="btn-text mt-15">
-                                        <a href="videotheque">Veuillez Consulter les 11 projets gagnants<i
+                                        <a href="videotheque">Veuillez consulter les 11 projets gagnants<i
                                                 className="ml-1 button-icon far fa-long-arrow-right"></i></a>
                                     </div>
                                     <p>Ce challenge présente de manière simple et didactique, la méthodologie de
-                                        recherche, les value drivers, les facteurs de success, qui reflètent
+                                        recherche, les valuers drivers, les facteurs de succès, qui reflètent
                                         l’excellence qualité des projets et la vision d’excellence de l’UM.</p>
                                     <div className="btn-text mt-15">
                                         <a
@@ -145,7 +145,7 @@ export default function recherche() {
                                     </div>
                                     <p>Les JPO sont un moment fort pour connaitre notre école et une bonne occasion de
                                         voir plus loin que les sites Web et les réseaux sociaux, les plaquettes
-                                        institutionnelles qui présentent la réalité rayonnante de l'ecole Supérieure des
+                                        institutionnelles qui présentent la réalité rayonnante de l'école Supérieure des
                                         Sciences Juridiques, Economiques et Politiques de Tunis.</p>
                                     <div className="btn-text mt-15">
                                         <a href="videotheque">Livre des Journées Portes Ouvertes<i
@@ -156,7 +156,7 @@ export default function recherche() {
                                         <p className="p1">Journées de Métiers & de l'Innovation</p>
                                     </blockquote>
 
-                                    <p>Les Journées de Métiers et de l’Innovation s’est déroulé les 13, 14 et 15 Mai
+                                    <p>Les Journées de Métiers et de l’Innovation se sont déroulées les 13, 14 et 15 Mai
                                         2020. Cet événement vise une information sur les métiers, en s’appuyant sur des
                                         témoignages de professionnels.</p>
                                     <img src=" assets/images/projects/journee.jpg" alt="image"/>
@@ -164,7 +164,7 @@ export default function recherche() {
                                         <a href="challenge">Veuillez consulter le programme des journées Portes
                                             Ouvertes<i className="ml-1 button-icon far fa-long-arrow-right"></i></a>
                                     </div>
-                                    <p>L’évolution de la recherche scientifique au sein de L'ecole Supérieure Privée des
+                                    <p>L’évolution de la recherche scientifique au sein de l'école Supérieure Privée des
                                         Sciences Juridiques, Economiques et Politiques de Tunis est en progression
                                         permanente, elle est représentée actuellement par l’unité de recherche CITI et
                                         la conférence internationale CITI.</p>
@@ -180,8 +180,8 @@ export default function recherche() {
                                         un réel enjeu. Désormais, la révolution de technologies intelligentes “Smart
                                         applications”, les villes intelligents “Smart Cities” et les réseaux
                                         intelligents “Smart grids” est en marche. En effet, Smart applications”, “Smart
-                                        City” et “Smart grid” modifient durablement le monde. Toute fois l’utilisation
-                                        des technologies intelligent a littéralement explosé </p>
+                                        City” et “Smart grid” modifient durablement le monde. Toutesfois l’utilisation
+                                        des technologies intelligentes a littéralement explosé </p>
                                     <p>Largement ouverte sur son entourage socio-économique, la BLP n’a cessé d’œuvrer
                                         pour encourager le développement durable et être en harmonie avec les défis de
                                         la mondialisation. Ainsi, la BLP a lancé la première édition de la première
@@ -201,7 +201,7 @@ export default function recherche() {
                                         permettre aux participants de réaliser des choix techniques et stratégiques et
                                         de développer des filières techniques et socio-culturelles.</p>
                                     <img src=" assets/images/projects/2.jpg" alt="image"/>
-                                    <p>Crée en Mai 2020, l’unité de recherche CITI trouve ses origines au sein L'ecole
+                                    <p>Crée en Mai 2020, l’unité de recherche CITI trouve ses origines au sein de l'école
                                         supérieure privée des Sciences Juridiques, Economiques et Politiques de Tunis.
                                         Les thèmes de recherches de l’Unité CITI sont centrés autour de l’Electronique,
                                         Informatique, Marketing ainsi que d’autres domaines d’expertises. Nous essayons
@@ -227,9 +227,9 @@ export default function recherche() {
                                     <p>Le Challenge de l’Innovation en “Smart Applications and Process Automation” met
                                         l’accent sur la transversalité du secteur créatif et sa capacité à promouvoir
                                         l’innovation surtout dans ces moments de crise. Il associe professionnels,
-                                        entrepreneurs, organisations, start-ups, développeurs, entreprises…. afin de
-                                        déterminer les mécanismes, les outils et les solutions de soutient et de la
-                                        promotion des tous les secteurs et ses acteurs, soutenir au mieux
+                                        entrepreneurs, organisations, start-ups, développeurs, entreprises…. Afin de
+                                        déterminer les mécanismes, les outils et les solutions de soutien et de la
+                                        promotion de tous les secteurs et ses acteurs, soutenir au mieux
                                         l’entrepreneuriat créatif, façonner l’innovation et promouvoir les
                                         collaborations par le biais du réseautage dans ses moments de crise. Cet appel à
                                         contribution : “Smart Applications and Process Automation” de l’Université

@@ -8,11 +8,11 @@ export default function equipeBlp() {
             <div className="row">
                 <div className="col-12">
                     <div className="breadcrumb_box text-center">
-                        <h2 className="breadcrumb-title text-color-primary">EQUIPE BLP</h2>
+                        <h2 className="breadcrumb-title text-color-primary">ÉQUIPE BLP</h2>
                
                         <ul className="breadcrumb-list">
                             <li className="breadcrumb-item"><a href="accueil">Accueil</a></li>
-                            <li className="breadcrumb-item active">Equipe</li>
+                            <li className="breadcrumb-item active">Équipe</li>
                         </ul>
                  
                     </div>

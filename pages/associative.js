@@ -47,15 +47,15 @@ export default function associative() {
                     </div>
                     <div className="col-lg-6 ">
                         <video controls>
-                            <source src="/assets/video/mit1.mp4 " type="video/mp4" frameborder="0"
-                                allowfullscreen/>
+                            <source src="/assets/video/mit1.mp4 " type="video/mp4" frameBorder="0"
+                                allowFullScreen/>
                             Votre navigateur ne supporte pas la balise vidéo.
                         </video>
                     </div>
                 </div>
 
                 <blockquote>
-                    <p className="p1">Club Sportive </p>
+                    <p className="p1">Club Sportif </p>
                 </blockquote>
                 
                 <div className="gallery-wrapper section-space--pt_80 ">

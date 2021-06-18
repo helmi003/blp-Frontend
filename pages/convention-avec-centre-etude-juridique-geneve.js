@@ -12,7 +12,7 @@ export default function partenaire() {
             <div className="row">
                 <div className="col-12">
                     <div className="breadcrumb_box text-center">
-                        <h2 className="breadcrumb-title">Conventions & relation international</h2>
+                        <h2 className="breadcrumb-title">Conventions & relations internationales</h2>
                         <ul className="breadcrumb-list">
                             <li className="breadcrumb-item"><a href="/"></a></li>
                             <li className="breadcrumb-item active">Signature de Convention avec Centre d'Etude Juridique à Genève, Suisse</li>
@@ -34,7 +34,7 @@ export default function partenaire() {
 
                                 <div className="post-info lg-blog-post-info">
                                     <div className="post-categories text-center">
-                                        <a href="/"> Ecole Supérieure Privée des Sciences Juridiques, Economiques et
+                                        <a href="/"> École Supérieure Privée des Sciences Juridiques, Economiques et
                                             Politiques </a>
                                     </div>
 

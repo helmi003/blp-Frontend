@@ -72,12 +72,12 @@ export default function MastereEnMarcheFinanciers() {
                                                 <div className="form-item contact-inner">
                                                     <span className="inquiry">
                                                         <select id="Visiting" name="Visiting">
-                                                            <option disabled selected>Dernier diplome obtenu</option>
+                                                            <option disabled selected>Dernier diplôme obtenu</option>
                                                             <option value="Your inquiry about">Bac</option>
                                                             <option value="General Information Request">licence</option>
                                                             <option value="Partner Relations">Mastère</option>
-                                                            <option value="Software Licencing">Ingenieur</option>
-                                                            <option value="Software Licencing">Autre</option>
+                                                            <option value="Software Licencing">Ingénieur</option>
+                                                            <option value="Software Licencing">Autres</option>
                                                         </select>
                                                     </span>
                                                 </div>
@@ -119,7 +119,7 @@ export default function MastereEnMarcheFinanciers() {
                                                         <button className="btn-link" data-toggle="collapse"
                                                             data-target="#collapseOne" aria-expanded="true"
                                                             aria-controls="collapseOne">
-                                                            Objectifs génerale de la formation <span> <i
+                                                            Objectifs génerals de la formation <span> <i
                                                                     className="fas fa-chevron-down"></i>
                                                                 <i className="fas fa-chevron-up"></i> </span>
                                                         </button>
@@ -128,12 +128,12 @@ export default function MastereEnMarcheFinanciers() {
                                                 <div id="collapseOne" className="show" aria-labelledby="headingOne"
                                                     data-parent="#accordion">
                                                     <div className="card-body">
-                                                        <p>Ce Mastère vise à orir les bases théoriques et les outils
+                                                        <p>Ce Mastère vise à offrir les bases théoriques et les outils
                                                             nécessaires à la Gestion des Marchés et des Capitaux.
                                                             Il prédispose à une bonne appréhension des problématiques
-                                                            liées aux marchés et produits nanciers. <br/>
+                                                            liées aux marchés et produits financiers. <br/>
                                                             Ainsi, ce Mastère vise à former des spécialistes capables
-                                                            d'évoluer dans tous les métiers des marchés nanciers
+                                                            d'évoluer dans tous les métiers des marchés financiers
                                                             et exerçant leurs compétences au service des banques et
                                                             entreprises d'investissement,
                                                             des sociétés de gestion d'actifs, des cabinets de conseil,
@@ -161,19 +161,19 @@ export default function MastereEnMarcheFinanciers() {
                                                         <p>
                                                             Emet des ordres de placement, d'achat et de vente de
                                                             produits boursiers (taux, titres, ...)
-                                                            sur les marchés nanciers sous le contrôle de l'Autorité des
+                                                            sur les marchés financiers sous le contrôle de l'Autorité des
                                                             Marchés Financiers - AMF-
-                                                            et selon la législation financiere.
+                                                            et selon la législation financière.
                                                         <ul className="circle-list">
-                                                            <li className="list-item"> Peut eectuer la gestion d'un
-                                                                portefeuille d'actifs nanciers. Peut procéder au
+                                                            <li className="list-item"> Peut effectuer la gestion d'un
+                                                                portefeuille d'actifs financiers. Peut procéder au
                                                                 contrôle de conformité des opérations/transactions.</li>
 
 
                                                             <li className="list-item"> Peut coordonner une équipe.</li>
                                                             <li className="list-item"> Organise le suivi, le contrôle et
                                                                 l'enregistrement des opérations réalisées sur les
-                                                                marchés nanciers
+                                                                marchés financiers
                                                                 (de change, de titres, ...) selon les procédures qualité
                                                                 de l'établissement d'appartenance et les réglementations
                                                                 bancaires et financières.</li>
@@ -182,13 +182,13 @@ export default function MastereEnMarcheFinanciers() {
                                                                 suivi qualité
                                                                 des procédures administratives.</li>
                                                             <li className="list-item"> Optimiser le rendement de
-                                                                portefeuilles constitués d'actifs nanciers pour le
+                                                                portefeuilles constitués d'actifs financiers pour le
                                                                 compte de tiers (entreprises,
                                                                 particuliers, institutionnels) ou pour l'entreprise
                                                                 d'appartenance, sous le contrôle de l'Autorité
                                                                 des Marchés Financiers -AMF- et selon la législation.
                                                             </li>
-                                                            <li className="list-item"> Accueille et oriente physiquement et
+                                                            <li className="list-item"> Accueillie et oriente physiquement et
                                                                 téléphoniquement la clientèle ; informe les clients sur
                                                                 les services
                                                                 produits de base de la banque et de l'assurance. Réalise
@@ -197,11 +197,11 @@ export default function MastereEnMarcheFinanciers() {
                                                             </li>
                                                             <li className="list-item"> Peut réaliser le suivi des besoins en
                                                                 numéraire de la structure.
-                                                                Conseil et guide une clientèle de particuliers/personnes
+                                                                Conseille et guide une clientèle de particuliers/personnes
                                                                 physiques dans le choix d'investissements
                                                                 placements pour constituer ou optimiser leur patrimoine
-                                                                nancier selon la réglementation bancaire
-                                                                et nancière.</li>
+                                                                financier selon la réglementation bancaire
+                                                                et financière.</li>
                                                             <li className="list-item"> Peut mettre en oeuvre des mandats de
                                                                 gestion.</li>
                                                             <li className="list-item"> Peut diriger une structure.</li>
@@ -209,15 +209,15 @@ export default function MastereEnMarcheFinanciers() {
                                                                 des demandes de crédits particuliers
                                                                 ou entreprises (immobilier, consommation, ...) et évalue
                                                                 les risques liés à leur octroi selon la stratégie
-                                                                commerciale et nancière globale de l'établissement et la
+                                                                commerciale et financière globale de l'établissement et la
                                                                 réglementation bancaire.</li>
                                                             <li className="list-item"> Peut élaborer des supports
-                                                                contractuels, eectuer le suivi des contrats d'assurances
+                                                                contractuels, effectuer le suivi des contrats d'assurances
                                                                 rattachés aux crédits.</li>
                                                             <li className="list-item"> Réalise l'étude, la conception et la
                                                                 mise sur le marché de produits bancaires selon la
                                                                 stratégie
-                                                                et l'ore commerciale globale de la banque et la
+                                                                et l'offre commerciale globale de la banque et la
                                                                 réglementation bancaire.</li>
                                                             <li className="list-item"> Peut définir un plan média, rendre
                                                                 décision sur l'octroi de crédits.</li>
@@ -243,14 +243,14 @@ export default function MastereEnMarcheFinanciers() {
                                                     data-parent="#accordion">
                                                     <div className="card-body">
                                                         <p>
-                                                            Diérentes approches pédagogiques vont être adoptées pour
+                                                            Différentes approches pédagogiques vont être adoptées pour
                                                             rendre l’expérience d’apprentissage plus attractive et
                                                             stimulante aux apprenants. On cite à ce titre, les exemples
                                                             suivants de pédagogies actives:
                                                         <ul className="check-list">
                                                             <li className="list-item">Apprentissage par projet.</li>
                                                             <li className="list-item">Apprentissage par resolution de
-                                                                problème</li>
+                                                                problème.</li>
                                                             <li className="list-item">Apprentissage par étude de cas.</li>
                                                         </ul>
                                                         </p>
@@ -315,8 +315,7 @@ export default function MastereEnMarcheFinanciers() {
                                                             <li className="list-item">
                                                                 <span className="list__icon"><i
                                                                         className="far fa-crown"></i></span> <b
-                                                                    className=" text-color-primary"> A la fin de la
-                                                                    formation, les participants doivent être capables de
+                                                                    className=" text-color-primary"> À la fin de la formation, les participants doivent être capables de
                                                                 </b>
                                                             </li>
                                                         </ul>
@@ -398,13 +397,13 @@ export default function MastereEnMarcheFinanciers() {
                                                                                     className="hover-style-default">Analyser
                                                                                     les marchés</a></li>
                                                                             <li><a href="#" className="hover-style-default">
-                                                                                    Evaluer des risques FInanciers</a>
+                                                                                    Evaluer des risques Financiers</a>
                                                                             </li>
                                                                             <li><a href="#" className="hover-style-default">
                                                                                     Evaluer des actifs financiers</a>
                                                                             </li>
                                                                             <li><a href="#" className="hover-style-default">
-                                                                                    Identier les priorités du client</a>
+                                                                                    Identifier les priorités du client</a>
                                                                             </li>
                                                                             <li><a href="#" className="hover-style-default">
                                                                                     Collecter des données clients</a>
@@ -433,7 +432,7 @@ export default function MastereEnMarcheFinanciers() {
                                                                                     Evaluer la solvabilité d'un
                                                                                     créditeur et les risques</a></li>
                                                                             <li><a href="#"
-                                                                                    className="hover-style-default">Vérier
+                                                                                    className="hover-style-default">Vérifier
                                                                                     la rentabilité d'un crédit pour une
                                                                                     banque</a></li>
                                                                             <li><a href="#"
@@ -538,7 +537,7 @@ export default function MastereEnMarcheFinanciers() {
                                                     data-parent="#accordion">
                                                     <div className="card-body">
                                                         <p>
-                                                            <b className=" text-color-primary">Perspectives académique</b>
+                                                            <b className=" text-color-primary">Perspectives académiques</b>
                                                             <br/>
                                                             Les diplômés de ce Mastère professionnel peuvent poursuivre
                                                             leurs études dans le cadre d’un DBA professionnel à
@@ -604,7 +603,7 @@ export default function MastereEnMarcheFinanciers() {
                                         </div>
                                         <div className="team-info ">
                                             <h5 className="name">Beji Kaouther </h5>
-                                            <div className="position">Docteur en Science de gestion</div>
+                                            <div className="position">Docteur en Sciences de gestion</div>
                                         </div>
                                     </div>
                                 </div>
@@ -635,7 +634,7 @@ export default function MastereEnMarcheFinanciers() {
                                         </div>
                                         <div className="team-info ">
                                             <h5 className="name">Hichri kais </h5>
-                                            <div className="position">Docteur en Science de gestion</div>
+                                            <div className="position">Docteur en Sciences de gestion</div>
                                         </div>
                                     </div>
                                 </div>
@@ -689,7 +688,7 @@ export default function MastereEnMarcheFinanciers() {
                                     
                                     <div className="col-lg-12 offset-lg-1">
                                         <div className="conact-us-wrap-one managed-it">
-                                            <h5 className="heading ">Premiere année mastère Professionnel </h5>
+                                            <h5 className="heading ">Premiere année mastère </h5>
                                         </div>
                                     </div>
                                     <br/>
@@ -699,9 +698,9 @@ export default function MastereEnMarcheFinanciers() {
                                             <table className="table table-striped table-bordered">
                                                 <thead>
                                                     <tr>
-                                                        <th rowspan="2">Type de l'unité d'enseignement </th>
-                                                        <th rowspan="2">Elements constitutifs</th>
-                                                        <th colspan="3">volume horaire</th>
+                                                        <th rowSpan="2">Type de l'unité d'enseignement </th>
+                                                        <th rowSpan="2">Elements constitutifs</th>
+                                                        <th colSpan="3">volume horaire</th>
                                                         <th>Credits</th>
                                                         <th> Coefficient</th>
                                                     </tr>
@@ -715,7 +714,7 @@ export default function MastereEnMarcheFinanciers() {
                                                 </thead>
                                                 <tbody>
                                                 <tr>
-                                                    <td rowspan="2">UFE Fondamentaux de la mention</td>
+                                                    <td rowSpan="2">UFE Fondamentaux de la mention</td>
                                                     <td>Microéconimie des banques et des assurances</td>
                                                     <td>42H</td>
                                                     <td></td>
@@ -752,7 +751,7 @@ export default function MastereEnMarcheFinanciers() {
                                                 </tr>
 
                                                 <tr>
-                                                <td rowspan="2">UET</td>
+                                                <td rowSpan="2">UET</td>
                                                 <td>Anglais des affaires</td>
                                                 <td></td>
                                                 <td>21H</td>
@@ -769,7 +768,7 @@ export default function MastereEnMarcheFinanciers() {
                                                     <td>1</td>
                                                 </tr>
                                                 <tr>
-                                                <td rowspan="2">UEO</td>
+                                                <td rowSpan="2">UEO</td>
                                                 <td>OPT 1 :Technique financiere et acturielles</td>
                                                 <td>42H</td>
                                                 <td></td>
@@ -806,9 +805,9 @@ export default function MastereEnMarcheFinanciers() {
                                             <table className="table table-striped table-bordered">
                                                 <thead>
                                                     <tr>
-                                                        <th rowspan="2">Type de l'unité d'enseignement</th>
-                                                        <th rowspan="2">Elements constitutifs</th>
-                                                        <th colspan="3">volume horaire</th>
+                                                        <th rowSpan="2">Type de l'unité d'enseignement</th>
+                                                        <th rowSpan="2">Elements constitutifs</th>
+                                                        <th colSpan="3">volume horaire</th>
                                                         <th>Credits</th>
                                                         <th> Coefficient</th>
                                                     </tr>
@@ -822,7 +821,7 @@ export default function MastereEnMarcheFinanciers() {
                                                 </thead>
                                                 <tbody>
                                                 <tr>
-                                                    <td rowspan="2">UFE Fondamentaux de la mention</td>
+                                                    <td rowSpan="2">UFE Fondamentaux de la mention</td>
                                                     <td>Analyse économique des risque</td>
                                                     <td>42H</td>
                                                     <td></td>
@@ -857,7 +856,7 @@ export default function MastereEnMarcheFinanciers() {
                                                     <td>3</td>
                                                 </tr>
                                                 <tr>
-                                                    <td rowspan="2">UET</td>
+                                                    <td rowSpan="2">UET</td>
                                                     <td>Anglais des affaires</td>
                                                     <td></td>
                                                     <td></td>
@@ -875,7 +874,7 @@ export default function MastereEnMarcheFinanciers() {
                                                 </tr>
                                                 
                                                 <tr>
-                                                    <td rowspan="2">UEO</td>
+                                                    <td rowSpan="2">UEO</td>
                                                     <td>Option 1:Métiers de la banque,de l'assurance</td>
                                                     <td>42H</td>
                                                     <td></td>
@@ -912,9 +911,9 @@ export default function MastereEnMarcheFinanciers() {
                                             <table className="table table-striped table-bordered">
                                                 <thead>
                                                     <tr>
-                                                        <th rowspan="2">Type de l'unité d'enseignement</th>
-                                                        <th rowspan="2">Elements constitutifs</th>
-                                                        <th colspan="3">volume horaire</th>
+                                                        <th rowSpan="2">Type de l'unité d'enseignement</th>
+                                                        <th rowSpan="2">Elements constitutifs</th>
+                                                        <th colSpan="3">volume horaire</th>
                                                         <th>Credits</th>
                                                         <th> Coefficient</th>
                                                     </tr>
@@ -928,7 +927,7 @@ export default function MastereEnMarcheFinanciers() {
                                                 </thead>
                                                 <tbody>
                                                 <tr>
-                                                    <td rowspan="2">UFE Fondamentaux de la mention</td>
+                                                    <td rowSpan="2">UFE Fondamentaux de la mention</td>
                                                     <td>recherche opérationnelle</td>
                                                     <td>42H</td>
                                                     <td></td>
@@ -963,7 +962,7 @@ export default function MastereEnMarcheFinanciers() {
                                                     <td>3</td>
                                                 </tr>
                                                 <tr>
-                                                    <td rowspan="2">UET</td>
+                                                    <td rowSpan="2">UET</td>
                                                     <td>Anglais des affaires</td>
                                                     <td></td>
                                                     <td></td>
@@ -980,7 +979,7 @@ export default function MastereEnMarcheFinanciers() {
                                                     <td>1</td>
                                                 </tr>
                                                 <tr>
-                                                    <td rowspan="2">UEO</td>
+                                                    <td rowSpan="2">UEO</td>
                                                     <td>OPT 1 :Marketing des produits financiers</td>
                                                     <td>42H</td>
                                                     <td></td>
@@ -1056,7 +1055,7 @@ export default function MastereEnMarcheFinanciers() {
                                                                                     l’acceptation de l’enseignant
                                                                                     suiveur ainsi que du responsable
                                                                                     dans l’entreprise et l’avis de la
-                                                                                    commission des masters. <br/>
+                                                                                    commission des mastères. <br/>
                                                                                     Le stage est réalisé au sein d’un
                                                                                     <b>cabinet d’expertise comptable ou
                                                                                         d’audit ou auprès d’une
@@ -1113,7 +1112,7 @@ export default function MastereEnMarcheFinanciers() {
                                                                                     aria-expanded="false"
                                                                                     aria-controls="collapse__11">
                                                                                     Inter liaisons entre les semestres
-                                                                                    du parcours,passerelles (à
+                                                                                    du parcours, passerelles (à
                                                                                     préciser), évaluation et
                                                                                     progression<span>
                                                                                         <i
@@ -1128,7 +1127,7 @@ export default function MastereEnMarcheFinanciers() {
                                                                             aria-labelledby="heading__11"
                                                                             data-parent="#accordion_two">
                                                                             <div className="card-body">
-                                                                                <p>Le master s’articule sur trois
+                                                                            <p>Le master s’articule sur trois
                                                                                     semestre et un semestre pour
                                                                                     réaliser le stage et le rapport de
                                                                                     stage
@@ -1139,10 +1138,10 @@ export default function MastereEnMarcheFinanciers() {
                                                                                     année pour s’inscrire en deuxième
                                                                                     année
                                                                                     Le régime d’évaluation relatif au
-                                                                                    diplôme national de master se base
+                                                                                    diplôme national de mastère se base
                                                                                     sur le contrôle continu et les
                                                                                     examens
-                                                                                    de n de semestre.
+                                                                                    de fin de semestre.
                                                                                     Les enseignements prévus dans le
                                                                                     cadre de chaque unité sont
                                                                                     sanctionnés par des examens
@@ -1155,8 +1154,8 @@ export default function MastereEnMarcheFinanciers() {
                                                                                 <ul className="circle-list">
 
                                                                                     <li className="list-item"> Une session
-                                                                                        principale à la n de chaque
-                                                                                        semestre dont la date est xée
+                                                                                        principale à la fin de chaque
+                                                                                        semestre dont la date est fixée
                                                                                         par le directeur de l’institut,
                                                                                         après avis du conseil
                                                                                         scientique.
@@ -1168,7 +1167,7 @@ export default function MastereEnMarcheFinanciers() {
                                                                                         semaine au moins après la
                                                                                         proclamation des résultats de la
                                                                                         session principale
-                                                                                        de la n de l’année universitaire
+                                                                                        de la fin de l’année universitaire
                                                                                         pour le M1 et juste après le
                                                                                         troisième semestre pour le M2.
                                                                                         Est admis pour le passage d’une
@@ -1178,7 +1177,7 @@ export default function MastereEnMarcheFinanciers() {
                                                                                         chaque module de l’année
                                                                                         d’études
                                                                                         Concernée. Cependant, les notes
-                                                                                        obtenues dans les diérents
+                                                                                        obtenues dans les différents
                                                                                         modules de l’année d’études
                                                                                         concernée
                                                                                         peuvent se compléter entre
@@ -1192,10 +1191,10 @@ export default function MastereEnMarcheFinanciers() {
                                                                                         dans lesquels ils ont obtenu une
                                                                                         moyenne inférieure à 10/20.
                                                                                         Lors de la session de
-                                                                                        rattrapage, l’étudiant bénécie,
+                                                                                        rattrapage, l’étudiant bénéficie,
                                                                                         dans chaque épreuve, de la
                                                                                         meilleure des deux notes
-                                                                                        nales obtenues dans les deux
+                                                                                        finales obtenues dans les deux
                                                                                         sessions d’examen. </li>
                                                                                 </ul>
                                                                                 </p>

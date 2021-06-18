@@ -8,7 +8,7 @@ export default function MasterEnSciencesPolitiques() {
         <div className="row">
             <div className="col-12">
                 <div className="breadcrumb_box text-center">
-                    <h2 className="breadcrumb-title ">Mastère en sciences politiques :Relations internationales et diplomatie</h2>
+                    <h2 className="breadcrumb-title ">Mastère en sciences politiques : Relations internationales et diplomatie</h2>
                    
                     <ul className="breadcrumb-list">
                         <li className="breadcrumb-item"><a href="formations">Formations</a></li>
@@ -72,11 +72,11 @@ export default function MasterEnSciencesPolitiques() {
                                                 <div className="form-item contact-inner">
                                                     <span className="inquiry">
                                                         <select id="Visiting" name="Visiting">
-                                                            <option disabled selected>Dernier diplome obtenu</option>
+                                                            <option disabled selected>Dernier diplôme obtenu</option>
                                                             <option value="Your inquiry about">Bac</option>
                                                             <option value="General Information Request">licence</option>
                                                             <option value="Partner Relations">Mastere</option>
-                                                            <option value="Software Licencing">Ingenieur</option>
+                                                            <option value="Software Licencing">Ingénieur</option>
                                                             <option value="Software Licencing">Autre</option>
                                                         </select>
                                                     </span>
@@ -129,7 +129,7 @@ export default function MasterEnSciencesPolitiques() {
                                                 <div id="collapseOne" className="show" aria-labelledby="headingOne"
                                                     data-parent="#accordion">
                                                     <div className="card-body">
-                                                        <p>Le Mastère professionnel en <b>Relations internationales et
+                                                        <p>Le Mastère en <b>Relations internationales et
                                                                 Diplomatie </b>a pour objectif de former des
                                                             professionnels dans le champ de la diplomatie et des
                                                             relations internationales.
@@ -157,7 +157,7 @@ export default function MasterEnSciencesPolitiques() {
                                                 <div id="collapseTwo" className="collapse" aria-labelledby="headingTwo"
                                                     data-parent="#accordion">
                                                     <div className="card-body">
-                                                        <p>Le Mastère professionnel en <b>diplomatie et relations
+                                                        <p>Le Mastère en <b>diplomatie et relations
                                                                 internationales </b>est ouvert aux :
                                                         <ul className="check-list">
                                                             <li className="list-item"> Diplômés des différents
@@ -167,7 +167,7 @@ export default function MasterEnSciencesPolitiques() {
                                                                 économiques, sciences de gestion,
                                                                 lettres et histoire et civilisations ayant accompli avec
                                                                 succès leur troisième année de licence. </li>
-                                                            <li className="list-item">Professionnels désirant acquérir la
+                                                            <li className="list-item">Professionnels désirants acquérir la
                                                                 formation et ayant l’équivalent d’une licence ou d’un
                                                                 niveau d’étude bac+3. </li>
                                                             <li className="list-item"> Les étudiants ayant validé le M1 d’un
@@ -198,7 +198,7 @@ export default function MasterEnSciencesPolitiques() {
                                                     <div className="card-body">
                                                         <p>
                                                             L’objectif du Mastère est de former des spécialistes des
-                                                            questions internationales et diplomatiques,capables de
+                                                            questions internationales et diplomatiques, capables de
                                                             s’adapter aisément à un environnement international et
                                                             permet d’envisager des perspectives professionnelles variées
                                                             :
@@ -547,7 +547,7 @@ export default function MasterEnSciencesPolitiques() {
                                                                                     projet. Il reflète la capacité de
                                                                                     l’étudiant à exploiter les
                                                                                     connaissances acquises lors de son
-                                                                                    cursus universitaire an de les lier
+                                                                                    cursus universitaire à fin de les lier
                                                                                     aux questions pratiques observées
                                                                                     lors de son stage. <br/>
                                                                                     <b> <span
@@ -585,7 +585,7 @@ export default function MasterEnSciencesPolitiques() {
                                                                                     aria-expanded="false"
                                                                                     aria-controls="collapse__11">
                                                                                     Inter liaisons entre les semestres
-                                                                                    du parcours,passerelles (à
+                                                                                    du parcours, passerelles (à
                                                                                     préciser), évaluation et
                                                                                     progression<span>
                                                                                         <i
@@ -602,7 +602,7 @@ export default function MasterEnSciencesPolitiques() {
                                                                             <div className="card-body">
                                                                                 <p>Les modules prévus pour les trois
                                                                                     semestres d’études sont
-                                                                                    complémentaires.Ils se rejoignent
+                                                                                    complémentaires. Ils se rejoignent
                                                                                     autour des questions fondamentales
                                                                                     liées aux relations internationales
                                                                                     et au champ diplomatique. Le choix

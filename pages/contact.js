@@ -104,13 +104,12 @@ export default function contact() {
 
         <iframe
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3794.595559648835!2d10.184826641184372!3d36.89365418212504!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12e2cb71841eca41%3A0x90bf0f4a4360e5fa!2sPole%20Technologique%20El%20Gazela!5e0!3m2!1sfr!2stn!4v1606732394382!5m2!1sfr!2stn"
-            width="1900" height="450" frameborder="0" style={{border:"0"}} allowfullscreen="" aria-hidden="false"
-            tabindex="0"></iframe>
+            width="1900" height="450" frameBorder="0" style={{border:"0"}} allowFullScreen="" aria-hidden="false"
+            tabIndex="0"></iframe>
         <div className="fun-fact-wrapper bg-theme-default section-space--pb_30 section-space--pt_60">
             <div className="container">
                 <div className="computing-info-box text-center ">
-                    <h4 style={{color: "white"}}>Bourses d'études et places gratuites et accés dés la Terminale à nos
-                        modules de E-learning et sur place.</h4>
+                    <h4 style={{color: "white"}}>Bourses d'études et places gratuites et accès dès la terminale à nos modules d'E-learning et sur place.</h4>
                     <div className="contact-us-button mt-20">
                         <a href="https://admission.mit.tn/" target="_blank" className="btn btn--secondary">Pré-inscription</a>
                     </div>

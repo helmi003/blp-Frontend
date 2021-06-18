@@ -60,7 +60,7 @@ export default function inscription() {
                                             <option disabled selected>Nationnalité</option>
                                             <option value="Tunisian">Tunisian</option>
                                             <option value="Afghanistan">Afghanistan</option>
-                                            <option value="algeria">algeria</option>
+                                            <option value="algeria">Algerian</option>
                                             <option value="Belarus">Belarus</option>
                                             <option value="Belgium">Belgium</option>
                                         </select>
@@ -72,7 +72,7 @@ export default function inscription() {
                                             <div className="form-item contact-inner">
                                                 <span className="inquiry">
                                         <select id="Visiting" name="Visiting">
-                                            <option disabled selected>Dernier diplome obtenu</option>
+                                            <option disabled selected>Dernier diplôme obtenu</option>
                                             <option value="Bac">Bac </option>
                                             <option value="licence">Licence</option>
                                             <option value="Master">Master</option>

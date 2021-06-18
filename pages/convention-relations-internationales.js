@@ -10,7 +10,7 @@ export default function partenaire() {
                     <div className="col-lg-6 col-md-7">
                         <div className="cybersecurity-hero-text wow move-up">
                             <h6 className="text-color-primary">Nos activités internationnales </h6>
-                            <h3 className="font-weight--reguler mb-30">BLP votre Passport pour la réussite !</h3>
+                            <h3 className="font-weight--reguler mb-30">BLP votre Passeport pour la réussite !</h3>
                             <div className="bedraw-button">
                                 <a href="https://admission.mit.tn/" target="_blank" className="ht-btn ht-btn-md">Inscription <i
                                         className="far fa-long-arrow-right ml-2"></i></a>
@@ -44,7 +44,7 @@ export default function partenaire() {
                                 <div className="col-lg-12">
                                     <div className="section-title-wrap text-center section-space--mb_30">
                                         <h6 className="section-sub-title mb-20">Actualité</h6>
-                                        <h3 className="heading">Conventions <span className="text-color-primary"> &</span> relation international</h3>
+                                        <h3 className="heading">Conventions <span className="text-color-primary"> &</span> relations internationales</h3>
                                     </div>
                                 </div>
                             </div>
