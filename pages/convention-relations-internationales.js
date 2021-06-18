@@ -52,7 +52,30 @@ export default function partenaire() {
                             <div className="row">
                                 <div className="col-12">
                                     <div className="row row--35">
+                                    <div className="col-lg-4 col-md-6 mt-30">
+                    
+                                        <a href="signature-de-convention-entre-blp-iescci" className="box-large-image__wrap wow move-up">
+                                            <div className="box-large-image__box">
+                                                <div className="box-large-image__midea">
+                                                    <div className="images-midea">
+                                                        <img src="assets/images/conventions/signature-convention-blp-escci.webp" className="img-fluid" alt=""/>
 
+                                                        <div className="button-wrapper">
+                                                            <div className="btn tm-button">
+                                                                <span className="button-text">En savoir plus</span>
+                                                            </div>
+                                                        </div>
+                                                    
+                                                    </div>
+                                                </div>
+
+                                                <div className="box-large-image__content mt-30 text-center">
+                                                    <p>Signature d'une convention de partenariat entre  <strong>BLP et IESCCI France </strong></p> 
+                                                </div>
+                                            </div>
+                                        </a>
+
+                                    </div>
                                   
                                     <div className="col-lg-4 col-md-6 mt-30">
                     
