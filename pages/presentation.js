@@ -8,8 +8,7 @@ export default function presentation() {
                     <div className="row">
                         <div className="col-12">
                             <div className="breadcrumb_box text-center">
-                                <h2 className="breadcrumb-title ">L'École Supérieure Privée des Sciences Juridiques, Economiques et
-                                    Politiques</h2>
+                                <h2 className="breadcrumb-title ">Ecole  de Sciences juridiques et politiques<br/>Ecole  d’ingénierie Juridique, droit des TIC et de Smart applications</h2>
             
                                 <ul className="breadcrumb-list">
                                     <li className="breadcrumb-item"><a href="/">Accueil</a></li>
@@ -121,6 +120,11 @@ export default function presentation() {
                                         <div className="post-info lg-blog-post-info">
                                             <div className="post-excerpt mt-15">
 
+                                                <blockquote>
+                                                    <p className="p1">BUSINESS, LAW AND POLITICS : BLP <br/>POLE TECHNOLOGIQUE GHAZELLA </p>
+                                                </blockquote>
+                                                <p style={{textAlign:"justify"}}> <b>BLP Tunis,</b> Pôle Technologique Al Ghazella,  en cours de certification ISO 9001 et ISO 21001, Ecole de Droit, sciences Politiques, gestion et ingénierie juridico-financière. Elle est fondée en collaboration avec le Réseau Euro-méditerranéen pour l’Enseignement et la Recherche en Économie, Technologie et en Gestion, REMEREG. Elle fait partie du Réseau et présente plusieurs partenaires en Tunisie et dans le monde dont REMEREG et l’Université Méditerranéenne. Cette dernière since 2005;  a réussi à obtenir une large reconnaissance Mondiale (+100 partenaires et des parcours). <b>BLP</b> permet aux étudiants de continuer en Suisse <b>( Centre d’Etudes Juridiques Africaines à Genève)</b>; et en  France pour obtenir un master public français (Cy-Cergy Paris Université) ;  un doctorat Français, un titre d'Ingénieur Français pour les filières de Gestion (Polytech Saint Louis, ECAM-EPMI); et un Doctorat en Business Administration, DBA en France <b>(Institut Supérieur des hautes études de commerce et de communication IESCCI )- France.</b><br/><br/>
+                                                Le réseau <b>REMEREG</b> auquel appartient BLP regroupe des universités publiques et privées européennes, nord-américaines et tunisiennes. <b>BLP</b> délivre des diplômes tunisiens d’abord et permet à ses étudiants de continuer pour des diplômes européens publics et privés avec nos partenaires en France, en Suisse et en Inde (pour ceux qui le souhaitent) et profite pleinement du dynamisme des universités européennes.</p>
                                                 <blockquote>
                                                     <p className="p1">Ancienneté et Qualité </p>
                                                 </blockquote>

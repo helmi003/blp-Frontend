@@ -12,7 +12,7 @@ export default function footer() {
                             <div className="footer-widget__logo mb-30">
                                 <img src="assets/images/logo/logo-blp2.png" className="img-fluid" alt=""/>
                             </div>
-                            <p> BLP est une école supérieure privée qui assure un enseignement d'avant-garde et de niveau international. Notre réseau est également présent en Europe, Amérique du Nord, et l'Asie.</p>
+                            <p> <b>BLP Tunis,</b> Pôle Technologique Al Ghazella, en cours de certification ISO 9001 et ISO 21001, Ecole de Droit, sciences Politiques, gestion et ingénierie juridico-financière. Elle est fondée en collaboration avec le Réseau Euro-méditerranéen pour l’Enseignement et la Recherche en Économie, Technologie et en Gestion, REMEREG.</p>
 
                         </div>
                         <div className="col-lg-1 col-md-4 col-sm-6 footer-widget"></div>
