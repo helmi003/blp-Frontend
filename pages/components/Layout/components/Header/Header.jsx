@@ -69,7 +69,7 @@ export default function Header() {
                                                     <li className="has-children has-children--multilevel-submenu">
                                                         <a href="presentation"><span>BLP EN DIGITAL</span></a>
                                                         <ul className="submenu">
-                                                            <li><a href="recherche"><span>Recherche & Innovation</span></a></li>
+                                                            <li><a href="recherche-et-innovation"><span>Recherche & Innovation</span></a></li>
                                                             <li><a href="videotheque"><span>Vidéothéque</span></a></li>
                                                             <li><a href="challenge"><span>Les nuits de challenge</span></a></li>
                                                         </ul>

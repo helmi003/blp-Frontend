@@ -657,26 +657,38 @@ export default function Home() {
                         <div className="brand-logo-slider__container-area">
                             <div className="swiper-container brand-logo-slider__container">
                                 <div className="swiper-wrapper brand-logo-slider__one">
-                                    <div className="swiper-slide brand-logo brand-logo--slider">
-                                        <a href="http://www.isetn.rnu.tn/">
+                                <div className="swiper-slide brand-logo brand-logo--slider">
+                                        <a href="https://www.ipsl-edu.fr/">
                                             <div className="brand-logo__image">
-                                                <img src="assets/images/brand/iset-nabeul.webp"
-                                                    className="img-fluid" alt="iset-nabeul"/>
+                                                <img src="assets/images/brand/partenaire/ipsl.webp"
+                                                    className="img-fluid" alt="after-code"/>
                                             </div>
                                             <div className="brand-logo__image-hover">
-                                                <img src="assets/images/brand/iset-nabeul.webp"
-                                                    className="img-fluid" alt="iset-nabeul"/>
+                                                <img src="assets/images/brand/partenaire/ipsl.webp"
+                                                    className="img-fluid" alt="after-code"/>
+                                            </div>
+                                        </a>
+                                    </div>
+                                <div className="swiper-slide brand-logo brand-logo--slider">
+                                        <a href="https://aftercode.tn/">
+                                            <div className="brand-logo__image">
+                                                <img src="assets/images/brand/partenaire/after-code.webp"
+                                                    className="img-fluid" alt="after-code"/>
+                                            </div>
+                                            <div className="brand-logo__image-hover">
+                                                <img src="assets/images/brand/partenaire/after-code.webp"
+                                                    className="img-fluid" alt="after-code"/>
                                             </div>
                                         </a>
                                     </div>
                                     <div className="swiper-slide brand-logo brand-logo--slider">
                                         <a href="https://www.banquezitouna.com/fr">
                                             <div className="brand-logo__image">
-                                                <img src="assets/images/brand/banque-zitouna.webp"
+                                                <img src="assets/images/brand/partenaire/Bank-zitouna.webp"
                                                     className="img-fluid" alt="banque-zitouna"/>
                                             </div>
                                             <div className="brand-logo__image-hover">
-                                                <img src="assets/images/brand/banque-zitouna.webp"
+                                                <img src="assets/images/brand/partenaire/Bank-zitouna.webp"
                                                     className="img-fluid" alt="banque-zitouna"/>
                                             </div>
                                         </a>
@@ -684,95 +696,39 @@ export default function Home() {
                                     <div className="swiper-slide brand-logo brand-logo--slider">
                                         <a href="https://www.smart-it.fr/">
                                             <div className="brand-logo__image">
-                                                <img src="assets/images/brand/smartit.webp"
+                                                <img src="assets/images/brand/partenaire/Smart.webp"
                                                     className="img-fluid" alt="smart-it"/>
                                             </div>
                                             <div className="brand-logo__image-hover">
-                                                <img src="assets/images/brand/smartit.webp"
+                                                <img src="assets/images/brand/partenaire/Smart.webp"
                                                     className="img-fluid" alt="smart-it"/>
                                             </div>
                                         </a>
                                     </div>
-                                    <div className="swiper-slide brand-logo brand-logo--slider">
-                                        <a href="https://www.tunisietelecom.tn/Fr">
-                                            <div className="brand-logo__image">
-                                                <img src="assets/images/brand/telecome.webp"
-                                                    className="img-fluid" alt="societe-telecome"/>
-                                            </div>
-                                            <div className="brand-logo__image-hover">
-                                                <img src="assets/images/brand/telecome.webp"
-                                                    className="img-fluid" alt="societe-telecome"/>
-                                            </div>
-                                        </a>
-                                    </div>
-                                    <div className="swiper-slide brand-logo brand-logo--slider">
-                                        <a href="https://aftercode.tn/">
-                                            <div className="brand-logo__image">
-                                                <img src="assets/images/brand/aftercode.webp"
-                                                    className="img-fluid" alt="after-code"/>
-                                            </div>
-                                            <div className="brand-logo__image-hover">
-                                                <img src="assets/images/brand/aftercode.webp"
-                                                    className="img-fluid" alt="after-code"/>
-                                            </div>
-                                        </a>
-                                    </div>
-                                    <div className="swiper-slide brand-logo brand-logo--slider">
-                                        <a href="http://www.isett.rnu.tn/">
-                                            <div className="brand-logo__image">
-                                                <img src="assets/images/brand/iset-tozeur.webp"
-                                                    className="img-fluid" alt="iset-tozeur"/>
-                                            </div>
-                                            <div className="brand-logo__image-hover">
-                                                <img src="assets/images/brand/iset-tozeur.webp"
-                                                    className="img-fluid" alt="iset-tozeur"/>
-                                            </div>
-                                        </a>
-                                    </div>
+                              
+                                
+                                  
                                     <div className="swiper-slide brand-logo brand-logo--slider">
                                         <a href="https://www.u-cergy.fr/fr/index.html">
                                             <div className="brand-logo__image">
-                                                <img src="assets/images/brand/cergy.webp"
+                                                <img src="assets/images/brand/partenaire/cergy-universite.webp"
                                                     className="img-fluid" alt="cergy"/>
                                             </div>
                                             <div className="brand-logo__image-hover">
-                                                <img src="assets/images/brand/cergy.webp"
+                                                <img src="assets/images/brand/partenaire/cergy-universite.webp"
                                                     className="img-fluid" alt="cergy"/>
                                             </div>
                                         </a>
                                     </div>
-                                    <div className="swiper-slide brand-logo brand-logo--slider">
-                                        <a href="http://www.isetkl.rnu.tn/">
-                                            <div className="brand-logo__image">
-                                                <img src="assets/images/brand/iset-kelibia.webp"
-                                                    className="img-fluid" alt="iset-kelibia"/>
-                                            </div>
-                                            <div className="brand-logo__image-hover">
-                                                <img src="assets/images/brand/iset-kelibia.webp"
-                                                    className="img-fluid" alt="iset-kelibia"/>
-                                            </div>
-                                        </a>
-                                    </div>
-                                    <div className="swiper-slide brand-logo brand-logo--slider">
-                                        <a href="">
-                                            <div className="brand-logo__image">
-                                                <img src="assets/images/brand/sorate.webp"
-                                                    className="img-fluid" alt="sorat"/>
-                                            </div>
-                                            <div className="brand-logo__image-hover">
-                                                <img src="assets/images/brand/sorate.webp"
-                                                    className="img-fluid" alt="sorat"/>
-                                            </div>
-                                        </a>
-                                    </div>
+                                 
                                     <div className="swiper-slide brand-logo brand-logo--slider">
                                         <a href="https://polytech.univ-nantes.fr/">
                                             <div className="brand-logo__image">
-                                                <img src="assets/images/brand/ulysee.webp"
+                                                <img src="assets/images/brand/partenaire/Ulysse.webp"
                                                     className="img-fluid" alt="ulysee"/>
                                             </div>
                                             <div className="brand-logo__image-hover">
-                                                <img src="assets/images/brand/ulysee.webp"
+                                                <img src="assets/images/brand/partenaire/Ulysse.webp"
                                                     className="img-fluid" alt="ulysee"/>
                                             </div>
                                         </a>
