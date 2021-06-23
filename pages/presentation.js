@@ -58,15 +58,7 @@ export default function presentation() {
                                                                 <div className="content-wrap">
                                                                     <div className="content-body">
                                                                         <div className="text text-left">
-                                                                            L'idée de <b>BLP</b> a été l’émanation d’un groupe
-                                                                            d’enseignants ayant une grande expérience dans le
-                                                                            domaine de l’enseignement public et privé et dans
-                                                                            l’industrie.
-                                                                            L’objectif est de former des avocats et des etudiants
-                                                                            polyvalents dans différents domaines technologiques avec
-                                                                            les qualités scientifiques, techniques et humaines qui
-                                                                            répondent aux exigences du marché de l’emploi national
-                                                                            et international.
+                                                                        L'idée de lancer <b>une école des sciences juridiques et politiques à Tunis; Business; Law and Politics; BLP;</b> a été l’émanation d’un groupe d’enseignants ayant une grande expérience dans le domaine de l’enseignement public et privé et dans la pratique du droit, de l'ingénierie et des montages et des réseaux juridico-financiers. L’objectif est de former des diplomates, des avocats, des ingénieurs financiers et des cadres polyvalents dans différents domaines: juridique, politique, technologiques; financier. Cette formation diplômante et certifiante avec les qualités scientifiques, techniques et humaines requises répond aux exigences du marché de l’emploi national et international. Bien sûr, BLP a signé des conventions de double cursus permettant à ses étudiants d'obtenir des diplômes tunisiens agréés par le Ministère de l'enseignement supérieur et de continuer avec nos partenaires en Europe et en Asie pour obtenir des diplômes des universités partenaires.
                                                                         </div>
                                                                     </div>
                                                                 </div>
@@ -128,13 +120,9 @@ export default function presentation() {
                                                 <blockquote>
                                                     <p className="p1">Ancienneté et Qualité </p>
                                                 </blockquote>
-                                                <p style={{textAlign:"justify"}}> L'École Supérieure Privée des Sciences Juridiques,
-                                                    Economiques et Politiques de Tunis <b>BLP</b> vous offre une formation
-                                                    particulièrement riche, diversifiée et adaptée aux perspectives d’insertion
-                                                    professionnelle. Formés à l’acquisition du raisonnement et des connaissances
-                                                    juridiques et politique grâce à la combinaison classNameique entre Cours magistraux
-                                                    et Travaux dirigés, les étudiants sont aussi préparés aux divers métiers du
-                                                    droit et aux formations permettant leur intégration professionnelle. </p>
+                                                <p style={{textAlign:"justify"}}> <b>L'École Supérieure Privée des Sciences Juridiques, Economiques et Politiques de Tunis BLP </b>offre une formation particulièrement riche, diversifiée et adaptée aux perspectives d’insertion professionnelle sur le plan national et international. <br/>
+
+                                                Formés à l’acquisition du raisonnement et des connaissances juridiques et politiques et financières, les étudiants suivent des cours dispensés grâce à la combinaison  entre Cours magistraux et Travaux dirigés en utilisant les NTIC. Les étudiants sont aussi préparés aux divers métiers du droit, de la diplomatie, de la finance et aux formations permettant leur intégration professionnelle en Afrique et en Europe grâce aux partenariats. </p>
 
                                                 <blockquote>
                                                     <p className="p1">Les avantages </p>
@@ -189,8 +177,7 @@ export default function presentation() {
                                                     <div className="single-blog-item lg-blog-item border-bottom wow move-up">
                                                         <div className="post-feature post-quote">
                                                             <h5 className="post-quote-text text-center">
-                                                                “ 1 Etudiant aujourd’hui = Cadre, Ingénieur, Dirigeant,
-                                                                Entrepreneur, chercheur, Docteur,avocat = 1 Emploi demain ”
+                                                            “ 1 Etudiant aujourd’hui =  Juriste, Diplomate, Cadre, Ingénieur financier, Dirigeant, Chercheur, Docteur, Avocat = 1 Emploi demain ”
                                                             </h5>
                                                         </div>
                                                 
