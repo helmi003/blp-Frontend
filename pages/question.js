@@ -42,7 +42,7 @@ export default function question() {
 
                                     <div id="collapseOne" className="show" aria-labelledby="headingOne" data-parent="#accordion">
                                         <div className="card-body">
-                                            <p>Groupe d’universités privées en Tunisie ; MIT, 3 établissements, avec Foyer et Restaurants. +35 spécialités : Gestion, Finance, Informatique... + 900 partenaires industriels pour stages et Embauche en Tunisie et en Europe. Diplôme reconnu par l’État Tunisien, Communauté Européenne : M1 en Tunisie et M2 en Europe. Certifiées iso 9001 et accréditées AACSB en cours 21001. </p>
+                                            <p>Université privée en Tunisie ; fondées par le Réseau Euro-Méditerranéeen pour l'Enseignement et la recherche  en Économie, technologie et Gestion,  REMEREG. Le réseau est partenaire de BLP et des 3 universités Méditerranéennes ; Mediterranean Institute of Tunisia,   MIT,  3 établissements, avec Foyer et Restaurants. +35 spécialités : Gestion, Finance, Informatique... + 900 partenaires industriels pour stages et embauche en Tunisie et en Europe. Diplôme reconnu par l’État Tunisien, Communauté Européenne : M1 en Tunisie et M2 en Europe ou 1-2 ans en Tunisie et 1-2 ans en Europe. BLP vise les certifications internationales comme ceux obtenues par MIT Polytech Certifiée ISO 9001 et ISO 21001 et  accréditation AACSB en cours.</p>
                                         </div>
                                     </div>
                                 </div>
