@@ -34,7 +34,7 @@ export default function licenceEnDroitPrive() {
                                     <div className="row ">
                                         <div className="col-lg-6">
                                             <div className="post-feature blog-thumbnail">
-                                                <a href="blog-post-layout-one.html">
+                                                <a href="">
                                                     <img className="img-fluid" src="assets/images/actualites/startup-africa.webp" alt="Blog Images"/>
                                                 </a>
                                             </div>

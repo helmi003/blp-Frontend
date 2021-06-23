@@ -34,7 +34,7 @@ export default function inauguration() {
                                     <div className="row ">
                                         <div className="col-lg-6">
                                             <div className="post-feature blog-thumbnail">
-                                                <a href="blog-post-layout-one.html">
+                                                <a>
                                                     <img className="img-fluid" src="assets/images/actualites/inaugration-its-blp.webp" alt="Blog Images"/>
                                                 </a>
                                             </div>
