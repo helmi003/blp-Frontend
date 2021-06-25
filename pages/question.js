@@ -34,7 +34,7 @@ export default function question() {
                                     <div className="card-header" id="headingOne">
                                         <h5 className="mb-0">
                                             <button className="btn-link collapsed" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                                                Qui somme nous ? <span> <i className="fas fa-chevron-down"></i>
+                                                Qui sommes nous ? <span> <i className="fas fa-chevron-down"></i>
                                         <i className="fas fa-chevron-up"></i> </span>
                                             </button>
                                         </h5>
