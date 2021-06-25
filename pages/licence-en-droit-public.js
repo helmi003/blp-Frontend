@@ -37,7 +37,7 @@ export default function LicenceEnDroitPublic() {
                             
                                     <form  >
                                              <div className="comment-submit-btn text-center">
-                                             <a href="https://admission.mit.tn/" target="_blank" className="ht-btn ht-btn-md">Inscription</a>
+                                             <a href="https://admission.blp.tn" target="_blank" className="ht-btn ht-btn-md">Inscription</a>
 
                                                 <p className="form-messege"></p>
                                             </div>

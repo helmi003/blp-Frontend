@@ -117,7 +117,7 @@ export default function Header() {
                                                     <a href="contact"><span>CONTACT</span></a>
                                                 </li>
                                                
-                                                <li><a href="https://admission.mit.tn/" target="_blank"><span>INSCRIPTION</span></a></li>
+                                                <li><a href="https://admission.blp.tn" target="_blank"><span>INSCRIPTION</span></a></li>
                                                 </ul>
                                             </nav>
                                     </div>

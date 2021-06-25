@@ -111,7 +111,7 @@ export default function contact() {
                 <div className="computing-info-box text-center ">
                     <h4 style={{color: "white"}}>Bourses d'études et places gratuites et accès dès la terminale à nos modules d'E-learning et sur place.</h4>
                     <div className="contact-us-button mt-20">
-                        <a href="https://admission.mit.tn/" target="_blank" className="btn btn--secondary">Pré-inscription</a>
+                        <a href="https://admission.blp.tn" target="_blank" className="btn btn--secondary">Pré-inscription</a>
                     </div>
                 </div>
             </div>

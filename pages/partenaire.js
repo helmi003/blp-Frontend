@@ -14,7 +14,7 @@ export default function partenaire() {
                             <h6 className="text-color-primary">Nos activités internationnales </h6>
                             <h3 className="font-weight--reguler mb-30">BLP votre Passport pour la réussite !</h3>
                             <div className="bedraw-button">
-                                <a href="https://admission.mit.tn/" target="_blank" className="ht-btn ht-btn-md">Inscription <i
+                                <a href="https://admission.blp.tn" target="_blank" className="ht-btn ht-btn-md">Inscription <i
                                         className="far fa-long-arrow-right ml-2"></i></a>
                             </div>
                         </div>
