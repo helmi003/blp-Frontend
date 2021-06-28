@@ -12,7 +12,7 @@ export default function partenaire() {
                             <h6 className="text-color-primary">Nos activités internationnales </h6>
                             <h3 className="font-weight--reguler mb-30">BLP votre Passeport pour la réussite !</h3>
                             <div className="bedraw-button">
-                                <a href="https://admission.mit.tn/" target="_blank" className="ht-btn ht-btn-md">Inscription <i
+                                <a href="https://admission.blp.tn/" target="_blank" className="ht-btn ht-btn-md">Inscription <i
                                         className="far fa-long-arrow-right ml-2"></i></a>
                             </div>
                         </div>
@@ -175,7 +175,7 @@ export default function partenaire() {
                                 <div className="col-xl-4 col-lg-5">
                                     <div className="cta-button-group--one text-center">
 
-                                        <a href="https://admission.mit.tn/" className="btn btn--secondary  btn-two"><span className="btn-icon mr-2"><i className="far fa-info-circle"></i></span> Inscription</a>
+                                        <a href="https://admission.blp.tn/" className="btn btn--secondary  btn-two"><span className="btn-icon mr-2"><i className="far fa-info-circle"></i></span> Inscription</a>
                                             
                                     </div>
                                 </div>

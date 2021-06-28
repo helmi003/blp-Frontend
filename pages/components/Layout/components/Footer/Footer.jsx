@@ -34,7 +34,7 @@ export default function footer() {
                                 <li><a href="convention-relations-internationales" className="hover-style-link">Relations internationales</a></li>
                                 <li><a href="etudiante" className="hover-style-link">Vie à l'université</a></li>
                                 <li><a href="formations" className="hover-style-link">Nos Formations</a></li>
-                                <li><a href="contact" className="hover-style-link">Contact</a></li>
+                                <li><a href="inscription" className="hover-style-link">Inscription</a></li>
                             </ul>
                         </div>
                         <div className="col-lg-2 col-md-4 col-sm-6 footer-widget">

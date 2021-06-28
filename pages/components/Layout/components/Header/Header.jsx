@@ -63,7 +63,7 @@ export default function Header() {
                                                             <li><a href="reseau-euro-mediterraneen"><span>Réseau Euro-Méditerranéen</span></a> </li>
                                                             <li><a href="etudier-en-tunisie"><span>Étudier en Tunisie</span></a></li>
                                                             <li> <a href="convention-relations-internationales"> <span>Relations internationales</span></a></li>
-                                                            <li><a href="question"><span>Question & reponse</span></a></li>
+                                                            <li><a href="question"><span>Questions & réponses</span></a></li>
                                                     
                                                         </ul>
                                                     </li>
@@ -116,8 +116,7 @@ export default function Header() {
                                                 <li >
                                                     <a href="contact"><span>CONTACT</span></a>
                                                 </li>
-                                               
-                                                <li><a href="https://admission.mit.tn/" target="_blank"><span>INSCRIPTION</span></a></li>
+                                                <li><a href="inscription"><span>INSCRIPTION</span></a></li>
                                                 </ul>
                                             </nav>
                                     </div>
