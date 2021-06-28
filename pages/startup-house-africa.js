@@ -50,7 +50,7 @@ export default function licenceEnDroitPrive() {
                                                  
                                                     <div className="post-date">
                                                         <span className="far fa-calendar meta-icon"></span>
-                                                       22 mai ,2021
+                                                       22 mai, 2021
                                                     </div>
                          
                                                 </div>

@@ -50,7 +50,7 @@ export default function inauguration() {
                                                  
                                                     <div className="post-date">
                                                         <span className="far fa-calendar meta-icon"></span>
-                                                        05 juin ,2021
+                                                        05 juin, 2021
                                                     </div>
                          
                                                 </div>

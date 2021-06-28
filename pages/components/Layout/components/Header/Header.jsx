@@ -78,7 +78,6 @@ export default function Header() {
                                                 <li className="has-children has-children--multilevel-submenu">
                                                     <a href="#"><span>LA VIE À L'UNIVERSITÉ</span></a>
                                                     <ul className="submenu">
-                                                        <li><a href="actualites"><span>Actualités</span></a></li>
                                                         <li><a href="certification"><span>Certifications</span></a></li>
                                                         <li><a href="associative"><span>La vie associative</span></a></li>
                                                         <li><a href="etudiante"><span>Estudiantine</span></a></li>
@@ -117,6 +116,7 @@ export default function Header() {
                                                     <a href="contact"><span>CONTACT</span></a>
                                                 </li>
                                                 <li><a href="inscription"><span>INSCRIPTION</span></a></li>
+                                                <li><a href="actualites"><span>ACTUALITES</span></a></li>
                                                 </ul>
                                             </nav>
                                     </div>

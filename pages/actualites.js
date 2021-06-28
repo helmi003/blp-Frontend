@@ -28,6 +28,28 @@ export default function contact() {
             <div className="blog-pages-wrapper section-space--ptb_100">
                 <div className="container">
                     <div className="row">
+                    <div className="col-lg-4 col-md-6  mb-30 wow move-up">
+                    <div className="single-blog-item blog-grid">
+                                <div className="post-feature blog-thumbnail">
+                                   
+                                        <img className="img-fluid" src="assets/images/actualites/conv-carthage.png" alt="Convention Carthage & BLP" />
+                                    
+                                </div>
+                             
+                                <div className="post-info lg-blog-post-info">
+                                    <div className="post-meta">
+                                        <div className="post-date">
+                                            <span className="far fa-calendar meta-icon"></span>
+                                            19 juin, 2021
+                                        </div>
+                                    </div>
+
+                                    <h5 className="post-title font-weight--bold">
+                                        <a>BLP vous offre l'opportunité de passer un séjour dans la chaine Magic Life. Réservez maintenant.</a>
+                                    </h5>
+                                </div>
+                            </div>
+                            </div>
                         <div className="col-lg-4 col-md-6  mb-30 wow move-up">
                             <div className="single-blog-item blog-grid">
                                 <div className="post-feature blog-thumbnail">
@@ -40,7 +62,7 @@ export default function contact() {
                                     <div className="post-meta">
                                         <div className="post-date">
                                             <span className="far fa-calendar meta-icon"></span>
-                                            05 juin ,2021
+                                            05 juin, 2021
                                         </div>
                                     </div>
 
@@ -69,7 +91,7 @@ export default function contact() {
                                     <div className="post-meta">
                                         <div className="post-date">
                                             <span className="far fa-calendar meta-icon"></span>
-                                            05 juin ,2021
+                                            05 juin, 2021
                                         </div>
                                     </div>
 
@@ -99,7 +121,7 @@ export default function contact() {
                                     <div className="post-meta">
                                         <div className="post-date">
                                             <span className="far fa-calendar meta-icon"></span>
-                                            25 mai ,2021
+                                            25 mai, 2021
                                         </div>
                                     </div>
 
@@ -128,7 +150,7 @@ export default function contact() {
                                     <div className="post-meta">
                                         <div className="post-date">
                                             <span className="far fa-calendar meta-icon"></span>
-                                            22 mai ,2021
+                                            22 mai, 2021
                                         </div>
                                     </div>
 
