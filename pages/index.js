@@ -30,7 +30,7 @@ export default function Home() {
                                                 <h3 className="text-white"></h3>
 
                                                 <div className="hero-button-group section-space--mt_50">
-                                                    <a href="https://admission.blp.tn/" target="_blank" className="ht-btn ht-btn-md">Inscription</a>
+                                                    <a href="https://admission.blp.tn" target="_blank" className="ht-btn ht-btn-md">Inscription</a>
                                                     <a href="contact" className="ht-btn ht-btn-md btn--white"><span
                                                             className="btn-icon mr-2"><i
                                                                 className="fa fa-play"></i></span>Contact</a>
@@ -113,7 +113,7 @@ export default function Home() {
                                                     diplôme français public avec nos partenaires.
                                                 </div>
                                                 <div className="box-images-arrow">
-                                                    <a href="https://admission.blp.tn/">
+                                                    <a href="https://admission.blp.tn">
                                                         <span className="button-text">Lire plus</span>
                                                         <i className="far fa-long-arrow-right"></i>
                                                     </a>
