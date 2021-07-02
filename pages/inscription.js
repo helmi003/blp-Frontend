@@ -28,8 +28,16 @@ export default function inscription() {
                                 </blockquote>
                                 <div className="post-excerpt mt-15">
                                     <p style={{textAlign:"justify" , fontSize:"large"}}> Inscrivez-vous à BLP, et obtenez un diplôme reconnu par l’Etat Tunisien.<br/>
-                                                Vous pouvez télécharger le dossier d'inscription en cliquant ici : <a href="assets/images/inscription/Dossier de candidature_alternatif-blp.docx">Dossier d'inscription</a><br/>
-                                                Inscrivez-vous dès maintenant sur le lien suivant : <a href="https://admission.blp.tn/"><u>Pré-inscription</u></a></p>
+                                                Vous pouvez télécharger le dossier d'inscription en cliquant ici :<br/>
+                                                <div className="btn-text">
+                                                    <a href="assets/images/inscription/Dossier de candidature_alternatif-blp.docx"><i className="ml-1 button-icon far fa-long-arrow-right"></i> Dossier d'inscription </a>
+                                                </div>
+                                                Inscrivez-vous dès maintenant sur le lien suivant :<br/>
+                                                <div className="btn-text">
+                                                    <a href="https://admission.blp.tn/"><i className="ml-1 button-icon far fa-long-arrow-right"></i> Pré-inscription </a>
+                                                </div>
+                                                
+                                                </p>
                                 </div>
                                 <blockquote>
                                             <p className="p1">S'inscrire à l'international : </p>
