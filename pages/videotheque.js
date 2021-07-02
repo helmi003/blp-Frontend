@@ -155,31 +155,6 @@ export default function videotheque() {
                                   </div>
                             </div>
 
-     <div className="col-lg-4 col-md-6 mt-30">
-                                  
-                                  <div className="tab-history-image video-popup mt-30">
-                                      <a href="https://www.youtube.com/watch?v=jnqxwo-Ax3M" className="video-link">
-                                          <div className="single-popup-wrap">
-                                              <img className="img-fluid" src="assets/images/projects/mot.jpg" alt=""/>
-                                              <div className="ht-popup-video video-button">
-                                                  <div className="video-mark">
-                                                      <div className="wave-pulse wave-pulse-1"></div>
-                                                      <div className="wave-pulse wave-pulse-2"></div>
-                                                  </div>
-                                                  <div className="video-button__two">
-                                                      <div className="video-play">
-                                                          <span className="video-play-icon"></span>
-                                                      </div>
-                                                  </div>
-                                              </div>
-                                          </div>
-                                      </a>
-                                  </div>
-                                  <div className="box-large-image__content mt-30 text-center">
-                                      <strong>JOURNÉE DE MÉTIER 15-05-2020 -- J3 </strong> 
-                                  </div>
-                      </div>
-
        <div className="col-lg-4 col-md-6 mt-30">
                                   
                                   <div className="tab-history-image video-popup mt-30">
