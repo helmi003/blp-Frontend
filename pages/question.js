@@ -187,7 +187,7 @@ export default function question() {
                                             <div className="card-body">
                                             <ul className="circle-list">
                                                     <li className="list-item">Diplôme reconnu Union Européenne.</li>
-                                                    <li className="list-item">Conventions avec + 1000 Entreprises pour les stages.</li>
+                                                    <li className="list-item">Conventions avec 10 Entreprises pour les stages.</li>
                                                     <li className="list-item">Innovation Project.</li>
                                                     <li className="list-item">Stage d’initiation.</li>
                                                     <li className="list-item">1ère année (Licence ).</li>
