@@ -111,20 +111,9 @@ export default function etudiante() {
                                             <p className="p1"> Une université accessible d’un simple clic </p>
                                         </blockquote>
                                         <p style={{textAlign:"justify"}}>
-                                            Accessible depuis Internet grâce à un mot de passe personnel, l’université
-                                            virtuelle concerne la majorité des programmes et des formations diplômantes
-                                            du Groupe Méditerranéen.
+                                        Accessible depuis Internet grâce à un mot de passe personnel, la bibliothèque virtuelle concerne la majorité des programmes et des formations diplômantes.
                                         </p>
-                                        <p style={{textAlign:"justify"}}>Depuis votre domicile ou n’importe quel ordinateur
-                                            dans le monde, un portail pédagogique en ligne. <b>www.umlt.ens.tn </b>vous
-                                            donnez accès à toutes les informations et outils indispensables à votre
-                                            formation, parmi lesquels vous trouverez des plans de cours, des documents
-                                            téléchargeables, des vidéos ou des forums de discussion. C’est aussi un
-                                            espace de réactivité où vous pourrez participer en postant un fichier
-                                            important, par exemple.
-                                            Depuis septembre 2017, MyUMLT Apps, basée sur la technologie Web, est la
-                                            nouvelle plateforme de communication et de travail collaboratif partagée par
-                                            toute la communauté de MIT.</p>
+                                        <p style={{textAlign:"justify"}}>Depuis votre domicile ou n’importe quel ordinateur dans le monde, un portail pédagogique en ligne. Vous aurez accès à toutes les informations et outils indispensables à votre formation, parmi lesquels vous trouverez des plans de cours, des documents téléchargeables, des vidéos ou des forums de discussion. C’est aussi un espace de réactivité où vous pourrez participer en postant un fichier important, par exemple. </p>
 
                         
                                     </div>

@@ -32,18 +32,9 @@ export default function associative() {
                 <br/><br/>
                 <div className="row">
                     <div className="col-lg-6 ">
-                        <p>La Vie Associative est un lieu d'échange, de partage, de réflexion et de
-                            formation à destination des associations.
-                            Créées avec les responsables de la vie associative et universitaire du
-                            Groupe Méditerranéen, les associations sont une composante de
-                            l'Université. Elles permettent de partager les expériences dans un cadre
-                            de réflexion et de formation. Ce sont des activités, et un lieu ouverts à
-                            tous les étudiants. <br/> Les formations associent enseignants et étudiants :
-                            social, culture, sport, loisirs, environnement, patrimoine, droits de
-                            l'homme, consommation, etc... <br/>Un comité de pilotage composé de
-                            représentants des groupes définit les orientations à prendre et permet aux
-                            associations de rester au cœur des préoccupations du Groupe
-                            Méditerranéen.</p>
+                        <p>La Vie Associative est un lieu d'échange, de partage, de réflexion et de formation à destination des associations. Créées avec les responsables de la vie associative et universitaire, les associations sont une composante de la vie universitaire. Elles permettent de partager les expériences dans un cadre de réflexion et de formation. Ce sont des activités de loisirs et d'éducation, et un lieu ouvert à tous les étudiants.<br/>
+                            Les formations associent enseignants et étudiants : social, culture, sport, loisirs, environnement, patrimoine, droits de l'homme, consommation, etc...<br/>
+                            Un comité de pilotage composé de représentants des groupes définit les orientations à prendre et permet aux associations de rester au cœur de nos préoccupations .</p>
                     </div>
                     <div className="col-lg-6 ">
                         <video controls>
