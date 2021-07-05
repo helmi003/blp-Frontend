@@ -578,7 +578,7 @@ export default function Home() {
                                 <div className="separator-list-wrap">
                                     <ul className="check-list">
                                         <li className="list-item"><a href="#">Offrir ce sésame à travers l’Afrique
-                                                gratuitement à tous sur plus de 1000 cours.</a></li>
+                                                gratuitement à tous sur plus de 100 cours.</a></li>
                                         <li className="list-item"><a href="#">Enseignement dispensé par les meilleurs enseignants et professionnels Tunisiens et experts internationaux</a></li>
                                         <li className="list-item"><a href="#">Collaboration avec des universités étrangères et possibilité de continuer les études et stages a l'étranger</a></li>        
                                         <li className="list-item"><a href="#">Places gratuites à nos enseignements en
@@ -605,19 +605,18 @@ export default function Home() {
             </div>
         </div>
 
-
         <div className="fun-fact-wrapper bg-theme-default section-space--pb_30 section-space--pt_60">
             <div className="container">
                 <div className="row">
                     <div className="col-md-3 col-sm-6 wow move-up">
                         <div className="fun-fact--two text-center">
-                            <div className="fun-fact__count counter">110</div>
+                            <div className="fun-fact__count counter">10</div>
                             <h6 className="fun-fact__text">Conventions + Universités dans le monde</h6>
                         </div>
                     </div>
                     <div className="col-md-3 col-sm-6 wow move-up">
                         <div className="fun-fact--two text-center">
-                            <div className="fun-fact__count counter">1000</div>
+                            <div className="fun-fact__count counter">100</div>
                             <h6 className="fun-fact__text">Cours gratuits</h6>
                         </div>
                     </div>
@@ -630,17 +629,13 @@ export default function Home() {
                     </div>
                     <div className="col-md-3 col-sm-6 wow move-up">
                         <div className="fun-fact--two text-center">
-                            <div className="fun-fact__count counter">1000</div>
+                            <div className="fun-fact__count counter">10</div>
                             <h6 className="fun-fact__text">Partenaires</h6>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-
-
-
-     
     
         <div className="brand-logo-slider-area section-space--ptb_60 border-bottom">
             <div className="container">

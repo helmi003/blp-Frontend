@@ -209,7 +209,7 @@ export default function presentation() {
                                             <div className="row">
                                                 <div className="col-md-6 col-sm-6 wow move-up">
                                                     <div className="fun-fact--three text-center">
-                                                        <div className="fun-fact__count counter"> 1000</div>
+                                                        <div className="fun-fact__count counter"> 10</div>
                                                         <h6 className="fun-fact__text">Partenaires</h6>
                                                     </div>
                                                 </div>
@@ -221,13 +221,13 @@ export default function presentation() {
                                                 </div>
                                                 <div className="col-md-6 col-sm-6 wow move-up">
                                                     <div className="fun-fact--three text-center">
-                                                        <div className="fun-fact__count counter">107</div>
+                                                        <div className="fun-fact__count counter">10</div>
                                                         <h6 className="fun-fact__text">Conventions</h6>
                                                     </div>
                                                 </div>
                                                 <div className="col-md-6 col-sm-6 wow move-up">
                                                     <div className="fun-fact--three text-center">
-                                                        <div className="fun-fact__count counter">1000</div>
+                                                        <div className="fun-fact__count counter">100</div>
                                                         <h6 className="fun-fact__text">Cours gratuits</h6>
                                                     </div>
                                                 </div>
