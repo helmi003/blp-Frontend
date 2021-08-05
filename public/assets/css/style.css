@@ -12773,3 +12773,13 @@ blockquote {
   -webkit-box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
   box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
 }
+
+.img-fulid{
+  height: 100px;
+  width: 100px;
+}
+
+.footer-copyright{
+  background-color: #e6e6e6;
+  bottom: 0;
+}

@@ -1,6 +1,12 @@
 import React from 'react'
-
+import Link from "next/link";
+import { useRouter } from "next/router";
+import useTranslation from "next-translate/useTranslation";
 export default function Header() {
+    let router = useRouter();
+    
+    let { t } = useTranslation();
+
     return (
 
 <div className="header-area header-area--default">
@@ -22,8 +28,7 @@ export default function Header() {
                                 </li>
                                 <li className="info-item">
                                     <i className="info-icon fa fa-map-marker-alt"></i>
-                                    <span className="info-text">102, Chotrana 2, Zone industrielle, pôle
-                                        technologique,Ariana</span>
+                                    <span className="info-text">{t("navbar:102, Chotrana 2, Zone industrielle, pôle technologique,Ariana")}</span>
                                 </li>
                             </ul>
                         </div>
@@ -46,7 +51,18 @@ export default function Header() {
                         </a>
 
                     </div>
+                    <div className="header__logo">
+                    <ul>
+                            {router.locales.map((locale) => (
+                            <li key={locale}>
+                                <Link href={router.asPath} locale={locale}>
+                                    <a>{locale}</a>
+                                </Link>
+                            </li>
+                            ))}
+                        </ul>
 
+                    </div>
                     <div className="header-midle-box">
                         <div className="header-bottom-wrap d-md-block d-none">
                             <div className="header-bottom-inner">

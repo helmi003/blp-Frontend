@@ -1,6 +1,7 @@
 import React from 'react'
-
+import useTranslation from "next-translate/useTranslation";
 export default function question() {
+    let { t } = useTranslation();
     return (
         <>
   <div className="breadcrumb-area">
@@ -8,11 +9,11 @@ export default function question() {
         <div className="row">
             <div className="col-12">
                 <div className="breadcrumb_box text-center">
-                    <h2 className="breadcrumb-title ">QUESTIONS - RÉPONSES</h2>
+                    <h2 className="breadcrumb-title ">{t("question:QUESTIONS - RÉPONSES")}</h2>
                     
                     <ul className="breadcrumb-list">
                         <li className="breadcrumb-item"><a href="accueil">BLP</a></li>
-                        <li className="breadcrumb-item active">Questions & Réponses</li>
+                        <li className="breadcrumb-item active">{t("question:Questions & Réponses")}</li>
                     </ul>
              
                 </div>
@@ -34,7 +35,7 @@ export default function question() {
                                     <div className="card-header" id="headingOne">
                                         <h5 className="mb-0">
                                             <button className="btn-link collapsed" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                                                Qui sommes nous ? <span> <i className="fas fa-chevron-down"></i>
+                                            {t("question:Qui sommes nous")} ? <span> <i className="fas fa-chevron-down"></i>
                                         <i className="fas fa-chevron-up"></i> </span>
                                             </button>
                                         </h5>
@@ -42,11 +43,11 @@ export default function question() {
 
                                     <div id="collapseOne" className="show" aria-labelledby="headingOne" data-parent="#accordion">
                                         <div className="card-body">
-                                            <p>- De Bac à Prépa, licence, Cycle Ingénieur, Mastère .<br/>
-                                            - + 100 partenaires industriels pour stages et Embauche en Tunisie et en Europe.<br/>
-                                            - Smart E-Learning et certification gratuites (sur place à distance et Alternance en Afrique),.<br/>
-                                            - Diplôme reconnu par l'état tunisien, Communauté Européenne : M1 en Tunisie et M2 en Europe<br/>
-                                            - Certifié en cours  ISO 9001 et accrédité AACSB en cours 21001.
+                                            <p>- {t("question:De Bac à Prépa, licence, Cycle Ingénieur, Mastère")} .<br/>
+                                            - {t("question:+ 100 partenaires industriels pour stages et Embauche en Tunisie et en Europe")}.<br/>
+                                            - {t("question:Smart E-Learning et certification gratuites (sur place à distance et Alternance en Afrique)")}.<br/>
+                                            - {t("question:Diplôme reconnu par l'état tunisien, Communauté Européenne : M1 en Tunisie et M2 en Europe")}<br/>
+                                            - {t("question:Certifié en cours  ISO 9001 et accrédité AACSB en cours 21001")}.
                                             </p>
                                         </div>
                                     </div>
@@ -55,14 +56,14 @@ export default function question() {
                                     <div className="card-header" id="headingTwo">
                                         <h5 className="mb-0">
                                             <button className="btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                                               L'année universitaire commencera à quelle date ?<span> <i className="fas fa-chevron-down"></i>
+                                            {t("question:L'année universitaire commencera à quelle date")} ?<span> <i className="fas fa-chevron-down"></i>
                                         <i className="fas fa-chevron-up"></i> </span>
                                             </button>
                                         </h5>
                                     </div>
                                     <div id="collapseTwo" className="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
                                         <div className="card-body">
-                                            <p>L’année universitaire commence en Septembre et se termine fin Juin. </p>
+                                            <p>{t("question:L’année universitaire commence en Septembre et se termine fin Juin")}. </p>
                                         </div>
                                     </div>
                                 </div>
@@ -70,7 +71,7 @@ export default function question() {
                                     <div className="card-header" id="headingThree">
                                         <h5 className="mb-0">
                                             <button className="btn-link collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                                                Quelles sont les procédures d'inscription ? <span> <i className="fas fa-chevron-down"></i>
+                                            {t("question:Quelles sont les procédures d'inscription")} ? <span> <i className="fas fa-chevron-down"></i>
                                         <i className="fas fa-chevron-up"></i> </span>
                                             </button>
                                         </h5>
@@ -78,12 +79,12 @@ export default function question() {
                                     <div id="collapseThree" className="collapse" aria-labelledby="headingThree" data-parent="#accordion">
                                         <div className="card-body">
                                                 <ul className="circle-list">
-                                                    <li className="list-item">Préinscription sur le site.</li>
-                                                    <li className="list-item">Envoyez les pièces suivantes à : contact@blp.tn .</li>
-                                                    <li className="list-item">Copies d’acte de naissance, dernier diplôme, relevé de notes, Passeport / CIN.</li>
-                                                    <li className="list-item">Indiquer la formation choisie.</li>
+                                                    <li className="list-item">{t("question:Préinscription sur le site")}.</li>
+                                                    <li className="list-item">{t("question:Envoyez les pièces suivantes à")} : contact@blp.tn .</li>
+                                                    <li className="list-item">{t("question:Copies d’acte de naissance, dernier diplôme, relevé de notes, Passeport / CIN")}.</li>
+                                                    <li className="list-item">{t("question:Indiquer la formation choisie")}.</li>
                                                </ul>
-                                                <b style={{color:"blue"}}>N.B : l’Attestation d’Inscription : paiement d’une tranche de frais scolaire.</b> 
+                                                <b style={{color:"blue"}}>{t("question:paiement")}.</b> 
                                         </div>
                                     </div>
                                 </div>
@@ -91,14 +92,14 @@ export default function question() {
                                     <div className="card-header" id="headingFour">
                                         <h5 className="mb-0">
                                             <button className="collapsed" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-                                                Quel est le coût annuel de votre formation ?<span> <i className="fas fa-chevron-down"></i>
+                                            {t("question:Quel est le coût annuel de votre formation")} ?<span> <i className="fas fa-chevron-down"></i>
                                         <i className="fas fa-chevron-up"></i> </span>
                                             </button>
                                         </h5>
                                     </div>
                                     <div id="collapseFour" className="collapse" aria-labelledby="headingFour" data-parent="#accordion">
                                         <div className="card-body">
-                                            <p>Le coût annuel qui inclut uniquement les frais de scolarité varie selon la formation : Licence 2500 Euro et Master: 3000 Euro</p>
+                                            <p>{t("question:Le coût annuel qui inclut uniquement les frais de scolarité varie selon la formation : Licence 2500 Euro et Master: 3000 Euro")}</p>
                                         </div>
                                     </div>
                                 </div>
@@ -106,7 +107,7 @@ export default function question() {
                                         <div className="card-header" id="faq_a">
                                             <h5 className="mb-0">
                                                 <button className="collapsed" data-toggle="collapse" data-target="#faq_a" aria-expanded="false" aria-controls="faq_a">
-                                                 Le cout total d'une année entre étude,nourriture et hébergement <span> <i className="fas fa-chevron-down"></i>
+                                                {t("question:Le cout total d'une année entre étude,nourriture et hébergement")} <span> <i className="fas fa-chevron-down"></i>
                                             <i className="fas fa-chevron-up"></i> </span>
                                                 </button>
                                             </h5>
@@ -114,10 +115,10 @@ export default function question() {
                                         <div id="faq_a" className="collapse" aria-labelledby="faq_a" data-parent="#faq-toggles">
                                             <div className="card-body">
                                             <ul className="circle-list">
-                                                    <li className="list-item">Bourse études et Bourse logement.</li>
-                                                    <li className="list-item">Pack de service inclut les frais d’inscription, d’hébergement, de restauration, d’accompagnement depuis son arrivée en Tunisie.</li>
-                                                    <li className="list-item">Voir pack (Africa Intégration Services).</li>
-                                                    <li className="list-item">2000 euros pour l’hébergement et nourriture.</li>
+                                                    <li className="list-item">{t("question:Bourse études et Bourse logement")}.</li>
+                                                    <li className="list-item">{t("question:Pack de service inclut les frais d’inscription, d’hébergement, de restauration, d’accompagnement depuis son arrivée en Tunisie")}.</li>
+                                                    <li className="list-item">{t("question:Voir pack (Africa Intégration Services)")}.</li>
+                                                    <li className="list-item">{t("question:2000 euros pour l’hébergement et nourriture")}.</li>
                                                </ul>
                                             </div>
                                         </div>
@@ -138,14 +139,14 @@ export default function question() {
                                         <div className="card-header" id="faq_25">
                                             <h5 className="mb-0">
                                                 <button className="btn-link collapsed" data-toggle="collapse" data-target="#faq_d" aria-expanded="false" aria-controls="faq_d">
-                                                    Est-ce que vous trouvez l'hébergement ?<span> <i className="fas fa-chevron-down"></i>
+                                                {t("question:Est-ce que vous trouvez l'hébergement")} ?<span> <i className="fas fa-chevron-down"></i>
                                         <i className="fas fa-chevron-up"></i> </span>
                                                 </button>
                                             </h5>
                                         </div>
                                         <div id="faq_d" className="collapse" aria-labelledby="faq_25">
                                             <div className="card-body">
-                                                <p>Oui Plus 1 mois gratuit . </p>
+                                                <p>{t("question:Oui Plus 1 mois gratuit")} . </p>
                                             </div>
                                         </div>
                                     </div>
@@ -153,14 +154,14 @@ export default function question() {
                                         <div className="card-header" id="faq_2">
                                             <h5 className="mb-0">
                                                 <button className="btn-link collapsed" data-toggle="collapse" data-target="#faq_two" aria-expanded="false" aria-controls="faq_two">
-                                                   Y'a-t-il des facilités de paiement et comment ?<span> <i className="fas fa-chevron-down"></i>
+                                                {t("question:Y'a-t-il des facilités de paiement et comment")} ?<span> <i className="fas fa-chevron-down"></i>
                                         <i className="fas fa-chevron-up"></i> </span>
                                                 </button>
                                             </h5>
                                         </div>
                                         <div id="faq_two" className="collapse" aria-labelledby="faq_2">
                                             <div className="card-body">
-                                                <p> Oui, les frais de scolarité peuvent être échelonnés sur deux tranches. </p>
+                                                <p> {t("question:Oui, les frais de scolarité peuvent être échelonnés sur deux tranches")}. </p>
                                             </div>
                                         </div>
                                     </div>
@@ -168,14 +169,14 @@ export default function question() {
                                         <div className="card-header" id="faq_3">
                                             <h5 className="mb-0">
                                                 <button className="btn-link collapsed" data-toggle="collapse" data-target="#faq_three" aria-expanded="false" aria-controls="faq_three">
-                                                Où vous trouvez nous ? <span> <i className="fas fa-chevron-down"></i>
+                                                {t("question:Où vous trouvez nous")} ? <span> <i className="fas fa-chevron-down"></i>
                                         <i className="fas fa-chevron-up"></i> </span>
                                                 </button>
                                             </h5>
                                         </div>
                                         <div id="faq_three" className="collapse" aria-labelledby="faq_3">
                                             <div className="card-body">
-                                                <p>Mediterranean Institute of Tunisia, MITPolytech, MITTunis et MITNabeul, Tunisie : Afrique du Nord. </p>
+                                                <p>{t("question:Mediterranean Institute of Tunisia, MITPolytech, MITTunis et MITNabeul, Tunisie : Afrique du Nord")}. </p>
                                             </div>
                                         </div>
                                     </div>
@@ -183,7 +184,7 @@ export default function question() {
                                         <div className="card-header" id="faq_4">
                                             <h5 className="mb-0">
                                                 <button className="collapsed" data-toggle="collapse" data-target="#faq_four" aria-expanded="false" aria-controls="faq_four">
-                                                   Est-ce que nos diplomes sont reconnus et pouvez-vous trouver des stages et d'embauche en Tunisie et en Europe ? <span> <i className="fas fa-chevron-down"></i>
+                                                {t("question:Est-ce que nos diplomes sont reconnus et pouvez-vous trouver des stages et d'embauche en Tunisie et en Europe ?")} <span> <i className="fas fa-chevron-down"></i>
                                             <i className="fas fa-chevron-up"></i> </span>
                                                 </button>
                                             </h5>
@@ -191,13 +192,13 @@ export default function question() {
                                         <div id="faq_four" className="collapse" aria-labelledby="faq_4" data-parent="#faq-toggles">
                                             <div className="card-body">
                                             <ul className="circle-list">
-                                                    <li className="list-item">Diplôme reconnu Union Européenne.</li>
-                                                    <li className="list-item">Conventions avec 10 Entreprises pour les stages.</li>
-                                                    <li className="list-item">Innovation Project.</li>
-                                                    <li className="list-item">Stage d’initiation.</li>
-                                                    <li className="list-item">1ère année (Licence ).</li>
-                                                    <li className="list-item">2ème année (Licence).</li>
-                                                    <li className="list-item">Stage PFE en terminales (Licence L3, Ingénieur, Master M2).</li>
+                                                    <li className="list-item">{t("question:Diplôme reconnu Union Européenne")}.</li>
+                                                    <li className="list-item">{t("question:Conventions avec 10 Entreprises pour les stages")}.</li>
+                                                    <li className="list-item">{t("question:Innovation Project")}.</li>
+                                                    <li className="list-item">{t("question:Stage d’initiation")}.</li>
+                                                    <li className="list-item">{t("question:1ère année (Licence )")}.</li>
+                                                    <li className="list-item">{t("question:2ème année (Licence)")}.</li>
+                                                    <li className="list-item">{t("question:Stage PFE en terminales (Licence L3, Ingénieur, Master M2)")}.</li>
                                                </ul>
                                             </div>
                                         </div>
@@ -206,14 +207,14 @@ export default function question() {
                                         <div className="card-header" id="faq_16">
                                             <h5 className="mb-0">
                                                 <button className="collapsed" data-toggle="collapse" data-target="#faq_16" aria-expanded="false" aria-controls="faq_16">
-                                                   Est-ce que vous assurez un accompagnement de l'etudiant lors de son arrivée en tunisie et sa carte de séjour ? <span> <i className="fas fa-chevron-down"></i>
+                                                {t("question:Est-ce que vous assurez un accompagnement de l'etudiant lors de son arrivée en tunisie et sa carte de séjour ?")} <span> <i className="fas fa-chevron-down"></i>
                                             <i className="fas fa-chevron-up"></i> </span>
                                                 </button>
                                             </h5>
                                         </div>
                                         <div id="faq_16" className="collapse" aria-labelledby="faq_16" data-parent="#faq-toggles">
                                             <div className="card-body">
-                                            <p>Oui, l’étudiant est accompagné par notre CIO Centre Information et Orientation.-demande de l’étudiant depuis son pays d’origine.</p>
+                                            <p>{t("question:Oui étudiant")}.</p>
                                             </div>
                                         </div>
                                     </div>
@@ -221,7 +222,7 @@ export default function question() {
                                         <div className="card-header" id="faq_17">
                                             <h5 className="mb-0">
                                                 <button className="collapsed" data-toggle="collapse" data-target="#faq_17" aria-expanded="false" aria-controls="faq_17">
-                                                 Comment venir en Tunisie ? <span> <i className="fas fa-chevron-down"></i>
+                                                {t("question:Comment venir en Tunisie ?")} <span> <i className="fas fa-chevron-down"></i>
                                             <i className="fas fa-chevron-up"></i> </span>
                                                 </button>
                                             </h5>
@@ -229,12 +230,12 @@ export default function question() {
                                         <div id="faq_17" className="collapse" aria-labelledby="faq_17" data-parent="#faq-toggles">
                                             <div className="card-body">
                                             <ul className="circle-list">
-                                                    <li className="list-item">Attestation de préinscription : remplir formulaire sur site.</li>
-                                                    <li className="list-item">Envoi du dossier de préinscription.</li>
-                                                    <li className="list-item">Confirmation (Acceptation ou complément ou rejet).</li>
-                                                    <li className="list-item"> Attestation de paiement : paiement de la première tranche (cliquez Page responsabilité sociale et Bourse).</li>
-                                                    <li className="list-item">Contrat / attestation de Logement : MIT héberge gratuitement une semaine à Tunis et des mois à Nabeul.</li>
-                                                    <li className="list-item">Confirmation de l’université par email à l’ambassade: Direction/administration.</li>
+                                                    <li className="list-item">{t("question:Attestation de préinscription : remplir formulaire sur site")}.</li>
+                                                    <li className="list-item">{t("question:Envoi du dossier de préinscription")}.</li>
+                                                    <li className="list-item">{t("question:Confirmation (Acceptation ou complément ou rejet)")}.</li>
+                                                    <li className="list-item"> {t("question:Attestation de paiement : paiement de la première tranche (cliquez Page responsabilité sociale et Bourse)")}.</li>
+                                                    <li className="list-item">{t("question:Contrat / attestation de Logement : MIT héberge gratuitement une semaine à Tunis et des mois à Nabeul")}.</li>
+                                                    <li className="list-item">{t("question:Confirmation de l’université par email à l’ambassade: Direction/administration")}.</li>
                                                </ul>
                                             </div>
                                         </div>
@@ -253,8 +254,8 @@ export default function question() {
                     <div className="col-lg-12">
                        
                         <div className="section-title-wrap text-center">
-                            <h6 className="section-sub-title mb-20">Contactez-nous !</h6>
-                            <h3 className="heading">Avez-Vous Des Questions?</h3>
+                            <h6 className="section-sub-title mb-20">{t("question:Contactez-nous !")}</h6>
+                            <h3 className="heading">{t("question:Avez-Vous Des Questions?")}</h3>
                         </div>
                            </div>
                 </div>
@@ -263,8 +264,8 @@ export default function question() {
                 <div className="row align-items-center">
                     <div className="col-lg-6 col-lg-6">
                         <div className="conact-us-wrap-one mb-30">
-                            <h3 className="heading">NOUS SOMME À VOTRE ECOUTE! </h3>
-                            <div className="sub-heading">Afin de bien préparer votre formation, BLP met à votre disposition des conseillers pour répondre à toutes vos questions et vous orienter vers la bonne formation.</div>
+                            <h3 className="heading">{t("question:NOUS SOMME À VOTRE ECOUTE!")} </h3>
+                            <div className="sub-heading">{t("question:Afin de bien préparer votre formation, BLP met à votre disposition des conseillers pour répondre à toutes vos questions et vous orienter vers la bonne formation")}.</div>
                         </div>
                     </div>
 
@@ -288,7 +289,7 @@ export default function question() {
                                         <textarea name="con_message" placeholder="Message."></textarea>
                                     </div>
                                     <div className="submit-btn mt-20">
-                                        <button className="ht-btn ht-btn-md" type="submit">Envoyer </button>
+                                        <button className="ht-btn ht-btn-md" type="submit">{t("question:Envoyer")} </button>
                                         <p className="form-messege"></p>
                                     </div>
                                 </div>

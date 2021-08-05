@@ -1,5 +1,8 @@
+import useTranslation from "next-translate/useTranslation";
 export default function Home() {
+    let { t } = useTranslation();
   return (
+      
   <div id="main-wrapper">
     <div className="site-wrapper-reveal">
         <div className="resolutions-hero-slider position-relative">
@@ -30,10 +33,10 @@ export default function Home() {
                                                 <h3 className="text-white"></h3>
 
                                                 <div className="hero-button-group section-space--mt_50">
-                                                    <a href="https://admission.blp.tn" target="_blank" className="ht-btn ht-btn-md">Inscription</a>
+                                                    <a href="https://admission.blp.tn" target="_blank" className="ht-btn ht-btn-md">{t("index:Inscription")}</a>
                                                     <a href="contact" className="ht-btn ht-btn-md btn--white"><span
                                                             className="btn-icon mr-2"><i
-                                                                className="fa fa-play"></i></span>Contact</a>
+                                                                className="fa fa-play"></i></span>{t("index:Contact")}</a>
                                                 </div>
                                             </div>
                                         </div>
@@ -76,12 +79,12 @@ export default function Home() {
                                                 </div>
                                             </div>
                                             <div className="content">
-                                                <h5 className="heading">Étudier à l'étranger</h5>
-                                                <div className="text">Avec BLP tout est possible M1 en Tunisie, M2 en France.
+                                                <h5 className="heading">{t("index:Étudier à l'étranger")}</h5>
+                                                <div className="text">{t("index:Avec BLP tout est possible M1 en Tunisie, M2 en France")}.
                                                 </div>
                                                 <div className="box-images-arrow">
                                                     <a href="etudier-en-tunisie">
-                                                        <span className="button-text">Lire plus</span>
+                                                        <span className="button-text">{t("index:Lire plus")}</span>
                                                         <i className="far fa-long-arrow-right"></i>
                                                     </a>
                                                 <br/><br/>
@@ -108,13 +111,12 @@ export default function Home() {
                                                 </div>
                                             </div>
                                             <div className="content">
-                                                <h5 className="heading">Double diplôme </h5>
-                                                <div className="text"> Inscrivez-vous au diplôme tunisien et bénéficiez d'un
-                                                    diplôme français public avec nos partenaires.
+                                                <h5 className="heading">{t("index:Double diplôme")}</h5>
+                                                <div className="text"> {t("index:Inscrivez-vous au diplôme tunisien et bénéficiez d'un diplôme français public avec nos partenaires")}.
                                                 </div>
                                                 <div className="box-images-arrow">
                                                     <a href="https://admission.blp.tn">
-                                                        <span className="button-text">Lire plus</span>
+                                                        <span className="button-text">{t("index:Lire plus")}</span>
                                                         <i className="far fa-long-arrow-right"></i>
                                                     </a>
 
@@ -141,16 +143,14 @@ export default function Home() {
                                                 </div>
                                             </div>
                                             <div className="content">
-                                                <h5 className="heading">Des projets à l’international</h5>
-                                                <div className="text">La mise en place d’un référentiel de compétences et
-                                                    l’interaction entre le monde académique et professionnel.
+                                                <h5 className="heading">{t("index:Des projets à l’international")}</h5>
+                                                <div className="text">{t("index:La mise en place d’un référentiel de compétences et l’interaction entre le monde académique et professionnel")}.
                                                 </div>
                                                 <div className="box-images-arrow">
                                                     <a href="partenaire">
-                                                        <span className="button-text">Lire plus</span>
+                                                        <span className="button-text">{t("index:Lire plus")}</span>
                                                         <i className="far fa-long-arrow-right"></i>
                                                     </a>
-                                                    <br/><br/>
                                                 </div>
                                             </div>
                                         </div>
@@ -175,7 +175,7 @@ export default function Home() {
                             <div className="col-lg-8 ml-auto mr-auto">
                                 <div className="typed-text-wrap">
                                     <h4 className="cd-headline letters type">
-                                        <span>Bénéficiez de nos </span>
+                                        <span>{t("index:Bénéficiez de nos")} </span>
                                         <span className="cd-words-wrapper waiting">
                                             <b className="is-visible"> Formations</b>
                                             <b> Licences</b>
@@ -207,13 +207,10 @@ export default function Home() {
                                                         alt="sciences-politiques-blp"/>
                                                 </div>
                                                 <div className="content">
-                                                    <h6 className="post-categories">Mastère en Sciences
-                                                        Politiques</h6>
-                                                    <div className="heading"><b>Parcours</b> : Relations internationales et
-                                                        diplomatie</div>
-
+                                                    <h6 className="post-categories">{t("index:Mastère en Sciences Politiques")}</h6>
+                                                    <div className="heading"><b>{t("index:Parcours")}</b> : {t("index:Relations internationales et diplomatie")}</div>
                                                     <div className="box-projects-arrow">
-                                                        <span className="button-text">EN SAVOIR PLUS</span>
+                                                        <span className="button-text">{t("index:en savoir plus")}</span>
                                                         <i className="fa fa-long-arrow-right ml-1"></i>
                                                     </div>
                                                 </div>
@@ -230,12 +227,12 @@ export default function Home() {
                                                         alt="droit-prive-blp"/>
                                                 </div>
                                                 <div className="content">
-                                                    <h6 className="post-categories">Mastère en Droit</h6>
-                                                    <div className="heading"><b>Parcours</b> : Droit privé des affaires
+                                                    <h6 className="post-categories">{t("index:Mastère en Droit")}</h6>
+                                                    <div className="heading"><b>{t("index:Parcours")}</b> : {t("index:Droit privé des affaires")}
                                                     </div>
-                                                    <br/><br/>
+                                                    <br/>
                                                     <div className="box-projects-arrow">
-                                                        <span className="button-text">EN SAVOIR PLUS</span>
+                                                        <span className="button-text">{t("index:en savoir plus")}</span>
                                                         <i className="fa fa-long-arrow-right ml-1"></i>
                                                     </div>
                                                 </div>
@@ -254,13 +251,11 @@ export default function Home() {
                                                         alt="Gestion-blp"/>
                                                 </div>
                                                 <div className="content">
-                                                    <h6 className="post-categories">Mastère en Sciences
-                                                        Economiques</h6>
-                                                    <div className="heading"><b>Parcours</b> : Ingénierie des risques
-                                                        Economiques et financiers</div>
+                                                    <h6 className="post-categories">{t("index:Mastère en Sciences Economiques")}</h6>
+                                                    <div className="heading"><b>{t("index:Parcours")}</b> : {t("index:Ingénierie des risques Economiques et financiers")}</div>
 
                                                     <div className="box-projects-arrow">
-                                                        <span className="button-text">EN SAVOIR PLUS</span>
+                                                        <span className="button-text">{t("index:en savoir plus")}</span>
                                                         <i className="fa fa-long-arrow-right ml-1"></i>
                                                     </div>
                                                 </div>
@@ -279,13 +274,12 @@ export default function Home() {
                                                         alt="sciences-economiques-blp"/>
                                                 </div>
                                                 <div className="content">
-                                                    <h6 className="post-categories">Mastère en Sciences
-                                                        Economiques</h6>
-                                                    <div className="heading"><b>Parcours</b> : Assurance, banque et finance
+                                                    <h6 className="post-categories">{t("index:Mastère en Sciences Economiques")}</h6>
+                                                    <div className="heading"><b>{t("index:Parcours")}</b> : {t("index:Assurance, banque et finance")}
                                                     </div>
-
+                                                    <br/>
                                                     <div className="box-projects-arrow">
-                                                        <span className="button-text">EN SAVOIR PLUS</span>
+                                                        <span className="button-text">{t("index:en savoir plus")}</span>
                                                         <i className="fa fa-long-arrow-right ml-1"></i>
                                                     </div>
                                                 </div>
@@ -303,13 +297,10 @@ export default function Home() {
                                                         alt="science-de-gestion-blp"/>
                                                 </div>
                                                 <div className="content">
-                                                    <h6 className="post-categories">Mastère en Sciences de
-                                                        gestion</h6>
-                                                    <div className="heading"><b>Parcours</b> : Marchés financiers et gestion
-                                                        des risques</div>
-
+                                                    <h6 className="post-categories">{t("index:Mastère en Sciences de gestion")}</h6>
+                                                    <div className="heading"><b>{t("index:Parcours")}</b> : {t("index:Marchés financiers et gestion des risques")}</div>
                                                     <div className="box-projects-arrow">
-                                                        <span className="button-text">EN SAVOIR PLUS</span>
+                                                        <span className="button-text">{t("index:en savoir plus")}</span>
                                                         <i className="fa fa-long-arrow-right ml-1"></i>
                                                     </div>
                                                 </div>
@@ -326,11 +317,12 @@ export default function Home() {
                                                         src="assets/images/projects/droit.jpg" alt=""/>
                                                 </div>
                                                 <div className="content">
-                                                    <h6 className="post-categories">Licence en Droit</h6>
-                                                    <div className="heading"><b>Parcours</b> : Droit Public</div>
-                                                    <br/><br/>
+                                                    <h6 className="post-categories">{t("index:Licence en Droit")}</h6>
+                                                    <div className="heading"><b>{t("index:Parcours")}</b> : {t("index:Droit Public")}
+                                                    </div>
+                                                    <br/>
                                                     <div className="box-projects-arrow">
-                                                        <span className="button-text">EN SAVOIR PLUS</span>
+                                                        <span className="button-text">{t("index:en savoir plus")}</span>
                                                         <i className="fa fa-long-arrow-right ml-1"></i>
                                                     </div>
                                                 </div>
@@ -349,11 +341,12 @@ export default function Home() {
                                                         alt=""/>
                                                 </div>
                                                 <div className="content">
-                                                    <h6 className="post-categories">Licence en Sciences de gestion</h6>
-                                                    <div className="heading"><b>Parcours</b> : Marketing</div>
-                                                    <br/><br/>
+                                                    <h6 className="post-categories">{t("index:Licence en Sciences de gestion")}</h6>
+                                                    <div className="heading"><b>{t("index:Parcours")}</b> : {t("index:Marketing")}
+                                                    </div>
+                                                    <br/>
                                                     <div className="box-projects-arrow">
-                                                        <span className="button-text">EN SAVOIR PLUS</span>
+                                                        <span className="button-text">{t("index:en savoir plus")}</span>
                                                         <i className="fa fa-long-arrow-right ml-1"></i>
                                                     </div>
                                                 </div>
@@ -370,11 +363,12 @@ export default function Home() {
                                                         src="assets/images/projects/droit2.jpg" alt=""/>
                                                 </div>
                                                 <div className="content">
-                                                    <h6 className="post-categories">Licence en Droit</h6>
-                                                    <div className="heading"><b>Parcours</b> :Droit Privé</div>
-                                                    <br/><br/>
+                                                    <h6 className="post-categories">{t("index:Licence en Droit")}</h6>
+                                                    <div className="heading"><b>{t("index:Parcours")}</b> :{t("index:Droit Privé")}
+                                                    </div>
+                                                    <br/>
                                                     <div className="box-projects-arrow">
-                                                        <span className="button-text">EN SAVOIR PLUS</span>
+                                                        <span className="button-text">{t("index:en savoir plus")}</span>
                                                         <i className="fa fa-long-arrow-right ml-1"></i>
                                                     </div>
                                                 </div>
@@ -406,7 +400,7 @@ export default function Home() {
                             <div className="col-lg-8 ml-auto mr-auto">
                                 <div className="typed-text-wrap">
                                     <h4 className="cd-headline letters type">
-                                        <span>Actualités </span>
+                                        <span>{t("index:Actualités")} </span>
                                       
                                     </h4>
                                 </div>
@@ -434,7 +428,7 @@ export default function Home() {
 
                                                         <div className="button-wrapper">
                                                             <div className="btn tm-button">
-                                                                 <span className="button-text">En savoir Plus</span>
+                                                                 <span className="button-text">{t("index:en savoir plus")}</span>
                                                             </div>
                                                         </div>
                                                     
@@ -453,7 +447,7 @@ export default function Home() {
 
                                                         <div className="button-wrapper">
                                                             <div className="btn tm-button">
-                                                                <span className="button-text">En savoir Plus</span>
+                                                                <span className="button-text">{t("index:en savoir plus")}</span>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -473,7 +467,7 @@ export default function Home() {
 
                                                         <div className="button-wrapper">
                                                             <div className="btn tm-button">
-                                                                <span className="button-text">En savoir Plus</span>
+                                                                <span className="button-text">{t("index:en savoir plus")}</span>
                                                             </div>
                                                         </div>
                                                     
@@ -493,7 +487,7 @@ export default function Home() {
 
                                                         <div className="button-wrapper">
                                                             <div className="btn tm-button">
-                                                                <span className="button-text">En savoir Plus</span>
+                                                                <span className="button-text">{t("index:en savoir plus")}</span>
                                                             </div>
                                                         </div>
                                                     
@@ -524,9 +518,8 @@ export default function Home() {
                 <div className="row align-items-center">
                     <div className="col-lg-6 col-lg-6">
                         <div className="conact-us-wrap-one">
-                            <h3 className="heading text-white">Si vous cherchez une formation qui débouche sur le métier
-                                rémunérateur, <span className="text-red">La BLP</span> vous propose plusieurs filières
-                                choisies en fonction du marché du travail. </h3>
+                            <h3 className="heading text-white">{t("index:Si vous cherchez une formation qui débouche sur le métier rémunérateur")}, 
+                                <span className="text-red"> BLP</span> {t("index:vous propose plusieurs filières choisies en fonction du marché du travail")}. </h3>
 
                         </div>
                     </div>
@@ -536,7 +529,7 @@ export default function Home() {
                             <div className="icon">
                                 <span className="fal fa-phone"></span>
                             </div>
-                            <h6 className="heading font-weight--reguler">REJOIGNEZ MAINTENANT!!</h6>
+                            <h6 className="heading font-weight--reguler">{t("index:REJOIGNEZ MAINTENANT")}!!</h6>
                             <br/>
                             <h2 className="call-us">
                                 <div className="typed-text-wrap">
@@ -565,35 +558,24 @@ export default function Home() {
                     </div>
                     <div className="col-lg-6">
                         <div className="conact-us-wrap-one managed-it ">
-                            <h5 className="heading ">Pourquoi choisir <span className="text-color-primary"> BLP</span> ? </h5>
+                            <h5 className="heading ">{t("index:Pourquoi choisir")} <span className="text-color-primary"> BLP</span> ? </h5>
 
-                            <div className="sub-heading">L'école supérieure privée BLP assure un enseignement d'avant-garde
-                                et de niveau international. Son objectif est de créer une nouvelle génération qualifiée
-                                de compétences qui sera immédiatement opérationnelle. En outre, la formation de ces
-                                futurs cadres tient compte de la techno-science, de la pratique managériale et de la
-                                maitrise des langues.
-                                Finalement, le credo de l’université privée BLP est la formation pour l’emploi.</div>
+                            <div className="sub-heading">{t("index:Pourquoi choisir blp")}.</div>
                             <br/>
                             <div className="list-group-wrap section-space--mb_60">
                                 <div className="separator-list-wrap">
                                     <ul className="check-list">
-                                        <li className="list-item"><a href="#">Offrir ce sésame à travers l’Afrique
-                                                gratuitement à tous sur plus de 100 cours.</a></li>
-                                        <li className="list-item"><a href="#">Enseignement dispensé par les meilleurs enseignants et professionnels Tunisiens et experts internationaux</a></li>
-                                        <li className="list-item"><a href="#">Collaboration avec des universités étrangères et possibilité de continuer les études et stages a l'étranger</a></li>        
-                                        <li className="list-item"><a href="#">Places gratuites à nos enseignements en
-                                                présentiel aux lauréats de chaque lycée au baccalauréat.</a></li>
-                                        <li className="list-item"><a href="#"> Bourse d’études et Places gratuites et accès
-                                                dès la terminale à nos modules d’E-learning et sur place.</a></li>
-                                        <li className="list-item"><a href="#">Ouverture université d'été : cours gratuits en e-learning en temps réel.</a></li>
-                                        <li className="list-item"><a href="#">Double cursus (reconnu par l’Union
-                                                européenne).</a></li>
-                                        <li className="list-item"><a href="#">Licences, Masters (Tunisiens et Français).</a>
+                                        <li className="list-item"><a href="#">{t("index:Offrir ce sésame à travers l’Afrique gratuitement à tous sur plus de 100 cours")}.</a></li>
+                                        <li className="list-item"><a href="#">{t("index:Enseignement dispensé par les meilleurs enseignants et professionnels Tunisiens et experts internationaux")}</a></li>
+                                        <li className="list-item"><a href="#">{t("index:Collaboration avec des universités étrangères et possibilité de continuer les études et stages a l'étranger")}</a></li>        
+                                        <li className="list-item"><a href="#">{t("index:Places gratuites à nos enseignements en présentiel aux lauréats de chaque lycée au baccalauréat")}.</a></li>
+                                        <li className="list-item"><a href="#">{t("index:Bourse d’études et Places gratuites et accès dès la terminale à nos modules d’E-learning et sur place")}.</a></li>
+                                        <li className="list-item"><a href="#">{t("index:Ouverture université d'été : cours gratuits en e-learning en temps réel")}.</a></li>
+                                        <li className="list-item"><a href="#">{t("index:Double cursus (reconnu par l’Union européenne)")}.</a></li>
+                                        <li className="list-item"><a href="#">{t("index:Licences, Masters (Tunisiens et Français)")}.</a>
                                         </li>
-                                        <li className="list-item"><a href="#">Logements gratuits à Nabeul sur l’année
-                                                scolaire.</a></li>
-                                        <li className="list-item"><a href="#">Développement des Compétences Métiers et
-                                                Employabilité.</a></li>
+                                        <li className="list-item"><a href="#">{t("index:Logements gratuits à Nabeul sur l’année scolaire")}.</a></li>
+                                        <li className="list-item"><a href="#">{t("index:Développement des Compétences Métiers et Employabilité")}.</a></li>
 
                                     </ul>
                                 </div>
@@ -611,26 +593,26 @@ export default function Home() {
                     <div className="col-md-3 col-sm-6 wow move-up">
                         <div className="fun-fact--two text-center">
                             <div className="fun-fact__count counter">10</div>
-                            <h6 className="fun-fact__text">Conventions + Universités dans le monde</h6>
+                            <h6 className="fun-fact__text">{t("index:Conventions + Universités dans le monde")}</h6>
                         </div>
                     </div>
                     <div className="col-md-3 col-sm-6 wow move-up">
                         <div className="fun-fact--two text-center">
                             <div className="fun-fact__count counter">100</div>
-                            <h6 className="fun-fact__text">Cours gratuits</h6>
+                            <h6 className="fun-fact__text">{t("index:Cours gratuits")}</h6>
                         </div>
                     </div>
 
                     <div className="col-md-3 col-sm-6 wow move-up">
                         <div className="fun-fact--two text-center">
                             <div className="fun-fact__count counter"> 40</div>
-                            <h6 className="fun-fact__text">Spécialités</h6>
+                            <h6 className="fun-fact__text">{t("index:Spécialités")}</h6>
                         </div>
                     </div>
                     <div className="col-md-3 col-sm-6 wow move-up">
                         <div className="fun-fact--two text-center">
                             <div className="fun-fact__count counter">10</div>
-                            <h6 className="fun-fact__text">Partenaires</h6>
+                            <h6 className="fun-fact__text">{t("index:Partenaires")}</h6>
                         </div>
                     </div>
                 </div>
@@ -642,7 +624,7 @@ export default function Home() {
                 <div className="row">
                     <div className="col-lg-12">
                         <div className="section-title-wrap text-center section-space--mb_60">
-                            <h6 className="section-sub-title mb-20" style={{color: "#c72b1a"}}>NOS PARTENAIRES</h6>
+                            <h6 className="section-sub-title mb-20" style={{color: "#c72b1a"}}>{t("index:NOS PARTENAIRES")}</h6>
                         </div>
                     </div>
                 </div>

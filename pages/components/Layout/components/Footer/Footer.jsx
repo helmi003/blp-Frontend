@@ -45,11 +45,9 @@ export default function footer() {
             </div>
             <div className="footer-copyright-area section-space--pb_30">
                 <div className="container">
-                    <div className="row align-items-center">
-                        <div className="col-md-6 text-center text-md-left">
-                            <span className="copyright-text">&copy; 2020 <a href="https://aftercode.tn">AfterCode</a> All Rights Reserved.</span>
-                        </div>
-                        <div className="col-md-6 text-center text-md-right">
+                    
+                        
+                        <div className="text-center py-3">
                             <ul className="list ht-social-networks solid-rounded-icon">
 
                              
@@ -70,8 +68,12 @@ export default function footer() {
                                 </li>
                             </ul>
                         </div>
-                    </div>
+                        
+                    
                 </div>
+                <div className="footer-copyright text-center w-100 py-3">
+                            <span className="copyright-text">&copy; 2020 <a href="https://aftercode.tn">AfterCode</a> All Rights Reserved.</span>
+                        </div>
             </div>
         </div>
   
