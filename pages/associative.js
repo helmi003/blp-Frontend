@@ -1,6 +1,8 @@
 import React from 'react'
-
+import useTranslation from "next-translate/useTranslation";
+    
 export default function associative() {
+    let { t } = useTranslation();
     return (
         <>
 <div className="breadcrumb-area">
@@ -8,11 +10,11 @@ export default function associative() {
         <div className="row">
             <div className="col-12">
                 <div className="breadcrumb_box text-center">
-                    <h2 className="breadcrumb-title ">LA VIE ASSOCIATIVE</h2>
+                    <h2 className="breadcrumb-title ">{t("associative:La vie associative")}</h2>
                 
                     <ul className="breadcrumb-list">
-                        <li className="breadcrumb-item"><a href="">La vie à l'université</a></li>
-                        <li className="breadcrumb-item active">La vie associative</li>
+                        <li className="breadcrumb-item"><a href="">{t("associative:La vie à l'université")}</a></li>
+                        <li className="breadcrumb-item active">{t("associative:La vie associative")}</li>
                     </ul>
               
                 </div>
@@ -27,26 +29,26 @@ export default function associative() {
         <div className="blog-pages-wrapper section-space--pt_100 section-space--pb_70">
             <div className="container masonry-activation">
                 <h3 className="post-title text-center">
-                    La vie associative
+                {t("associative:La vie associative")}
                 </h3>
                 <br/><br/>
                 <div className="row">
                     <div className="col-lg-6 ">
-                        <p>La Vie Associative est un lieu d'échange, de partage, de réflexion et de formation à destination des associations. Créées avec les responsables de la vie associative et universitaire, les associations sont une composante de la vie universitaire. Elles permettent de partager les expériences dans un cadre de réflexion et de formation. Ce sont des activités de loisirs et d'éducation, et un lieu ouvert à tous les étudiants.<br/>
-                            Les formations associent enseignants et étudiants : social, culture, sport, loisirs, environnement, patrimoine, droits de l'homme, consommation, etc...<br/>
-                            Un comité de pilotage composé de représentants des groupes définit les orientations à prendre et permet aux associations de rester au cœur de nos préoccupations .</p>
+                        <p>{t("associative:La Vie Associative")}<br/>
+                        {t("associative:Les formations associent enseignants et étudiants : social, culture, sport, loisirs, environnement, patrimoine, droits de l'homme, consommation, etc")}<br/>
+                            {t("associative:Un comité de pilotage composé de représentants des groupes définit les orientations à prendre et permet aux associations de rester au cœur de nos préoccupations")}</p>
                     </div>
                     <div className="col-lg-6 ">
                         <video controls>
                             <source src="/assets/video/mit1.mp4 " type="video/mp4" frameBorder="0"
                                 allowFullScreen/>
-                            Votre navigateur ne supporte pas la balise vidéo.
+                            {t("associative:Votre navigateur ne supporte pas la balise vidéo")}
                         </video>
                     </div>
                 </div>
 
                 <blockquote>
-                    <p className="p1">Club Sportif </p>
+                    <p className="p1">{t("associative:Club Sportif")} </p>
                 </blockquote>
                 
                 <div className="gallery-wrapper section-space--pt_80 ">

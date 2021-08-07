@@ -1,6 +1,8 @@
 import React from 'react'
-
+import useTranslation from "next-translate/useTranslation";
+    
 export default function contact() {
+    let { t } = useTranslation();
     return (
         <>
 <div className="breadcrumb-area">
@@ -8,11 +10,11 @@ export default function contact() {
         <div className="row">
             <div className="col-12">
                 <div className="breadcrumb_box text-center">
-                    <h2 className="breadcrumb-title">CONTACT </h2>
+                    <h2 className="breadcrumb-title">{t("contact:CONTACT")} </h2>
    
                     <ul className="breadcrumb-list">
-                        <li className="breadcrumb-item"><a href="/">Accueil</a></li>
-                        <li className="breadcrumb-item active">Contact </li>
+                        <li className="breadcrumb-item"><a href="/">{t("contact:Accueil")}</a></li>
+                        <li className="breadcrumb-item active">{t("contact:CONTACT")} </li>
                     </ul>
             
                 </div>
@@ -29,10 +31,8 @@ export default function contact() {
                 <div className="row align-items-center">
                     <div className="col-lg-6 col-lg-6">
                         <div className="conact-us-wrap-one mb-30">
-                            <h3 className="heading">NOUS SOMME À VOTRE ECOUTE! </h3>
-                            <div className="sub-heading">Afin de bien préparer votre formation, BLP met à votre disposition
-                                des conseillers pour répondre à toutes vos questions et vous orienter vers la bonne
-                                formation.</div>
+                            <h3 className="heading">{t("contact:NOUS SOMME À VOTRE ECOUTE!")} </h3>
+                            <div className="sub-heading">{t("contact:Afin de bien préparer votre formation, BLP met à votre disposition des conseillers pour répondre à toutes vos questions et vous orienter vers la bonne formation")}</div>
                         </div>
                     </div>
 
@@ -57,7 +57,7 @@ export default function contact() {
                                         <textarea name="con_message" placeholder="Message."></textarea>
                                     </div>
                                     <div className="submit-btn mt-20">
-                                        <button className="ht-btn ht-btn-md" type="submit">Envoyer </button>
+                                        <button className="ht-btn ht-btn-md" type="submit">{t("contact:Envoyer")} </button>
                                         <p className="form-messege"></p>
                                     </div>
                                 </div>
@@ -73,15 +73,15 @@ export default function contact() {
                 <div className="row align-items-center">
                     <div className="col-lg-4 col-md-6">
                         <div className="conact-info-wrap mt-30">
-                            <h5 className="heading mb-20">Adresse</h5>
+                            <h5 className="heading mb-20">{t("contact:Adresse")}</h5>
                             <ul className="conact-info__list">
-                                <li>102, Chotrana2, Zone industrielle, pôle technologique,Ariana1</li>
+                                <li>{t("contact:102, Chotrana2, Zone industrielle, pôle technologique,Ariana1")}</li>
                             </ul>
                         </div>
                     </div>
                     <div className="col-lg-4 col-md-6">
                         <div className="conact-info-wrap mt-30">
-                            <h5 className="heading mb-20">Téléphone</h5>
+                            <h5 className="heading mb-20">{t("contact:Téléphone")}</h5>
                             <ul className="conact-info__list">
                                 <li> (+216) 70 721 002 
                                 </li>
@@ -90,7 +90,7 @@ export default function contact() {
                     </div>
                     <div className="col-lg-4 col-md-6">
                         <div className="conact-info-wrap mt-30">
-                            <h5 className="heading mb-20">Email </h5>
+                            <h5 className="heading mb-20">{t("contact:Email")} </h5>
                             <ul className="conact-info__list">
                                 <li>contact@blp.tn</li>
                              
@@ -109,9 +109,9 @@ export default function contact() {
         <div className="fun-fact-wrapper bg-theme-default section-space--pb_30 section-space--pt_60">
             <div className="container">
                 <div className="computing-info-box text-center ">
-                    <h4 style={{color: "white"}}>Bourses d'études et places gratuites et accès dès la terminale à nos modules d'E-learning et sur place.</h4>
+                    <h4 style={{color: "white"}}>{t("contact:Bourses d'études et places gratuites et accès dès la terminale à nos modules d'E-learning et sur place")}</h4>
                     <div className="contact-us-button mt-20">
-                        <a href="https://admission.blp.tn" target="_blank" className="btn btn--secondary">Pré-inscription</a>
+                        <a href="https://admission.blp.tn" target="_blank" className="btn btn--secondary">{t("contact:Pré-inscription")}</a>
                     </div>
                 </div>
             </div>

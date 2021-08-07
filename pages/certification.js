@@ -1,6 +1,8 @@
 import React from 'react'
-
+import useTranslation from "next-translate/useTranslation";
+    
 export default function certification() {
+    let { t } = useTranslation();
     return (
         <>
 <div className="breadcrumb-area">
@@ -8,11 +10,11 @@ export default function certification() {
         <div className="row">
             <div className="col-12">
                 <div className="breadcrumb_box text-center">
-                    <h2 className="breadcrumb-title ">CENTRE DE CERTIFICATIONS ET DE FORMATION</h2>
+                    <h2 className="breadcrumb-title ">{t("certification:CENTRE DE CERTIFICATIONS ET DE FORMATION")}</h2>
                
                     <ul className="breadcrumb-list">
-                        <li className="breadcrumb-item"><a href="">la Vie à l'université</a></li>
-                        <li className="breadcrumb-item active">Certifications</li>
+                        <li className="breadcrumb-item"><a href="">{t("certification:la Vie à l'université")}</a></li>
+                        <li className="breadcrumb-item active">{t("certification:Certifications")}</li>
                     </ul>
  
                 </div>
@@ -44,10 +46,8 @@ export default function certification() {
                                         alt=""/>
                                 </div>
                                 <div className="content">
-                                    <h6 className="heading">Des conférences internationales </h6>
-                                    <div className="text"> La présence des lauréats Nobels : James Hekman, Harry Markovitz, E.
-                                        Prescott, Myron Scholes, etc.
-                                        La participation des étudiants de la BLP sera privilégiée en présence des lauréats nobels.</div>
+                                    <h6 className="heading">{t("certification:Des conférences internationales")} </h6>
+                                    <div className="text"> {t("certification:nobels")}</div>
                                 </div>
                             </div>
                         </a>
@@ -62,9 +62,8 @@ export default function certification() {
                                         src="assets/images/tunis.jpg" alt=""/>
                                 </div>
                                 <div className="content">
-                                    <h5 className="heading">Diplôme agrée par l’État </h5>
-                                    <div className="text">“L’université offre des diplômes agrées par l’État , des stages en
-                                        Tunisie et à l’étranger.”</div>
+                                    <h5 className="heading">{t("certification:Diplôme agrée par l’État")} </h5>
+                                    <div className="text">“{t("certification:L’université offre des diplômes agrées par l’État , des stages en unisie et à l’étranger")}”</div>
                                 </div>
                             </div>
                         </a>
@@ -79,9 +78,8 @@ export default function certification() {
                                 </div>
 
                                 <div className="content">
-                                    <h6 className="heading">Plusieurs diplômes internationaux </h6>
-                                    <div className="text">“ Inscrivez-vous au diplôme tunisien et bénéficieze d'un diplôme
-                                        français public avec nos partenaires. ”</div>
+                                    <h6 className="heading">{t("certification:Plusieurs diplômes internationaux")} </h6>
+                                    <div className="text">“ {t("certification:Inscrivez-vous au diplôme tunisien et bénéficieze d'un diplôme français public avec nos partenaires")} ”</div>
                                 </div>
                             </div>
                         </a>
@@ -97,9 +95,8 @@ export default function certification() {
                                         alt=""/>
                                 </div>
                                 <div className="content">
-                                    <h5 className="heading">First smart university in Africa</h5>
-                                    <div className="text">“ BLP dispose d’une plateforme d’enseignement à distance et de
-                                        conseillers pédagogiques couvrants tous les programmes .”</div>
+                                    <h5 className="heading">{t("certification:First smart university in Africa")}</h5>
+                                    <div className="text">“ {t("certification:BLP dispose d’une plateforme d’enseignement à distance et de conseillers pédagogiques couvrants tous les programmes")}”</div>
                                 </div>
                             </div>
                         </a>
@@ -114,9 +111,8 @@ export default function certification() {
                                         src="assets/images/safa.jpg" alt=""/>
                                 </div>
                                 <div className="content">
-                                    <h5 className="heading">Des projets à l’international</h5>
-                                    <div className="text">“La mise en place d’un référentiel de compétences et l’interaction
-                                        entre le monde académique et professionnel .”</div>
+                                    <h5 className="heading">{t("certification:Des projets à l’international")}</h5>
+                                    <div className="text">“{t("certification:La mise en place d’un référentiel de compétences et l’interaction entre le monde académique et professionnel")}”</div>
                                 </div>
                             </div>
                         </a>
@@ -133,9 +129,8 @@ export default function certification() {
                                         alt=""/>
                                 </div>
                                 <div className="content">
-                                    <h5 className="heading">Certifications</h5>
-                                    <div className="text">Élargissez les perspectives de votre carrière grâce à des
-                                        certificats reconnus mondialement.</div>
+                                    <h5 className="heading">{t("certification:Certifications")}</h5>
+                                    <div className="text">{t("certification:Élargissez les perspectives de votre carrière grâce à des certificats reconnus mondialement")}</div>
                                 </div>
                             </div>
                         </a>
@@ -163,14 +158,9 @@ export default function certification() {
                         <div className="faq-custom-col">
                             <div className="section-title-wrap">
 
-                                <h3 className="heading">Certifications </h3>
+                                <h3 className="heading">{t("certification:Certifications")} </h3>
 
-                                <p className="text mt-30">BLP intègre les certifications dans le cursus universitaire.
-                                    Chaque étudiant peut choisir de valoriser les compétences acquises par son
-                                    investissement dans des activités complémentaires qui donnent lieu à des
-                                    certifications. BLP en partenariat avec des professionnels et des organismes
-                                    extérieurs (centre AMIDEAST,..), a élaboré les programmes de ces
-                                    certifications.</p>
+                                <p className="text mt-30">{t("certification:BLP intègre")}</p>
 
                             </div>
                         </div>
@@ -215,10 +205,9 @@ export default function certification() {
 
                                 <div className="content-wrap">
 
-                                    <h6 className="heading">01. Certifications SOLIDWORKS</h6>
+                                    <h6 className="heading">{t("certification:Certifications SOLIDWORKS")}</h6>
 
-                                    <div className="text">Elles permettent d'évaluer précisément vos connaissances et
-                                        savoir-faire avec les logiciels SOLIDWORKS.</div>
+                                    <div className="text">{t("certification:Elles permettent d'évaluer précisément vos connaissances et savoir-faire avec les logiciels SOLIDWORKS")}</div>
 
 
                                 </div>
@@ -238,11 +227,10 @@ export default function certification() {
 
                                 <div className="content-wrap">
 
-                                    <h6 className="heading">02. Certification linguistique</h6>
+                                    <h6 className="heading">{t("certification:Certification linguistique")}</h6>
 
-                                    <div className="text">Les tests Test of English for International Communication (TOEIC)
-                                        sont des certifications standardisées <br/> permettant d'évaluer le niveau
-                                        d'anglais des locuteurs non anglophones tant au niveau de l'écrit que de l'oral.
+                                    <div className="text">{t("certification:Les tests Test of English for International Communication (TOEIC) sont des certifications standardisées")} <br/>
+                                     {t("certification:permettant d'évaluer le niveau d'anglais des locuteurs non anglophones tant au niveau de l'écrit que de l'oral")}
                                     </div>
 
                                 </div>
@@ -262,11 +250,10 @@ export default function certification() {
 
                                 <div className="content-wrap">
 
-                                    <h6 className="heading">03. Certifications Cisco, Microsoft, Linux</h6>
+                                    <h6 className="heading">{t("certification:Certifications Cisco, Microsoft, Linux")}</h6>
 
-                                    <div className="text">BLP permet à tous les etudiants de préparer <br/>
-                                        leurs certifications Cisco - CCNA, CCNP, CCIE - en suivant une formation
-                                        officielle Cisco.</div>
+                                    <div className="text">{t("certification:BLP permet à tous les etudiants de préparer")} <br/>
+                                    {t("certification:leurs certifications Cisco - CCNA, CCNP, CCIE - en suivant une formation officielle Cisco")}</div>
                                 </div>
                             </div>
                     
@@ -284,13 +271,11 @@ export default function certification() {
 
                                 <div className="content-wrap">
 
-                                    <h6 className="heading">04. Certification Oracle</h6>
+                                    <h6 className="heading">{t("certification:Certification Oracle")}</h6>
 
-                                    <div className="text">C'est le leader mondial des bases de données. <br/> Toute personne
-                                        visant un poste d’administrateur où développeur de base de données doit être
-                                        capable d’installer, <br/> configurer, administrer, sécuriser et optimiser une
-                                        base de données. D’autre part il doit être capable de concevoir et développer
-                                        toutes sortes de requêtes.</div>
+                                    <div className="text">{t("certification:C'est le leader mondial des bases de données")} <br/>
+                                    {t("certification:Toute personne visant un poste d’administrateur où développeur de base de données doit être capable d’installer")}, <br/>
+                                    {t("certification:configurer")}</div>
 
 
                                 </div>
@@ -307,15 +292,14 @@ export default function certification() {
                 <div className="row align-items-center">
                     <div className="col-xl-8 col-lg-7">
                         <div className="cta-content md-text-center">
-                            <h3 className="heading text-white">Bourses d'études et places gratuites et accès dès la
-                    Terminale à nos modules d'E-learning et sur place </h3>
+                            <h3 className="heading text-white">{t("certification:Bourses d'études et places gratuites et accès dès la Terminale à nos modules d'E-learning et sur place")} </h3>
                         </div>
                     </div>
                     <div className="col-xl-4 col-lg-5">
                         <div className="cta-button-group--one text-center">
 
                             <a href="contact" className="btn btn--secondary  btn-two"><span className="btn-icon mr-2"><i
-                                        className="far fa-info-circle"></i></span> Contact</a>
+                                        className="far fa-info-circle"></i></span>{t("certification:Contact")}</a>
                         </div>
                     </div>
                 </div>

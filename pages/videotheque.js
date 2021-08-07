@@ -1,6 +1,8 @@
 import React from 'react'
-
+import useTranslation from "next-translate/useTranslation";
+    
 export default function videotheque() {
+    let { t } = useTranslation();
     return (
         <>
     <div className="breadcrumb-area">
@@ -8,11 +10,11 @@ export default function videotheque() {
             <div className="row">
                 <div className="col-12">
                     <div className="breadcrumb_box text-center">
-                        <h2 className="breadcrumb-title ">VIDÉOTHÈQUE</h2>
+                        <h2 className="breadcrumb-title ">{t("videotheque:VIDÉOTHÈQUE")}</h2>
              
                         <ul className="breadcrumb-list">
-                            <li className="breadcrumb-item"><a href="accueil">BLP en digital</a></li>
-                            <li className="breadcrumb-item active">Vidéothèque</li>
+                            <li className="breadcrumb-item"><a href="accueil">{t("videotheque:BLP en digital")}</a></li>
+                            <li className="breadcrumb-item active">{t("videotheque:VIDÉOTHÈQUE")}</li>
                         </ul>
      
                     </div>
@@ -31,8 +33,8 @@ export default function videotheque() {
                             <div className="col-lg-12">
                              
                                 <div className="section-title-wrap text-center section-space--mb_30">
-                                    <h6 className="section-sub-title mb-20">BLP EN DIGITAL</h6>
-                                    <h3 className="heading">VIDÉOTHÈQUE</h3>
+                                    <h6 className="section-sub-title mb-20">{t("videotheque:BLP en digital")}</h6>
+                                    <h3 className="heading">{t("videotheque:VIDÉOTHÈQUE")}</h3>
                                 </div>
                    
                             </div>
@@ -47,11 +49,11 @@ export default function videotheque() {
                              <div className="tab-history-image video-popup mt-30">
                              <video width="320" height="240" controls >
                              <source src="/assets/video/epm.mp4" type="video/mp4" frameBorder="0" allowFullScreen/>
-                           Votre navigateur ne supporte pas la balise vidéo.
+                             {t("videotheque:Votre navigateur ne supporte pas la balise vidéo.")}
                             </video>
                               </div>
                                <div className="box-large-image__content mt-30 text-center">
-                               <strong>MIT spot 2020</strong> 
+                               <strong>{t("videotheque:MIT spot 2020")}</strong> 
                                 </div>
                         </div>
                       
@@ -59,11 +61,11 @@ export default function videotheque() {
                             <div className="tab-history-image video-popup mt-30">
                                 <video width="320" height="240" controls >
                                     <source src="/assets/video/mit1.mp4" type="video/mp4" frameBorder="0" allowFullScreen/>
-                              Votre navigateur ne supporte pas la balise vidéo.
+                                    {t("videotheque:Votre navigateur ne supporte pas la balise vidéo.")}
                                 </video>
                                         </div>
                                             <div className="box-large-image__content mt-30 text-center">
-                                         <strong>MIT Passage -p1</strong> 
+                                         <strong>{t("videotheque:MIT Passage -p1")}</strong> 
                                    </div>
                                </div>                                                        
                                                      
@@ -73,11 +75,11 @@ export default function videotheque() {
                                                         <div className="tab-history-image video-popup mt-30">
                                                         <video width="320" height="240" controls >
                                                         <source src="/assets/video/mit2.mp4" type="video/mp4" frameBorder="0" allowFullScreen/>
-                                                      Votre navigateur ne supporte pas la balise vidéo.
+                                                        {t("videotheque:Votre navigateur ne supporte pas la balise vidéo.")}
                                                         </video>
                                                                 </div>
                                                                     <div className="box-large-image__content mt-30 text-center">
-                                                                 <strong>MIT  Passage -p2</strong> 
+                                                                 <strong>{t("videotheque:MIT  Passage -p2")}</strong> 
                                                            </div>
                                                        </div>
                            
@@ -101,7 +103,7 @@ export default function videotheque() {
                                                     </a>
                                                 </div>
                                                 <div className="box-large-image__content mt-30 text-center">
-                                                    <b>PASSAGE RADIO MED 16-05-2020.</b>
+                                                    <b>{t("videotheque:PASSAGE RADIO MED 16-05-2020")}</b>
                                                 </div>                        
                                        </div>
 
@@ -126,7 +128,7 @@ export default function videotheque() {
                                                     </a>
                                                 </div>
                                                 <div className="box-large-image__content mt-30 text-center">
-                                                <strong>PROJET : PRÉDICTION DES NOMBRES D’INFECTÉS, DES MORTS, DE GUÉRISON</strong> 
+                                                <strong>{t("videotheque:PRÉDICTION DES NOMBRES D’INFECTÉS, DES MORTS, DE GUÉRISON")}</strong> 
                                                 </div>
                                     </div>
 
@@ -151,7 +153,7 @@ export default function videotheque() {
                                       </a>
                                   </div>
                                   <div className="box-large-image__content mt-30 text-center">
-                                       <strong>COVID 19 ET ÉCONOMIE TUNISIENNE : IMPACT, MESURES ET CONDITIONS DE RELANCE</strong> 
+                                       <strong>{t("videotheque:COVID 19 ET ÉCONOMIE TUNISIENNE : IMPACT, MESURES ET CONDITIONS DE RELANCE")}</strong> 
                                   </div>
                             </div>
 
@@ -176,7 +178,7 @@ export default function videotheque() {
                                       </a>
                                   </div>
                                   <div className="box-large-image__content mt-30 text-center">
-                                      <strong>JOURNÉE DE MÉTIER 15-05-2020 -- J2 </strong> 
+                                      <strong>{t("videotheque:JOURNÉE DE MÉTIER 15-05-2020 -- J2")}</strong> 
                                   </div>
                       </div>
 
@@ -202,7 +204,7 @@ export default function videotheque() {
                                       </a>
                                   </div>
                                   <div className="box-large-image__content mt-30 text-center">
-                                      <strong>JOURNÉE DE MÉTIER 13-05-2020 -- J1 </strong> 
+                                      <strong>{t("videotheque:JOURNÉE DE MÉTIER 13-05-2020 -- J1")} </strong> 
                                   </div>
                       </div>
 
@@ -228,7 +230,7 @@ export default function videotheque() {
                                       </a>
                                   </div>
                                   <div className="box-large-image__content mt-30 text-center">
-                                      <strong>هذا إلي يميز المدرسة المتوسطية عن باقي الجامعات الخاصة بتونس </strong> 
+                                      <strong>{t("videotheque:C'est ce qui distingue l'Ecole Méditerranéenne des autres universités privées en Tunisie")} </strong> 
                                   </div>
                       </div>
 
@@ -253,7 +255,7 @@ export default function videotheque() {
                                       </a>
                                   </div>
                                   <div className="box-large-image__content mt-30 text-center">
-                                      <strong>ORIENTATION BAC </strong> 
+                                      <strong>{t("videotheque:ORIENTATION BAC")} </strong> 
                                   </div>
                       </div>
 
@@ -279,7 +281,7 @@ export default function videotheque() {
                                       </a>
                                   </div>
                                   <div className="box-large-image__content mt-30 text-center">
-                                      <strong>فاكر ماكني: responsable cycle préparatoire - شاكر زعفوري: أستاذ بالمدرسة المتوسطية </strong> 
+                                      <strong>{t("videotheque:Faker Makni : responsable cycle préparatoire - Chaker Zafouri : Professeur de l'Ecole Méditerranéenne")}</strong> 
                                   </div>
                         </div>
 
@@ -305,7 +307,7 @@ export default function videotheque() {
                                       </a>
                                   </div>
                                   <div className="box-large-image__content mt-30 text-center">
-                                      <strong>Initiation Au People Management </strong> 
+                                      <strong>{t("videotheque:Initiation Au People Management")} </strong> 
                                   </div>
                       </div>
 
@@ -331,7 +333,7 @@ export default function videotheque() {
                                       </a>
                                   </div>
                                   <div className="box-large-image__content mt-30 text-center">
-                                      <strong>Passage Radio Med 09-05-2020 </strong> 
+                                      <strong>{t("videotheque:Passage Radio Med 09-05-2020")} </strong> 
                                   </div>
                       </div>
 
@@ -356,7 +358,7 @@ export default function videotheque() {
                                       </a>
                                   </div>
                                   <div className="box-large-image__content mt-30 text-center">
-                                      <strong>UMLT | M24 Media Group</strong> 
+                                      <strong>{t("videotheque:UMLT | M24 Media Group")}</strong> 
                                   </div>
                       </div>
 
@@ -382,7 +384,7 @@ export default function videotheque() {
                                       </a>
                                   </div>
                                   <div className="box-large-image__content mt-30 text-center">
-                                      <strong>École Polytechnique Méditerranéenne : Spot 2019</strong> 
+                                      <strong>{t("videotheque:École Polytechnique Méditerranéenne : Spot 2019")}</strong> 
                                   </div>
                       </div>
 
@@ -408,7 +410,7 @@ export default function videotheque() {
                                       </a>
                                   </div>
                                   <div className="box-large-image__content mt-30 text-center">
-                                      <strong>Radio Med 02-05-2020</strong> 
+                                      <strong>{t("videotheque:Radio Med 02-05-2020")}</strong> 
                                   </div>
                       </div>
 
@@ -425,13 +427,13 @@ export default function videotheque() {
                 <div className="row align-items-center">
                     <div className="col-xl-8 col-lg-7">
                         <div className="cta-content md-text-center">
-                            <h3 className="heading text-white">Bourses d'études et places gratuites et accés dés la Terminale à nos modules de E-learning et sur place </h3>
+                            <h3 className="heading text-white">{t("videotheque:Bourses d'études et places gratuites et accés dés la Terminale à nos modules de E-learning et sur place")} </h3>
                         </div>
                     </div>
                     <div className="col-xl-4 col-lg-5">
                         <div className="cta-button-group--one text-center">
                             
-                            <a href="contact" className="btn btn--secondary  btn-two"><span className="btn-icon mr-2"><i className="far fa-info-circle"></i></span> Contact</a>
+                            <a href="contact" className="btn btn--secondary  btn-two"><span className="btn-icon mr-2"><i className="far fa-info-circle"></i></span> {t("videotheque:Contact")}</a>
                         </div>
                     </div>
                 </div>

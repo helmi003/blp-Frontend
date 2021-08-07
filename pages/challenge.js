@@ -1,6 +1,8 @@
 import React from 'react'
-
+import useTranslation from "next-translate/useTranslation";
+    
 export default function challenge() {
+    let { t } = useTranslation();
     return (
         <>
     <div className="breadcrumb-area">
@@ -8,11 +10,11 @@ export default function challenge() {
             <div className="row">
                 <div className="col-12">
                     <div className="breadcrumb_box text-center">
-                        <h2 className="breadcrumb-title ">LES NUITS DE CHALLENGE</h2>
+                        <h2 className="breadcrumb-title ">{t("challenge:LES NUITS DE CHALLENGE")}</h2>
                       
                         <ul className="breadcrumb-list">
-                            <li className="breadcrumb-item"><a href="accueil">BLP en digital</a></li>
-                            <li className="breadcrumb-item active">Les nuits de challenge</li>
+                            <li className="breadcrumb-item"><a href="accueil">{t("challenge:BLP en digital")}</a></li>
+                            <li className="breadcrumb-item active">{t("challenge:LES NUITS DE CHALLENGE")}</li>
                         </ul>
                      
                     </div>
@@ -33,8 +35,8 @@ export default function challenge() {
                             <div className="col-lg-12">
                                
                                 <div className="section-title-wrap text-center section-space--mb_30">
-                                    <h6 className="section-sub-title mb-20">BLP EN DIGITAL</h6>
-                                    <h3 className="heading">LES NUITS DE CHALLENGE COVID-19</h3>
+                                    <h6 className="section-sub-title mb-20">{t("challenge:BLP en digital")}</h6>
+                                    <h3 className="heading">{t("challenge:LES NUITS DE CHALLENGE COVID-19")}</h3>
                                 </div>
          
                             </div>
@@ -50,7 +52,7 @@ export default function challenge() {
                              <iframe  width="400" height="450" src="https://www.youtube.com/embed/G56wc5kl5gQ" frameBorder="0" allowFullScreen autoPlay="1"></iframe>
                                      </div>
                                          <div className="box-large-image__content mt-30 text-center">
-                                      <strong>Projet 01 : Application de reconnaissance et de diagnostic de COVID19</strong> 
+                                      <strong>{t("challenge:Projet 01 : Application de reconnaissance et de diagnostic de COVID19")}</strong> 
                                 </div>
                             </div>
           
@@ -61,7 +63,7 @@ export default function challenge() {
 
                                                                 </div>
                                                                     <div className="box-large-image__content mt-30 text-center">
-                                                                 <strong>Projet 2 : TBIBKOM</strong> 
+                                                                 <strong>{t("challenge:Projet")} 2 : TBIBKOM</strong> 
                                                            </div>
                                                        </div>
                         
@@ -72,7 +74,7 @@ export default function challenge() {
 
                                </div>
                                  <div className="box-large-image__content mt-30 text-center">
-                                  <strong>Projet 5</strong> 
+                                  <strong>{t("challenge:Projet")} 5</strong> 
                                    </div>
                                      </div>
               
@@ -83,7 +85,7 @@ export default function challenge() {
                             
                                         </div>
                                              <div className="box-large-image__content mt-30 text-center">
-                                          <strong>Projet 6</strong> 
+                                          <strong>{t("challenge:Projet")} 6</strong> 
                                   </div>
                              </div>
                       
@@ -94,7 +96,7 @@ export default function challenge() {
                                                   
                                     </div>
                                         <div className="box-large-image__content mt-30 text-center">
-                                     <strong> Projet 7 : Prédiction des nombres d’infectés, des morts et de guérison</strong> 
+                                     <strong> {t("challenge:Projet 7 : Prédiction des nombres d’infectés, des morts et de guérison")}</strong> 
                                     </div>
                              </div>
        
@@ -105,7 +107,7 @@ export default function challenge() {
                                                                       
                                                         </div>
                                                             <div className="box-large-image__content mt-30 text-center">
-                                                         <strong> Projet 8</strong> 
+                                                         <strong> {t("challenge:Projet")} 8</strong> 
                                                         </div>
                                                  </div>
                       
@@ -116,7 +118,7 @@ export default function challenge() {
                                                                       
                                                         </div>
                                                             <div className="box-large-image__content mt-30 text-center">
-                                                         <strong> Projet 9</strong> 
+                                                         <strong> {t("challenge:Projet")} 9</strong> 
                                                         </div>
                                                  </div>
 
@@ -134,13 +136,13 @@ export default function challenge() {
                         <div className="col-lg-6 col-lg-6">
                         <div className="typed-text-wrap ">
                                 <h4 className="cd-headline letters type">
-                                    <span className=" text-white">Plus de </span>
+                                    <span className=" text-white">{t("challenge:Plus de")} </span>
                                     <span className="cd-words-wrapper waiting">
-                            <b className="is-visible text-white">Spécialisation</b>
-                            <b className=" text-white">Professionnalisation</b>
-                            <b className=" text-white">Internationalisation</b>
-                            <b className=" text-white">Certification</b>
-                           </span> <span className=" text-white">   de chaque parcours.</span>
+                            <b className="is-visible text-white">{t("challenge:Spécialisation")}</b>
+                            <b className=" text-white">{t("challenge:Professionnalisation")}</b>
+                            <b className=" text-white">{t("challenge:Internationalisation")}</b>
+                            <b className=" text-white">{t("challenge:Certification")}</b>
+                           </span> <span className=" text-white">   {t("challenge:de chaque parcours")}</span>
                                 </h4>
                             </div>
                         </div>
@@ -150,10 +152,10 @@ export default function challenge() {
                                 <div className="icon">
                                     <span className="fal fa-phone"></span>
                                 </div>
-                                <h6 className="heading font-weight--reguler">REJOIGNEZ MAINTENANT!!</h6>
+                                <h6 className="heading font-weight--reguler">{t("challenge:REJOIGNEZ MAINTENANT!!")}</h6>
                                 <h2 className="call-us"><a href="tel:70721002">(+216) 70 721 002</a></h2>
                                 <div className="contact-us-button mt-20">
-                                    <a href="contact" className="btn btn--secondary">Contactez-nous</a>
+                                    <a href="contact" className="btn btn--secondary">{t("challenge:Contactez-nous")}</a>
                                 </div>
                             </div>
                         </div>

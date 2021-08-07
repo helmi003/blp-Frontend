@@ -1,6 +1,8 @@
 import React from 'react'
-
+import useTranslation from "next-translate/useTranslation";
+    
 export default function recherche() {
+    let { t } = useTranslation();
     return (
         <>
 
@@ -9,11 +11,11 @@ export default function recherche() {
         <div className="row">
             <div className="col-12">
                 <div className="breadcrumb_box text-center">
-                    <h2 className="breadcrumb-title ">RECHERCHE & INNOVATION</h2>
+                    <h2 className="breadcrumb-title ">{t("recherche-et-innovation:RECHERCHE & INNOVATION")}</h2>
                 
                     <ul className="breadcrumb-list">
-                        <li className="breadcrumb-item"><a href="accueil">BLP en digital</a></li>
-                        <li className="breadcrumb-item active">Recherche & innovation</li>
+                        <li className="breadcrumb-item"><a href="accueil">{t("recherche-et-innovation:BLP en digital")}</a></li>
+                        <li className="breadcrumb-item active">{t("recherche-et-innovation:RECHERCHE & INNOVATION")}</li>
                     </ul>
                     
                 </div>
@@ -32,23 +34,23 @@ export default function recherche() {
                             <div className="single-blog-item  wow move-up">                  
                                 <div className="post-info lg-blog-post-info">
                                     <div className="post-categories text-center">
-                                        <a href="accueil"> BLP en digital </a>
+                                        <a href="accueil"> {t("recherche-et-innovation:BLP en digital")} </a>
                                     </div>
 
                                     <h3 className="post-title text-center">
-                                        <a href="recherche-et-innovation">Recherche & Innovation</a>
+                                        <a href="recherche-et-innovation">{t("recherche-et-innovation:RECHERCHE & INNOVATION")}</a>
                                     </h3>
                                     <div className="post-excerpt mt-15">
-                                        <h6><b>L'École Supérieure des Sciences Juridiques, Economiques et Politiques de Tunis, BLP, est un établissement privé pluridisciplinaire visant les métiers du droit privé et public et droit des TIC et des affaires, de la finance, de la diplomatie et les montages juridiques et financiers.</b></h6>
-                                        <p>Avec son staff enseignant , elle est actuellement une parmi les grandes institutions de formation dans le secteur privé en Tunisie. En parallèle, et dans le cadre de son ouverture à l’international, BLP propose des parcours (1-2 ans en Tunisie, 1-2 ans à l'international) avec des universités françaises; Suisse, Indiennes et canadiennes.</p>
-                                        <p><b>BLP </b>a réussi à mettre sur pied des formations de plus en plus en phase avec le monde du travail. Cette démarche lui a permis d’être mieux à l’écoute des besoins de ses partenaires économiques en matière de ressources humaines et de compétences dans les domaines juridico-politico-financiers.</p>
-                                        <p>Largement ouverte sur son entourage socio-économique, BLP n’a cessé d’œuvrer pour encourager le développement durable et être en harmonie avec les défis de la mondialisation. Le rapprochement entre l’université et le secteur économique national et international est désormais une réalité objective, un challenge, une stratégie de la BLP pour la mise en œuvre des projets prometteurs.</p>
+                                        <h6><b>{t("recherche-et-innovation:ecole Supérieure")}</b></h6>
+                                        <p>{t("recherche-et-innovation:Avec son staff enseignant")}</p>
+                                        <p><b>BLP </b>{t("recherche-et-innovation:a réussi")}</p>
+                                        <p>{t("recherche-et-innovation:Largement ouverte")}</p>
                                
                                         <div className="single-blog-item lg-blog-item border-bottom wow move-up">
                                   
                                             <div className="post-feature post-quote">
                                                 <h5 className="post-quote-text text-center">
-                                                    “ La volonté d’ouverture BLP vers le monde  ”
+                                                    “ {t("recherche-et-innovation:La volonté d’ouverture BLP vers le monde")}  ”
                                                 </h5>
                                             </div>
                                    
@@ -67,15 +69,15 @@ export default function recherche() {
                 <div className="row align-items-center">
                     <div className="col-xl-8 col-lg-7">
                         <div className="cta-content md-text-center">
-                            <h3 className="heading text-white">Double cursus: M1 en <span className="text-color-secondary">
-                                    Tunisie </span> M2 en <span className="text-color-secondary"> Europe</span> </h3>
+                            <h3 className="heading text-white">{t("recherche-et-innovation:Double cursus: M1 en")} <span className="text-color-secondary">
+                            {t("recherche-et-innovation:Tunisie")} </span> {t("recherche-et-innovation:M2 en")} <span className="text-color-secondary"> {t("recherche-et-innovation:Europe")}</span> </h3>
                         </div>
                     </div>
                     <div className="col-xl-4 col-lg-5">
                         <div className="cta-button-group--one text-center">
 
                             <a href="contact" className="btn btn--secondary  btn-two"><span className="btn-icon mr-2"><i
-                                        className="far fa-info-circle"></i></span>Contact</a>
+                                        className="far fa-info-circle"></i></span>{t("recherche-et-innovation:Contact")}</a>
                         </div>
                     </div>
                 </div>
