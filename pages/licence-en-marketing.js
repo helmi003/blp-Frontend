@@ -1,6 +1,8 @@
 import React from 'react'
-
+import useTranslation from "next-translate/useTranslation";
+    
 export default function LicenceEnMarketing() {
+    let { t } = useTranslation();
     return (
         <>
 <div className="breadcrumb-area">
@@ -8,11 +10,11 @@ export default function LicenceEnMarketing() {
         <div className="row">
             <div className="col-12">
                 <div className="breadcrumb_box text-center">
-                    <h2 className="breadcrumb-title ">Licence en Marketing</h2>
+                    <h2 className="breadcrumb-title ">{t("licence-en-marketing:Licence en Marketing")}</h2>
                
                     <ul className="breadcrumb-list">
-                        <li className="breadcrumb-item"><a href="formations">Formations</a></li>
-                        <li className="breadcrumb-item active">Licence</li>
+                        <li className="breadcrumb-item"><a href="formations">{t("licence-en-marketing:Formations")}</a></li>
+                        <li className="breadcrumb-item active">{t("licence-en-marketing:Licence")}</li>
                     </ul>
                
                 </div>
@@ -33,7 +35,7 @@ export default function LicenceEnMarketing() {
                             <div className="sidebar-widget search-post wow move-up">
                                 <div className="business-solution-form-wrap mr-auto ml-auto">
                                     <div className="contact-title text-center section-space--mb_40">
-                                        <h5 className="mb-10">Inscrivez-vous dès maintenant</h5>
+                                        <h5 className="mb-10">{t("licence-en-marketing:Inscrivez-vous dès maintenant")}</h5>
                                     </div>
                                 
                                     <form id="contact-form"
@@ -56,13 +58,13 @@ export default function LicenceEnMarketing() {
                                                 <div className="form-item contact-inner">
                                                     <span className="inquiry">
                                                         <select id="Visiting" name="Visiting">
-                                                            <option disabled selected>Nationnalité</option>
-                                                            <option value="Your inquiry about">Tunisienne</option>
-                                                            <option value="General Information Request">General
-                                                                Information Request</option>
-                                                            <option value="Partner Relations">Partner Relations</option>
-                                                            <option value="Careers">Careers</option>
-                                                            <option value="Software Licencing">Software Licencing
+                                                            <option disabled selected>{t("licence-en-marketing:Nationnalité")}</option>
+                                                            <option value="Your inquiry about">{t("licence-en-marketing:Tunisienne")}</option>
+                                                            <option value="General Information Request">
+                                                            {t("licence-en-marketing:General Information Request")}</option>
+                                                            <option value="Partner Relations">{t("licence-en-marketing:Partner Relations")}</option>
+                                                            <option value="Careers">{t("licence-en-marketing:Careers")}</option>
+                                                            <option value="Software Licencing">{t("licence-en-marketing:Software Licencing")}
                                                             </option>
                                                         </select>
                                                     </span>
@@ -72,18 +74,18 @@ export default function LicenceEnMarketing() {
                                                 <div className="form-item contact-inner">
                                                     <span className="inquiry">
                                                         <select id="Visiting" name="Visiting">
-                                                            <option disabled selected>Dernier diplôme obtenu</option>
-                                                            <option value="Your inquiry about">Bac</option>
-                                                            <option value="General Information Request">licence</option>
-                                                            <option value="Partner Relations">Mastere</option>
-                                                            <option value="Software Licencing">Ingénieur</option>
-                                                            <option value="Software Licencing">Autres</option>
+                                                            <option disabled selected>{t("licence-en-marketing:Dernier diplôme obtenu")}</option>
+                                                            <option value="Your inquiry about">{t("licence-en-marketing:Bac")}</option>
+                                                            <option value="General Information Request">{t("licence-en-marketing:Licence")}</option>
+                                                            <option value="Partner Relations">{t("licence-en-marketing:Mastere")}</option>
+                                                            <option value="Software Licencing">{t("licence-en-marketing:Ingénieur")}</option>
+                                                            <option value="Software Licencing">{t("licence-en-marketing:Autres")}</option>
                                                         </select>
                                                     </span>
                                                 </div>
                                             </div>
                                             <div className="comment-submit-btn text-center">
-                                                <button className="ht-btn ht-btn-md" type="submit">Envoyer</button>
+                                                <button className="ht-btn ht-btn-md" type="submit">{t("licence-en-marketing:Envoyer")}</button>
                                                 <p className="form-messege"></p>
                                             </div>
                                         </div>
@@ -104,8 +106,7 @@ export default function LicenceEnMarketing() {
                                                     <div className="grid-item">
                                                         <div className="ht-team-member">
                                                             <div className="team-image">
-                                                                <h5 className="heading text-color-primary">Responsable de la
-                                                                    licence </h5> <br/>
+                                                                <h5 className="heading text-color-primary">{t("licence-en-marketing:Responsable de la licence")} </h5> <br/>
                                                                 <img className="img-fluid"
                                                                     src="assets/images/team/team-member-07-370x250.jpg"
                                                                     alt=""/>
@@ -130,8 +131,8 @@ export default function LicenceEnMarketing() {
                                                                 </div>
                                                             </div>
                                                             <div className="team-info ">
-                                                                <h5 className="name">El ghoul amira </h5>
-                                                                <div className="position">Docteur en science de gestion
+                                                                <h5 className="name">{t("licence-en-marketing:El ghoul amira")} </h5>
+                                                                <div className="position">{t("licence-en-marketing:Docteur en science de gestion")}
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -153,7 +154,7 @@ export default function LicenceEnMarketing() {
                              
                                 <div className="post-info lg-blog-post-info  wow move-up">
                                     <div className="post-categories text-right">
-                                        <a href="#">3 ans | 180 credit</a>
+                                        <a href="#">{t("licence-en-marketing:3 ans | 180 credit")}</a>
                                     </div>
                                     <img className="img-fluid" src="assets/images/blog/licence-marketing.webp"
                                         alt="licence en marketing"/>
@@ -167,8 +168,7 @@ export default function LicenceEnMarketing() {
                                                         <button className="btn-link" data-toggle="collapse"
                                                             data-target="#collapseOne" aria-expanded="true"
                                                             aria-controls="collapseOne">
-                                                            Objectifs de la formation (compétences,
-                                                            savoir-faire,connaissances) <span> <i
+                                                            {t("licence-en-marketing:Objectifs de la formation (compétences, savoir-faire,connaissances)")} <span> <i
                                                                     className="fas fa-chevron-down"></i>
                                                                 <i className="fas fa-chevron-up"></i> </span>
                                                         </button>
@@ -177,24 +177,10 @@ export default function LicenceEnMarketing() {
                                                 <div id="collapseOne" className="show" aria-labelledby="headingOne"
                                                     data-parent="#accordion">
                                                     <div className="card-body">
-                                                        <b className=" text-color-primary">Objectifs</b>
-                                                        <p>L’objectif est de former des cadres intermédiaires dans le
-                                                            domaine du Marketing et du commerce,
-                                                            capables d’être immédiatement opérationnels et évoluer
-                                                            rapidement vers des postes de responsabilités.
-                                                            Le Diplôme de licence en Marketing a pour objet d’offrir des
-                                                            compétences demandées dans les emplois
-                                                            des services commerciaux et de communication des
-                                                            entreprises. Ce programme de licence permet
-                                                            d’accompagner le commercial vers un niveau de cadre
-                                                            commercial et de faire évoluer sa carrière vers
-                                                            des postes de responsabilités.</p>
-                                                        <b className=" text-color-primary">Objectifs spécifiques</b>
-                                                        <p>Le licencier en Marketing détient un prol opérationnel qui
-                                                            lui permet d’obtenir rapidement un emploi.
-                                                            Le caractère de la formation permet un large choix de
-                                                            fonctions commerciales d’une forte polyvalence.
-                                                            Marketing – distribution- vente – publicité.</p>
+                                                        <b className=" text-color-primary">{t("licence-en-marketing:Objectifs")}</b>
+                                                        <p>{t("licence-en-marketing:objectif est de former")}</p>
+                                                        <b className=" text-color-primary">{t("licence-en-marketing:Objectifs spécifiques")}</b>
+                                                        <p>{t("licence-en-marketing:Le licencier")}</p>
                                                     </div>
                                                 </div>
                                             </div>
@@ -204,7 +190,7 @@ export default function LicenceEnMarketing() {
                                                         <button className="btn-link collapsed" data-toggle="collapse"
                                                             data-target="#collapseTwo" aria-expanded="false"
                                                             aria-controls="collapseTwo">
-                                                            Conditions d'accès à la formation et pré-requis <span> <i
+                                                            {t("licence-en-marketing:Conditions d'accès à la formation et pré-requis")} <span> <i
                                                                     className="fas fa-chevron-down"></i>
                                                                 <i className="fas fa-chevron-up"></i> </span>
                                                         </button>
@@ -213,8 +199,7 @@ export default function LicenceEnMarketing() {
                                                 <div id="collapseTwo" className="collapse" aria-labelledby="headingTwo"
                                                     data-parent="#accordion">
                                                     <div className="card-body">
-                                                        <p>Baccalauréat mathematiques,sciences exprémentales,economie
-                                                            gestion,Informatique,lettre,sport,technique.</p>
+                                                        <p>{t("licence-en-marketing:Baccalauréat mathematiques,sciences exprémentales,economie gestion,Informatique,lettre,sport,technique")}</p>
                                                     </div>
                                                 </div>
                                             </div>
@@ -225,7 +210,7 @@ export default function LicenceEnMarketing() {
                                                         <button className="btn-link collapsed" data-toggle="collapse"
                                                             data-target="#collapseacquis" aria-expanded="false"
                                                             aria-controls="collapseacquis">
-                                                            Acquis d’apprentissages <span> <i
+                                                            {t("licence-en-marketing:Acquis d’apprentissages")} <span> <i
                                                                     className="fas fa-chevron-down"></i>
                                                                 <i className="fas fa-chevron-up"></i> </span>
                                                         </button>
@@ -238,8 +223,7 @@ export default function LicenceEnMarketing() {
                                                             <li className="list-item">
                                                                 <span className="list__icon"><i
                                                                         className="far fa-crown"></i></span> <b
-                                                                    className=" text-color-primary"> A la fin de la
-                                                                    formation, les participants doivent être capables de
+                                                                    className=" text-color-primary"> {t("licence-en-marketing:A la fin de la formation, les participants doivent être capables de")}
                                                                 </b>
                                                             </li>
                                                         </ul>
@@ -248,81 +232,55 @@ export default function LicenceEnMarketing() {
                                                                 <div className="row">
                                                                     <div
                                                                         className="col-lg-4 col-md-6 team_member-list mb-30">
-                                                                        <h6 className="team__title mb-20">CONNAISANCES</h6>
+                                                                        <h6 className="team__title mb-20">{t("licence-en-marketing:CONNAISANCES")}</h6>
                                                                         <ul className="footer-widget__list">
                                                                             <li><a href="#"
-                                                                                    className="hover-style-default">Posséder
-                                                                                    des compétances marketing et
-                                                                                    commerciales</a></li>
+                                                                                    className="hover-style-default">{t("licence-en-marketing:Posséder des compétances marketing et commerciales")}</a></li>
                                                                             <li><a href="#"
-                                                                                    className="hover-style-default">Etre
-                                                                                    apte à mener des négociations</a>
+                                                                                    className="hover-style-default">{t("licence-en-marketing:Etre apte à mener des négociations")}</a>
                                                                             </li>
                                                                             <li><a href="#"
-                                                                                    className="hover-style-default">Avoir
-                                                                                    des connaissance financière et
-                                                                                    juridiques</a></li>
+                                                                                    className="hover-style-default">{t("licence-en-marketing:Avoir des connaissance financière et juridiques")}</a></li>
                                                                             <li><a href="#"
-                                                                                    className="hover-style-default">Matriser
-                                                                                    les langues (francais,anglais)et les
-                                                                                    outils Informatique</a></li>
+                                                                                    className="hover-style-default">{t("licence-en-marketing:Matriser les langues (francais,anglais)et les outils Informatique")}</a></li>
                                                                             <li><a href="#" className="hover-style-default">
-                                                                                    Etre capable d'analyser son
-                                                                                    marché,de synthétiser ces données et
-                                                                                    de prendre des initiatives. </a>
+                                                                            {t("licence-en-marketing:Etre capable d'analyser son marché,de synthétiser ces données et de prendre des initiatives")} </a>
                                                                             </li>
 
                                                                         </ul>
                                                                     </div>
                                                                     <div
                                                                         className="col-lg-4 col-md-6 team_member-list mb-30">
-                                                                        <h6 className="team__title mb-20">APTITUDES
-                                                                            (savoir-faire) </h6>
+                                                                        <h6 className="team__title mb-20">{t("licence-en-marketing:APTITUDES (savoir-faire)")} </h6>
                                                                         <ul className="footer-widget__list">
                                                                             <li><a href="#" className="hover-style-default">
-                                                                                    Etablir la stratégie marketing de
-                                                                                    l'entreprise et s'assurer de sa
-                                                                                    bonne application.</a></li>
+                                                                            {t("licence-en-marketing:Etablir la stratégie marketing de l'entreprise et s'assurer de sa bonne application")}</a></li>
                                                                             <li><a href="#"
-                                                                                    className="hover-style-default">Connaitre
-                                                                                    les besoins des clients et également
-                                                                                    de la concurrence.</a></li>
+                                                                                    className="hover-style-default">{t("licence-en-marketing:Connaitre les besoins des clients et également de la concurrence")}</a></li>
                                                                             <li><a href="#" className="hover-style-default">
-                                                                                    Définir la stratégie commerciale et
-                                                                                    marketing de l'entreprise.</a></li>
+                                                                            {t("licence-en-marketing:Définir la stratégie commerciale et marketing de l'entreprise")}</a></li>
                                                                             <li><a href="#" className="hover-style-default">
-                                                                                    Trouver des opportunités à exploiter
-                                                                                    et connaitre la concurrence.</a>
+                                                                            {t("licence-en-marketing:Trouver des opportunités à exploiter et connaitre la concurrence")}</a>
                                                                             </li>
                                                                             <li><a href="#" className="hover-style-default">
-                                                                                    Elaborer un plan marketing grace à
-                                                                                    des études marketing aussi bien
-                                                                                    quantitavies que qualitatives.</a>
+                                                                            {t("licence-en-marketing:Elaborer un plan marketing grace à des études marketing aussi bien quantitavies que qualitatives")}</a>
                                                                             </li>
                                                                             <li><a href="#" className="hover-style-default">
-                                                                                    Définir le
-                                                                                    positionnement,lacommunication,l'image,la
-                                                                                    politique de distribution.</a></li>
+                                                                            {t("licence-en-marketing:Définir le positionnement,lacommunication,l'image,la politique de distribution")}</a></li>
 
                                                                         </ul>
                                                                     </div>
                                                                     <div
                                                                         className="col-lg-4 col-md-6 team_member-list mb-30">
-                                                                        <h6 className="team__title mb-20">ATITUDES
-                                                                            (savoir-être)</h6>
+                                                                        <h6 className="team__title mb-20">{t("licence-en-marketing:ATITUDES (savoir-être)")}</h6>
                                                                         <ul className="footer-widget__list">
                                                                             <li><a href="#"
-                                                                                    className="hover-style-default">Etre une
-                                                                                    personne
-                                                                                    créative,rigoureuse,pragmatique.</a>
+                                                                                    className="hover-style-default">{t("licence-en-marketing:Etre une personne créative,rigoureuse,pragmatique")}</a>
                                                                             </li>
                                                                             <li><a href="#"
-                                                                                    className="hover-style-default">Avoir
-                                                                                    les qualité de leadership et dde
-                                                                                    persuasion.</a></li>
+                                                                                    className="hover-style-default">{t("licence-en-marketing:Avoir les qualité de leadership et de persuasion")}</a></li>
                                                                             <li><a href="#"
-                                                                                    className="hover-style-default">Avoir la
-                                                                                    capacité de travailler en équipe</a>
+                                                                                    className="hover-style-default">{t("licence-en-marketing:Avoir la capacité de travailler en équipe")}</a>
                                                                             </li>
                                                                         </ul>
                                                                     </div>
@@ -339,7 +297,7 @@ export default function LicenceEnMarketing() {
                                                         <button className="btn-link collapsed" data-toggle="collapse"
                                                             data-target="#collapseThree" aria-expanded="false"
                                                             aria-controls="collapseThree">
-                                                            Perspectives professionnelles du parcours <span> <i
+                                                            {t("licence-en-marketing:Perspectives professionnelles du parcours")} <span> <i
                                                                     className="fas fa-chevron-down"></i>
                                                                 <i className="fas fa-chevron-up"></i> </span>
                                                         </button>
@@ -348,15 +306,13 @@ export default function LicenceEnMarketing() {
                                                 <div id="collapseThree" className="collapse" aria-labelledby="headingThree"
                                                     data-parent="#accordion">
                                                     <div className="card-body">
-                                                        <b className=" text-color-primary">Perspectives académique</b>
+                                                        <b className=" text-color-primary">{t("licence-en-marketing:Perspectives académique")}</b>
                                                         <p>
-                                                            Etudes des masterès professionnelles ou recheres en sciences
-                                                            de gestion
+                                                        {t("licence-en-marketing:Etudes des masterès professionnelles ou recheres en sciences de gestion")}
                                                         </p>
-                                                        <b className=" text-color-primary">Perspectives à l'échelle
-                                                            internationales</b>
+                                                        <b className=" text-color-primary">{t("licence-en-marketing:Perspectives à l'échelle internationales")}</b>
                                                         <p>
-                                                            Erasmus,Co-diplomation,PFE,Bourse d'alternance,Parrainage.
+                                                        {t("licence-en-marketing:Erasmus,Co-diplomation,PFE,Bourse d'alternance,Parrainage")}
                                                         </p>
                                                     </div>
                                                 </div>
@@ -367,7 +323,7 @@ export default function LicenceEnMarketing() {
                                                         <button className="btn-link collapsed" data-toggle="collapse"
                                                             data-target="#collapsefor" aria-expanded="false"
                                                             aria-controls="collapsefor">
-                                                            Méthodes pédaogiques innovante<span> <i
+                                                            {t("licence-en-marketing:Méthodes pédaogiques innovante")}<span> <i
                                                                     className="fas fa-chevron-down"></i>
                                                                 <i className="fas fa-chevron-up"></i> </span>
                                                         </button>
@@ -377,9 +333,9 @@ export default function LicenceEnMarketing() {
                                                     data-parent="#accordion">
                                                     <div className="card-body">
                                                         <ul>
-                                                            <li> Apprentissage par projet</li>
-                                                            <li>Apprentissage par étude de cas</li>
-                                                            <li>Apprentissage par investigation</li>
+                                                            <li> {t("licence-en-marketing:Apprentissage par projet")}</li>
+                                                            <li>{t("licence-en-marketing:Apprentissage par étude de cas")}</li>
+                                                            <li>{t("licence-en-marketing:Apprentissage par investigation")}</li>
                                                         </ul>
 
                                                     </div>
@@ -403,10 +359,9 @@ export default function LicenceEnMarketing() {
                 <div className="row">
                     <div className="col-lg-12">
                         <div className="section-title-wrap text-center section-space--mb_40">
-                            <h6 className="section-sub-title mb-20">Formation initiale, Formation continue, Formation en
-                                alternance</h6>
-                            <h3 className="heading">Descriptif détaillé du parcours de <span className="text-color-primary"> 3
-                                    ans</span></h3>
+                            <h6 className="section-sub-title mb-20">{t("licence-en-marketing:Formation initiale, Formation continue, Formation en alternance")}</h6>
+                            <h3 className="heading">{t("licence-en-marketing:Descriptif détaillé du parcours de")} <span className="text-color-primary"> 
+                            {t("licence-en-marketing:3 ans")}</span></h3>
                         </div>
                     </div>
                 </div>
@@ -417,31 +372,31 @@ export default function LicenceEnMarketing() {
                             <ul className="nav justify-content-center ht-tab-menu ht-tab-menu_two" role="tablist">
                                 <li className="tab__item nav-item active">
                                     <a className="nav-link active" id="nav-tab1" data-toggle="tab" href="#tab_list_06"
-                                        role="tab" aria-selected="true">Semestre 1</a>
+                                        role="tab" aria-selected="true">{t("licence-en-marketing:Semestre")} 1</a>
                                 </li>
                                 <li className="tab__item nav-item">
                                     <a className="nav-link" id="nav-tab2" data-toggle="tab" href="#tab_list_07" role="tab"
-                                        aria-selected="false">Semestre 2</a>
+                                        aria-selected="false">{t("licence-en-marketing:Semestre")} 2</a>
                                 </li>
                                 <li className="tab__item nav-item ">
                                     <a className="nav-link" id="nav-tab3" data-toggle="tab" href="#tab_list_08" role="tab"
-                                        aria-selected="false">Semestre 3</a>
+                                        aria-selected="false">{t("licence-en-marketing:Semestre")} 3</a>
                                 </li>
                                 <li className="tab__item nav-item ">
                                     <a className="nav-link" id="nav-tab5" data-toggle="tab" href="#tab_list_09" role="tab"
-                                        aria-selected="false">Semestre 4</a>
+                                        aria-selected="false">{t("licence-en-marketing:Semestre")} 4</a>
                                 </li>
                                 <li className="tab__item nav-item ">
                                     <a className="nav-link" id="nav-tab3" data-toggle="tab" href="#tab_list_10" role="tab"
-                                        aria-selected="false">Semestre 5</a>
+                                        aria-selected="false">{t("licence-en-marketing:Semestre")} 5</a>
                                 </li>
                                 <li className="tab__item nav-item ">
                                     <a className="nav-link" id="nav-tab5" data-toggle="tab" href="#tab_list_11" role="tab"
-                                        aria-selected="false">Semestre 6</a>
+                                        aria-selected="false">{t("licence-en-marketing:Semestre")} 6</a>
                                 </li>
                                 <li className="tab__item nav-item ">
                                     <a className="nav-link" id="nav-tab5" data-toggle="tab" href="#tab_list_12" role="tab"
-                                        aria-selected="false">les Stages professionnelles</a>
+                                        aria-selected="false">{t("licence-en-marketing:les Stages professionnelles")}</a>
                                 </li>
                             </ul>
                         </div>
@@ -453,7 +408,7 @@ export default function LicenceEnMarketing() {
                                   
                                     <div className="col-lg-12 offset-lg-1">
                                         <div className="conact-us-wrap-one managed-it">
-                                            <h5 className="heading ">Première année: Tronc commun en Sciences de gestion
+                                            <h5 className="heading ">{t("licence-en-marketing:Première année: Tronc commun en Sciences de gestion")}
                                             </h5>
                                         </div>
                                     </div>
@@ -464,87 +419,87 @@ export default function LicenceEnMarketing() {
                                             <table className="table table-bordered table-striped">
                                                 <thead>
                                                     <tr>
-                                                        <th rowSpan="2">Type de l'unité d'enseignement</th>
-                                                        <th rowSpan="2">Elements constitutifs</th>
-                                                        <th colSpan="3">volume horaire</th>
-                                                        <th>Credits</th>
-                                                        <th> Coefficient</th>
+                                                        <th rowSpan="2">{t("licence-en-marketing:Type de l'unité d'enseignement")}</th>
+                                                        <th rowSpan="2">{t("licence-en-marketing:Elements constitutifs")}</th>
+                                                        <th colSpan="3">{t("licence-en-marketing:volume horaire")}</th>
+                                                        <th>{t("licence-en-marketing:Credits")}</th>
+                                                        <th> {t("licence-en-marketing:Coefficient")}</th>
                                                     </tr>
                                                     <tr>
                                                         <td>C</td>
                                                         <td>TD</td>
                                                         <td>CI</td>
-                                                        <td>Par element</td>
-                                                        <td>par Elements</td>
+                                                        <td>{t("licence-en-marketing:Par element")}</td>
+                                                        <td>{t("licence-en-marketing:par Elements")}</td>
                                                     </tr>
                                                 </thead>
                                                 <tbody>
                                                 <tr>
-                                                    <td>UE:Principes de gestion</td>
-                                                    <td>Principes de gestion 1</td>
-                                                    <td>42H</td>
-                                                    <td>21H</td>
+                                                    <td>{t("licence-en-marketing:Principes de gestion")}</td>
+                                                    <td>{t("licence-en-marketing:Principes de gestion")} 1</td>
+                                                    <td>{t("licence-en-marketing:42H")}</td>
+                                                    <td>{t("licence-en-marketing:21H")}</td>
                                                     <td></td>
                                                     <td>5</td>
                                                     <td>2.5</td>
                                                 </tr>
                                                 <tr>
-                                                    <td>UE:Comptabilté</td>
-                                                    <td>Comptabilté financière 1</td>
-                                                    <td>42H</td>
-                                                    <td>21H</td>
+                                                    <td>{t("licence-en-marketing:Comptabilté")}</td>
+                                                    <td>{t("licence-en-marketing:Comptabilté financière")} 1</td>
+                                                    <td>{t("licence-en-marketing:42H")}</td>
+                                                    <td>{t("licence-en-marketing:21H")}</td>
                                                     <td></td>
                                                     <td>5</td>
                                                     <td>2.5</td>
                                                 </tr>
                                                 <tr>
-                                                    <td>UE Principe d'economie</td>
-                                                    <td>Microéconimie</td>
-                                                    <td>42H</td>
-                                                    <td>21H</td>
+                                                    <td>{t("licence-en-marketing:UE Principe d'economie")}</td>
+                                                    <td>{t("licence-en-marketing:Microéconimie")}</td>
+                                                    <td>{t("licence-en-marketing:42H")}</td>
+                                                    <td>{t("licence-en-marketing:21H")}</td>
                                                     <td></td>
                                                     <td>5</td>
                                                     <td>2.5</td>
                                                 </tr>
                                                 <tr>
-                                                    <td>UE: Mathematiques</td>
-                                                    <td>Mathematiques 1</td>
-                                                    <td>42H</td>
-                                                    <td>21H</td>
+                                                    <td>{t("licence-en-marketing:Mathematiques")}</td>
+                                                    <td>{t("licence-en-marketing:Mathematiques")} 1</td>
+                                                    <td>{t("licence-en-marketing:42H")}</td>
+                                                    <td>{t("licence-en-marketing:21H")}</td>
                                                     <td></td>
                                                     <td>5</td>
 
                                                     <td>2.5</td>
                                                 </tr>
                                                 <tr>
-                                                    <td rowSpan="2">UE: Droit et calculs financiers</td>
-                                                    <td>Introduction au droit</td>
-                                                    <td>42H</td>
+                                                    <td rowSpan="2">{t("licence-en-marketing:Droit et calculs financiers")}</td>
+                                                    <td>{t("licence-en-marketing:Introduction au droit")}</td>
+                                                    <td>{t("licence-en-marketing:42H")}</td>
                                                     <td></td>
                                                     <td></td>
                                                     <td>2</td>
                                                     <td>1</td>
                                                 </tr>
                                                 <tr>
-                                                    <td>Mathématique Financières</td>
-                                                    <td>21H</td>
-                                                    <td>21H</td>
+                                                    <td>{t("licence-en-marketing:Mathématique Financières")}</td>
+                                                    <td>{t("licence-en-marketing:21H")}</td>
+                                                    <td>{t("licence-en-marketing:21H")}</td>
                                                     <td></td>
                                                     <td>3</td>
                                                     <td>1.5</td>
                                                 </tr>
                                                 <tr>
-                                                <td rowSpan="2">UE: langue et informatique</td>
-                                                <td>Anglais 1</td>
-                                                <td>21H</td>
+                                                <td rowSpan="2">{t("licence-en-marketing:langue et informatique")}</td>
+                                                <td>{t("licence-en-marketing:Anglais")} 1</td>
+                                                <td>{t("licence-en-marketing:21H")}</td>
                                                 <td></td>
                                                 <td></td>
                                                 <td>2</td>
                                                 <td>1</td>
                                                 </tr>
                                                 <tr>
-                                                    <td>Tableur</td>
-                                                    <td>21H</td>
+                                                    <td>{t("licence-en-marketing:Tableur")}</td>
+                                                    <td>{t("licence-en-marketing:21H")}</td>
                                                     <td></td>
                                                     <td></td>
                                                     <td>3</td>
@@ -563,60 +518,60 @@ export default function LicenceEnMarketing() {
                                             <table className="table table-bordered table-striped">
                                                 <thead>
                                                     <tr>
-                                                        <th rowSpan="2">Type de l'unité d'enseignement</th>
-                                                        <th rowSpan="2">Elements constitutifs</th>
-                                                        <th colSpan="3">volume horaire</th>
-                                                        <th>Credits</th>
-                                                        <th> Coefficient</th>
+                                                        <th rowSpan="2">{t("licence-en-marketing:Type de l'unité d'enseignement")}</th>
+                                                        <th rowSpan="2">{t("licence-en-marketing:Elements constitutifs")}</th>
+                                                        <th colSpan="3">{t("licence-en-marketing:volume horaire")}</th>
+                                                        <th>{t("licence-en-marketing:Credits")}</th>
+                                                        <th> {t("licence-en-marketing:Coefficient")}</th>
                                                     </tr>
                                                     <tr>
                                                         <td>C</td>
                                                         <td>TD</td>
                                                         <td>CI</td>
-                                                        <td>Par element</td>
-                                                        <td>par Elements</td>
+                                                        <td>{t("licence-en-marketing:Par element")}</td>
+                                                        <td>{t("licence-en-marketing:par Elements")}</td>
                                                     </tr>
                                                 </thead>
                                                 <tbody>
                                                 <tr>
-                                                    <td>UE: Principe de gestion</td>
-                                                    <td>Comptabilté financières 2</td>
-                                                    <td>42H</td>
-                                                    <td>21H</td>
+                                                    <td>{t("licence-en-marketing:Principe de gestion")}</td>
+                                                    <td>{t("licence-en-marketing:Comptabilté financières")} 2</td>
+                                                    <td>{t("licence-en-marketing:42H")}</td>
+                                                    <td>{t("licence-en-marketing:21H")}</td>
                                                     <td></td>
                                                     <td>5</td>
                                                     <td>2.5</td>
                                                 </tr>
                                                 <tr>
-                                                    <td>UE:Mathématique</td>
-                                                    <td>Mathématique 2</td>
-                                                    <td>42H</td>
-                                                    <td>21H</td>
+                                                    <td>{t("licence-en-marketing:Mathématique")}</td>
+                                                    <td>{t("licence-en-marketing:Mathématique")} 2</td>
+                                                    <td>{t("licence-en-marketing:42H")}</td>
+                                                    <td>{t("licence-en-marketing:21H")}</td>
                                                     <td></td>
                                                     <td>6</td>
                                                     <td>3</td>
                                                 </tr>
                                                 <tr>
-                                                    <td>UE: Statistique</td>
-                                                    <td>Statistique descriptive et calculs de probabilité</td>
-                                                    <td>42H</td>
-                                                    <td>21H</td>
+                                                    <td>{t("licence-en-marketing:Statistique")}</td>
+                                                    <td>{t("licence-en-marketing:Statistique descriptive et calculs de probabilité")}</td>
+                                                    <td>{t("licence-en-marketing:42H")}</td>
+                                                    <td>{t("licence-en-marketing:21H")}</td>
                                                     <td></td>
                                                     <td>5</td>
                                                     <td>2.5</td>
                                                 </tr>
                                                 <tr>
-                                                    <td rowSpan="2">UE :Macroéconomie et droit</td>
-                                                    <td>Macroéconomie</td>
-                                                    <td>42H</td>
+                                                    <td rowSpan="2">{t("licence-en-marketing:Macroéconomie et droit")}</td>
+                                                    <td>{t("licence-en-marketing:Macroéconomie")}</td>
+                                                    <td>{t("licence-en-marketing:42H")}</td>
                                                     <td></td>
                                                     <td></td>
                                                     <td>3</td>
                                                     <td>1.5</td>
                                                 </tr>
                                                 <tr>
-                                                    <td>Droit des sociétés commerciales</td>
-                                                    <td>42H</td>
+                                                    <td>{t("licence-en-marketing:Droit des sociétés commerciales")}</td>
+                                                    <td>{t("licence-en-marketing:42H")}</td>
                                                     <td></td>
                                                     <td></td>
                                                     <td>2</td>
@@ -624,9 +579,9 @@ export default function LicenceEnMarketing() {
                                                 </tr>
 
                                                 <tr>
-                                                    <td rowSpan="2">UE: langue et informatique </td>
-                                                    <td>Anglais 2</td>
-                                                    <td>21H</td>
+                                                    <td rowSpan="2">{t("licence-en-marketing:langue et informatique")} </td>
+                                                    <td>{t("licence-en-marketing:Anglais")} 2</td>
+                                                    <td>{t("licence-en-marketing:21H")}</td>
                                                     <td></td>
                                                     <td></td>
                                                     <td>2</td>
@@ -634,7 +589,7 @@ export default function LicenceEnMarketing() {
                                                 </tr>
                                                 <tr>
                                                     <td>C2i</td>
-                                                    <td>21H</td>
+                                                    <td>{t("licence-en-marketing:21H")}</td>
                                                     <td></td>
                                                     <td></td>
                                                     <td>3</td>
@@ -651,8 +606,7 @@ export default function LicenceEnMarketing() {
                        
                                     <div className="col-lg-12 offset-lg-1">
                                         <div className="conact-us-wrap-one managed-it">
-                                            <h5 className="heading ">Deuxième année Première année: Tronc commun en Sciences
-                                                de gestion</h5>
+                                            <h5 className="heading ">{t("licence-en-marketing:Deuxième année Première année: Tronc commun en Sciences de gestion")}</h5>
                                         </div>
                                     </div>
 
@@ -663,87 +617,87 @@ export default function LicenceEnMarketing() {
                                             <table className="table table-bordered table-striped">
                                                 <thead>
                                                     <tr>
-                                                        <th rowSpan="2">Type de l'unité d'enseignement</th>
-                                                        <th rowSpan="2">Elements constitutifs</th>
-                                                        <th colSpan="3">volume horaire</th>
-                                                        <th>Credits</th>
-                                                        <th>Coefficient</th>
+                                                        <th rowSpan="2">{t("licence-en-marketing:Type de l'unité d'enseignement")}</th>
+                                                        <th rowSpan="2">{t("licence-en-marketing:Elements constitutifs")}</th>
+                                                        <th colSpan="3">{t("licence-en-marketing:volume horaire")}</th>
+                                                        <th>{t("licence-en-marketing:Credits")}</th>
+                                                        <th>{t("licence-en-marketing:Coefficient")}</th>
                                                     </tr>
                                                     <tr>
                                                         <td>C</td>
                                                         <td>TD</td>
                                                         <td>CI</td>
-                                                        <td>Par element</td>
-                                                        <td>par Elements</td>
+                                                        <td>{t("licence-en-marketing:Par element")}</td>
+                                                        <td>{t("licence-en-marketing:par Elements")}</td>
                                                     </tr>
                                                 </thead>
                                                 <tbody>
                                                 <tr>
-                                                    <td>UE: Management</td>
-                                                    <td>Fondamentaux du maagement</td>
-                                                    <td>42H</td>
-                                                    <td>21H</td>
+                                                    <td>{t("licence-en-marketing:Management")}</td>
+                                                    <td>{t("licence-en-marketing:Fondamentaux du maagement")}</td>
+                                                    <td>{t("licence-en-marketing:42H")}</td>
+                                                    <td>{t("licence-en-marketing:21H")}</td>
                                                     <td></td>
                                                     <td>5</td>
                                                     <td>2.5</td>
                                                 </tr>
                                                 <tr>
-                                                    <td>UE: Comptabilté de gestion</td>
-                                                    <td>Comptabilté de gestion</td>
-                                                    <td>42H</td>
-                                                    <td>21H</td>
+                                                    <td>{t("licence-en-marketing:Comptabilté de gestion")}</td>
+                                                    <td>{t("licence-en-marketing:Comptabilté de gestion")}</td>
+                                                    <td>{t("licence-en-marketing:42H")}</td>
+                                                    <td>{t("licence-en-marketing:21H")}</td>
                                                     <td></td>
                                                     <td>5</td>
                                                     <td>2.5</td>
                                                 </tr>
                                                 <tr>
-                                                    <td>UE: Marketing</td>
-                                                    <td>Fondamentaux du Marketing </td>
-                                                    <td>42H</td>
-                                                    <td>21H</td>
+                                                    <td>{t("licence-en-marketing:Marketing")}</td>
+                                                    <td>{t("licence-en-marketing:Fondamentaux du Marketing")} </td>
+                                                    <td>{t("licence-en-marketing:42H")}</td>
+                                                    <td>{t("licence-en-marketing:21H")}</td>
                                                     <td></td>
                                                     <td>5</td>
                                                     <td>2.5</td>
                                                 </tr>
                                                 <tr>
-                                                    <td>UE: Visite d'entreprise</td>
-                                                    <td>Visite d'entreprise désignée par l'enseignant </td>
-                                                    <td>21H</td>
+                                                    <td>{t("licence-en-marketing:Visite d'entreprise")}</td>
+                                                    <td>{t("licence-en-marketing:Visite d'entreprise désignée par l'enseignant")} </td>
+                                                    <td>{t("licence-en-marketing:21H")}</td>
                                                     <td></td>
                                                     <td></td>
                                                     <td>5</td>
                                                     <td>2.5</td>
                                                 </tr>
                                                 <tr>
-                                                    <td rowSpan="2">UE: Langue et soft skills</td>
-                                                    <td>Anglais 2</td>
-                                                    <td>21H</td>
+                                                    <td rowSpan="2">{t("licence-en-marketing:Langue et soft skills")}</td>
+                                                    <td>{t("licence-en-marketing:Anglais")} 2</td>
+                                                    <td>{t("licence-en-marketing:21H")}</td>
                                                     <td></td>
                                                     <td></td>
                                                     <td>2</td>
                                                     <td>1</td>
                                                 </tr>
                                                 <tr>
-                                                    <td>Culture d'entreprise</td>
-                                                    <td>21H</td>
+                                                    <td>{t("licence-en-marketing:Culture d'entreprise")}</td>
+                                                    <td>{t("licence-en-marketing:21H")}</td>
                                                     <td></td>
                                                     <td></td>
                                                     <td>3</td>
                                                     <td>1.5</td>
                                                 </tr>
                                                 <tr>
-                                                    <td rowSpan="2">UE: Fiscalité et statistique</td>
-                                                    <td>Fiscalité</td>
-                                                    <td>42H</td>
-                                                    <td>21H</td>
+                                                    <td rowSpan="2">{t("licence-en-marketing:Fiscalité et statistique")}</td>
+                                                    <td>{t("licence-en-marketing:Fiscalité")}</td>
+                                                    <td>{t("licence-en-marketing:42H")}</td>
+                                                    <td>{t("licence-en-marketing:21H")}</td>
                                                     <td></td>
                                                     <td>3</td>
                                                     <td>1.5</td>
                                                 </tr>
                                                 <tr>
-                                                    <td>Statistique inférentielle</td>
-                                                    <td>42H</td>
-                                                    <td>21H</td>
+                                                    <td>{t("licence-en-marketing:Statistique inférentielle")}</td>
+                                                    <td>{t("licence-en-marketing:42H")}</td>
+                                                    <td>{t("licence-en-marketing:21H")}</td>
                                                     <td></td>
                                                     <td>2</td>
                                                     <td>1</td>
@@ -761,87 +715,87 @@ export default function LicenceEnMarketing() {
                                             <table className="table table-bordered table-striped">
                                                 <thead>
                                                     <tr>
-                                                        <th rowSpan="2">Type de l'unité d'enseignement</th>
-                                                        <th rowSpan="2">Elements constitutifs</th>
-                                                        <th colSpan="3">volume horaire</th>
-                                                        <th>Credits</th>
-                                                        <th> Coefficient</th>
+                                                        <th rowSpan="2">{t("licence-en-marketing:Type de l'unité d'enseignement")}</th>
+                                                        <th rowSpan="2">{t("licence-en-marketing:Elements constitutifs")}</th>
+                                                        <th colSpan="3">{t("licence-en-marketing:volume horaire")}</th>
+                                                        <th>{t("licence-en-marketing:Credits")}</th>
+                                                        <th> {t("licence-en-marketing:Coefficient")}</th>
                                                     </tr>
                                                     <tr>
                                                         <td>C</td>
                                                         <td>TD</td>
                                                         <td>CI</td>
-                                                        <td>Par element</td>
-                                                        <td>par Elements</td>
+                                                        <td>{t("licence-en-marketing:Par element")}</td>
+                                                        <td>{t("licence-en-marketing:par Elements")}</td>
                                                     </tr>
                                                 </thead>
                                                 <tbody>
                                                     <tr>
-                                                        <td>UE :Gestion des ressources humaines</td>
-                                                        <td>Fondamentaux de la GRH</td>
-                                                        <td>42H</td>
-                                                        <td>21H</td>
+                                                        <td>{t("licence-en-marketing:Gestion des ressources humaines")}</td>
+                                                        <td>{t("licence-en-marketing:Fondamentaux de la GRH")}</td>
+                                                        <td>{t("licence-en-marketing:42H")}</td>
+                                                        <td>{t("licence-en-marketing:21H")}</td>
                                                         <td></td>
                                                         <td>5</td>
                                                         <td>2.5</td>
                                                     </tr>
                                                     <tr>
-                                                        <td>UE: Finance</td>
-                                                        <td>Diagnostic financier</td>
-                                                        <td>42H</td>
-                                                        <td>21H</td>
+                                                        <td>{t("licence-en-marketing:Finance")}</td>
+                                                        <td>{t("licence-en-marketing:Diagnostic financier")}</td>
+                                                        <td>{t("licence-en-marketing:42H")}</td>
+                                                        <td>{t("licence-en-marketing:21H")}</td>
                                                         <td></td>
                                                         <td>5</td>
                                                         <td>2.5</td>
                                                     </tr>
                                                     <tr>
-                                                        <td>UE: Gestion de la production</td>
-                                                        <td>Gestion de la production </td>
-                                                        <td>42H</td>
-                                                        <td>21H</td>
+                                                        <td>{t("licence-en-marketing:Gestion de la production")}</td>
+                                                        <td>{t("licence-en-marketing:Gestion de la production")} </td>
+                                                        <td>{t("licence-en-marketing:42H")}</td>
+                                                        <td>{t("licence-en-marketing:21H")}</td>
                                                         <td></td>
                                                         <td>5</td>
                                                         <td>2.5</td>
                                                     </tr>
                                                     <tr>
-                                                        <td>UE: Activité méthodologie</td>
-                                                        <td>Méthodologie d'elaboration d'un rapport de stage</td>
-                                                        <td>21H</td>
+                                                        <td>{t("licence-en-marketing:Activité méthodologie")}</td>
+                                                        <td>{t("licence-en-marketing:Méthodologie d'elaboration d'un rapport de stage")}</td>
+                                                        <td>{t("licence-en-marketing:21H")}</td>
                                                         <td></td>
                                                         <td></td>
                                                         <td>5</td>
                                                         <td>2.5</td>
                                                     </tr>
                                                     <tr>
-                                                        <td rowSpan="2">UE Langueet soft skills</td>
-                                                        <td>Thecnique de communication</td>
+                                                        <td rowSpan="2">{t("licence-en-marketing:UE Langueet soft skills")}</td>
+                                                        <td>{t("licence-en-marketing:Thecnique de communication")}</td>
                                                         <td></td>
                                                         <td></td>
-                                                        <td>21H</td>
+                                                        <td>{t("licence-en-marketing:21H")}</td>
                                                         <td>2</td>
                                                         <td>1</td>
                                                     </tr>
                                                     <tr>
-                                                        <td>Entrepreneuriat</td>
-                                                        <td>21H</td>
+                                                        <td>{t("licence-en-marketing:Entrepreneuriat")}</td>
+                                                        <td>{t("licence-en-marketing:21H")}</td>
                                                         <td></td>
                                                         <td></td>
                                                         <td>3</td>
                                                         <td>1.5</td>
                                                     </tr>
                                                     <tr>
-                                                        <td rowSpan="2">UE: Communication et travail collaboratif</td>
-                                                        <td>Communication interne e'entreprise</td>
-                                                        <td>42H</td>
-                                                        <td>21H</td>
+                                                        <td rowSpan="2">{t("licence-en-marketing:Communication et travail collaboratif")}</td>
+                                                        <td>{t("licence-en-marketing:Communication interne e'entreprise")}</td>
+                                                        <td>{t("licence-en-marketing:42H")}</td>
+                                                        <td>{t("licence-en-marketing:21H")}</td>
                                                         <td></td>
                                                         <td>3</td>
                                                         <td>1.5</td>
                                                     </tr>
                                                     <tr>
-                                                        <td>Habilité et travail collaborative</td>
-                                                        <td>42H</td>
-                                                        <td>21H</td>
+                                                        <td>{t("licence-en-marketing:Habilité et travail collaborative")}</td>
+                                                        <td>{t("licence-en-marketing:42H")}</td>
+                                                        <td>{t("licence-en-marketing:21H")}</td>
                                                         <td></td>
                                                         <td>3</td>
                                                         <td>1.5</td>
@@ -857,8 +811,7 @@ export default function LicenceEnMarketing() {
                                  
                                     <div className="col-lg-12 offset-lg-1">
                                         <div className="conact-us-wrap-one managed-it">
-                                            <h5 className="heading ">Troixieme année Licence fondamentale en Sciences de
-                                                gestion-Mention Marketing</h5>
+                                            <h5 className="heading ">{t("licence-en-marketing:Troixieme année Licence fondamentale en Sciences de gestion-Mention Marketing")}</h5>
                                         </div>
                                     </div>
 
@@ -868,86 +821,86 @@ export default function LicenceEnMarketing() {
                                             <table className="table table-bordered table-striped">
                                                 <thead>
                                                     <tr>
-                                                        <th rowSpan="2">Type de l'unité d'enseignement</th>
-                                                        <th rowSpan="2">Elements constitutifs</th>
-                                                        <th colSpan="3">volume horaire</th>
-                                                        <th>Credits</th>
-                                                        <th>Coefficient</th>
+                                                        <th rowSpan="2">{t("licence-en-marketing:Type de l'unité d'enseignement")}</th>
+                                                        <th rowSpan="2">{t("licence-en-marketing:Elements constitutifs")}</th>
+                                                        <th colSpan="3">{t("licence-en-marketing:volume horaire")}</th>
+                                                        <th>{t("licence-en-marketing:Credits")}</th>
+                                                        <th>{t("licence-en-marketing:Coefficient")}</th>
                                                     </tr>
                                                     <tr>
                                                         <td>C</td>
                                                         <td>TD</td>
                                                         <td>CI</td>
-                                                        <td>Par element</td>
-                                                        <td>par Elements</td>
+                                                        <td>{t("licence-en-marketing:Par element")}</td>
+                                                        <td>{t("licence-en-marketing:par Elements")}</td>
                                                     </tr>
                                                 </thead>
                                                 <tbody>
                                                     <tr>
-                                                        <td rowSpan="2">UE:Marketing stratégique et opérationnel</td>
-                                                        <td>Stratégie marketing</td>
-                                                        <td>42H</td>
-                                                        <td>21H</td>
+                                                        <td rowSpan="2">{t("licence-en-marketing:Marketing stratégique et opérationnel")}</td>
+                                                        <td>{t("licence-en-marketing:Stratégie marketing")}</td>
+                                                        <td>{t("licence-en-marketing:42H")}</td>
+                                                        <td>{t("licence-en-marketing:21H")}</td>
                                                         <td></td>
                                                         <td>4</td>
                                                         <td>2</td>
                                                     </tr>
                                                     <tr>
-                                                        <td>Gestion des prix et des produits</td>
-                                                        <td>42H</td>
-                                                        <td>21H</td>
+                                                        <td>{t("licence-en-marketing:Gestion des prix et des produits")}</td>
+                                                        <td>{t("licence-en-marketing:42H")}</td>
+                                                        <td>{t("licence-en-marketing:21H")}</td>
                                                         <td></td>
                                                         <td>3</td>
                                                         <td>1.5</td>
                                                     </tr>
                                                     <tr>
-                                                        <td>UE: Analyse du comportement du consommateur</td>
-                                                        <td>Analyse du comportement du consommateur</td>
-                                                        <td>42H</td>
-                                                        <td>21H</td>
+                                                        <td>{t("licence-en-marketing:Analyse du comportement du consommateur")}</td>
+                                                        <td>{t("licence-en-marketing:Analyse du comportement du consommateur")}</td>
+                                                        <td>{t("licence-en-marketing:42H")}</td>
+                                                        <td>{t("licence-en-marketing:21H")}</td>
                                                         <td></td>
                                                         <td>4</td>
                                                         <td>2</td>
                                                     </tr>
                                                     <tr>
-                                                        <td>UE: Visite d'entreprise</td>
-                                                        <td>Elaboration et validation du rapport de stage</td>
-                                                        <td>21H</td>
+                                                        <td>{t("licence-en-marketing:Visite d'entreprise")}</td>
+                                                        <td>{t("licence-en-marketing:Elaboration et validation du rapport de stage")}</td>
+                                                        <td>{t("licence-en-marketing:21H")}</td>
                                                         <td></td>
                                                         <td></td>
                                                         <td>5</td>
                                                         <td>2.5</td>
                                                     </tr>
                                                     <tr>
-                                                        <td rowSpan="2">UE: Langue et soft skills</td>
-                                                        <td>Préparation toeic</td>
-                                                        <td>21H</td>
+                                                        <td rowSpan="2">{t("licence-en-marketing:Langue et soft skills")}</td>
+                                                        <td>{t("licence-en-marketing:Préparation toeic")}</td>
+                                                        <td>{t("licence-en-marketing:21H")}</td>
                                                         <td></td>
                                                         <td></td>
                                                         <td>2</td>
                                                         <td>1</td>
                                                     </tr>
                                                     <tr>
-                                                        <td>Elaboration plan d'affaire</td>
-                                                        <td>21H</td>
+                                                        <td>{t("licence-en-marketing:Elaboration plan d'affaire")}</td>
+                                                        <td>{t("licence-en-marketing:21H")}</td>
                                                         <td></td>
                                                         <td></td>
                                                         <td>3</td>
                                                         <td>1.5</td>
                                                     </tr>
                                                     <tr>
-                                                        <td rowSpan="2">Marketing des services et marque</td>
-                                                        <td>Marketing des services </td>
-                                                        <td>21H</td>
-                                                        <td>21H</td>
+                                                        <td rowSpan="2">{t("licence-en-marketing:Marketing des services et marque")}</td>
+                                                        <td>{t("licence-en-marketing:Marketing des services")} </td>
+                                                        <td>{t("licence-en-marketing:21H")}</td>
+                                                        <td>{t("licence-en-marketing:21H")}</td>
                                                         <td></td>
                                                         <td>3</td>
                                                         <td>1.5</td>
                                                     </tr>
                                                     <tr>
-                                                        <td>branding</td>
-                                                        <td>21H</td>
-                                                        <td>21H</td>
+                                                        <td>{t("licence-en-marketing:branding")}</td>
+                                                        <td>{t("licence-en-marketing:21H")}</td>
+                                                        <td>{t("licence-en-marketing:21H")}</td>
                                                         <td></td>
                                                         <td>2</td>
                                                         <td>1</td>
@@ -965,88 +918,88 @@ export default function LicenceEnMarketing() {
                                             <table className="table table-bordered table-striped">
                                                 <thead>
                                                     <tr>
-                                                        <th rowSpan="2">Type de l'unité d'enseignement</th>
-                                                        <th rowSpan="2">Elements constitutifs</th>
-                                                        <th colSpan="3">volume horaire</th>
-                                                        <th>Credits</th>
-                                                        <th>Coefficient</th>
+                                                        <th rowSpan="2">{t("licence-en-marketing:Type de l'unité d'enseignement")}</th>
+                                                        <th rowSpan="2">{t("licence-en-marketing:Elements constitutifs")}</th>
+                                                        <th colSpan="3">{t("licence-en-marketing:volume horaire")}</th>
+                                                        <th>{t("licence-en-marketing:Credits")}</th>
+                                                        <th>{t("licence-en-marketing:Coefficient")}</th>
                                                     </tr>
                                                     <tr>
                                                         <td>C</td>
                                                         <td>TD</td>
                                                         <td>CI</td>
-                                                        <td>Par element</td>
-                                                        <td>par Elements</td>
+                                                        <td>{t("licence-en-marketing:Par element")}</td>
+                                                        <td>{t("licence-en-marketing:par Elements")}</td>
                                                     </tr>
                                                 </thead>
                                                 <tbody>
                                                     <tr>
-                                                        <td>UE:Distribution</td>
-                                                        <td>Stratégies de distribution</td>
-                                                        <td>42H</td>
-                                                        <td>21H</td>
+                                                        <td>{t("licence-en-marketing:Distribution")}</td>
+                                                        <td>{t("licence-en-marketing:Stratégies de distribution")}</td>
+                                                        <td>{t("licence-en-marketing:42H")}</td>
+                                                        <td>{t("licence-en-marketing:21H")}</td>
                                                         <td></td>
                                                         <td>5</td>
                                                         <td>2.5</td>
                                                     </tr>
                                                     <tr>
-                                                        <td>UE: Communication marketing</td>
-                                                        <td>Communication marketing</td>
-                                                        <td>42H</td>
-                                                        <td>21H</td>
+                                                        <td>{t("licence-en-marketing:Communication marketing")}</td>
+                                                        <td>{t("licence-en-marketing:Communication marketing")}</td>
+                                                        <td>{t("licence-en-marketing:42H")}</td>
+                                                        <td>{t("licence-en-marketing:21H")}</td>
                                                         <td></td>
                                                         <td>4</td>
                                                         <td>2</td>
                                                     </tr>
                                                     <tr>
-                                                        <td>UE: Analyse des donnée marketing</td>
-                                                        <td>Analyse des donnée marketing</td>
-                                                        <td>42H</td>
-                                                        <td>21H</td>
+                                                        <td>{t("licence-en-marketing:Analyse des donnée marketing")}</td>
+                                                        <td>{t("licence-en-marketing:Analyse des donnée marketing")}</td>
+                                                        <td>{t("licence-en-marketing:42H")}</td>
+                                                        <td>{t("licence-en-marketing:21H")}</td>
                                                         <td></td>
                                                         <td>4</td>
                                                         <td>2</td>
                                                     </tr>
                                                     <tr>
-                                                        <td>UE: Enquete</td>
-                                                        <td>Projet tutoré</td>
-                                                        <td>42H</td>
+                                                        <td>{t("licence-en-marketing:Enquete")}</td>
+                                                        <td>{t("licence-en-marketing:Projet tutoré")}</td>
+                                                        <td>{t("licence-en-marketing:42H")}</td>
                                                         <td></td>
                                                         <td></td>
                                                         <td>5</td>
                                                         <td>2.5</td>
                                                     </tr>
                                                     <tr>
-                                                        <td rowSpan="2">UE: Langue et soft skills</td>
-                                                        <td>Préparation toeic</td>
-                                                        <td>21H</td>
+                                                        <td rowSpan="2">{t("licence-en-marketing:Langue et soft skills")}</td>
+                                                        <td>{t("licence-en-marketing:Préparation toeic")}</td>
+                                                        <td>{t("licence-en-marketing:21H")}</td>
                                                         <td></td>
                                                         <td></td>
                                                         <td>2</td>
                                                         <td>1</td>
                                                     </tr>
                                                     <tr>
-                                                        <td>Marketing digital</td>
-                                                        <td>42H</td>
+                                                        <td>{t("licence-en-marketing:Marketing digital")}</td>
+                                                        <td>{t("licence-en-marketing:42H")}</td>
                                                         <td></td>
                                                         <td></td>
                                                         <td>3</td>
                                                         <td>1.5</td>
                                                     </tr>
                                                     <tr>
-                                                        <td rowSpan="2">UE: Marketing international et marketing de luxe
+                                                        <td rowSpan="2">{t("licence-en-marketing:Marketing international et marketing de luxe")}
                                                         </td>
-                                                        <td>Marketing de luxe</td>
-                                                        <td>21H</td>
-                                                        <td>21H</td>
+                                                        <td>{t("licence-en-marketing:Marketing de luxe")}</td>
+                                                        <td>{t("licence-en-marketing:21H")}</td>
+                                                        <td>{t("licence-en-marketing:21H")}</td>
                                                         <td></td>
                                                         <td>4</td>
                                                         <td>2</td>
                                                     </tr>
                                                     <tr>
-                                                        <td>Marketing international</td>
-                                                        <td>21H</td>
-                                                        <td>21H</td>
+                                                        <td>{t("licence-en-marketing:Marketing international")}</td>
+                                                        <td>{t("licence-en-marketing:21H")}</td>
+                                                        <td>{t("licence-en-marketing:21H")}</td>
                                                         <td></td>
                                                         <td>3</td>
                                                         <td>1.5</td>
@@ -1067,7 +1020,7 @@ export default function LicenceEnMarketing() {
                               
                                                         <div className="col-lg-12 offset-lg-1">
                                                             <div className="conact-us-wrap-one managed-it">
-                                                                <h5 className="heading ">Stages professionnelles </h5>
+                                                                <h5 className="heading ">{t("licence-en-marketing:Stages professionnelles")} </h5>
                                                             </div>
                                                         </div>
 
@@ -1082,8 +1035,7 @@ export default function LicenceEnMarketing() {
                                                                                     data-target="#tab__10"
                                                                                     aria-expanded="true"
                                                                                     aria-controls="tab__10">
-                                                                                    Descriptif des stages et des
-                                                                                    activités pratiques de fin d'études
+                                                                                    {t("licence-en-marketing:Descriptif des stages et des activités pratiques de fin d'études")}
                                                                                     <span>
                                                                                         <i
                                                                                             className="far fa-caret-circle-down"></i>
@@ -1098,7 +1050,7 @@ export default function LicenceEnMarketing() {
                                                                             aria-labelledby="heading__10"
                                                                             data-parent="#accordion_two">
                                                                             <div className="card-body">
-                                                                                <p> Néant</p>
+                                                                                <p> {t("licence-en-marketing:Néant")}</p>
                                                                             </div>
                                                                         </div>
                                                                     </div>
@@ -1110,10 +1062,7 @@ export default function LicenceEnMarketing() {
                                                                                     data-target="#collapse__11"
                                                                                     aria-expanded="false"
                                                                                     aria-controls="collapse__11">
-                                                                                    Inter liaisons entre les semestres
-                                                                                    du parcours,passerelles (à
-                                                                                    préciser), évaluation et
-                                                                                    progression<span>
+                                                                                    {t("licence-en-marketing:Inter liaisons entre les semestres du parcours,passerelles (à préciser), évaluation et progression")}<span>
                                                                                         <i
                                                                                             className="far fa-caret-circle-down"></i>
                                                                                         <i
@@ -1126,22 +1075,7 @@ export default function LicenceEnMarketing() {
                                                                             aria-labelledby="heading__11"
                                                                             data-parent="#accordion_two">
                                                                             <div className="card-body">
-                                                                                <p>Le premier, le second, sont réservés
-                                                                                    à des modules communs a licence
-                                                                                    fondamentale en droit privé
-                                                                                    et licence fondamentale en droit
-                                                                                    public. Les options y sont
-                                                                                    obligatoires.
-                                                                                    Le troisième, le quatrième semestre,
-                                                                                    le cinquième et le sixième semestre
-                                                                                    sont réservés à la spécialisation ;
-                                                                                    c’est dans ce cadre que des
-                                                                                    thématiques spéciques en droit
-                                                                                    public sont traitées.
-                                                                                    Précisons que le programme des six
-                                                                                    semestres est conforme aux
-                                                                                    recommandations de la Commission
-                                                                                    sectorielle en Droit. </p>
+                                                                                <p>{t("licence-en-marketing:Le premier")} </p>
                                                                             </div>
                                                                         </div>
                                                                     </div>
@@ -1165,15 +1099,15 @@ export default function LicenceEnMarketing() {
                 <div className="row align-items-center">
                     <div className="col-xl-8 col-lg-7">
                         <div className="cta-content md-text-center">
-                            <h3 className="heading text-white">Double cursus: M1 en <span className="text-color-secondary">
-                                    Tunisie </span> M2 en <span className="text-color-secondary"> Europe</span> </h3>
+                            <h3 className="heading text-white">{t("licence-en-marketing:Double cursus: M1 en")} <span className="text-color-secondary">
+                            {t("licence-en-marketing:Tunisie")} </span> {t("licence-en-marketing:M2 en")} <span className="text-color-secondary"> {t("licence-en-marketing:Europe")}</span> </h3>
                         </div>
                     </div>
                     <div className="col-xl-4 col-lg-5">
                         <div className="cta-button-group--one text-center">
 
                             <a href="contact" className="btn btn--secondary  btn-two"><span className="btn-icon mr-2"><i
-                                        className="far fa-info-circle"></i></span>Contact</a>
+                                        className="far fa-info-circle"></i></span>{t("licence-en-marketing:Contact")}</a>
                         </div>
                     </div>
                 </div>
