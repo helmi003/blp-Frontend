@@ -1,6 +1,8 @@
 import React from 'react'
-
+import useTranslation from "next-translate/useTranslation";
+   
 export default function partenaire() {
+    let { t } = useTranslation();
     return (
         <>
         
@@ -12,10 +14,10 @@ export default function partenaire() {
             <div className="row">
                 <div className="col-12">
                     <div className="breadcrumb_box text-center">
-                        <h2 className="breadcrumb-title">Conventions & relations internationales</h2>
+                        <h2 className="breadcrumb-title">{t("convention-avec-anat:Conventions & relations internationales")}</h2>
                         <ul className="breadcrumb-list">
                             <li className="breadcrumb-item"><a href="/"></a></li>
-                            <li className="breadcrumb-item active">Signature de Convention avec ANAT</li>
+                            <li className="breadcrumb-item active">{t("convention-avec-anat:Signature de Convention avec ANAT")}</li>
                         </ul>
                     </div>
                 </div>
@@ -34,12 +36,11 @@ export default function partenaire() {
 
                                 <div className="post-info lg-blog-post-info">
                                     <div className="post-categories text-center">
-                                        <a href="/"> École Supérieure Privée des Sciences Juridiques, Economiques et
-                                            Politiques </a>
+                                        <a href="/"> {t("convention-avec-anat:École Supérieure Privée des Sciences Juridiques, Economiques et Politiques")} </a>
                                     </div>
 
                                     <h3 className="post-title text-center">
-                                        Signature de la convention de partenariat avec <strong>ANAT</strong>
+                                    {t("convention-avec-anat:Signature de la convention de partenariat avec")} <strong>ANAT</strong>
                                     </h3>
 
                   
@@ -88,9 +89,9 @@ export default function partenaire() {
                              
                                     <div className="post-excerpt mt-15">
                                         <p style={{color:"#000c14"}}>
-                                        Les opportunités ne sont pas offertes, elles doivent être arrachées et cela demande de la persévérance et du courage ! <br/>
-                                        C'est notre premier principe à l'École Supérieure Privée des Sciences Juridiques Economiques et Politiques de Tunis- Business Law And Politics " BLP". <br/>
-                                        Réunion de signature de convention avec l'ANAT à propos les formations internationales.
+                                        {t("convention-avec-anat:Les opportunités ne sont pas offertes, elles doivent être arrachées et cela demande de la persévérance et du courage !")} <br/>
+                                        {t("convention-avec-anat:C'est notre premier principe à l'École Supérieure Privée des Sciences Juridiques Economiques et Politiques de Tunis- Business Law And Politics")} " BLP". <br/>
+                                        {t("convention-avec-anat:Réunion de signature de convention avec l'ANAT à propos les formations internationales")}
                                         </p>
 
 
@@ -112,7 +113,7 @@ export default function partenaire() {
                 <div className="row">
                     <div className="col-lg-12">
                         <div className="section-title-wrap text-center">
-                            <h3 className="section-title mb-15 wow move-up">Quelques photos des signatures des conventions </h3>
+                            <h3 className="section-title mb-15 wow move-up">{t("convention-avec-anat:Quelques photos des signatures des conventions")} </h3>
                             
                         </div>
                     </div>

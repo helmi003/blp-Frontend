@@ -1,6 +1,8 @@
 import React from 'react'
-
+import useTranslation from "next-translate/useTranslation";
+    
 export default function partenaire() {
+    let { t } = useTranslation();
     return (
         <>
 <div id="main-wrapper">
@@ -11,10 +13,10 @@ export default function partenaire() {
 
                     <div className="col-lg-6 col-md-7">
                         <div className="cybersecurity-hero-text wow move-up">
-                            <h6 className="text-color-primary">Nos activités internationnales </h6>
-                            <h3 className="font-weight--reguler mb-30">BLP votre Passport pour la réussite !</h3>
+                            <h6 className="text-color-primary">{t("partenaire:Nos activités internationnales")} </h6>
+                            <h3 className="font-weight--reguler mb-30">{t("partenaire:BLP votre Passport pour la réussite !")}</h3>
                             <div className="bedraw-button">
-                                <a href="https://admission.blp.tn" target="_blank" className="ht-btn ht-btn-md">Inscription <i
+                                <a href="https://admission.blp.tn" target="_blank" className="ht-btn ht-btn-md">{t("partenaire:Inscription")} <i
                                         className="far fa-long-arrow-right ml-2"></i></a>
                             </div>
                         </div>
@@ -49,12 +51,11 @@ export default function partenaire() {
 
                                 <div className="post-info lg-blog-post-info">
                                     <div className="post-categories text-center">
-                                        <a href="/"> École Supérieure Privée des Sciences Juridiques, Economiques et
-                                            Politiques </a>
+                                        <a href="/"> {t("partenaire:École Supérieure Privée des Sciences Juridiques, Economiques et Politiques")} </a>
                                     </div>
 
                                     <h3 className="post-title text-center">
-                                        CONVENTIONS ET PARTENARIATS
+                                    {t("partenaire:CONVENTIONS ET PARTENARIATS")}
                                     </h3>
 
                   
@@ -113,43 +114,22 @@ export default function partenaire() {
                              
                                     <div className="post-excerpt mt-15">
                                         <p>
-                                            <b>L’école supérieure privée des sciences juridiques et economiques et
-                                                politiques </b> possède de nombreuses conventions de partenariats
-                                            académiques et professionnels nationales et
-                                            internationales couvrant un large spectre de domaines de collaboration
-                                            allant de la co-construction de diplômes à l’embauche
-                                            préférentielle des diplômés de l’université en passant par la mobilité des
-                                            professeurs et l’accueil des stagiaires dans des secteurs diversifiés
-                                            tels que le génie industriel, l’électrique, la mécanique, le génie civil,
-                                            les technologies informatiques, etc.
+                                            <b>{t("partenaire:L’école supérieure privée des sciences juridiques et economiques et politiques")} </b>
+                                            {t("partenaire:possède de nombreuses conventions de partenariats académiques et professionnels nationales et internationales couvrant un large spectre de domaines de collaboration allant de la co-construction de diplômes à l’embauche préférentielle des diplômés de l’université en passant par la mobilité des professeurs et l’accueil des stagiaires dans des secteurs diversifiés tels que le génie industriel, l’électrique, la mécanique, le génie civil, les technologies informatiques, etc")}
                                         </p>
 
                                         <blockquote>
-                                            <p className="p1">PRÉSENTATION </p>
+                                            <p className="p1">{t("partenaire:PRÉSENTATION")} </p>
                                         </blockquote>
 
-                                        <p>Dès la création de L’Université Méditerranéenne, la coopération avec des
-                                            partenaires était une priorité stratégique et absolue pour le développement
-                                            de l’université ainsi que l’affectation de nos étudiants en des stages et
-                                            des projets de fin d’études. En effet, l’appartenance et l’intégration d’UM
-                                            dans un tissu dynamique de partenariats et de
-                                            coopérations sont une condition nécessaire pour assurer des formations en
-                                            licences et mastères de qualité et surtout en harmonie avec la demande et
-                                            les pratiques industrielles dans chaque discipline d’étude.</p>
+                                        <p>{t("partenaire:Dès la création de Université Méditerranéenne")}</p>
 
                                         <blockquote>
-                                            <p className="p1">PARTENARIAT AVEC LES RÉSEAUX PROFESSIONNELS </p>
+                                            <p className="p1">{t("partenaire:PARTENARIAT AVEC LES RÉSEAUX PROFESSIONNELS")} </p>
                                         </blockquote>
                                         <p>
-                                            <b>L’école supérieure privée des sciences juridiques et economiques et
-                                                politiques </b> possède de nombreuses conventions de partenariats
-                                            académiques et professionnels nationales et
-                                            développent une pédagogie active et travaillent en étroite collaboration
-                                            avec des associations et organismes professionnels. Ainsi, elle participe à
-                                            l’évolution des métiers dans les différentes disciplines au sein de son
-                                            groupe et elle offre aux étudiants une participation aux différents
-                                            programmes professionnels et surtout une reconnaissance des réseaux
-                                            professionnels.
+                                            <b>{t("partenaire:L’école supérieure privée des sciences juridiques et economiques et politiques")} </b> 
+                                            {t("partenaire:possède de nombreuses conventions de partenariats académiques et professionnels nationales et développent une pédagogie active")}
                                         </p>
 
 
@@ -309,15 +289,15 @@ export default function partenaire() {
                             <ul className="nav justify-content-center ht-tab-menu ht-tab-menu_two" role="tablist">
                                 <li className="tab__item nav-item active">
                                     <a className="nav-link active" id="nav-tab1" data-toggle="tab" href="#tab_list_06"
-                                        role="tab" aria-selected="true">LES OBJECTIFS DE PARTENARIAT</a>
+                                        role="tab" aria-selected="true">{t("partenaire:LES OBJECTIFS DE PARTENARIAT")}</a>
                                 </li>
                                 <li className="tab__item nav-item">
                                     <a className="nav-link" id="nav-tab2" data-toggle="tab" href="#tab_list_07" role="tab"
-                                        aria-selected="false">LES STAGES</a>
+                                        aria-selected="false">{t("partenaire:LES STAGES")}</a>
                                 </li>
                                 <li className="tab__item nav-item ">
                                     <a className="nav-link" id="nav-tab3" data-toggle="tab" href="#tab_list_08" role="tab"
-                                        aria-selected="false">L’IMPLICATION DES PROFESSIONNELS</a>
+                                        aria-selected="false">{t("partenaire:IMPLICATION DES PROFESSIONNELS")}</a>
                                 </li>
 
                             </ul>
@@ -344,25 +324,16 @@ export default function partenaire() {
                                         <div className="col-lg-5 offset-lg-1 ">
                                             <div className="tab-content-inner  mt-30">
                                                 <ul className="check-list section-space--mb_40">
-                                                    <li className="list-item">Organiser des visites pour nos étudiants aux
-                                                        entreprises.</li>
-                                                    <li className="list-item">Présenter les formations de l’université par
-                                                        secteur d’activité. </li>
-                                                    <li className="list-item">Enquêter auprès des services concernés pour
-                                                        identifier leurs besoins en compétences. </li>
-                                                    <li className="list-item"> Analyser et consolider les besoins de
-                                                        l’entreprise en formation continue. </li>
-                                                    <li className="list-item">Elaborer les cahiers des charges en
-                                                        collaboration avec l’entreprise.</li>
-                                                    <li className="list-item">Proposer un plan d’action et le faire valider
-                                                        par l’entreprise.</li>
-                                                    <li className="list-item">Evaluer nos formations et les relier avec le
-                                                        besoin du monde économique.</li>
-                                                    <li className="list-item">Avoir des formations de haute qualité dans les
-                                                        différentes spécialités.</li>
-                                                    <li className="list-item">Organiser des journées entreprises</li>
-                                                    <li className="list-item">Faciliter la recherche des stages et des PFEs
-                                                        pour les étudiants.</li>
+                                                    <li className="list-item">{t("partenaire:Organiser des visites pour nos étudiants aux entreprises")}</li>
+                                                    <li className="list-item">{t("partenaire:Présenter les formations de l’université par secteur d’activité")}</li>
+                                                    <li className="list-item">{t("partenaire:Enquêter auprès des services concernés pour identifier leurs besoins en compétences")} </li>
+                                                    <li className="list-item">{t("partenaire:Analyser et consolider les besoins de l’entreprise en formation continue")} </li>
+                                                    <li className="list-item">{t("partenaire:Elaborer les cahiers")}</li>
+                                                    <li className="list-item">{t("partenaire:Proposer un plan d’action et le faire valider par l’entreprise")}</li>
+                                                    <li className="list-item">{t("partenaire:Evaluer nos formations et les relier avec le besoin du monde économique")}</li>
+                                                    <li className="list-item">{t("partenaire:Avoir des formations de haute qualité dans les différentes spécialités")}</li>
+                                                    <li className="list-item">{t("partenaire:Organiser des journées entreprises")}</li>
+                                                    <li className="list-item">{t("partenaire:Faciliter la recherche des stages et des PFEs pour les étudiants")}</li>
                                                 </ul>
                                             </div>
                                         </div>
@@ -375,18 +346,8 @@ export default function partenaire() {
                                     <div className="row">
                                         <div className="col-lg-12">
                                             <div className="ht-box-images style-08 move-up animate">
-                                                <p>Le stage est considéré par les sciences juridiques, économiques comme une immersion
-                                                    professionnelle qui a pour objectif la mise en application des
-                                                    connaissances théoriques acquises à travers votre formation. Le
-                                                    stage
-                                                    apporte des réponses opérationnelles à des projets concrets ou
-                                                    stratégiques.</p>
-                                                <p>De nombreuses entreprises voient en ce stage
-                                                    l’opportunité d’une période d’observation avant embauche.
-                                                    Le responsable de stages et d’encadrement assure un suivi
-                                                    personnalisé pour chaque étudiant et sélectionne les établissements
-                                                    selon des critères rigoureux. Il assiste chaque étudiant à définir
-                                                    son projet professionnel.</p>
+                                                <p>{t("partenaire:Le stage est considéré par les sciences juridiques")}</p>
+                                                <p>{t("partenaire:De nombreuses entreprises voient en ce stage")}</p>
                                               
                                             </div>
                                         </div>
@@ -399,15 +360,9 @@ export default function partenaire() {
                                 <div className="row">
                                     <div className="col-lg-6 ">
                                         <div className="tab-content-inner  mt-30">
-                                            <p>BLP intègre des professionnels dans le
-                                                corps enseignant, chacun dans son domaine, ils interviennent sous
-                                                forme de conférences, travaux dirigés ou modules thématiques.</p>
-                                            <p>Les entreprises et les professionnels interviennent aussi, dans le
-                                                cadre de l’évolution des programmes et le suivi des stages de nos
-                                                étudiants. Grace à ces fréquents échanges, les étudiants sont, dès la
-                                                1ère année, en contact direct avec le monde professionnel.</p>
-                                            <p>
-                                                BLP a adopté un modèle d’enseignement orienté employé.</p>
+                                            <p>{t("partenaire:BLP intègre des professionnels dans le corps enseignant, chacun dans son domaine, ils interviennent sous forme de conférences, travaux dirigés ou modules thématiques")}</p>
+                                            <p>{t("partenaire:Les entreprises et les professionnels")}</p>
+                                            <p>{t("partenaire:BLP a adopté un modèle d’enseignement orienté employé")}</p>
                                         </div>
                                     </div>
                                     <div className="col-lg-5 offset-lg-1 ">
@@ -435,7 +390,7 @@ export default function partenaire() {
                     <div className="row">
                         <div className="col-lg-12">
                             <div className="section-title-wrapper text-center section-space--mb_40 wow move-up">
-                                <h6 className="section-sub-title mb-20">Nos partenaires</h6>
+                                <h6 className="section-sub-title mb-20">{t("partenaire:Nos partenaires")}</h6>
                             </div>
                         </div>
                     </div>
@@ -449,11 +404,11 @@ export default function partenaire() {
                             <ul className="nav justify-content-center ht-plans-menu  section-space--mb_60" role="tablist">
                                 <li className="tab__item nav-item active">
                                     <a className="nav-link active" data-toggle="tab" href="#month-tab" role="tab"
-                                        aria-selected="true">PARTENAIRES NATIONAUX</a>
+                                        aria-selected="true">{t("partenaire:PARTENAIRES NATIONAUX")}</a>
                                 </li>
                                 <li className="tab__item nav-item ">
                                     <a className="nav-link" data-toggle="tab" href="#year-tab" role="tab"
-                                        aria-selected="false">PARTENAIRES INTERNATIONAUX</a>
+                                        aria-selected="false">{t("partenaire:PARTENAIRES INTERNATIONAUX")}</a>
                                 </li>
                             </ul>
                         </div>
@@ -482,7 +437,7 @@ export default function partenaire() {
                                                                             alt="societe aftercode"/>
                                                                     </div>
                                                                     <div className="content">
-                                                                        <h6 className="heading">Société aftercode</h6>
+                                                                        <h6 className="heading">{t("partenaire:Société aftercode")}</h6>
                                                                     </div>
                                                                 </div>
                                                             </a>
@@ -499,7 +454,7 @@ export default function partenaire() {
                                                                             alt="societe-sorate"/>
                                                                     </div>
                                                                     <div className="content">
-                                                                        <h6 className="heading">Société Sorate</h6>
+                                                                        <h6 className="heading">{t("partenaire:Société Sorate")}</h6>
                                                                     </div>
                                                                 </div>
                                                             </a>
@@ -516,7 +471,7 @@ export default function partenaire() {
                                                                             alt="iset-nabeul"/>
                                                                     </div>
                                                                     <div className="content">
-                                                                        <h6 className="heading">Iset Nabeul</h6>
+                                                                        <h6 className="heading">{t("partenaire:Iset Nabeul")}</h6>
                                                                     </div>
                                                                 </div>
                                                             </a>
@@ -534,7 +489,7 @@ export default function partenaire() {
                                                                             alt="iset-tozeur"/>
                                                                     </div>
                                                                     <div className="content">
-                                                                        <h6 className="heading">Iset Tozeur</h6>
+                                                                        <h6 className="heading">{t("partenaire:Iset Tozeur")}</h6>
                                                                     </div>
                                                                 </div>
                                                             </a>
@@ -552,7 +507,7 @@ export default function partenaire() {
                                                                             alt="societe-utysse"/>
                                                                     </div>
                                                                     <div className="content">
-                                                                        <h6 className="heading">Sociéte ULYSSE TUNISIE </h6>
+                                                                        <h6 className="heading">{t("partenaire:Sociéte ULYSSE TUNISIE")} </h6>
                                                                     </div>
                                                                 </div>
                                                             </a>
@@ -570,7 +525,7 @@ export default function partenaire() {
                                                                             alt="bank zitouna"/>
                                                                     </div>
                                                                     <div className="content">
-                                                                        <h6 className="heading">Banque zitouna</h6>
+                                                                        <h6 className="heading">{t("partenaire:Banque zitouna")}</h6>
                                                                     </div>
                                                                 </div>
                                                             </a>
@@ -588,8 +543,7 @@ export default function partenaire() {
                                                                             alt="bns"/>
                                                                     </div>
                                                                     <div className="content">
-                                                                        <h6 className="heading">Engineering Business numeric
-                                                                            systems</h6>
+                                                                        <h6 className="heading">{t("partenaire:Engineering Business numeric systems")}</h6>
                                                                     </div>
                                                                 </div>
                                                             </a>
@@ -606,7 +560,7 @@ export default function partenaire() {
                                                                             alt="smart-it"/>
                                                                     </div>
                                                                     <div className="content">
-                                                                        <h6 className="heading">Sociéte SMART IT</h6>
+                                                                        <h6 className="heading">{t("partenaire:Sociéte SMART IT")}</h6>
                                                                     </div>
                                                                 </div>
                                                             </a>
@@ -623,8 +577,7 @@ export default function partenaire() {
                                                                             alt="ministere"/>
                                                                     </div>
                                                                     <div className="content">
-                                                                        <h6 className="heading">Direction régionale de
-                                                                            l’équipement ariana </h6>
+                                                                        <h6 className="heading">{t("partenaire:Direction régionale de l’équipement ariana")} </h6>
                                                                     </div>
                                                                 </div>
                                                             </a>
@@ -641,8 +594,7 @@ export default function partenaire() {
                                                                             alt="direction regionale"/>
                                                                     </div>
                                                                     <div className="content">
-                                                                        <h6 className="heading">Direction régionale de
-                                                                            l’équipement </h6>
+                                                                        <h6 className="heading">{t("partenaire:Direction régionale de l’équipement")} </h6>
                                                                     </div>
                                                                 </div>
                                                             </a>
@@ -660,7 +612,7 @@ export default function partenaire() {
                                                                             alt="societe addac"/>
                                                                     </div>
                                                                     <div className="content">
-                                                                        <h6 className="heading">Sociéte Addac Sarl </h6>
+                                                                        <h6 className="heading">{t("partenaire:Sociéte Addac Sarl")} </h6>
                                                                     </div>
                                                                 </div>
                                                             </a>
@@ -677,7 +629,7 @@ export default function partenaire() {
                                                                             alt="learn-manifectering"/>
                                                                     </div>
                                                                     <div className="content">
-                                                                        <h6 className="heading">Sociéte L2M </h6>
+                                                                        <h6 className="heading">{t("partenaire:Sociéte L2M")} </h6>
                                                                     </div>
                                                                 </div>
                                                             </a>
@@ -694,7 +646,7 @@ export default function partenaire() {
                                                                             alt="societe-Virtuella"/>
                                                                     </div>
                                                                     <div className="content">
-                                                                        <h6 className="heading"> Sociéte Virtuella </h6>
+                                                                        <h6 className="heading"> {t("partenaire:Sociéte Virtuella")} </h6>
                                                                     </div>
                                                                 </div>
                                                             </a>
@@ -812,8 +764,7 @@ export default function partenaire() {
                 <div className="row">
                     <div className="col-lg-12">
                         <div className="section-title-wrap text-center">
-                            <h4 className="section-title mb-15 wow move-up">Quelques photos des signatures des conventions
-                                et des visites entreprises</h4>
+                            <h4 className="section-title mb-15 wow move-up">{t("partenaire:Quelques photos des signatures des conventions et des visites entreprises")}</h4>
                             
                         </div>
                     </div>

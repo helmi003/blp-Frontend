@@ -1,6 +1,8 @@
 import React from 'react'
-
+import useTranslation from "next-translate/useTranslation";
+    
 export default function inauguration() {
+    let { t } = useTranslation();
     return (
         <>
 <div className="breadcrumb-area">
@@ -9,10 +11,10 @@ export default function inauguration() {
             <div className="col-12">
                 <div className="breadcrumb_box text-center">
                   <ul className="breadcrumb-list">
-                        <li className="breadcrumb-item"><a href="actualites">Actualités</a></li>
+                        <li className="breadcrumb-item"><a href="actualites">{t("inauguration-des-universites:Actualités")}</a></li>
                     </ul>
                    
-                    <h2 className="breadcrumb-title ">Inauguration des universités</h2>
+                    <h2 className="breadcrumb-title ">{t("inauguration-des-universites:Inauguration des universités")}</h2>
                    
                 
                 </div>
@@ -43,19 +45,19 @@ export default function inauguration() {
                                         <div className="col-lg-6">
                                             <div className="post-info lg-blog-post-info">
                                                 <h4 className="post-title">
-                                                Inauguration des universités & Clôture du Challenge II  
+                                                {t("inauguration-des-universites:Inauguration des universités & Clôture du Challenge II")}  
                                                 </h4>
                                               
                                                 <div className="post-meta mt-20">
                                                  
                                                     <div className="post-date">
                                                         <span className="far fa-calendar meta-icon"></span>
-                                                        05 juin, 2021
+                                                        {t("inauguration-des-universites:05 juin, 2021")}
                                                     </div>
                          
                                                 </div>
                                                 <blockquote>
-                                                    <p className="p1">C’est dans une ambiance inédite, connectée et toujours aussi chaleureuse malgré la distance, que s’est déroulée la 2ème édition du " Challenge II: Smart Applications & Automation Process "</p>
+                                                    <p className="p1">{t("inauguration-des-universites:C’est dans une ambiance inédite, connectée et toujours aussi chaleureuse malgré la distance, que s’est déroulée la 2ème édition du “ Challenge II: Smart Applications & Automation Process ”")}</p>
                                                 </blockquote>
                  
                                             </div>
@@ -65,9 +67,9 @@ export default function inauguration() {
                                     
                                 </div>
 
-                                <p>Ce challenge récompense les meilleures initiatives, dans de nombreux domaines : technologie intelligente (smart technology), Internet des objets (Internet Of Things IOT), Robotique, Intelligence Artificielle (Artificiel Intelligence), Informatique...</p>
-                                <p>Nous fêtons la cérémonie de clôture du Challenge II le Samedi 05 Juin 2021 au pôle technologique el Ghazela. </p>
-                                <p>Tous les participants sont invités par l’UM le 05 Juin 2021 pour une deuxième présentation orale. Chaque candidat disposera de 15 minutes pour présenter son innovation à un public et un jury d’experts internationaux. La présentation peut se faire en anglais ou en français. </p>
+                                <p>{t("inauguration-des-universites:Ce challenge récompense")}</p>
+                                <p>{t("inauguration-des-universites:Nous fêtons la cérémonie de clôture du Challenge II le Samedi 05 Juin 2021 au pôle technologique el Ghazela")} </p>
+                                <p>{t("inauguration-des-universites:Tous les participants")} </p>
                             </div>
                         </div>
                     </div>

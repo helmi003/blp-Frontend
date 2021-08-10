@@ -28,7 +28,7 @@ export default function Header() {
                                 </li>
                                 <li className="info-item">
                                     <i className="info-icon fa fa-map-marker-alt"></i>
-                                    <span className="info-text">{t("navbar:102, Chotrana 2, Zone industrielle, pôle technologique,Ariana")}</span>
+                                    <span className="info-text">{t("index:102, Chotrana 2, Zone industrielle, pôle technologique,Ariana")}</span>
                                 </li>
                             </ul>
                         </div>
@@ -75,64 +75,64 @@ export default function Header() {
                                                     <li className="has-children has-children--multilevel-submenu">
                                                         <a href="presentation"><span>BLP</span></a>
                                                         <ul className="submenu">
-                                                            <li><a href="presentation"><span>Présentation</span></a> </li>
-                                                            <li><a href="reseau-euro-mediterraneen"><span>Réseau Euro-Méditerranéen</span></a> </li>
-                                                            <li><a href="etudier-en-tunisie"><span>Étudier en Tunisie</span></a></li>
-                                                            <li> <a href="convention-relations-internationales"> <span>Relations internationales</span></a></li>
-                                                            <li><a href="question"><span>Questions & réponses</span></a></li>
+                                                            <li><a href="presentation"><span>{t("index:Présentation")}</span></a> </li>
+                                                            <li><a href="reseau-euro-mediterraneen"><span>{t("index:Réseau Euro-Méditerranéen")}</span></a> </li>
+                                                            <li><a href="etudier-en-tunisie"><span>{t("index:Étudier en Tunisie")}</span></a></li>
+                                                            <li> <a href="convention-relations-internationales"> <span>{t("index:Relations internationales")}</span></a></li>
+                                                            <li><a href="question"><span>{t("index:Questions & réponses")}</span></a></li>
                                                     
                                                         </ul>
                                                     </li>
                                                     <li className="has-children has-children--multilevel-submenu">
-                                                        <a href="presentation"><span>BLP EN DIGITAL</span></a>
+                                                        <a href="presentation"><span>{t("index:BLP EN DIGITAL")}</span></a>
                                                         <ul className="submenu">
-                                                            <li><a href="recherche-et-innovation"><span>Recherche & Innovation</span></a></li>
-                                                            <li><a href="videotheque"><span>Vidéothéque</span></a></li>
-                                                            <li><a href="challenge"><span>Les nuits de challenge</span></a></li>
+                                                            <li><a href="recherche-et-innovation"><span>{t("index:Recherche & Innovation")}</span></a></li>
+                                                            <li><a href="videotheque"><span>{t("index:Vidéothéque")}</span></a></li>
+                                                            <li><a href="challenge"><span>{t("index:Les nuits de challenge")}</span></a></li>
                                                         </ul>
                                                     </li>
                                                 <li className="has-children has-children--multilevel-submenu">
-                                                    <a href="#"><span>LA VIE À L'UNIVERSITÉ</span></a>
+                                                    <a href="#"><span>{t("index:LA VIE À L'UNIVERSITÉ")}</span></a>
                                                     <ul className="submenu">
-                                                        <li><a href="certification"><span>Certifications</span></a></li>
-                                                        <li><a href="associative"><span>La vie associative</span></a></li>
-                                                        <li><a href="etudiante"><span>Estudiantine</span></a></li>
+                                                        <li><a href="certification"><span>{t("index:Certifications")}</span></a></li>
+                                                        <li><a href="associative"><span>{t("index:La vie associative")}</span></a></li>
+                                                        <li><a href="etudiante"><span>{t("index:Estudiantine")}</span></a></li>
                                                        
                                                     </ul>
                                                 </li>
                                                 <li className="has-children has-children--multilevel-submenu">
-                                                    <a href="formations"><span>FORMATIONS</span></a>
+                                                    <a href="formations"><span>{t("index:FORMATIONS")}</span></a>
                                                     <ul className="submenu">
                                                         <li className="has-children">
-                                                            <a href="formations"><span>Licences
+                                                            <a href="formations"><span>{t("index:Licences")}
                                                                     </span></a>
                                                             <ul className="submenu">
-                                                                <li><a href="licence-en-droit-public"><span>Droit public</span></a></li>
-                                                                <li><a href="licence-en-droit-prive"><span>Droit privé</span></a></li>
-                                                                <li><a href="licence-en-marketing"><span>Marketing</span></a></li>
+                                                                <li><a href="licence-en-droit-public"><span>{t("index:Droit public")}</span></a></li>
+                                                                <li><a href="licence-en-droit-prive"><span>{t("index:Droit privé")}</span></a></li>
+                                                                <li><a href="licence-en-marketing"><span>{t("index:Marketing")}</span></a></li>
 
                                                             </ul>
                                                         </li>
                                                         <li className="has-children">
-                                                            <a href="formations"><span>Mastères</span></a>
+                                                            <a href="formations"><span>{t("index:Mastères")}</span></a>
                                                             <ul className="submenu">
-                                                                <li><a href="mastere-en-droit-prive"><span>Droit privé des affaires </span></a></li>
-                                                                <li><a href="mastere-en-science-politique"><span>Sciences politiques </span></a></li>
-                                                                <li><a href="mastere-en-ingenierie-risque-economiques"><span>Ingénierie des risques Economiques et financiers
+                                                                <li><a href="mastere-en-droit-prive"><span>{t("index:Droit privé des affaires")} </span></a></li>
+                                                                <li><a href="mastere-en-science-politique"><span>{t("index:Sciences politiques")} </span></a></li>
+                                                                <li><a href="mastere-en-ingenierie-risque-economiques"><span>{t("index:Ingénierie des risques Economiques et financiers")}
                                                                  </span></a></li>
-                                                                <li><a href="mastere-en-assurance-banque"><span>Assurance, banque, finance </span></a>
+                                                                <li><a href="mastere-en-assurance-banque"><span>{t("index:Assurance, banque, finance")} </span></a>
                                                                 </li>
-                                                                <li><a href="mastere-en-marche-financiers"><span>Marchés financiers et gestion du risques
+                                                                <li><a href="mastere-en-marche-financiers"><span>{t("index:Marchés financiers et gestion du risques")}
                                                                 </span></a></li>
                                                             </ul>
                                                         </li>
                                                     </ul>
                                                 </li>
                                                 <li >
-                                                    <a href="contact"><span>CONTACT</span></a>
+                                                    <a href="contact"><span>{t("index:CONTACT")}</span></a>
                                                 </li>
-                                                <li><a href="inscription"><span>INSCRIPTION</span></a></li>
-                                                <li><a href="actualites"><span>ACTUALITES</span></a></li>
+                                                <li><a href="inscription"><span>{t("index:INSCRIPTION")}</span></a></li>
+                                                <li><a href="actualites"><span>{t("index:ACTUALITES")}</span></a></li>
                                                 </ul>
                                             </nav>
                                     </div>

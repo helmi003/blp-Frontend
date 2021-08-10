@@ -1,8 +1,10 @@
 import React from 'react'
 import Header from './components/Header/Header'
 import Footer from './components/Footer/Footer'
-
+import useTranslation from "next-translate/useTranslation";
+    
 export default function layout({children}) {
+    let { t } = useTranslation();
     return (
         <>
         <div className="preloader-activate preloader-active open_tm_preloader">
@@ -39,18 +41,15 @@ export default function layout({children}) {
            <div className="demo-option-wrapper">
                <div className="demo-panel-header">
                    <div className="title">
-                       <h6 className="heading mt-30">École Supérieure Privée des Sciences Juridiques, Economiques et Politiques</h6>
+                       <h6 className="heading mt-30">{t("index:École Supérieure Privée des Sciences Juridiques, Economiques et Politiques")}</h6>
                    </div>
        
                </div>
                <div className="row">
                     <div className="col-lg-1"></div>
                             <div className="col-lg-8">
-                            <p > Fondée avec le Réseau Euro-méditerranéen pour l'Enseignement et la
-                            Recherche, REMEREG.</p>
-                            <p> Diplômes Tunisiens agrées par l’Etat et des Co-diplômes avec Université
-                            de Cergy Pontoise, Polytechnique Nantes, REMEREG, etc sur ses sites
-                            Tunis et Nabeul. </p>
+                            <p > {t("index:Fondée avec le Réseau Euro-méditerranéen pour l'Enseignement et la Recherche, REMEREG")}</p>
+                            <p> {t("index:Diplômes Tunisiens agrées par l’Etat et des Co-diplômes avec Université de Cergy Pontoise, Polytechnique Nantes, REMEREG, etc sur ses sites Tunis et Nabeul")} </p>
                             </div>
                     </div>
                     <div className="demo-quick-option-list">

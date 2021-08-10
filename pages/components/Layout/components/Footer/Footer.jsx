@@ -1,6 +1,8 @@
 import React from 'react'
-
+import useTranslation from "next-translate/useTranslation";
+    
 export default function footer() {
+    let { t } = useTranslation();
     return (
       
 <div className="footer-area-wrapper bg-gray">
@@ -12,29 +14,29 @@ export default function footer() {
                             <div className="footer-widget__logo mb-30">
                                 <img src="assets/images/logo/logo-blp2.png" className="img-fluid" alt=""/>
                             </div>
-                            <p> <b>BLP Tunis,</b> Pôle Technologique Al Ghazella, en cours de certification ISO 9001 et ISO 21001, Ecole de Droit, sciences Politiques, gestion et ingénierie juridico-financière. Elle est fondée en collaboration avec le Réseau Euro-méditerranéen pour l’Enseignement et la Recherche en Économie, Technologie et en Gestion, REMEREG.</p>
+                            <p> <b>{t("index:BLP Tunis")},</b> {t("index:Pôle Technologique Al Ghazella")}</p>
 
                         </div>
                         <div className="col-lg-1 col-md-4 col-sm-6 footer-widget"></div>
                         <div className="col-lg-4 col-md-6 col-sm-6 footer-widget">
-                            <h6 className="footer-widget__title mb-20"> NOUS CONTACTER</h6>
-                            <p>Pour toute information complémentaire, n’hésitez pas à nous contacter.</p>
+                            <h6 className="footer-widget__title mb-20"> {t("index:NOUS CONTACTER")}</h6>
+                            <p>{t("index:Pour toute information complémentaire, n’hésitez pas à nous contacter")}</p>
                             <ul className="footer-widget__list">
-                                <li>  <span className="fa fa-map-marker-alt"></span> 102, Chotrana2, Zone industrielle, pôle technologique,Ariana</li>
+                                <li>  <span className="fa fa-map-marker-alt"></span> {t("index:102, Chotrana 2, Zone industrielle, pôle technologique,Ariana")}</li>
                                 <li><i className="fas fa-envelope-open-text"></i> contact@blp.tn</li>
                                 <li><i className="fas fa-phone-volume"></i> (+216) 70 721 002</li>
                                 <li><i className="fas fa-globe"></i> <a href="https://blp.tn/" className="hover-style-link "> www.blp.tn</a></li>
                             </ul>
                         </div>
                         <div className="col-lg-2 col-md-4 col-sm-6 footer-widget">
-                            <h6 className="footer-widget__title mb-20">CATÉGORIES</h6>
+                            <h6 className="footer-widget__title mb-20">{t("index:CATÉGORIES")}</h6>
                             <ul className="footer-widget__list">
-                                <li><a href="accueil" className="hover-style-link">Présentation de BLP</a></li>
-                                <li><a href="etudier-en-tunisie" className="hover-style-link">Étudier en Tunisie</a></li>
-                                <li><a href="convention-relations-internationales" className="hover-style-link">Relations internationales</a></li>
-                                <li><a href="etudiante" className="hover-style-link">Vie à l'université</a></li>
-                                <li><a href="formations" className="hover-style-link">Nos Formations</a></li>
-                                <li><a href="inscription" className="hover-style-link">Inscription</a></li>
+                                <li><a href="accueil" className="hover-style-link">{t("index:Présentation de BLP")}</a></li>
+                                <li><a href="etudier-en-tunisie" className="hover-style-link">{t("index:Étudier en Tunisie")}</a></li>
+                                <li><a href="convention-relations-internationales" className="hover-style-link">{t("index:Relations internationales")}</a></li>
+                                <li><a href="etudiante" className="hover-style-link">{t("index:Vie à l'université")}</a></li>
+                                <li><a href="formations" className="hover-style-link">{t("index:Nos Formations")}</a></li>
+                                <li><a href="inscription" className="hover-style-link">{t("index:Inscription")}</a></li>
                             </ul>
                         </div>
                         <div className="col-lg-2 col-md-4 col-sm-6 footer-widget">
@@ -72,7 +74,7 @@ export default function footer() {
                     
                 </div>
                 <div className="footer-copyright text-center w-100 py-3">
-                            <span className="copyright-text">&copy; 2020 <a href="https://aftercode.tn">AfterCode</a> All Rights Reserved.</span>
+                            <span className="copyright-text">&copy; 2020 <a href="https://aftercode.tn">AfterCode</a> {t("index:All Rights Reserved")}</span>
                         </div>
             </div>
         </div>

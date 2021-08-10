@@ -1,6 +1,8 @@
 import React from 'react'
-
+import useTranslation from "next-translate/useTranslation";
+    
 export default function partenaire() {
+    let { t } = useTranslation();
     return (
         <>
         
@@ -12,10 +14,10 @@ export default function partenaire() {
             <div className="row">
                 <div className="col-12">
                     <div className="breadcrumb_box text-center">
-                        <h2 className="breadcrumb-title">Conventions & relations internationales</h2>
+                        <h2 className="breadcrumb-title">{t("convention-avec-centre-etude-juridique-geneve:Conventions & relations internationales")}</h2>
                         <ul className="breadcrumb-list">
                             <li className="breadcrumb-item"><a href="/"></a></li>
-                            <li className="breadcrumb-item active">Signature de Convention avec Centre d'Etude Juridique à Genève, Suisse</li>
+                            <li className="breadcrumb-item active">{t("convention-avec-centre-etude-juridique-geneve:Signature de Convention avec Centre d'Etude Juridique à Genève, Suisse")}</li>
                         </ul>
                     </div>
                 </div>
@@ -34,12 +36,11 @@ export default function partenaire() {
 
                                 <div className="post-info lg-blog-post-info">
                                     <div className="post-categories text-center">
-                                        <a href="/"> École Supérieure Privée des Sciences Juridiques, Economiques et
-                                            Politiques </a>
+                                        <a href="/"> {t("convention-avec-centre-etude-juridique-geneve:École Supérieure Privée des Sciences Juridiques, Economiques et Politiques")} </a>
                                     </div>
 
                                     <h3 className="post-title text-center">
-                                        Signature de la convention de partenariat avec  <strong>Centre d'Etude Juridique à Genève, Suisse</strong>
+                                    {t("convention-avec-centre-etude-juridique-geneve:Signature de la convention de partenariat avec")}  <strong>{t("convention-avec-centre-etude-juridique-geneve:Centre d'Etude Juridique à Genève, Suisse")}</strong>
                                     </h3>
 
                   
@@ -49,7 +50,7 @@ export default function partenaire() {
                              
                                     <div className="post-excerpt mt-15">
                                         <p style={{color:"#000c14"}}>
-                                        une convention qui donne à nos étudiants la possibilité d'effectuer des stages à Genève et d'assister aux sessions du Conseil des droits de l'homme de l'ONU à Genève, haut lieu des relations internationales et de la diplomatie humanitaire 
+                                        {t("convention-avec-centre-etude-juridique-geneve:une convention qui donne à nos étudiants la possibilité d'effectuer des stages à Genève et d'assister aux sessions du Conseil des droits de l'homme de l'ONU à Genève, haut lieu des relations internationales et de la diplomatie humanitaire")} 
                                         </p>
 
                                     </div>

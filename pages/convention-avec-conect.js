@@ -1,6 +1,8 @@
 import React from 'react'
-
+import useTranslation from "next-translate/useTranslation";
+    
 export default function partenaire() {
+    let { t } = useTranslation();
     return (
         <>
         
@@ -12,10 +14,10 @@ export default function partenaire() {
             <div className="row">
                 <div className="col-12">
                     <div className="breadcrumb_box text-center">
-                        <h2 className="breadcrumb-title">Conventions & relations internationales</h2>
+                        <h2 className="breadcrumb-title">{t("convention-avec-conect:Conventions & relations internationales")}</h2>
                         <ul className="breadcrumb-list">
                             <li className="breadcrumb-item"><a href="/"></a></li>
-                            <li className="breadcrumb-item active">Signature de Convention avec CONECT</li>
+                            <li className="breadcrumb-item active">{t("convention-avec-conect:Signature de Convention avec CONECT")}</li>
                         </ul>
                     </div>
                 </div>
@@ -34,12 +36,11 @@ export default function partenaire() {
 
                                 <div className="post-info lg-blog-post-info">
                                     <div className="post-categories text-center">
-                                        <a href="/"> École Supérieure Privée des Sciences Juridiques, Economiques et
-                                            Politiques </a>
+                                        <a href="/"> {t("convention-avec-conect:École Supérieure Privée des Sciences Juridiques, Economiques et Politiques")} </a>
                                     </div>
 
                                     <h3 className="post-title text-center">
-                                        Signature de la convention de partenariat avec <strong>la Confédération des Entreprises Citoyennes de Tunisie "CONECT"</strong>
+                                    {t("convention-avec-conect:Signature de la convention de partenariat avec")} <strong>{t("convention-avec-conect:la Confédération des Entreprises Citoyennes de Tunisie “ CONECT ”")}</strong>
                                     </h3>
 
                   
@@ -98,7 +99,7 @@ export default function partenaire() {
                              
                                     <div className="post-excerpt mt-15">
                                         <p style={{color:"#000c14"}}>
-                                        Signature de convention de partenariat entre l'École Supérieure Privée des Sciences Juridiques Economiques et Politiques de Tunis- Business Law And Politics "BLP"  et la Confédération des Entreprises Citoyennes de Tunisie "CONECT", avec Mr Tarak Chérif le Président de la CONECT, une grande opportunité qui ouvre à nos étudiants les portails des entreprises  les plus marquantes de Tunisie.
+                                        {t("convention-avec-conect:Signature de convention de partenariat entre l'École Supérieure Privée des Sciences Juridiques Economiques et Politiques de Tunis- Business Law And Politics “BLP”  et la Confédération des Entreprises Citoyennes de Tunisie “CONECT”, avec Mr Tarak Chérif le Président de la CONECT, une grande opportunité qui ouvre à nos étudiants les portails des entreprises  les plus marquantes de Tunisie")}
                                         </p>
 
 
@@ -120,7 +121,7 @@ export default function partenaire() {
                 <div className="row">
                     <div className="col-lg-12">
                         <div className="section-title-wrap text-center">
-                            <h3 className="section-title mb-15 wow move-up">Quelques photos des signatures des conventions </h3>
+                            <h3 className="section-title mb-15 wow move-up">{t("convention-avec-conect:Quelques photos des signatures des conventions")} </h3>
                             
                         </div>
                     </div>

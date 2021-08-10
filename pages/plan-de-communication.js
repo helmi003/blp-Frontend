@@ -1,6 +1,8 @@
 import React from 'react'
-
+import useTranslation from "next-translate/useTranslation";
+    
 export default function licenceEnDroitPrive() {
+    let { t } = useTranslation();
     return (
         <>
 <div className="breadcrumb-area">
@@ -9,10 +11,10 @@ export default function licenceEnDroitPrive() {
             <div className="col-12">
                 <div className="breadcrumb_box text-center">
                   <ul className="breadcrumb-list">
-                        <li className="breadcrumb-item"><a href="actualites">Actualités</a></li>
+                        <li className="breadcrumb-item"><a href="actualites">{t("plan-de-communication:Actualités")}</a></li>
                     </ul>
                    
-                    <h2 className="breadcrumb-title ">Plan de communication</h2>
+                    <h2 className="breadcrumb-title ">{t("plan-de-communication:Plan de communication")}</h2>
                    
                 
                 </div>
@@ -43,19 +45,19 @@ export default function licenceEnDroitPrive() {
                                         <div className="col-lg-6">
                                             <div className="post-info lg-blog-post-info">
                                                 <h4 className="post-title">
-                                               Webinaire : Plan de communication  
+                                                {t("plan-de-communication:Webinaire")}  
                                                 </h4>
                                               
                                                 <div className="post-meta mt-20">
                                                  
                                                     <div className="post-date">
                                                         <span className="far fa-calendar meta-icon"></span>
-                                                        25 mai, 2021
+                                                        {t("plan-de-communication:25 mai, 2021")}
                                                     </div>
                          
                                                 </div>
                                                 <blockquote>
-                                                    <p className="p1">Avoir un plan de communication  sur du court, moyen ou long terme est nécessaire  pour la pérennité de votre business. Découvrez comment l'élaborer en quelques étapes avec Mr Kais Khenine consultant en Digital marketing.</p>
+                                                    <p className="p1">{t("plan-de-communication:Avoir un plan de communication")}</p>
                                                 </blockquote>
                  
                                             </div>

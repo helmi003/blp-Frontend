@@ -1,6 +1,8 @@
 import React from 'react'
-
+import useTranslation from "next-translate/useTranslation";
+    
 export default function partenaire() {
+    let { t } = useTranslation();
     return (
         <>
         
@@ -12,10 +14,10 @@ export default function partenaire() {
             <div className="row">
                 <div className="col-12">
                     <div className="breadcrumb_box text-center">
-                        <h2 className="breadcrumb-title">Conventions & relations internationales</h2>
+                        <h2 className="breadcrumb-title">{t("signature-de-convention-entre-blp-iescci:Conventions & relations internationales")}</h2>
                         <ul className="breadcrumb-list">
                             <li className="breadcrumb-item"><a href="/"></a></li>
-                            <li className="breadcrumb-item active">Signature de Convention entre BLP et IESCCI France</li>
+                            <li className="breadcrumb-item active">{t("signature-de-convention-entre-blp-iescci:Signature de Convention entre BLP et IESCCI France")}</li>
                         </ul>
                     </div>
                 </div>
@@ -34,12 +36,11 @@ export default function partenaire() {
 
                                 <div className="post-info lg-blog-post-info">
                                     <div className="post-categories text-center">
-                                        <a href="/"> École Supérieure Privée des Sciences Juridiques, Economiques et
-                                            Politiques </a>
+                                        <a href="/"> {t("signature-de-convention-entre-blp-iescci:École Supérieure Privée des Sciences Juridiques, Economiques et Politiques")} </a>
                                     </div>
 
                                     <h3 className="post-title text-center">
-                                        Signature de la convention de partenariat entre <strong> BLP et IESCCI France</strong>
+                                    {t("signature-de-convention-entre-blp-iescci:Signature de la convention de partenariat entre")} <strong> {t("signature-de-convention-entre-blp-iescci:BLP et IESCCI France")}</strong>
                                     </h3>
 
                   
@@ -78,8 +79,7 @@ export default function partenaire() {
                              
                                     <div className="post-excerpt mt-15">
                                         <p style={{color:"#000c14"}}>
-                                        Signature d'une convention de partenariat entre BLP et IESCCI France (Institut Supérieur des Hautes Etudes de Commerce et de Communication) avec Pr. Aladdin Bijo et Pr. Henri Doux en présence du Fondateur du Reseau Euro-Méditerranéen REMEREG le 
- Pr. Mondher Bellalah 
+                                        {t("signature-de-convention-entre-blp-iescci:Signature une convention")} 
                                         </p>
 
 
