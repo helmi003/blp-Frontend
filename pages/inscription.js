@@ -100,6 +100,39 @@ export default function inscription() {
         </div>
     </div>
 
+    <div className="contact-us-section-wrappaer processing-contact-us-bg section-space--ptb_120">
+                <div className="container">
+                    <div className="row align-items-center">
+                        <div className="col-lg-6 col-lg-6">
+                        <div className="typed-text-wrap ">
+                                <h4 className="cd-headline letters type">
+                                    <span className=" text-white">{t("inscription:Plus de")} </span>
+                                    <span className="cd-words-wrapper waiting">
+                            <b className="is-visible text-white">{t("inscription:Spécialisation")}</b>
+                            <b className=" text-white">{t("inscription:Professionnalisation")}</b>
+                            <b className=" text-white">{t("inscription:Internationalisation")}</b>
+                            <b className=" text-white">{t("inscription:Certification")}</b>
+                           </span> <span className=" text-white">   {t("inscription:de chaque parcours")}</span>
+                                </h4>
+                            </div>
+                        </div>
+
+                        <div className="col-lg-6 col-lg-6">
+                            <div className="contact-info-two text-center">
+                                <div className="icon">
+                                    <span className="fal fa-phone"></span>
+                                </div>
+                                <h6 className="heading font-weight--reguler">{t("inscription:REJOIGNEZ MAINTENANT!!")}</h6>
+                                <h2 className="call-us"><a href="tel:70721002">(+216) 70 721 002</a></h2>
+                                <div className="contact-us-button mt-20">
+                                    <a href="contact" className="btn btn--secondary">{t("inscription:Contactez-nous")}</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
    </>
     )
 }

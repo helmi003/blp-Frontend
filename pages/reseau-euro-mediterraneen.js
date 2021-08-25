@@ -145,20 +145,20 @@ export default function recherche() {
             </div>
         </div>
       
-        <div className="cta-image-area_one section-space--ptb_80 cta-bg-image_one">
+        <div className="cta-image-area_one section-space--ptb_80 processing-contact-us-bg">
             <div className="container">
                 <div className="row align-items-center">
                     <div className="col-xl-8 col-lg-7">
                         <div className="cta-content md-text-center">
-                            <h3 className="heading text-white">{t("reseau-euro-mediterraneen:Double cursus: M1 en")} <span className="text-color-secondary">
+                            <h3 className="heading text-white">{t("reseau-euro-mediterraneen:Double cursus")} <span className="text-color-secondary">
                             {t("reseau-euro-mediterraneen:Tunisie")} </span> M2 {t("reseau-euro-mediterraneen:en")} <span className="text-color-secondary"> {t("reseau-euro-mediterraneen:Europe")}</span> </h3>
                         </div>
                     </div>
                     <div className="col-xl-4 col-lg-5">
                         <div className="cta-button-group--one text-center">
 
-                            <a href="contact" className="btn btn--secondary  btn-two"><span className="btn-icon mr-2"><i
-                                        className="far fa-info-circle"></i></span>{t("reseau-euro-mediterraneen:Contact")}</a>
+                            <a href="https://admission.blp.tn" className="btn btn--secondary  btn-two"><span className="btn-icon mr-2"><i
+                                        className="far fa-info-circle"></i></span>{t("index:Pré-inscription")}</a>
                         </div>
                     </div>
                 </div>

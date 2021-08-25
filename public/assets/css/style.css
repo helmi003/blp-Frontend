@@ -12781,5 +12781,9 @@ blockquote {
 
 .footer-copyright{
   background-color: #e6e6e6;
-  bottom: 0;
+  position: absolute;
+  width: 100%;
+}
+.submenu > li > a {
+  color: #000;
 }

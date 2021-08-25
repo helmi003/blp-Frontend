@@ -2,7 +2,7 @@ import useTranslation from "next-translate/useTranslation";
 export default function Home() {
     let { t } = useTranslation();
   return (
-      
+    
   <div id="main-wrapper">
     <div className="site-wrapper-reveal">
         <div className="resolutions-hero-slider position-relative">
@@ -14,6 +14,19 @@ export default function Home() {
                                 <div className="row">
                                     <div className="constellation-wrapper">
                                         <div id="particles-js"></div>
+                                        
+                                    </div>
+                                    <div className="col-lg-12 col-md-12 ml-auto mr-auto">
+                                        <div className="service-hero-wrap wow move-up">
+                                            <div className="service-hero-text text-center">
+                                                <h1 className="font-weight--reguler text-white mb-30"></h1>
+                                                <h3 className="text-white"></h3>
+
+                                                <div className="hero-button-group section-space--mt_50">
+                                                    <a href="https://admission.blp.tn" target="_blank" className="ht-btn ht-btn-md">{t("index:Inscription")}</a>
+                                                </div>
+                                            </div>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -34,9 +47,9 @@ export default function Home() {
 
                                                 <div className="hero-button-group section-space--mt_50">
                                                     <a href="https://admission.blp.tn" target="_blank" className="ht-btn ht-btn-md">{t("index:Inscription")}</a>
-                                                    <a href="contact" className="ht-btn ht-btn-md btn--white"><span
+                                                    {/*<a href="contact" className="ht-btn ht-btn-md btn--white"><span
                                                             className="btn-icon mr-2"><i
-                                                                className="fa fa-play"></i></span>{t("index:Contact")}</a>
+                                                    className="fa fa-play"></i></span>{t("index:Contact")}</a>*/}
                                                 </div>
                                             </div>
                                         </div>
@@ -722,5 +735,6 @@ export default function Home() {
 
 </div>
     </div>
+    
   )
 }

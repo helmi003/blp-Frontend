@@ -27,121 +27,7 @@ export default function certification() {
     <div className="site-wrapper-reveal">
 
 
-        <div className="feature-images-wrapper position-relative">
-            <div className="grid-wrapper">
-                <div className="line line-1"></div>
-                <div className="line line-2"></div>
-                <div className="line line-3"></div>
-                <div className="line line-4"></div>
-            </div>
-            <div className="swiper-container service-slider__container">
-                <div className="swiper-wrapper service-slider__wrapper feature-images__three">
-                    <div className="swiper-slide">
-      
-                        <a href="#" className="ht-box-images style-03 wow move-up">
-                            <div className="image-box-wrap">
-                                <div className="box-image">
-                                    <img className="img-fulid"
-                                        src="assets/images/icons/mitech-home-resolutions-box-image-02-100x98.png"
-                                        alt=""/>
-                                </div>
-                                <div className="content">
-                                    <h6 className="heading">{t("certification:Des conférences internationales")} </h6>
-                                    <div className="text"> {t("certification:nobels")}</div>
-                                </div>
-                            </div>
-                        </a>
-               
-                    </div>
-                    <div className="swiper-slide">
-           
-                        <a href="#" className="ht-box-images style-03 wow move-up">
-                            <div className="image-box-wrap">
-                                <div className="box-image">
-                                    <img className="img-fulid" width="151px" height="115px"
-                                        src="assets/images/tunis.jpg" alt=""/>
-                                </div>
-                                <div className="content">
-                                    <h5 className="heading">{t("certification:Diplôme agrée par l’État")} </h5>
-                                    <div className="text">“{t("certification:L’université offre des diplômes agrées par l’État , des stages en unisie et à l’étranger")}”</div>
-                                </div>
-                            </div>
-                        </a>
-                   
-                    </div>
-                    <div className="swiper-slide">
-    
-                        <a href="#" className="ht-box-images style-03 wow move-up">
-                            <div className="image-box-wrap">
-                                <div className="box-image">
-                                    <img className="img-fulid" src="assets/images/france.png" alt=""/>
-                                </div>
-
-                                <div className="content">
-                                    <h6 className="heading">{t("certification:Plusieurs diplômes internationaux")} </h6>
-                                    <div className="text">“ {t("certification:Inscrivez-vous au diplôme tunisien et bénéficieze d'un diplôme français public avec nos partenaires")} ”</div>
-                                </div>
-                            </div>
-                        </a>
-                       
-                    </div>
-                    <div className="swiper-slide">
-           
-                        <a href="#" className="ht-box-images style-03 wow move-up">
-                            <div className="image-box-wrap">
-                                <div className="box-image">
-                                    <img className="img-fulid"
-                                        src="assets/images/icons/mitech-processing-service-image-04-80x83.png"
-                                        alt=""/>
-                                </div>
-                                <div className="content">
-                                    <h5 className="heading">{t("certification:First smart university in Africa")}</h5>
-                                    <div className="text">“ {t("certification:BLP dispose d’une plateforme d’enseignement à distance et de conseillers pédagogiques couvrants tous les programmes")}”</div>
-                                </div>
-                            </div>
-                        </a>
-                   
-                    </div>
-                    <div className="swiper-slide">
-                
-                        <a href="#" className="ht-box-images style-03 wow move-up">
-                            <div className="image-box-wrap">
-                                <div className="box-image">
-                                    <img className="img-fulid" width="151px" height="115px"
-                                        src="assets/images/safa.jpg" alt=""/>
-                                </div>
-                                <div className="content">
-                                    <h5 className="heading">{t("certification:Des projets à l’international")}</h5>
-                                    <div className="text">“{t("certification:La mise en place d’un référentiel de compétences et l’interaction entre le monde académique et professionnel")}”</div>
-                                </div>
-                            </div>
-                        </a>
-                
-                    </div>
-
-                    <div className="swiper-slide">
-                
-                        <a href="#" className="ht-box-images style-03 wow move-up">
-                            <div className="image-box-wrap">
-                                <div className="box-image">
-                                    <img className="img-fulid"
-                                        src="assets/images/icons/mitech-processing-service-image-04-80x83.png"
-                                        alt=""/>
-                                </div>
-                                <div className="content">
-                                    <h5 className="heading">{t("certification:Certifications")}</h5>
-                                    <div className="text">{t("certification:Élargissez les perspectives de votre carrière grâce à des certificats reconnus mondialement")}</div>
-                                </div>
-                            </div>
-                        </a>
-                  
-                    </div>
-
-
-                </div>
-                <div className="swiper-pagination swiper-pagination-service section-space--mt_30"></div>
-            </div>
-        </div>
+        
        
 
         <div className="our-company-history section-space--ptb_100">
@@ -286,8 +172,123 @@ export default function certification() {
                 </div>
             </div>
         </div>
+        
+        <div className="feature-images-wrapper position-relative">
+            <div className="grid-wrapper">
+                <div className="line line-1"></div>
+                <div className="line line-2"></div>
+                <div className="line line-3"></div>
+                <div className="line line-4"></div>
+            </div>
+            <div className="swiper-container service-slider__container">
+                <div className="swiper-wrapper service-slider__wrapper feature-images__three">
+                    <div className="swiper-slide">
+      
+                        <a href="#" className="ht-box-images style-03 wow move-up">
+                            <div className="image-box-wrap">
+                                <div className="box-image">
+                                    <img className="img-fulid"
+                                        src="assets/images/icons/mitech-home-resolutions-box-image-02-100x98.png"
+                                        alt=""/>
+                                </div>
+                                <div className="content">
+                                    <h6 className="heading">{t("certification:Des conférences internationales")} </h6>
+                                    <div className="text"> {t("certification:nobels")}</div>
+                                </div>
+                            </div>
+                        </a>
+               
+                    </div>
+                    <div className="swiper-slide">
+           
+                        <a href="#" className="ht-box-images style-03 wow move-up">
+                            <div className="image-box-wrap">
+                                <div className="box-image">
+                                    <img className="img-fulid" width="151px" height="115px"
+                                        src="assets/images/tunis.jpg" alt=""/>
+                                </div>
+                                <div className="content">
+                                    <h5 className="heading">{t("certification:Diplôme agrée par l’État")} </h5>
+                                    <div className="text">“{t("certification:L’université offre des diplômes agrées par l’État , des stages en unisie et à l’étranger")}”</div>
+                                </div>
+                            </div>
+                        </a>
+                   
+                    </div>
+                    <div className="swiper-slide">
     
-        <div className="cta-image-area_one section-space--ptb_80 cta-bg-image_one">
+                        <a href="#" className="ht-box-images style-03 wow move-up">
+                            <div className="image-box-wrap">
+                                <div className="box-image">
+                                    <img className="img-fulid" src="assets/images/france.png" alt=""/>
+                                </div>
+
+                                <div className="content">
+                                    <h6 className="heading">{t("certification:Plusieurs diplômes internationaux")} </h6>
+                                    <div className="text">“ {t("certification:Inscrivez-vous au diplôme tunisien et bénéficieze d'un diplôme français public avec nos partenaires")} ”</div>
+                                </div>
+                            </div>
+                        </a>
+                       
+                    </div>
+                    <div className="swiper-slide">
+           
+                        <a href="#" className="ht-box-images style-03 wow move-up">
+                            <div className="image-box-wrap">
+                                <div className="box-image">
+                                    <img className="img-fulid"
+                                        src="assets/images/icons/mitech-processing-service-image-04-80x83.png"
+                                        alt=""/>
+                                </div>
+                                <div className="content">
+                                    <h5 className="heading">{t("certification:First smart university in Africa")}</h5>
+                                    <div className="text">“ {t("certification:BLP dispose d’une plateforme d’enseignement à distance et de conseillers pédagogiques couvrants tous les programmes")}”</div>
+                                </div>
+                            </div>
+                        </a>
+                   
+                    </div>
+                    <div className="swiper-slide">
+                
+                        <a href="#" className="ht-box-images style-03 wow move-up">
+                            <div className="image-box-wrap">
+                                <div className="box-image">
+                                    <img className="img-fulid" width="151px" height="115px"
+                                        src="assets/images/safa.jpg" alt=""/>
+                                </div>
+                                <div className="content">
+                                    <h5 className="heading">{t("certification:Des projets à l’international")}</h5>
+                                    <div className="text">“{t("certification:La mise en place d’un référentiel de compétences et l’interaction entre le monde académique et professionnel")}”</div>
+                                </div>
+                            </div>
+                        </a>
+                
+                    </div>
+
+                    <div className="swiper-slide">
+                
+                        <a href="#" className="ht-box-images style-03 wow move-up">
+                            <div className="image-box-wrap">
+                                <div className="box-image">
+                                    <img className="img-fulid"
+                                        src="assets/images/icons/mitech-processing-service-image-04-80x83.png"
+                                        alt=""/>
+                                </div>
+                                <div className="content">
+                                    <h5 className="heading">{t("certification:Certifications")}</h5>
+                                    <div className="text">{t("certification:Élargissez les perspectives de votre carrière grâce à des certificats reconnus mondialement")}</div>
+                                </div>
+                            </div>
+                        </a>
+                  
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+
+        <div className="cta-image-area_one section-space--ptb_80 processing-contact-us-bg">
             <div className="container">
                 <div className="row align-items-center">
                     <div className="col-xl-8 col-lg-7">
@@ -298,8 +299,8 @@ export default function certification() {
                     <div className="col-xl-4 col-lg-5">
                         <div className="cta-button-group--one text-center">
 
-                            <a href="contact" className="btn btn--secondary  btn-two"><span className="btn-icon mr-2"><i
-                                        className="far fa-info-circle"></i></span>{t("certification:Contact")}</a>
+                            <a href="https://admission.blp.tn" className="btn btn--secondary  btn-two"><span className="btn-icon mr-2"><i
+                                        className="far fa-info-circle"></i></span>{t("index:Pré-inscription")}</a>
                         </div>
                     </div>
                 </div>

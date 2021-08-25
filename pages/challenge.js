@@ -130,7 +130,7 @@ export default function challenge() {
                     </div>
                 </div>
 
-  <div className="contact-us-section-wrappaer processing-contact-us-bg section-space--ptb_120">
+            <div className="contact-us-section-wrappaer processing-contact-us-bg section-space--ptb_120">
                 <div className="container">
                     <div className="row align-items-center">
                         <div className="col-lg-6 col-lg-6">

@@ -17,6 +17,167 @@ export default function formations() {
         </div>
     </div>
   
+
+    <div className="projects-wrapper section-space--pb_70 section-space--pt_100 projects-masonary-wrapper">
+                <div className="container">
+                    <div className="row">
+                        <div className="col-lg-12">
+                            <div className="section-title-wrap text-center section-space--mb_40">
+                                <h3 className="heading">{t("formations:Bénéficiez par")} <span className="text-color-primary"> {t("formations:nos formations")}</span></h3>
+                            </div>
+
+                            <div className="messonry-button text-center  section-space--mb_60">
+                                <button data-filter="*" className="is-checked"><span className="filter-text">{t("formations:Tout")}</span><span className="filter-counter">8</span></button>
+                                <button data-filter=".cat--1"><span className="filter-text">{t("formations:Les licences")} </span> <span className="filter-counter">3</span></button>
+                                <button data-filter=".cat--2"><span className="filter-text">{t("formations:Les mastères")} </span> <span className="filter-counter">5</span></button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div className="projects-case-wrap">
+                        <div className="row mesonry-list">
+
+                     
+                            <div className="col-lg-4 col-md-6 cat--2">
+                       
+                                <a href="mastere-en-science-politique" className="projects-wrap style-2">
+                                    <div className="projects-image-box">
+                                        <div className="projects-image">
+                                            <img className="img-fluid" src="assets/images/projects/inter.jpg" alt=""/>
+                                        </div>
+                                        <div className="content">
+                                            <div className="post-categories">{t("formations:Mastère en sciences politiques")} </div>
+                                            <h6 className="heading">{t("formations:Relations internationales et diplomatie")}</h6>
+                                            <br/>
+                                        </div>
+                                    </div>
+                                </a>
+                         
+                            </div>
+
+                            <div className="col-lg-4 col-md-6 cat--2">
+                          
+                                <a href="mastere-en-ingenierie-risque-economiques" className="projects-wrap style-2">
+                                    <div className="projects-image-box">
+                                        <div className="projects-image">
+                                            <img className="img-fluid" src="assets/images/projects/finance.jpg" alt=""/>
+                                        </div>
+                                        <div className="content">
+                                            <div className="post-categories">{t("formations:Mastère en sciences Economiques")} </div>
+                                            <h6 className="heading">{t("formations:Ingénierie des risques Economiques et financiers")}</h6>
+                                        </div>
+                                    </div>
+                                </a>
+                    
+                            </div>
+                            
+                            <div className="col-lg-4 col-md-6 cat--2 ">
+                       
+                                <a href="mastere-en-droit-prive" className="projects-wrap style-2">
+                                    <div className="projects-image-box">
+                                        <div className="projects-image">
+                                            <img className="img-fluid" src="assets/images/projects/droit.jpg" alt=""/>
+                                        </div>
+                                        <div className="content">
+                                            <div className="post-categories">{t("formations:Mastère en Droit")} </div>
+                                            <h6 className="heading">{t("formations:Droit privé des affaires")}</h6>
+                                            <br/>
+                                        </div>
+                                    </div>
+                                </a>
+                         
+                            </div>
+
+                            <div className="col-lg-4 col-md-6 cat--2">
+                   
+                                <a href="mastere-en-assurance-banque" className="projects-wrap style-2">
+                                    <div className="projects-image-box">
+                                        <div className="projects-image">
+                                            <img className="img-fluid" src="assets/images/projects/gestion.jpg" alt=""/>
+                                        </div>
+                                        <div className="content">
+                                            <div className="post-categories">{t("formations:Mastère en sciences Economiques")}</div>
+                                            <h6 className="heading">{t("formations:Assurance, banque, finance")}</h6>
+                                        </div>
+                                    </div>
+                                </a>
+        
+                            </div>
+                            <div className="col-lg-4 col-md-6 cat--2">
+              
+                                <a href="mastere-en-marche-financiers" className="projects-wrap style-2">
+                                    <div className="projects-image-box">
+                                        <div className="projects-image">
+                                            <img className="img-fluid" src="assets/images/projects/risque.jpg" alt=""/>
+                                        </div>
+                                        <div className="content">
+                                            <div className="post-categories">{t("formations:Mastère en Sciences de gestion")} </div>
+                                            <h6 className="heading"> {t("formations:Marchés financiers et gestion des risques")}</h6>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+
+                            <div className="col-lg-4 col-md-6 cat--1">
+                 
+                                <a href="licence-en-droit-public" className="projects-wrap style-2">
+                                    <div className="projects-image-box">
+                                        <div className="projects-image">
+                                            <img className="img-fluid" src="assets/images/projects/droit2.jpg" alt=""/>
+                                        </div>
+                                        <div className="content">
+                                            <div className="post-categories">{t("formations:Licence en Droit")} </div>
+                                            <h6 className="heading"> {t("formations:Droit Public")}</h6>
+                                        </div>
+                                    </div>
+                                </a>
+            
+                            </div>
+                            <div className="col-lg-4 col-md-6 cat--1">
+                 
+                                <a href="licence-en-droit-prive" className="projects-wrap style-2">
+                                    <div className="projects-image-box">
+                                        <div className="projects-image">
+                                            <img className="img-fluid" src="assets/images/projects/droit3.jpg" alt="licence-droit-prive-blp"/>
+                                        </div>
+                                        <div className="content">
+                                            <div className="post-categories">{t("formations:Licence en Droit")}</div>
+                                            <h6 className="heading">{t("formations:Droit Privé")}</h6>
+                                        </div>
+                                    </div>
+                                </a>
+   
+                            </div>
+                            <div className="col-lg-4 col-md-6 cat--1">
+                   
+                                <a href="licence-en-marketing" className="projects-wrap style-2">
+                                    <div className="projects-image-box">
+                                        <div className="projects-image">
+                                            <img className="img-fluid" src="assets/images/projects/marketing.jpg" alt="licence-marketing-blp"/>
+                                        </div>
+                                        <div className="content">
+                                            <div className="post-categories">{t("formations:Licence en Sciences de gestion")}</div>
+                                            <h6 className="heading"> {t("formations:Marketing")}</h6>
+                                        </div>
+                                    </div>
+                                </a>
+                       
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div className="fun-fact-wrapper bg-theme-default section-space--pb_30 section-space--pt_60">
+                <div className="container">
+                    <div className="computing-info-box text-center ">
+                        
+                        <h4 style={{color: "white"}} >“ {t("formations:La formation dispensée par notre école est nécessaire pour savoir s'adapter aux mutations profondes de l'économie internationale")} ”</h4>
+                     
+                    </div>
+                </div>
+            </div>
     <div id="main-wrapper">
         <div className="site-wrapper-reveal">
 
@@ -125,170 +286,14 @@ export default function formations() {
                       
                     </div>
                 
-            <div className="fun-fact-wrapper bg-theme-default section-space--pb_30 section-space--pt_60">
-                <div className="container">
-                    <div className="computing-info-box text-center ">
-                        
-                        <h4 style={{color: "white"}} >“ {t("formations:La formation dispensée par notre école est nécessaire pour savoir s'adapter aux mutations profondes de l'économie internationale")} ”</h4>
-                     
-                    </div>
-                </div>
-            </div>
-
-                </div>
-            </div>
-        
-            <div className="projects-wrapper section-space--pb_70 section-space--pt_100 projects-masonary-wrapper">
-                <div className="container">
-                    <div className="row">
-                        <div className="col-lg-12">
-                            <div className="section-title-wrap text-center section-space--mb_40">
-                                <h3 className="heading">{t("formations:Bénéficiez par")} <span className="text-color-primary"> {t("formations:nos formations")}</span></h3>
-                            </div>
-
-                            <div className="messonry-button text-center  section-space--mb_60">
-                                <button data-filter="*" className="is-checked"><span className="filter-text">{t("formations:Tout")}</span><span className="filter-counter">8</span></button>
-                                <button data-filter=".cat--1"><span className="filter-text">{t("formations:Les licences")} </span> <span className="filter-counter">3</span></button>
-                                <button data-filter=".cat--2"><span className="filter-text">{t("formations:Les mastères")} </span> <span className="filter-counter">5</span></button>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div className="projects-case-wrap">
-                        <div className="row mesonry-list">
-
-                     
-                            <div className="col-lg-4 col-md-6 cat--2">
-                       
-                                <a href="mastere-en-science-politique" className="projects-wrap style-2">
-                                    <div className="projects-image-box">
-                                        <div className="projects-image">
-                                            <img className="img-fluid" src="assets/images/projects/inter.jpg" alt=""/>
-                                        </div>
-                                        <div className="content">
-                                            <div className="post-categories">{t("formations:Mastère en sciences politiques")} </div>
-                                            <h6 className="heading">{t("formations:Relations internationales et diplomatie")}</h6>
-                                            <br/>
-                                        </div>
-                                    </div>
-                                </a>
-                         
-                            </div>
-
-                            <div className="col-lg-4 col-md-6 cat--2 ">
-                       
-                                <a href="mastere-en-droit-prive" className="projects-wrap style-2">
-                                    <div className="projects-image-box">
-                                        <div className="projects-image">
-                                            <img className="img-fluid" src="assets/images/projects/droit.jpg" alt=""/>
-                                        </div>
-                                        <div className="content">
-                                            <div className="post-categories">{t("formations:Mastère en Droit")} </div>
-                                            <h6 className="heading">{t("formations:Droit privé des affaires")}</h6>
-                                            <br/>
-                                        </div>
-                                    </div>
-                                </a>
-                         
-                            </div>
-
-                            <div className="col-lg-4 col-md-6 cat--2">
-                          
-                                <a href="mastere-en-ingenierie-risque-economiques" className="projects-wrap style-2">
-                                    <div className="projects-image-box">
-                                        <div className="projects-image">
-                                            <img className="img-fluid" src="assets/images/projects/finance.jpg" alt=""/>
-                                        </div>
-                                        <div className="content">
-                                            <div className="post-categories">{t("formations:Mastère en sciences Economiques")} </div>
-                                            <h6 className="heading">{t("formations:Ingénierie des risques Economiques et financiers")}</h6>
-                                        </div>
-                                    </div>
-                                </a>
-                          
-                            </div>
-                            <div className="col-lg-4 col-md-6 cat--2">
-                   
-                                <a href="mastere-en-assurance-banque" className="projects-wrap style-2">
-                                    <div className="projects-image-box">
-                                        <div className="projects-image">
-                                            <img className="img-fluid" src="assets/images/projects/gestion.jpg" alt=""/>
-                                        </div>
-                                        <div className="content">
-                                            <div className="post-categories">{t("formations:Mastère en sciences Economiques")}</div>
-                                            <h6 className="heading">{t("formations:Assurance, banque, finance")}</h6>
-                                        </div>
-                                    </div>
-                                </a>
-        
-                            </div>
-                            <div className="col-lg-4 col-md-6 cat--2">
-              
-                                <a href="mastere-en-marche-financiers" className="projects-wrap style-2">
-                                    <div className="projects-image-box">
-                                        <div className="projects-image">
-                                            <img className="img-fluid" src="assets/images/projects/risque.jpg" alt=""/>
-                                        </div>
-                                        <div className="content">
-                                            <div className="post-categories">{t("formations:Mastère en Sciences de gestion")} </div>
-                                            <h6 className="heading"> {t("formations:Marchés financiers et gestion des risques")}</h6>
-                                        </div>
-                                    </div>
-                                </a>
-                            </div>
-
-                            <div className="col-lg-4 col-md-6 cat--1">
-                 
-                                <a href="licence-en-droit-public" className="projects-wrap style-2">
-                                    <div className="projects-image-box">
-                                        <div className="projects-image">
-                                            <img className="img-fluid" src="assets/images/projects/droit2.jpg" alt=""/>
-                                        </div>
-                                        <div className="content">
-                                            <div className="post-categories">{t("formations:Licence en Droit")} </div>
-                                            <h6 className="heading"> {t("formations:Droit Public")}</h6>
-                                        </div>
-                                    </div>
-                                </a>
             
-                            </div>
-                            <div className="col-lg-4 col-md-6 cat--1">
-                 
-                                <a href="licence-en-droit-prive" className="projects-wrap style-2">
-                                    <div className="projects-image-box">
-                                        <div className="projects-image">
-                                            <img className="img-fluid" src="assets/images/projects/droit3.jpg" alt="licence-droit-prive-blp"/>
-                                        </div>
-                                        <div className="content">
-                                            <div className="post-categories">{t("formations:Licence en Droit")}</div>
-                                            <h6 className="heading">{t("formations:Droit Privé")}</h6>
-                                        </div>
-                                    </div>
-                                </a>
-   
-                            </div>
-                            <div className="col-lg-4 col-md-6 cat--1">
-                   
-                                <a href="licence-en-marketing" className="projects-wrap style-2">
-                                    <div className="projects-image-box">
-                                        <div className="projects-image">
-                                            <img className="img-fluid" src="assets/images/projects/marketing.jpg" alt="licence-marketing-blp"/>
-                                        </div>
-                                        <div className="content">
-                                            <div className="post-categories">{t("formations:Licence en Sciences de gestion")}</div>
-                                            <h6 className="heading"> {t("formations:Marketing")}</h6>
-                                        </div>
-                                    </div>
-                                </a>
-                       
-                            </div>
 
-                        </div>
-                    </div>
                 </div>
             </div>
+        
+            
 
-            <div className="cta-image-area_one section-space--ptb_80 cta-bg-image_one">
+            <div className="cta-image-area_one section-space--ptb_80 processing-contact-us-bg">
                 <div className="container">
                     <div className="row align-items-center">
                         <div className="col-xl-8 col-lg-7">
@@ -299,7 +304,8 @@ export default function formations() {
                         <div className="col-xl-4 col-lg-5">
                             <div className="cta-button-group--one text-center">
                             
-                                <a href="contact" className="btn btn--secondary  btn-two"><span className="btn-icon mr-2"><i className="far fa-info-circle"></i></span>{t("formations:Contact")}</a>
+                                <a href="https://admission.blp.tn" className="btn btn--secondary  btn-two"><span className="btn-icon mr-2">
+                                    <i className="far fa-info-circle"></i></span>{t("index:Pré-inscription")}</a>
                             </div>
                         </div>
                     </div>
