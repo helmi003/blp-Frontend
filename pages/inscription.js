@@ -5,7 +5,7 @@ export default function inscription() {
     let { t } = useTranslation();
     return (
         <>
-
+d
     <div className="breadcrumb-area">
         <div className="container">
             <div className="row">

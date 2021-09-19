@@ -3,6 +3,20 @@ import useTranslation from "next-translate/useTranslation";
     
 export default function contact() {
     let { t } = useTranslation();
+    async function handleOnSubmit(values){
+        values.preventDefault();
+        const formData = {}
+        Array.from(values.currentTarget.elements).forEach(field =>{
+            if (!field.name) return;
+            formData[field.name]= field.value;
+        });
+        
+        fetch('/api/mail',{
+            method: 'post',
+            body: JSON.stringify(formData),
+        })
+        console.log('sucess:',formData)
+    }
     return (
         <>
 <div className="breadcrumb-area">
@@ -38,23 +52,23 @@ export default function contact() {
 
                     <div className="col-lg-6 col-lg-6">
                         <div className="contact-form-wrap">
-
-                            <form id="contact-form" action="http://whizthemes.com/mail-php/jowel/mitech/php/mail.php"
-                                method="post">
+                            <form id="contact-form" method="post" onSubmit={handleOnSubmit} 
+                                //action="http://whizthemes.com/mail-php/jowel/mitech/php/mail.php"
+                            >
                                 <div className="contact-form">
                                     <div className="contact-input">
                                         <div className="contact-inner">
-                                            <input name="con_name" type="text" placeholder="Nom"/>
+                                            <input name="name" type="text"  placeholder="Nom" />
                                         </div>
                                         <div className="contact-inner">
-                                            <input name="con_email" type="email" placeholder="Email "/>
+                                            <input name="mail" type="email"  placeholder="Email "/>
                                         </div>
                                     </div>
                                     <div className="contact-inner">
-                                        <input name="con_subject" type="text" placeholder="Objet "/>
+                                        <input name="subject" type="text"  placeholder="Objet "/>
                                     </div>
                                     <div className="contact-inner contact-message">
-                                        <textarea name="con_message" placeholder="Message."></textarea>
+                                        <textarea name="message"  placeholder="Message."></textarea>
                                     </div>
                                     <div className="submit-btn mt-20">
                                         <button className="ht-btn ht-btn-md" type="submit">{t("contact:Envoyer")} </button>

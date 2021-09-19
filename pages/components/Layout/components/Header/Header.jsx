@@ -24,33 +24,6 @@ export default function Header() {
     return (
 
 <div className="header-area header-area--default">
-    {/*<div className="header-top-wrap border-bottom">
-        <div className="container-fluid">
-            <div className="row">
-                <div className="col-md-12">
-                    <div className="top-bar-wrap">
-                        <div className="top-bar-left">
-
-                        </div>
-                        <div className="top-bar-right text-center">
-                            <ul className="top-bar-info">
-                                <li className="info-item">
-                                    <a href="tel:+21670721002" className="info-link">
-                                        <i className="info-icon fa fa-phone"></i>
-                                        <span className="info-text"><strong>(+216) 70 721 002</strong></span>
-                                    </a>
-                                </li>
-                                <li className="info-item">
-                                    <i className="info-icon fa fa-map-marker-alt"></i>
-                                    <span className="info-text">{t("index:102, Chotrana 2, Zone industrielle, pôle technologique,Ariana")}</span>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>*/}
 <div className="header-bottom-wrap header-sticky">
     <div className="container-fluid">
         <div className="row">
@@ -64,9 +37,6 @@ export default function Header() {
                                 alt="logo-blp"/>
                         </a>
 
-                    </div>
-                    <div className="navbar-header">
-                        
                     </div>
                     <nav className="navigation-menu primary--menu">
                     <ul>
@@ -94,10 +64,10 @@ export default function Header() {
                               
                                     <div className="header__navigation d-none d-xl-block">
                                         
-                                    <nav className="navigation-menu primary--menu">
+                                        <nav className="navigation-menu primary--menu topnav" id="myTopnav">
                                                 <ul>
                                                     <li className="has-children has-children--multilevel-submenu">
-                                                        <a href="presentation"><span className="header-title">BLP</span></a>
+                                                        <a href=""><span className="header-title">BLP</span></a>
                                                         <ul className="submenu">
                                                             <li><a href="presentation"><span className="header-title">{t("index:Présentation")}</span></a> </li>
                                                             <li><a href="reseau-euro-mediterraneen"><span className="header-title">{t("index:Réseau Euro-Méditerranéen")}</span></a> </li>
@@ -108,7 +78,7 @@ export default function Header() {
                                                         </ul>
                                                     </li>
                                                     <li className="has-children has-children--multilevel-submenu">
-                                                        <a href="presentation"><span className="header-title">{t("index:BLP EN DIGITAL")}</span></a>
+                                                        <a href=""><span className="header-title">{t("index:BLP EN DIGITAL")}</span></a>
                                                         <ul className="submenu">
                                                             <li><a href="recherche-et-innovation"><span className="header-title">{t("index:Recherche & Innovation")}</span></a></li>
                                                             <li><a href="videotheque"><span className="header-title">{t("index:Vidéothéque")}</span></a></li>
@@ -116,7 +86,7 @@ export default function Header() {
                                                         </ul>
                                                     </li>
                                                 <li className="has-children has-children--multilevel-submenu">
-                                                    <a href="#"><span className="header-title">{t("index:LA VIE À L'UNIVERSITÉ")}</span></a>
+                                                    <a href=""><span className="header-title">{t("index:LA VIE À L'UNIVERSITÉ")}</span></a>
                                                     <ul className="submenu">
                                                         <li><a href="certification"><span className="header-title">{t("index:Certifications")}</span></a></li>
                                                         <li><a href="associative"><span className="header-title">{t("index:La vie associative")}</span></a></li>
@@ -158,7 +128,8 @@ export default function Header() {
                                                     <a href="contact"><span className="header-title">{t("index:CONTACT")}</span></a>
                                                 </li>
                                                 </ul>
-                                            </nav>
+                                        </nav>
+                                    
                                     </div>
                                 </div>
                             </div>
