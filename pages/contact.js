@@ -3,19 +3,32 @@ import useTranslation from "next-translate/useTranslation";
     
 export default function contact() {
     let { t } = useTranslation();
+    let nb=0;
+    let ch="";
     async function handleOnSubmit(values){
         values.preventDefault();
         const formData = {}
         Array.from(values.currentTarget.elements).forEach(field =>{
             if (!field.name) return;
             formData[field.name]= field.value;
+            if(((field.name=="name")&&(field.value==""))||((field.name=="mail")&&(field.value==""))||((field.name=="subject")&&(field.value==""))||((field.name=="message")&&(field.value==""))){
+                console.log("You must fill the fields first");
+                nb+=1;
+                alert("You must fill the fields first!!");
+            }else if((field.name=="mail")&&((field.value<8)||(field.value>120))){
+                console.log("mail is too short or too long");
+                nb+=1;
+                alert("mail is too short or too long!!");
+            }
         });
-        
-        fetch('/api/mail',{
-            method: 'post',
-            body: JSON.stringify(formData),
-        })
-        console.log('sucess:',formData)
+        if (nb==0){
+            fetch('/api/mail',{
+                method: 'post',
+                body: JSON.stringify(formData),
+            })
+            console.log('Data:',formData)
+            alert("message sent succefully!!");
+        }
     }
     return (
         <>
@@ -72,8 +85,8 @@ export default function contact() {
                                     </div>
                                     <div className="submit-btn mt-20">
                                         <button className="ht-btn ht-btn-md" type="submit">{t("contact:Envoyer")} </button>
-                                        <p className="form-messege"></p>
                                     </div>
+                                    
                                 </div>
                             </form>
                         </div>

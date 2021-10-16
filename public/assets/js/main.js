@@ -926,7 +926,7 @@
     =       instagram image slider        =     
     ======================================*/
 
-    $(window).on('load', function(){
+    {/*$(window).on('load', function(){
         $.instagramFeed({
             'username': 'portfolio.devitems',
             'container': "#instagramFeed",
@@ -938,7 +938,7 @@
             "image_size": "640",
             'margin': 0
         });
-    });
+    });*/}
     
     /* ==================================
     =          Option Demo              =
