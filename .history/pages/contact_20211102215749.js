@@ -17,7 +17,7 @@ export default function contact() {
         });
         if (nb1>0){
             alert("You must fill the fields first!!");
-            nb1=0;
+            nb=0;
         }else{
             fetch('/api/mail',{
                 method: 'post',

@@ -17,6 +17,7 @@ export default async (req, res) => {
     html: `<p>You have a new contact form submission ${mail}</p><br>
     <p><strong>Message: </strong> ${message} </p><br>`,
     });
+
     console.log('Message Sent',email.messageId);
   } catch (err) {
     console.log(err);

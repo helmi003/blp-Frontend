@@ -4,6 +4,7 @@ import useTranslation from "next-translate/useTranslation";
 export default function contact() {
     let { t } = useTranslation();
     let nb1=0;
+    let nb2=0;
     async function handleOnSubmit(values){
         values.preventDefault();
         const formData = {}
@@ -17,7 +18,8 @@ export default function contact() {
         });
         if (nb1>0){
             alert("You must fill the fields first!!");
-            nb1=0;
+        }else if(nb2>0){
+            alert("mail is too short or too long!!");
         }else{
             fetch('/api/mail',{
                 method: 'post',

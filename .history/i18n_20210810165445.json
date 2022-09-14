@@ -2,7 +2,7 @@
     "locales":["fr","en","ar"],
     "defaultLocale":"fr",
     "pages": {
-        "*":["index"],
+        "*": ["index"],
         "/presentation":["presentation"],
         "/reseau-euro-mediterraneen":["reseau-euro-mediterraneen"],
         "/etudier-en-tunisie":["etudier-en-tunisie"],

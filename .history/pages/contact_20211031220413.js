@@ -17,7 +17,8 @@ export default function contact() {
         });
         if (nb1>0){
             alert("You must fill the fields first!!");
-            nb1=0;
+        }else if(nb2>0){
+            alert("mail is too short or too long!!");
         }else{
             fetch('/api/mail',{
                 method: 'post',
